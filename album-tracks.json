@@ -72,32 +72,20 @@
     },
     "Miles Davis Volume 2": {
         "tracks": {
-            "Tempus Fugit": {
-                "writer": ["Bud Powell"]
-            },
-            "Woody 'n' You": {
-                "writer": ["Dizzy Gillespie"]
-            },
-            "Enigma": {
-                "writer": ["Jay Jay Johnson"]
-            },
-            "Ray's Idea": {
-                "writer": ["Gil Fuller", "Ray Brown"]
-            },
-            "Kelo": {
-                "writer": ["Jay Jay Johnson"]
-            },
-            "I Waited for You": {
-                "writer": ["Gil Fuller", "Dizzy Gillespie"]
-            },
-            "C.T.A.": {
-                "writer": ["Jimmy Heath"]
-            },
             "Take Off": {
                 "writer": ["Miles Davis"]
             },
             "Weirdo": {
                 "writer": ["Miles Davis"]
+            },
+            "Wouldn't You": {
+                "writer": ["Dizzy Gillespie"]
+            },
+            "Ray's Idea": {
+                "writer": ["Gil Fuller", "Ray Brown"]
+            },
+            "I Waited for You": {
+                "writer": ["Gil Fuller"]
             },
             "Donna": {
                 "writer": ["Jackie McLean"]
@@ -111,10 +99,87 @@
             "Lazy Susan": {
                 "writer": ["Miles Davis"]
             },
+            "Tempus Fugit": {
+                "writer": ["Bud Powell"]
+            },
             "It Never Entered My Mind": {
                 "writer": ["Richard Rodgers", "Lorenz Hart"]
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/6/61/Miles_Davis_Volume_2.jpg"
+    },
+    "Miles Davis, Volume 3": {
+        "tracks": {
+            "Take Off": {
+                "writer": ["Miles Davis"]
+            },
+            "It Never Entered My Mind": {
+                "writer": ["Richard Rodgers", "Lorenz Hart"]
+            },
+            "Well, You Needn't": {
+                "writer": ["Thelonious Monk"]
+            },
+            "Lazy Susan": {
+                "writer": ["Miles Davis"]
+            },
+            "Weirdo": {
+                "writer": ["Miles Davis"]
+            },
+            "The Leap": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/MilesVol3BlueNote.jpg/220px-MilesVol3BlueNote.jpg"
+    },
+    "Miles Davis Quartet": {
+        "tracks": {
+            "When Lights Are Low": {
+                "writer": ["Benny Carter", "Spencer Williams"]
+            },
+            "Tune Up": {
+                "writer": ["Miles Davis"]
+            },
+            "Miles Ahead": {
+                "writer": ["Miles Davis"]
+            },
+            "Smooch": {
+                "writer": ["Miles Davis, Charles Mingus"]
+            },
+            "Four": {
+                "writer": ["Miles Davis"]
+            },
+            "Old Devil Moon": {
+                "writer": ["Burton Lane", "E.Y. Harburg"]
+            },
+            "Blue Haze": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/MilesQuartet.jpg/220px-MilesQuartet.jpg"
+    },
+    "Miles Davis All-Star Sextet": {
+        "tracks": {
+            "Blue 'n' Boogie": {
+                "writer": ["Dizzy Gillespie", "Frank Paparelli"]
+            },
+            "Walkin": {
+                "writer": ["Richard Carpenter"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f1/MilesSextet.jpg"
+    },
+    "Miles Davis Quintet": {
+        "tracks": {
+            "Solar": {
+                "writer": ["Miles Davis"]
+            },
+            "You Don't Know What Love Is": {
+                "writer": ["Gene de Paul", "Don Raye"]
+            },
+            "I'll Remember April": {
+                "writer": ["Gene de Paul", "Don Raye", "Patricia Johnston"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f1/MilesSextet.jpg"
     }
 }

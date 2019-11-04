@@ -108,6 +108,78 @@
             {
                 "It Never Entered My Mind": "trumpet",
                 "album": "Miles Davis Volume 2"
+            },
+            {
+                "Take Off": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "It Never Entered My Mind": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Well, You Needn't": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Lazy Susan": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Weirdo": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "The Leap": "trumpet",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "When Lights Are Low": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Tune Up": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Miles Ahead": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Smooch": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Four": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Old Devil Moon": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue Haze": "trumpet",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue 'n' Boogie": "trumpet",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "trumpet",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Solar": "trumpet",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "You Don't Know What Love Is": "trumpet",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "trumpet",
+                "album": "Miles Davis Quintet"
             }
         ]
     },
@@ -260,7 +332,43 @@
             {
                 "It Never Entered My Mind": "drums",
                 "album": "Miles Davis Volume 2"
-            }
+            },
+            {
+                "Take Off": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "It Never Entered My Mind": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Well, You Needn't": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Lazy Susan": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Weirdo": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "The Leap": "drums",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Four": "drums",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Old Devil Moon": "drums",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue Haze": "drums",
+                "album": "Miles Davis Quartet"
+            } 
         ]
     },
     "Jay Jay Johnson": {
@@ -300,6 +408,14 @@
             {
                 "Tempus Fugit": "trombone",
                 "album": "Miles Davis Volume 2"
+            },
+            {
+                "Blue 'n' Boogie": "trombone",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "trombone",
+                "album": "Miles Davis All-Star Sextet"
             }
         ]
     },
@@ -424,6 +540,26 @@
             {
                 "Donna": "drums",
                 "album": "Miles Davis Volume 2"
+            },
+            {
+                "Blue 'n' Boogie": "drums",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "drums",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Solar": "drums",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "You Don't Know What Love Is": "drums",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "drums",
+                "album": "Miles Davis Quintet"
             }
         ]
     },
@@ -448,6 +584,18 @@
             {
                 "For Adults Only": "piano",
                 "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "When Lights Are Low": "piano",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Tune Up": "piano",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Miles Ahead": "piano",
+                "album": "Miles Davis Quartet"
             }
         ]
     },
@@ -492,6 +640,78 @@
             {
                 "It Never Entered My Mind": "bass",
                 "album": "Miles Davis Volume 2"
+            },
+            {
+                "Take Off": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "It Never Entered My Mind": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Well, You Needn't": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Lazy Susan": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Weirdo": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "The Leap": "bass",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "When Lights Are Low": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Tune Up": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Miles Ahead": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Smooch": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Four": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Old Devil Moon": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue Haze": "bass",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue 'n' Boogie": "bass",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "bass",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Solar": "bass",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "You Don't Know What Love Is": "bass",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "bass",
+                "album": "Miles Davis Quintet"
             }
         ]
     },
@@ -648,6 +868,62 @@
             {
                 "It Never Entered My Mind": "piano",
                 "album":"Miles Davis Volume 2"
+            },
+            {
+                "Take Off": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "It Never Entered My Mind": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Well, You Needn't": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Lazy Susan": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Weirdo": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "The Leap": "piano",
+                "album": "Miles Davis, Volume 3"
+            },
+            {
+                "Four": "piano",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Old Devil Moon": "piano",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue Haze": "piano",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Blue 'n' Boogie": "piano",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "piano",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Solar": "piano",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "You Don't Know What Love Is": "piano",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "piano",
+                "album": "Miles Davis Quintet"
             }
         ]
     },
@@ -664,6 +940,58 @@
             {
                 "Tempus Fugit": "bass",
                 "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Charles Mingus": {
+        "tracks": [
+            {
+                "Smooch": "piano",
+                "album": "Miles Davis Quartet"
+            }
+        ]
+    },
+    "Max Roach": {
+        "tracks": [
+            {
+                "When Lights Are Low": "drums",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Tune Up": "drums",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Miles Ahead": "drums",
+                "album": "Miles Davis Quartet"
+            },
+            {
+                "Smooch": "drums",
+                "album": "Miles Davis Quartet"
+            }
+        ]
+    },
+    "Lucky Thompson": {
+        "tracks": [
+            {
+                "Blue 'n' Boogie": "tenor saxophone",
+                "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "tenor saxophone",
+                "album": "Miles Davis All-Star Sextet"
+            }
+        ]
+    },
+    "Dave Schildkraut": {
+        "tracks": [
+            {
+                "Solar": "alto saxophone",
+                "album": "Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "alto saxophone",
+                "album": "Miles Davis Quintet"
             }
         ]
     }
