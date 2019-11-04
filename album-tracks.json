@@ -1,0 +1,120 @@
+{
+    "The New Sounds": {
+        "tracks": {
+            "Conception": {
+                "writer": ["George Shearing"]
+            },
+            "Dig": {
+                "writer": ["Miles Davis"]
+            },
+            "My Old Flame": {
+                "writer": ["Sam Coslow", "Arthur Johnston"]
+            },
+            "It's Only a Paper Moon": {
+                "writer": ["Harold Arlen", "Yip Harburg", "Billy Rose"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/8/8b/MilesNewSounds.jpg" 
+    },
+    "Young Man with a Horn": {
+        "tracks": {
+            "Dear Old Stockholm": {
+                "writer": ["Traditional", "Stan Getz", "Miles Davis"]
+            },
+            "Chance It": {
+                "writer": ["Dizzy Gillespie"]
+            }, 
+            "Donna": {
+                "writer": ["Jerome Kern", "Otto Harbach"]
+            }, 
+            "How Deep Is the Ocean?": {
+                "writer": ["Irving Berlin"]
+            },
+            "Woody 'n' You": {
+                "writer": ["Dizzy Gillespie"]
+            },
+            "Yesterdays": {
+                "writer": ["Jerome Kern", "Otto Harbach"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f8/Miles_Davis_Young_Man_With_a_Horn.jpg"
+    },
+    "Blue Period": {
+        "tracks": {
+            "Bluing": {
+                "writer": ["Miles Davis"]
+            },
+            "Blue Room": {
+                "writer": ["Rodgers and Hart"]
+            },
+            "Out of the Blue": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/2/2f/Blue_Period_%28Miles_Davis_album_-_cover_art%29.jpg"
+    },
+    "The Compositions Of Al Cohn": {
+        "tracks": {
+            "Tasty Pudding": {
+                "writer": ["Al Cohn"]
+            }, 
+            "Floppy": {
+                "writer": ["Al Cohn"]
+            }, 
+            "Willie the Wailer": {
+                "writer": ["Al Cohn"]
+            }, 
+            "For Adults Only": {
+                "writer": ["Al Cohn"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/4/48/MilesPlaysAlCohn.jpg"
+    },
+    "Miles Davis Volume 2": {
+        "tracks": {
+            "Tempus Fugit": {
+                "writer": ["Bud Powell"]
+            },
+            "Woody 'n' You": {
+                "writer": ["Dizzy Gillespie"]
+            },
+            "Enigma": {
+                "writer": ["Jay Jay Johnson"]
+            },
+            "Ray's Idea": {
+                "writer": ["Gil Fuller", "Ray Brown"]
+            },
+            "Kelo": {
+                "writer": ["Jay Jay Johnson"]
+            },
+            "I Waited for You": {
+                "writer": ["Gil Fuller", "Dizzy Gillespie"]
+            },
+            "C.T.A.": {
+                "writer": ["Jimmy Heath"]
+            },
+            "Take Off": {
+                "writer": ["Miles Davis"]
+            },
+            "Weirdo": {
+                "writer": ["Miles Davis"]
+            },
+            "Donna": {
+                "writer": ["Jackie McLean"]
+            },
+            "Well, You Needn't": {
+                "writer": ["Thelonious Monk"]
+            },
+            "The Leap": {
+                "writer": ["Miles Davis"]
+            },
+            "Lazy Susan": {
+                "writer": ["Miles Davis"]
+            },
+            "It Never Entered My Mind": {
+                "writer": ["Richard Rodgers", "Lorenz Hart"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/6/61/Miles_Davis_Volume_2.jpg"
+    }
+}

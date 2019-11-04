@@ -1,0 +1,670 @@
+{
+    "Miles Davis": {
+        "tracks": [
+            {
+                "Conception": "trumpet",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "trumpet",
+                "album": "The New Sounds"
+            },
+            {
+                "My Old Flame": "trumpet",
+                "album": "The New Sounds"
+            },
+            {
+                "It's Only a Paper Moon": "trumpet",
+                "album": "The New Sounds"
+            },
+            {
+                "Dear Old Stockholm": "trumpet",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Yesterdays": "trumpet",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Chance It": "trumpet",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "trumpet",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "How Deep Is the Ocean?": "trumpet",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Bluing": "trumpet",
+                "album": "Blue Period"
+            },
+            {
+                "Blue Room": "trumpet",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "trumpet",
+                "album": "Blue Period"
+            },
+            {
+                "Tasty Pudding": "trumpet",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "trumpet",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "trumpet",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "trumpet",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Take Off": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Weirdo": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Wouldn't You": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "I Waited For You": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Well You Needn't": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "The Leap": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Lazy Susan": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "trumpet",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "It Never Entered My Mind": "trumpet",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Sonny Rollins": {
+        "tracks": [
+            {
+                "Conception": "tenor saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "tenor saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "My Old Flame": "tenor saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "It's Only a Paper Moon": "tenor saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "Blue Room": "tenor saxophone",
+                "album": "Blue Period"
+            },
+            {
+                "Bluing": "tenor saxophone",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "tenor saxophone",
+                "album": "Blue Period"
+            }
+        ]
+    },
+    "Walter Bishop, Jr.": {
+        "tracks": [
+            {
+                "Conception": "piano",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "piano",
+                "album": "The New Sounds"
+            },
+            {
+                "My Old Flame": "piano",
+                "album": "The New Sounds"
+            },
+            {
+                "It's Only a Paper Moon": "piano",
+                "album": "The New Sounds"
+            },
+            {
+                "Bluing": "piano",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "piano",
+                "album": "Blue Period"
+            }
+        ]
+    },
+    "Tommy Potter": {
+        "tracks": [
+            {
+                "Conception": "double bass",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "double bass",
+                "album": "The New Sounds"
+            },
+            {
+                "My Old Flame": "double bass",
+                "album": "The New Sounds"
+            },
+            {
+                "It's Only a Paper Moon": "double bass",
+                "album": "The New Sounds"
+            },
+            {
+                "Bluing": "double bass",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "double bass",
+                "album": "Blue Period"
+            }
+        ]
+    },
+    "Art Blakey": {
+        "tracks": [
+            {
+                "Conception": "drums",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "drums",
+                "album": "The New Sounds"
+            },
+            {
+                "My Old Flame": "drums",
+                "album": "The New Sounds"
+            },
+            {
+                "It's Only a Paper Moon": "drums",
+                "album": "The New Sounds"
+            },
+            {
+                "Bluing": "drums",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "drums",
+                "album": "Blue Period"
+            },
+            {
+                "Take Off": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Weirdo": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "I Waited For You": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Well You Needn't": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "The Leap": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Lazy Susan": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "It Never Entered My Mind": "drums",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Jay Jay Johnson": {
+        "tracks": [
+            {
+                "Dear Old Stockholm": "trombone",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Woody 'n' You": "trombone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Chance It": "trombone",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "trombone",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Wouldn't You": "trombone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "I Waited For You": "trombone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "trombone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "trombone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "trombone",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Gil Coggins": {
+        "tracks": [
+            {
+                "Dear Old Stockholm": "piano",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Yesterdays": "piano",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Chance It": "piano",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "piano",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "How Deep Is the Ocean?": "piano",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Wouldn't You": "piano",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "I Waited For You": "piano",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "piano",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "piano",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "piano",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Oscar Pettiford": {
+        "tracks": [
+            {
+                "Dear Old Stockholm": "bass",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Yesterdays": "bass",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Chance It": "bass",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "bass",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "How Deep Is the Ocean?": "bass",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Wouldn't You": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "bass",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Kenny Clarke": {
+        "tracks": [
+            {
+                "Dear Old Stockholm": "drums",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Yesterdays": "drums",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Chance It": "drums",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "drums",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "How Deep Is the Ocean?": "drums",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Tasty Pudding": "drums",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "drums",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "drums",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "drums",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Wouldn't You": "drums",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "drums",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "John Lewis": {
+        "tracks": [
+            {
+                "Blue Room": "piano",
+                "album": "Blue Period"
+            },
+            {
+                "Tasty Pudding": "piano",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "piano",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "piano",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "piano",
+                "album": "The Compositions Of Al Cohn"
+            }
+        ]
+    },
+    "Percy Heath": {
+        "tracks": [
+            {
+                "Blue Room": "double bass",
+                "album": "Blue Period"
+            },
+            {
+                "Take Off": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Weirdo": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "I Waited For You": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Well You Needn't": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "The Leap": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Lazy Susan": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "It Never Entered My Mind": "bass",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Roy Haynes": {
+        "tracks": [
+            {
+                "Blue Room": "drums",
+                "album": "Blue Period"
+            }
+        ]
+    },
+    "Jackie McLean": {
+        "tracks": [
+            {
+                "Bluing": "alto saxophone",
+                "album": "Blue Period"
+            },
+            {
+                "Out of the Blue": "alto saxophone",
+                "album": "Blue Period"
+            },
+            {
+                "Wouldn't You": "alto saxophone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Donna": "alto saxophone",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Conception": "alto saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "Dig": "alto saxophone",
+                "album": "The New Sounds"
+            },
+            {
+                "Dear Old Stockholm": "alto saxophone",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Chance It": "alto saxophone",
+                "album": "Young Man with a Horn"
+            },
+            {
+                "Donna": "alto saxophone",
+                "album": "Young Man with a Horn"
+            }
+        ]
+    },
+    "Al Cohn":{
+        "tracks": [
+            {
+                "Tasty Pudding": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            }
+        ]
+    },
+    "Zoot Sims": {
+        "tracks": [
+            {
+                "Tasty Pudding": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "tenor saxophone",
+                "album": "The Compositions Of Al Cohn"
+            }
+        ]
+    },
+    "Sonny Truitt":{
+        "tracks": [
+            {
+                "Tasty Pudding": "trombone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "trombone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "trombone",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "trombone",
+                "album": "The Compositions Of Al Cohn"
+            }
+        ]
+    },
+    "Leonard Gaskin":{
+        "tracks": [
+            {
+                "Tasty Pudding": "bass",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Floppy": "bass",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Willie the Wailer": "bass",
+                "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "For Adults Only": "bass",
+                "album": "The Compositions Of Al Cohn"
+            }
+        ]
+    },
+    "Horace Silver": {
+        "tracks": [
+            {
+                "Take Off": "piano",
+                "album":"Miles Davis Volume 2"
+            },
+            {
+                "Weirdo": "piano",
+                "album":"Miles Davis Volume 2"
+            },
+            {
+                "Well You Needn't": "piano",
+                "album":"Miles Davis Volume 2"
+            },
+            {
+                "The Leap": "piano",
+                "album":"Miles Davis Volume 2"
+            },
+            {
+                "Lazy Susan": "piano",
+                "album":"Miles Davis Volume 2"
+            },
+            {
+                "It Never Entered My Mind": "piano",
+                "album":"Miles Davis Volume 2"
+            }
+        ]
+    },
+    "Jimmy Heath": {
+        "tracks": [
+            {
+                "I Waited For You": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Ray's Idea": "bass",
+                "album": "Miles Davis Volume 2"
+            },
+            {
+                "Tempus Fugit": "bass",
+                "album": "Miles Davis Volume 2"
+            }
+        ]
+    }
+}
