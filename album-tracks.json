@@ -181,5 +181,200 @@
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/f/f1/MilesSextet.jpg"
+    },
+    "Miles Davis with Sonny Rollins": {
+        "tracks": {
+            "Airegin": {
+                "writer": ["Sonny Rollins"]
+            },
+            "Oleo": {
+                "writer": ["Sonny Rollins"]
+            },
+            "But Not for Me": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            },
+            "Doxy": {
+                "writer": ["Sonny Rollins"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/MilesDavisWithSonnyRollins.jpg/220px-MilesDavisWithSonnyRollins.jpg"
+    },
+    "Miles Davis All Stars, Volume 1": {
+        "tracks": {
+            "Bags' Groove": {
+                "writer": ["Milt Jackson"]
+            },
+            "Swing Spring": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/MilesAllStarsVol1.jpg/220px-MilesAllStarsVol1.jpg"
+    },
+    "Miles Davis All Stars, Volume 2": {
+        "tracks": {
+            "Bemsha Swing": {
+                "writer": ["Denzil Best", "Thelonious Monk"]
+            },
+            "The Man I Love": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/MilesAllStarsVol2.jpg/220px-MilesAllStarsVol2.jpg"
+    },
+    "Blue Moods": {
+        "tracks": {
+            "Nature Boy": {
+                "writer": ["Eden Ahbez"]
+            },
+            "Alone Together": {
+                "writer": ["Arthur Schwartz", "Howard Dietz"]
+            },
+            "There's No You": {
+                "writer": ["Hal Hopper", "Tom Adair"]
+            },
+            "Easy Living": {
+                "writer": ["Ralph Rainger", "Leo Robin"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Blue_Moods_%28Miles_Davis_album%29.jpg/220px-Blue_Moods_%28Miles_Davis_album%29.jpg"
+    },
+    "The Musings of Miles": {
+        "tracks": {
+            "Will You Still Be Mine?": {
+                "writer": ["Matt Dennis", "Tom Adair"]
+            },
+            "I See Your Face Before Me": {
+                "writer": ["Arthur Schwartz", "Howard Dietz"]
+            },
+            "I Didn't": {
+                "writer": ["Miles Davis"]
+            },
+            "A Gal in Calico": {
+                "writer": ["Arthur Schwartz", "Leo Robin"]
+            },
+            "A Night in Tunisia": {
+                "writer": ["Dizzy Gillespie", "Frank Paparelli"]
+            },
+            "Green Haze": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/TheMusingsOfMiles_Davis.jpg/220px-TheMusingsOfMiles_Davis.jpg"
+    },
+    "Dig": {
+        "tracks": {
+            "Dig": {
+                "writer": ["Jackie McLean"]
+            },
+            "It's Only a Paper Moon": {
+                "writer": ["Harold Arlen", "Yip Harburg", "Billy Rose"]
+            },
+            "Denial": {
+                "writer": ["Miles Davis"]
+            },
+            "Bluing": {
+                "writer": ["Miles Davis"]
+            },
+            "Out of the Blue"	: {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dig_MilesDavis.jpg/220px-Dig_MilesDavis.jpg"
+    },
+    "Miles: The New Miles Davis Quintet": {
+        "tracks": {
+            "Just Squeeze Me": {
+                "writer": ["Duke Ellington", "Lee Gaines"]
+            },
+            "There Is No Greater Love": {
+                "writer": ["Isham Jones", "Marty Symes"]
+            },
+            "How Am I to Know?": {
+                "writer": ["Dorothy Parker", "Jack King"]
+            },
+            "S'posin": {
+                "writer": ["Paul Denniker", "Andy Razaf"]
+            },
+            "The Theme": {
+                "writer": ["Miles Davis"]
+            },
+            "Stablemates": {
+                "writer": ["Benny Golson"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/7/78/Miles_Davis_New_Miles_Davis_Quintet.png"
+    },
+    "Miles Davis and Horns": {
+        "tracks": {
+            "Tasty Pudding": {
+                "writer": ["Al Cohn"]
+            },
+            "Floppy": {
+                "writer": ["Al Cohn"]
+            },
+            "Willie the Wailer": {
+                "writer": ["Al Cohn"]
+            },
+            "For Adults Only": {
+                "writer": ["Al Cohn"]
+            },
+            "Morpheus": {
+                "writer": ["John Lewis"]
+            },
+            "Down": {
+                "writer": ["Miles Davis"]
+            },
+            "Blue Room (Take 1)": {
+                "writer": ["Richard Rodgers", "Lorenz Hart"]
+            },
+            "Whispering": {
+                "writer": ["Malvin Schonberger", "Richard Coburn", "Vincent Rose"]
+            }
+
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_with_horns_Cover.jpg/220px-Miles_Davis_with_horns_Cover.jpg"
+    },
+    "Quintet / Sextet": {
+        "tracks": {
+            "Dr. Jackle": {
+                "writer": ["Jackie McLean"]
+            },
+            "Bitty Ditty": {
+                "writer": ["Thad Jones"]
+            },
+            "Minor March": {
+                "writer": ["Jackie McLean"]
+            },
+            "Changes": {
+                "writer": ["Ray Bryant"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg"
+    },
+    "Collectors' Items": {
+        "tracks": {
+            "The Serpent's Tooth (Take 1)": {
+                "writer": ["Miles Davis"]
+            },
+            "The Serpent's Tooth (Take 2)": {
+                "writer": ["Miles Davis"]
+            },
+            "Round About Midnight": {
+                "writer": ["Thelonious Monk"]
+            },
+            "Compulsion": {
+                "writer": ["Miles Davis"]
+            },
+            "No Line": {
+                "writer": ["Miles Davis"]
+            },
+            "Vierd Blues": {
+                "writer": ["Miles Davis"]
+            },
+            "In Your Own Sweet Way": {
+                "writer": ["Dave Brubeck"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg"
     }
 }

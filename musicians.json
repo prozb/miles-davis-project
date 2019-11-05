@@ -180,6 +180,198 @@
             {
                 "I'll Remember April": "trumpet",
                 "album": "Miles Davis Quintet"
+            },
+            {
+                "Tasty Pudding": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Morpheus": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "trumpet",
+                "album": "Miles Davis and Horns"    
+            },
+            {
+                "Dr. Jackle": "trumpet",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bitty Ditty": "trumpet",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "trumpet",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Changes": "trumpet",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "The Serpent's Tooth (Take 1)": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "The Serpent's Tooth (Take 2)": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Round About Midnight": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Compulsion": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "No Line": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Vierd Blues": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "In Your Own Sweet Way": "trumpet",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Airegin": "trumpet",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Oleo": "trumpet",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "But Not for Me": "trumpet",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Doxy": "trumpet",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Bags' Groove": "trumpet",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Swing Spring": "trumpet",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Bemsha Swing": "trumpet",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "The Man I Love": "trumpet",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "Nature Boy": "trumpet",
+                "album": "Blue Moods"
+            },
+            {
+                "Alone Together": "trumpet",
+                "album": "Blue Moods"
+            },
+            {
+                "There's No You": "trumpet",
+                "album": "Blue Moods"
+            },
+            {
+                "Easy Living": "trumpet",
+                "album": "Blue Moods"
+            },
+            {
+                "Will You Still Be Mine?": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I See Your Face Before Me": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I Didn't": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Gal in Calico": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Night in Tunisia": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Green Haze": "trumpet",
+                "album": "The Musings of Miles"
+            },
+            { 
+                "Dig": "trumpet",
+                "album": "Dig"
+            },
+            { 
+                "It's Only a Paper Moon": "trumpet",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "trumpet",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "trumpet",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "trumpet",
+                "album": "Dig"
+            },
+            {
+                "Just Squeeze Me": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "There Is No Greater Love": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "How Am I to Know?": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "S'posin": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "The Theme": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Stablemates": "trumpet",
+                "album": "Miles: The New Miles Davis Quintet"
             }
         ]
     },
@@ -212,6 +404,58 @@
             {
                 "Out of the Blue": "tenor saxophone",
                 "album": "Blue Period"
+            },
+            {
+                "Morpheus": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "tenor saxophone",
+                "album": "Miles Davis and Horns"    
+            },
+            {
+                "Airegin": "tenor saxophone",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Oleo": "tenor saxophone",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "But Not for Me": "tenor saxophone",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Doxy": "tenor saxophone",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            { 
+                "Dig": "tenor saxophone",
+                "album": "Dig"
+            },
+            { 
+                "It's Only a Paper Moon": "tenor saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "tenor saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "tenor saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "tenor saxophone",
+                "album": "Dig"
             }
         ]
     },
@@ -240,6 +484,42 @@
             {
                 "Out of the Blue": "piano",
                 "album": "Blue Period"
+            },
+            {
+                "The Serpent's Tooth (Take 1)": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "The Serpent's Tooth (Take 2)": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Round About Midnight": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Compulsion": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            { 
+                "Dig": "piano",
+                "album": "Dig"
+            },
+            { 
+                "It's Only a Paper Moon": "piano",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "piano",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "piano",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "piano",
+                "album": "Dig"
             }
         ]
     },
@@ -268,6 +548,26 @@
             {
                 "Out of the Blue": "double bass",
                 "album": "Blue Period"
+            },
+            { 
+                "Dig": "double bass",
+                "album": "Dig"
+            },
+            { 
+                "It's Only a Paper Moon": "double bass",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "double bass",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "double bass",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "double bass",
+                "album": "Dig"
             }
         ]
     },
@@ -368,7 +668,27 @@
             {
                 "Blue Haze": "drums",
                 "album": "Miles Davis Quartet"
-            } 
+            },
+            { 
+                "Dig": "drums",
+                "album": "Dig"
+            },
+            { 
+                "It's Only a Paper Moon": "drums",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "drums",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "drums",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "drums",
+                "album": "Dig"
+            }
         ]
     },
     "Jay Jay Johnson": {
@@ -492,6 +812,30 @@
             {
                 "Donna": "bass",
                 "album": "Miles Davis Volume 2"
+            },
+            {
+                "Will You Still Be Mine?": "bass",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I See Your Face Before Me": "bass",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I Didn't": "bass",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Gal in Calico": "bass",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Night in Tunisia": "bass",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Green Haze": "bass",
+                "album": "The Musings of Miles"
             }
         ]
     },
@@ -560,6 +904,54 @@
             {
                 "I'll Remember April": "drums",
                 "album": "Miles Davis Quintet"
+            },
+            {
+                "Tasty Pudding": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Airegin": "drums",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Oleo": "drums",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "But Not for Me": "drums",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Doxy": "drums",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Bags' Groove": "drums",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Swing Spring": "drums",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Bemsha Swing": "drums",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "The Man I Love": "drums",
+                "album": "Miles Davis All Stars, Volume 2"
             }
         ]
     },
@@ -596,6 +988,38 @@
             {
                 "Miles Ahead": "piano",
                 "album": "Miles Davis Quartet"
+            },
+            {
+                "Tasty Pudding": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Morpheus": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "piano",
+                "album": "Miles Davis and Horns"    
             }
         ]
     },
@@ -712,6 +1136,86 @@
             {
                 "I'll Remember April": "bass",
                 "album": "Miles Davis Quintet"
+            },
+            {
+                "Morpheus": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "bass",
+                "album": "Miles Davis and Horns"    
+            },
+            {
+                "Dr. Jackle": "bass",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bitty Ditty": "bass",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "bass",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Changes": "bass",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "The Serpent's Tooth (Take 1)": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "The Serpent's Tooth (Take 2)": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Round About Midnight": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Compulsion": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Airegin": "bass",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Oleo": "bass",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "But Not for Me": "bass",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Doxy": "bass",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Bags' Groove": "bass",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Swing Spring": "bass",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Bemsha Swing": "bass",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "The Man I Love": "bass",
+                "album": "Miles Davis All Stars, Volume 2"
             }
         ]
     },
@@ -720,6 +1224,22 @@
             {
                 "Blue Room": "drums",
                 "album": "Blue Period"
+            },
+            {
+                "Morpheus": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "drums",
+                "album": "Miles Davis and Horns"    
             }
         ]
     },
@@ -760,6 +1280,30 @@
             {
                 "Donna": "alto saxophone",
                 "album": "Young Man with a Horn"
+            },
+            {
+                "Dr. Jackle": "tenor saxophone",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "tenor saxophone",
+                "album": "Quintet / Sextet"
+            },
+            { 
+                "Dig": "alto saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Denial": "alto saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Bluing": "alto saxophone",
+                "album": "Dig"
+            },
+            { 
+                "Out of the Blue": "alto saxophone",
+                "album": "Dig"
             }
         ]
     },
@@ -780,6 +1324,22 @@
             {
                 "For Adults Only": "tenor saxophone",
                 "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Tasty Pudding": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "tenor saxophone",
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -800,6 +1360,22 @@
             {
                 "For Adults Only": "tenor saxophone",
                 "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Tasty Pudding": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "tenor saxophone",
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -820,6 +1396,22 @@
             {
                 "For Adults Only": "trombone",
                 "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Tasty Pudding": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "trombone",
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -840,6 +1432,22 @@
             {
                 "For Adults Only": "bass",
                 "album": "The Compositions Of Al Cohn"
+            },
+            {
+                "Tasty Pudding": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Floppy": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Willie the Wailer": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "For Adults Only": "bass",
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -924,6 +1532,22 @@
             {
                 "I'll Remember April": "piano",
                 "album": "Miles Davis Quintet"
+            },
+            {
+                "Airegin": "piano",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Oleo": "piano",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "But Not for Me": "piano",
+                "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "Doxy": "piano",
+                "album": "Miles Davis with Sonny Rollins"
             }
         ]
     },
@@ -948,6 +1572,22 @@
             {
                 "Smooch": "piano",
                 "album": "Miles Davis Quartet"
+            },
+            {
+                "Nature Boy": "bass",
+                "album": "Blue Moods"
+            },
+            {
+                "Alone Together": "bass",
+                "album": "Blue Moods"
+            },
+            {
+                "There's No You": "bass",
+                "album": "Blue Moods"
+            },
+            {
+                "Easy Living": "bass",
+                "album": "Blue Moods"
             }
         ]
     },
@@ -992,6 +1632,418 @@
             {
                 "I'll Remember April": "alto saxophone",
                 "album": "Miles Davis Quintet"
+            }
+        ]
+    },
+    "Bennie Green": {
+        "tracks": [
+            {
+                "Morpheus": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Down": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Blue Room (Take 1)": "trombone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Whispering": "trombone",
+                "album": "Miles Davis and Horns"    
+            }
+        ]
+    },
+    "Milt Jackson": {
+        "tracks": [
+            {
+                "Dr. Jackle": "vibraphone",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bitty Ditty": "vibraphone",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "vibraphone",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Changes": "vibraphone",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bags' Groove": "vibraphone",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Swing Spring": "vibraphone",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Bemsha Swing": "vibraphone",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "The Man I Love": "vibraphone",
+                "album": "Miles Davis All Stars, Volume 2"
+            }
+        ]
+    },
+    "Ray Bryant": {
+        "tracks": [
+            {
+                "Dr. Jackle": "piano",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bitty Ditty": "piano",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "piano",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Changes": "piano",
+                "album": "Quintet / Sextet"
+            }
+        ]
+    },
+    "Art Taylor": {
+        "tracks": [
+            {
+                "Dr. Jackle": "drums",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Bitty Ditty": "drums",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Minor March": "drums",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "Changes": "drums",
+                "album": "Quintet / Sextet"
+            },
+            {
+                "No Line": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Vierd Blues": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "In Your Own Sweet Way": "drums",
+                "album": "Miles Davis and Horns"
+            }
+        ]
+    },
+    "Charlie Chan": {
+        "tracks": [
+            {
+                "The Serpent's Tooth (Take 1)": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "The Serpent's Tooth (Take 2)": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Round About Midnight": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Compulsion": "tenor saxophone",
+                "album": "Miles Davis and Horns"
+            }
+        ]
+    },
+    "Tommy Flanagan": {
+        "tracks": [
+            {
+                "No Line": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Vierd Blues": "piano",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "In Your Own Sweet Way": "piano",
+                "album": "Miles Davis and Horns"
+            }
+        ]
+    },
+    "Philly Joe Jones": {
+        "tracks": [
+            {
+                "The Serpent's Tooth (Take 1)": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "The Serpent's Tooth (Take 2)": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Round About Midnight": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Compulsion": "drums",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Will You Still Be Mine?": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I See Your Face Before Me": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I Didn't": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Gal in Calico": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Night in Tunisia": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Green Haze": "drums",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Just Squeeze Me": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "There Is No Greater Love": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "How Am I to Know?": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "S'posin": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "The Theme": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Stablemates": "drums",
+                "album": "Miles: The New Miles Davis Quintet"
+            }
+        ]
+    },
+    "Paul Chambers": {
+        "tracks": [
+            {
+                "No Line": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Vierd Blues": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "In Your Own Sweet Way": "bass",
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "Just Squeeze Me": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "There Is No Greater Love": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "How Am I to Know?": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "S'posin": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "The Theme": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Stablemates": "bass",
+                "album": "Miles: The New Miles Davis Quintet"
+            }
+        ]
+    },
+    "Thelonious Monk": {
+        "tracks": [
+            {
+                "Bags' Groove": "piano",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Swing Spring": "piano",
+                "album": "Miles Davis All Stars, Volume 1"
+            },
+            {
+                "Bemsha Swing": "piano",
+                "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "The Man I Love": "piano",
+                "album": "Miles Davis All Stars, Volume 2"
+            }
+        ]
+    },
+    "Britt Woodman": {
+        "tracks": [
+            {
+                "Nature Boy": "trombone",
+                "album": "Blue Moods"
+            },
+            {
+                "Alone Together": "trombone",
+                "album": "Blue Moods"
+            },
+            {
+                "There's No You": "trombone",
+                "album": "Blue Moods"
+            },
+            {
+                "Easy Living": "trombone",
+                "album": "Blue Moods"
+            }
+        ]
+    },
+    "Teddy Charles": {
+        "tracks": [
+            {
+                "Nature Boy": "vibraphone",
+                "album": "Blue Moods"
+            },
+            {
+                "Alone Together": "vibraphone",
+                "album": "Blue Moods"
+            },
+            {
+                "There's No You": "vibraphone",
+                "album": "Blue Moods"
+            },
+            {
+                "Easy Living": "vibraphone",
+                "album": "Blue Moods"
+            }
+        ]
+    },
+    "Elvin Jones": {
+        "tracks": [
+            {
+                "Nature Boy": "drums",
+                "album": "Blue Moods"
+            },
+            {
+                "Alone Together": "drums",
+                "album": "Blue Moods"
+            },
+            {
+                "There's No You": "drums",
+                "album": "Blue Moods"
+            },
+            {
+                "Easy Living": "drums",
+                "album": "Blue Moods"
+            }
+        ]
+    },
+    "Red Garland": {
+        "tracks": [
+            {
+                "Will You Still Be Mine?": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I See Your Face Before Me": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "I Didn't": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Gal in Calico": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "A Night in Tunisia": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Green Haze": "piano",
+                "album": "The Musings of Miles"
+            },
+            {
+                "Just Squeeze Me": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "There Is No Greater Love": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "How Am I to Know?": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "S'posin": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "The Theme": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Stablemates": "piano",
+                "album": "Miles: The New Miles Davis Quintet"
+            }
+        ]
+    },
+    "John Coltrane": {
+        "tracks": [
+            {
+                "Just Squeeze Me": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "There Is No Greater Love": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "How Am I to Know?": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "S'posin": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "The Theme": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Stablemates": "tenor saxophone",
+                "album": "Miles: The New Miles Davis Quintet"
             }
         ]
     }
