@@ -494,5 +494,158 @@
             }        
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/d/de/Miles_Davis_relaxin.png"
+    },
+    "Miles Davis and the Modern Jazz Giant": {
+        "tracks": {
+            "The Man I Love (Take 2)": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            },
+            "Swing Spring": {
+                "writer": ["Miles Davis"]
+            },
+            "'Round Midnight": {
+                "writer": ["Bernie Hanighen", "Cootie Williams", "Thelonious Monk"]
+            },
+            "Bemsha Swing": {
+                "writer": ["Thelonious Monk", "Denzil Best"]
+            },
+            "The Man I Love (Take 1)": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/MilesDavisAndTheModernJazzGiants.jpg/220px-MilesDavisAndTheModernJazzGiants.jpg"
+    },
+    "Workin' with the Miles Davis Quintet": {
+        "tracks": {
+            "It Never Entered My Mind": {
+                "writer": ["Richard Rodgers"]
+            },
+            "Four": {
+                "writer": ["Eddie Vinson"]
+            },
+            "In Your Own Sweet Way": {
+                "writer": ["Dave Brubeck"]
+            },
+            "The Theme (Take 1)": {
+                "writer": ["Miles Davis"]
+            },
+            "Trane's Blues (a.k.a. Vierd Blues)": {
+                "writer": ["John Coltrane"]
+            },
+            "Ahmad's Blues": {
+                "writer": ["Ahmad Jamal"]
+            },
+            "Half Nelson": {
+                "writer": ["Miles Davis"]
+            },
+            "The Theme (Take 2)": {
+                "writer": ["Miles Davis"]
+            }          
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MilesDavis_Workin.jpg/220px-MilesDavis_Workin.jpg"
+    },
+    "Steamin' with the Miles Davis Quintet": {
+        "tracks": {
+            "Surrey with the Fringe on Top": {
+                "writer": ["Richard Rodgers"]
+            },
+            "Salt Peanuts": {
+                "writer": ["Dizzy Gillespie", "Kenny Clarke"]
+            },
+            "Something I Dreamed Last Night": {
+                "writer": ["Sammy Fain"]
+            },
+            "Diane": {
+                "writer": ["Lew Pollack", "Ernö Rapée"]
+            },
+            "Well, You Needn't": {
+                "writer": ["Thelonious Monk"]
+            },
+            "When I Fall in Love": {
+                "writer": ["Victor Young"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Steamin%27_With_the_Miles_Davis_Quintet.jpeg/220px-Steamin%27_With_the_Miles_Davis_Quintet.jpeg"
+    },
+    "'Round About Midnight": {
+        "tracks": {
+            "'Round Midnight": {
+                "writer": ["Thelonious Monk", "Bernie Hanighen", "Cootie Williams"]
+            },
+            "Ah-Leu-Cha": {
+                "writer": ["Charlie Parker"]
+            },
+            "All of You": {
+                "writer": ["Cole Porter"]
+            },
+            "Bye Bye Blackbird": {
+                "writer": ["Mort Dixon", "Ray Henderson"]
+            },
+            "Tadd's Delight": {
+                "writer": ["Tadd Dameron"]
+            },
+            "Dear Old Stockholm": {
+                "writer": ["traditional"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/RoundAboutMidnightMilesDavis.jpg/220px-RoundAboutMidnightMilesDavis.jpg"
+    },
+    "Miles Ahead": {
+        "tracks": {
+            "Springsville": {
+                "writer": ["John Carisi"]
+            },
+            "The Maids of Cadiz": {
+                "writer": ["Léo Delibes"]
+            },
+            "The Duke": {
+                "writer": ["Dave Brubeck"]
+            },
+            "My Ship": {
+                "writer": ["Kurt Weill", "Ira Gershwin"]
+            },
+            "Miles Ahead": {
+                "writer": ["Miles Davis", "Gil Evans"]
+            },
+            "Blues for Pablo": {
+                "writer": ["Gil Evans"]
+            },
+            "New Rhumba": {
+                "writer": ["Ahmad Jamal"]
+            },
+            "The Meaning Of The Blues": {
+                "writer": ["Bobby Troup", "Leah Worth"]
+            },
+            "Lament": {
+                "writer": ["J. J. Johnson"]
+            },
+            "I Don't Wanna Be Kissed (By Anyone but You)": {
+                "writer": ["Harold Spina", "Jack Elliot)"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/3/33/Miles_Ahead.jpg"
+    },
+    "Milestones": {
+        "tracks": {
+            "Dr. Jekyll": {
+                "writer": ["Jackie McLean"]
+            },
+            "Sid's Ahead": {
+                "writer": ["Miles Davis"]
+            },
+            "Two Bass Hit": {
+                "writer": ["John Lewis", "Dizzy Gillespie"]
+            },
+            "Miles": {
+                "writer": ["Miles Davis"]
+            },
+            "Billy Boy": {
+                "writer": ["traditional"]
+            },
+            "Straight, No Chaser": {
+                "writer": ["Thelonious Monk"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Milestonescover.jpg/220px-Milestonescover.jpg"
     }
 }

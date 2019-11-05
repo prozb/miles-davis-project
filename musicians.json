@@ -496,7 +496,171 @@
             { 
                 "Woody 'n' You": "trumpet",
                 "album": "Relaxin' with the Miles Davis Quintet"
-            }
+            },
+            {
+                "The Man I Love (Take 2)": "trumpet",
+                 "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Swing Spring": "trumpet",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Bemsha Swing": "trumpet",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "The Man I Love (Take 1)": "trumpet",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "'Round Midnight": "trumpet",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            { 
+                "It Never Entered My Mind": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Four": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "In Your Own Sweet Way": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 1)": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Trane's Blues (a.k.a. Vierd Blues)": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Ahmad's Blues": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Half Nelson": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 2)": "trumpet",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Surrey with the Fringe on Top": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Salt Peanuts": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Something I Dreamed Last Night": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet" 
+            },
+            { 
+                "Diane": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Well, You Needn't": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "When I Fall in Love": "trumpet",
+                "album": "Steamin' with the Miles Davis Quintet"
+            }   ,
+            { 
+                "'Round Midnight": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Ah-Leu-Cha": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "All of You": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Bye Bye Blackbird": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Tadd's Delight": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dear Old Stockholm": "trumpet",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Springsville": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "flugelhorn",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "flugelhorn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Dr. Jekyll": "trumpet",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "trumpet",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "trumpet",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "trumpet",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "trumpet",
+                "album": "Milestones"
+            }                                             
         ]
     },
     "Sonny Rollins": {
@@ -1168,6 +1332,22 @@
             {
                 "Doxy": "drums",
                 "album": "Bags' Groove"
+            },
+            {
+                "The Man I Love (Take 2)": "drums",
+                 "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Swing Spring": "drums",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Bemsha Swing": "drums",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "The Man I Love (Take 1)": "drums",
+                "album": "Miles Davis and the Modern Jazz Giant"
             }
         ]
     },
@@ -1524,6 +1704,22 @@
             {
                 "Doxy": "bass",
                 "album": "Bags' Groove"
+            },
+            {
+                "The Man I Love (Take 2)": "bass",
+                 "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Swing Spring": "bass",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Bemsha Swing": "bass",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "The Man I Love (Take 1)": "bass",
+                "album": "Miles Davis and the Modern Jazz Giant"
             }
         ]
     },
@@ -2104,6 +2300,22 @@
             {
                 "Bags' Groove (Take 2)": "vibraphone",
                 "album": "Bags' Groove"
+            },
+            {
+                "The Man I Love (Take 2)": "vibraphone",
+                 "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Swing Spring": "vibraphone",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Bemsha Swing": "vibraphone",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "The Man I Love (Take 1)": "vibraphone",
+                "album": "Miles Davis and the Modern Jazz Giant"
             }
         ]
     },
@@ -2156,7 +2368,47 @@
             {
                 "In Your Own Sweet Way": "drums",
                 "album": "Miles Davis and Horns"
-            }
+            },
+            { 
+                "Springsville": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "drums",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "drums",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "drums",
+                "album": "Miles Ahead"
+            }            
         ]
     },
     "Charlie Chan": {
@@ -2304,7 +2556,115 @@
             { 
                 "Woody 'n' You": "drums",
                 "album": "Relaxin' with the Miles Davis Quintet"
-            }
+            },
+            {
+                "'Round Midnight": "drums",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            { 
+                "It Never Entered My Mind": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Four": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "In Your Own Sweet Way": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 1)": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Trane's Blues (a.k.a. Vierd Blues)": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Ahmad's Blues": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Half Nelson": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 2)": "drums",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Surrey with the Fringe on Top": "drums",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Salt Peanuts": "drums",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Something I Dreamed Last Night": "drums",
+                "album": "Steamin' with the Miles Davis Quintet" 
+            },
+            { 
+                "Diane": "drums",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Well, You Needn't": "drums",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "When I Fall in Love": "drums",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },   
+            { 
+                "'Round Midnight": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Ah-Leu-Cha": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "All of You": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Bye Bye Blackbird": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Tadd's Delight": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dear Old Stockholm": "drums",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dr. Jekyll": "drums",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "drums",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "drums",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "drums",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "drums",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "drums",
+                "album": "Milestones"
+            }                           
         ]
     },
     "Paul Chambers": {
@@ -2388,7 +2748,155 @@
             { 
                 "Woody 'n' You": "bass",
                 "album": "Relaxin' with the Miles Davis Quintet"
-            }
+            },
+            {
+                "'Round Midnight": "bass",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            { 
+                "It Never Entered My Mind": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Four": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "In Your Own Sweet Way": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 1)": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Trane's Blues (a.k.a. Vierd Blues)": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Ahmad's Blues": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Half Nelson": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 2)": "bass",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Surrey with the Fringe on Top": "bass",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Salt Peanuts": "bass",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Something I Dreamed Last Night": "bass",
+                "album": "Steamin' with the Miles Davis Quintet" 
+            },
+            { 
+                "Diane": "bass",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Well, You Needn't": "bass",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "When I Fall in Love": "bass",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "'Round Midnight": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Ah-Leu-Cha": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "All of You": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Bye Bye Blackbird": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Tadd's Delight": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dear Old Stockholm": "bass",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Springsville": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "double bass",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "double bass",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Dr. Jekyll": "double bass",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "double bass",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "double bass",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "double bass",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "double bass",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "double bass",
+                "album": "Milestones"
+            }                               
         ]
     },
     "Thelonious Monk": {
@@ -2416,6 +2924,22 @@
             {
                 "Bags' Groove (Take 2)": "piano",
                 "album": "Bags' Groove"
+            },
+            {
+                "The Man I Love (Take 2)": "piano",
+                 "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Swing Spring": "piano",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "Bemsha Swing": "piano",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            {
+                "The Man I Love (Take 1)": "piano",
+                "album": "Miles Davis and the Modern Jazz Giant"
             }
         ]
     },
@@ -2572,7 +3096,115 @@
             { 
                 "Woody 'n' You": "piano",
                 "album": "Relaxin' with the Miles Davis Quintet"
-            }
+            },
+            {
+                "'Round Midnight": "piano",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            { 
+                "It Never Entered My Mind": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Four": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "In Your Own Sweet Way": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 1)": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Trane's Blues (a.k.a. Vierd Blues)": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Ahmad's Blues": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Half Nelson": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 2)": "piano",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Surrey with the Fringe on Top": "piano",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Salt Peanuts": "piano",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Something I Dreamed Last Night": "piano",
+                "album": "Steamin' with the Miles Davis Quintet" 
+            },
+            { 
+                "Diane": "piano",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Well, You Needn't": "piano",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "When I Fall in Love": "piano",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "'Round Midnight": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Ah-Leu-Cha": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "All of You": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Bye Bye Blackbird": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Tadd's Delight": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dear Old Stockholm": "piano",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dr. Jekyll": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "piano",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "piano",
+                "album": "Milestones"
+            }                        
         ]
     },
     "John Coltrane": {
@@ -2640,7 +3272,103 @@
             { 
                 "Woody 'n' You": "tenor saxophone",
                 "album": "Relaxin' with the Miles Davis Quintet"
-            }
+            },
+            {
+                "'Round Midnight": "tenor saxophone",
+                "album": "Miles Davis and the Modern Jazz Giant"
+            },
+            { 
+                "Four": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "In Your Own Sweet Way": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 1)": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Trane's Blues (a.k.a. Vierd Blues)": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Ahmad's Blues": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Half Nelson": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "The Theme (Take 2)": "tenor saxophone",
+                "album": "Workin' with the Miles Davis Quintet"
+            },
+            { 
+                "Surrey with the Fringe on Top": "tenor saxophone",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Salt Peanuts": "tenor saxophone",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Diane": "tenor saxophone",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "Well, You Needn't": "tenor saxophone",
+                "album": "Steamin' with the Miles Davis Quintet"
+            },
+            { 
+                "'Round Midnight": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Ah-Leu-Cha": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "All of You": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Bye Bye Blackbird": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Tadd's Delight": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dear Old Stockholm": "tenor saxophone",
+                "album": "'Round About Midnight"
+            },
+            { 
+                "Dr. Jekyll": "tenor saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "tenor saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "tenor saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "tenor saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "tenor saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "tenor saxophone",
+                "album": "Milestones"
+            }                                
         ]
     },
     "David Schildkraut": {
@@ -2649,6 +3377,829 @@
                 "I'll Remember April": "alto saxophone",
                 "album": "Blue Haze"
             }
+        ]
+    },
+    "Bernie Glow": {
+        "tracks": [
+            { 
+                "Springsville": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trumpet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trumpet",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Ernie Royal": {
+        "tracks": [
+            { 
+                "Springsville": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trumpet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trumpet",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Louis Mucci": {
+        "tracks": [
+            { 
+                "Springsville": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trumpet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trumpet",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Taft Jordan": {
+        "tracks": [
+            { 
+                "Springsville": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trumpet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trumpet",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "John Carisi": {
+        "tracks": [
+            { 
+                "Springsville": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trumpet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trumpet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trumpet",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Frank Rehak": {
+        "tracks": [
+            { 
+                "Springsville": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trombone",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trombone",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Jimmy Cleveland": {
+        "tracks": [
+            { 
+                "Springsville": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trombone",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trombone",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Joe Bennett": {
+        "tracks": [
+            { 
+                "Springsville": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "trombone",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "trombone",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Tom Mitchell": {
+        "tracks": [
+            { 
+                "Springsville": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "bass trombone",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "bass trombone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "bass trombone",
+                "album": "Miles Ahead"
+            }            
+        ]
+    },
+    "Willie Ruff": {
+        "tracks": [
+            { 
+                "Springsville": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "french horn",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "french horn",
+                "album": "Miles Ahead"
+            }
+            
+        ]
+    },
+    "Tony Miranda": {
+        "tracks": [
+            { 
+                "Springsville": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "french horn",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "french horn",
+                "album": "Miles Ahead"
+            }
+            
+        ]
+    },
+    "Jim Buffington": {
+        "tracks": [
+            { 
+                "Springsville": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "french horn",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "french horn",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "french horn",
+                "album": "Miles Ahead"
+            }
+            
+        ]
+    },
+    "Bill Barber": {
+        "tracks": [
+            { 
+                "Springsville": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "tuba",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "tuba",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "tuba",
+                "album": "Miles Ahead"
+            }
+        ]
+    },
+    "Lee Konitz": {
+        "tracks": [
+            { 
+                "Springsville": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "alto saxophone",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "alto saxophone",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "alto saxophone",
+                "album": "Miles Ahead"
+            }                      
+        ]
+    },
+    "Danny Bank": {
+        "tracks": [
+            { 
+                "Springsville": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "bass clarinet",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "bass clarinet",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "bass clarinet",
+                "album": "Miles Ahead"
+            }                             
+        ]
+    },
+    "Romeo Penque": {
+        "tracks": [
+            { 
+                "Springsville": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "flute",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "flute",
+                "album": "Miles Ahead"
+            }                                    
+        ]
+    },
+    "Sid Cooper": {
+        "tracks": [
+            { 
+                "Springsville": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "flute",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "flute",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "flute",
+                "album": "Miles Ahead"
+            }                                    
+        ]
+    },
+    "Wynton Kelly": {
+        "tracks": [
+            { 
+                "Springsville": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Maids of Cadiz": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Duke": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "My Ship": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Miles Ahead": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Blues for Pablo": "piano",
+                "album": "Miles Ahead" 
+            },
+            { 
+                "New Rhumba": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "The Meaning Of The Blues": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "Lament": "piano",
+                "album": "Miles Ahead"
+            },
+            { 
+                "I Don't Wanna Be Kissed (By Anyone but You)": "piano",
+                "album": "Miles Ahead"
+            }                                            
+        ]
+    },
+    "Julian \"Cannonball\" Adderley": {
+        "tracks": [
+            { 
+                "Dr. Jekyll": "alto saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Sid's Ahead": "alto saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Two Bass Hit": "alto saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Miles": "alto saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Billy Boy": "alto saxophone",
+                "album": "Milestones"
+            },
+            { 
+                "Straight, No Chaser": "alto saxophone",
+                "album": "Milestones"
+            }                                                
         ]
     }
 }
