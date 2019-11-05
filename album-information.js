@@ -211,7 +211,7 @@ exports.array =
     producers: ['Bob Weinstock'],
   },
   {
-    name: "Cookin'",
+    name: "Cookin' with the Miles Davis Quintet",
     url: 'https://en.wikipedia.org/wiki/Cookin%27_with_the_Miles_Davis_Quintet',
     released: '1957',
     recorded: ['October 26, 1956'],
@@ -231,7 +231,7 @@ exports.array =
     producers: ['Bob Weinstock'],
   },
   {
-    name: "Relaxin'",
+    name: "Relaxin' with the Miles Davis Quintet",
     url: 'https://en.wikipedia.org/wiki/Relaxin%27_with_The_Miles_Davis_Quintet',
     released: '1958',
     recorded: ['May 11, 1956', 'October 26, 1956'],
@@ -251,7 +251,7 @@ exports.array =
     producers: ['Bob Weinstock'],
   },
   {
-    name: "Workin'",
+    name: "Workin' with the Miles Davis Quintet",
     url: 'https://en.wikipedia.org/wiki/Workin%27_with_The_Miles_Davis_Quintet',
     released: '1960',
     recorded: ['May 11, 1956', 'October 26, 1956'],
@@ -261,7 +261,7 @@ exports.array =
     producers: ['Bob Weinstock'],
   },
   {
-    name: "Steamin'",
+    name: "Steamin' with the Miles Davis Quintet",
     url: 'https://en.wikipedia.org/wiki/Steamin%27_with_The_Miles_Davis_Quintet',
     released: '1961',
     recorded: ['May 11, 1956', 'October 26, 1956'],

@@ -376,5 +376,123 @@
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg"
+    },
+    "Blue Haze": {
+        "tracks": {
+            "I'll Remember April": {
+                "writer": ["Don Raye", "Gene de Paul", "Patricia Johnston"]
+            },
+            "Four": {
+                "writer": ["Miles Davis"]
+            },
+            "Old Devil Moon": {
+                "writer": ["Burton Lane", "E.Y. Harburg"]
+            },
+            "Smooch": {
+                "writer": ["Miles Davis", "Charles Mingus"]
+            },
+            "Blue Haze": {
+                "writer": ["Miles Davis"]
+            },
+            "When Lights are Low": {
+                "writer": ["Benny Carter", "Spencer Williams"]
+            },
+            "Tune Up": {
+                "writer": ["Miles Davis"]
+            },
+            "Miles Ahead": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Blue_haze.JPG/220px-Blue_haze.JPG"
+    },
+    "Walkin'": {
+        "tracks": {
+            "Walkin'": {
+                "writer": ["Richard Carpenter"]
+            },
+            "Blue 'n' Boogie": {
+                "writer": ["Dizzy Gillespie", "Frank Paparelli"]
+            },
+            "Solar": {
+                "writer": ["Miles Davis"]
+            },
+            "You Don't Know What Love Is": {
+                "writer": ["Don Raye", "Gene de Paul"]
+            },
+            "Love Me or Leave Me": {
+                "writer": ["Gus Kahn", "Walter Donaldson"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Walkin_Miles_Davis_AllStars.jpg/220px-Walkin_Miles_Davis_AllStars.jpg"
+    },
+    "Cookin' with the Miles Davis Quintet": {
+        "tracks": {
+            "My Funny Valentine": {
+                "writer": ["Richard Rodgers"]
+            },
+            "Blues by Five": {
+                "writer": ["Miles Davis"]
+            },
+            "Airegin": {
+                "writer": ["Sonny Rollins"]
+            },
+            "Tune Up": {
+                "writer": ["Miles Davis"]
+            },
+            "When Lights are Low": {
+                "writer": ["Benny Carter", "Spencer Williams"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg/220px-Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg"
+    },
+    "Bags' Groove": {
+        "tracks": {
+            "Bags' Groove (Take 1)": {
+                "writer": ["Milt Jackson"]
+            },
+            "Bags' Groove (Take 2)": {
+                "writer": ["Milt Jackson"]
+            },
+            "Airegin": {
+                "writer": ["Sonny Rollins"]
+            },
+            "Oleo": {
+                "writer": ["Sonny Rollins"]
+            },
+            "But Not for Me (Take 2)": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            },
+            "But Not for Me (Take 1)": {
+                "writer": ["George Gershwin", "Ira Gershwin"]
+            },
+            "Doxy": {
+                "writer": ["Sonny Rollins"]
+            }  
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Image-bagsgroove.jpg/220px-Image-bagsgroove.jpg"
+    },
+    "Relaxin' with the Miles Davis Quintet": {
+        "tracks": {
+            "If I Were a Bell": {
+                "writer": ["Frank Loesser"]
+            },
+            "You're My Everything": {
+                "writer": ["Harry Warren"]
+            },
+            "I Could Write a Book": {
+                "writer": ["Richard Rodgers"]
+            },
+            "Oleo": {
+                "writer": ["Sonny Rollins"]
+            },
+            "It Could Happen to You": {
+                "writer": ["Jimmy Van Heusen"]
+            },
+            "Woody 'n' You": {
+                "writer": ["Dizzy Gillespie"]
+            }        
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/d/de/Miles_Davis_relaxin.png"
     }
 }

@@ -211,7 +211,7 @@
             },
             {
                 "Whispering": "trumpet",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
             },
             {
                 "Dr. Jackle": "trumpet",
@@ -329,23 +329,23 @@
                 "Green Haze": "trumpet",
                 "album": "The Musings of Miles"
             },
-            { 
+            {
                 "Dig": "trumpet",
                 "album": "Dig"
             },
-            { 
+            {
                 "It's Only a Paper Moon": "trumpet",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "trumpet",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "trumpet",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "trumpet",
                 "album": "Dig"
             },
@@ -372,6 +372,130 @@
             {
                 "Stablemates": "trumpet",
                 "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "I'll Remember April": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Four": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Old Devil Moon": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Smooch": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Blue Haze": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "When Lights are Low": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Tune Up": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Miles Ahead": "trumpet",
+                "album": "Blue Haze"
+            },
+            {
+                "Walkin'": "trumpet",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "trumpet",
+                "album": "Walkin'"
+            },
+            {
+                "Solar": "trumpet",
+                "album": "Walkin'"
+            },
+            {
+                "You Don't Know What Love Is": "trumpet",
+                "album": "Walkin'"
+            },
+            {
+                "Love Me or Leave Me": "trumpet",
+                "album": "Walkin'"
+            },
+            {
+                "My Funny Valentine": "trumpet",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Blues by Five": "trumpet",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Airegin": "trumpet",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Tune Up": "trumpet",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "When Lights are Low": "trumpet",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Bags' Groove (Take 1)": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "Bags' Groove (Take 2)": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "Airegin": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "Oleo": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 2)": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 1)": "trumpet",
+                "album": "Bags' Groove"
+            },
+            {
+                "Doxy": "trumpet",
+                "album": "Bags' Groove"
+            },
+            { 
+                "If I Were a Bell": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "You're My Everything": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "I Could Write a Book": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Oleo": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "It Could Happen to You": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Woody 'n' You": "trumpet",
+                "album": "Relaxin' with the Miles Davis Quintet"
             }
         ]
     },
@@ -419,7 +543,7 @@
             },
             {
                 "Whispering": "tenor saxophone",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
             },
             {
                 "Airegin": "tenor saxophone",
@@ -437,25 +561,45 @@
                 "Doxy": "tenor saxophone",
                 "album": "Miles Davis with Sonny Rollins"
             },
-            { 
+            {
                 "Dig": "tenor saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "It's Only a Paper Moon": "tenor saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "tenor saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "tenor saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "tenor saxophone",
                 "album": "Dig"
+            },
+            {
+                "Airegin": "tenor saxophone",
+                "album": "Bags' Groove"
+            },
+            {
+                "Oleo": "tenor saxophone",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 2)": "tenor saxophone",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 1)": "tenor saxophone",
+                "album": "Bags' Groove"
+            },
+            {
+                "Doxy": "tenor saxophone",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -501,23 +645,23 @@
                 "Compulsion": "piano",
                 "album": "Miles Davis and Horns"
             },
-            { 
+            {
                 "Dig": "piano",
                 "album": "Dig"
             },
-            { 
+            {
                 "It's Only a Paper Moon": "piano",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "piano",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "piano",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "piano",
                 "album": "Dig"
             }
@@ -549,23 +693,23 @@
                 "Out of the Blue": "double bass",
                 "album": "Blue Period"
             },
-            { 
+            {
                 "Dig": "double bass",
                 "album": "Dig"
             },
-            { 
+            {
                 "It's Only a Paper Moon": "double bass",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "double bass",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "double bass",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "double bass",
                 "album": "Dig"
             }
@@ -669,25 +813,37 @@
                 "Blue Haze": "drums",
                 "album": "Miles Davis Quartet"
             },
-            { 
+            {
                 "Dig": "drums",
                 "album": "Dig"
             },
-            { 
+            {
                 "It's Only a Paper Moon": "drums",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "drums",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "drums",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "drums",
                 "album": "Dig"
+            },
+            {
+                "Four": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Old Devil Moon": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Blue Haze": "drums",
+                "album": "Blue Haze"
             }
         ]
     },
@@ -736,6 +892,14 @@
             {
                 "Walkin'": "trombone",
                 "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "trombone",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "trombone",
+                "album": "Walkin'"
             }
         ]
     },
@@ -952,6 +1116,58 @@
             {
                 "The Man I Love": "drums",
                 "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "I'll Remember April": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Walkin'": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "Solar": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "You Don't Know What Love Is": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "Love Me or Leave Me": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "Bags' Groove (Take 1)": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "Bags' Groove (Take 2)": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "Airegin": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "Oleo": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 2)": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 1)": "drums",
+                "album": "Bags' Groove"
+            },
+            {
+                "Doxy": "drums",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -1019,7 +1235,19 @@
             },
             {
                 "Whispering": "piano",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
+            },
+            {
+                "When Lights are Low": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Tune Up": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Miles Ahead": "piano",
+                "album": "Blue Haze"
             }
         ]
     },
@@ -1151,7 +1379,7 @@
             },
             {
                 "Whispering": "bass",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
             },
             {
                 "Dr. Jackle": "bass",
@@ -1216,6 +1444,86 @@
             {
                 "The Man I Love": "bass",
                 "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "I'll Remember April": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Four": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Old Devil Moon": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Smooch": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Blue Haze": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "When Lights are Low": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Tune Up": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Miles Ahead": "bass",
+                "album": "Blue Haze"
+            },
+            {
+                "Walkin'": "bass",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "bass",
+                "album": "Walkin'"
+            },
+            {
+                "Solar": "bass",
+                "album": "Walkin'"
+            },
+            {
+                "You Don't Know What Love Is": "bass",
+                "album": "Walkin'"
+            },
+            {
+                "Love Me or Leave Me": "bass",
+                "album": "Walkin'"
+            },
+            {
+                "Bags' Groove (Take 1)": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "Bags' Groove (Take 2)": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "Airegin": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "Oleo": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 2)": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 1)": "bass",
+                "album": "Bags' Groove"
+            },
+            {
+                "Doxy": "bass",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -1239,7 +1547,7 @@
             },
             {
                 "Whispering": "drums",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -1289,25 +1597,25 @@
                 "Minor March": "tenor saxophone",
                 "album": "Quintet / Sextet"
             },
-            { 
+            {
                 "Dig": "alto saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Denial": "alto saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Bluing": "alto saxophone",
                 "album": "Dig"
             },
-            { 
+            {
                 "Out of the Blue": "alto saxophone",
                 "album": "Dig"
             }
         ]
     },
-    "Al Cohn":{
+    "Al Cohn": {
         "tracks": [
             {
                 "Tasty Pudding": "tenor saxophone",
@@ -1379,7 +1687,7 @@
             }
         ]
     },
-    "Sonny Truitt":{
+    "Sonny Truitt": {
         "tracks": [
             {
                 "Tasty Pudding": "trombone",
@@ -1415,7 +1723,7 @@
             }
         ]
     },
-    "Leonard Gaskin":{
+    "Leonard Gaskin": {
         "tracks": [
             {
                 "Tasty Pudding": "bass",
@@ -1455,27 +1763,27 @@
         "tracks": [
             {
                 "Take Off": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "Weirdo": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "Well You Needn't": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "The Leap": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "Lazy Susan": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "It Never Entered My Mind": "piano",
-                "album":"Miles Davis Volume 2"
+                "album": "Miles Davis Volume 2"
             },
             {
                 "Take Off": "piano",
@@ -1548,6 +1856,62 @@
             {
                 "Doxy": "piano",
                 "album": "Miles Davis with Sonny Rollins"
+            },
+            {
+                "I'll Remember April": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Four": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Old Devil Moon": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Blue Haze": "piano",
+                "album": "Blue Haze"
+            },
+            {
+                "Walkin'": "piano",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "piano",
+                "album": "Walkin'"
+            },
+            {
+                "Solar": "piano",
+                "album": "Walkin'"
+            },
+            {
+                "You Don't Know What Love Is": "piano",
+                "album": "Walkin'"
+            },
+            {
+                "Love Me or Leave Me": "piano",
+                "album": "Walkin'"
+            },
+            {
+                "Airegin": "piano",
+                "album": "Bags' Groove"
+            },
+            {
+                "Oleo": "piano",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 2)": "piano",
+                "album": "Bags' Groove"
+            },
+            {
+                "But Not for Me (Take 1)": "piano",
+                "album": "Bags' Groove"
+            },
+            {
+                "Doxy": "piano",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -1588,6 +1952,10 @@
             {
                 "Easy Living": "bass",
                 "album": "Blue Moods"
+            },
+            {
+                "Smooch": "bass",
+                "album": "Blue Haze"
             }
         ]
     },
@@ -1608,6 +1976,26 @@
             {
                 "Smooch": "drums",
                 "album": "Miles Davis Quartet"
+            },
+            {
+                "Smooch": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Blue Haze": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "When Lights are Low": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Tune Up": "drums",
+                "album": "Blue Haze"
+            },
+            {
+                "Miles Ahead": "drums",
+                "album": "Blue Haze"
             }
         ]
     },
@@ -1620,6 +2008,14 @@
             {
                 "Walkin'": "tenor saxophone",
                 "album": "Miles Davis All-Star Sextet"
+            },
+            {
+                "Walkin'": "tenor saxophone",
+                "album": "Walkin'"
+            },
+            {
+                "Blue 'n' Boogie": "tenor saxophone",
+                "album": "Walkin'"
             }
         ]
     },
@@ -1632,6 +2028,18 @@
             {
                 "I'll Remember April": "alto saxophone",
                 "album": "Miles Davis Quintet"
+            },
+            {
+                "Solar": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "You Don't Know What Love Is": "drums",
+                "album": "Walkin'"
+            },
+            {
+                "Love Me or Leave Me": "drums",
+                "album": "Walkin'"
             }
         ]
     },
@@ -1651,7 +2059,7 @@
             },
             {
                 "Whispering": "trombone",
-                "album": "Miles Davis and Horns"    
+                "album": "Miles Davis and Horns"
             }
         ]
     },
@@ -1688,6 +2096,14 @@
             {
                 "The Man I Love": "vibraphone",
                 "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "Bags' Groove (Take 1)": "vibraphone",
+                "album": "Bags' Groove"
+            },
+            {
+                "Bags' Groove (Take 2)": "vibraphone",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -1844,6 +2260,50 @@
             {
                 "Stablemates": "drums",
                 "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "My Funny Valentine": "drums",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Blues by Five": "drums",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Airegin": "drums",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Tune Up": "drums",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "When Lights are Low": "drums",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            { 
+                "If I Were a Bell": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "You're My Everything": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "I Could Write a Book": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Oleo": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "It Could Happen to You": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Woody 'n' You": "drums",
+                "album": "Relaxin' with the Miles Davis Quintet"
             }
         ]
     },
@@ -1884,6 +2344,50 @@
             {
                 "Stablemates": "bass",
                 "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "My Funny Valentine": "double bass",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Blues by Five": "double bass",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Airegin": "double bass",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Tune Up": "double bass",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "When Lights are Low": "double bass",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            { 
+                "If I Were a Bell": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "You're My Everything": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "I Could Write a Book": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Oleo": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "It Could Happen to You": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Woody 'n' You": "bass",
+                "album": "Relaxin' with the Miles Davis Quintet"
             }
         ]
     },
@@ -1904,6 +2408,14 @@
             {
                 "The Man I Love": "piano",
                 "album": "Miles Davis All Stars, Volume 2"
+            },
+            {
+                "Bags' Groove (Take 1)": "piano",
+                "album": "Bags' Groove"
+            },
+            {
+                "Bags' Groove (Take 2)": "piano",
+                "album": "Bags' Groove"
             }
         ]
     },
@@ -2016,6 +2528,50 @@
             {
                 "Stablemates": "piano",
                 "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "My Funny Valentine": "piano",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Blues by Five": "piano",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Airegin": "piano",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Tune Up": "piano",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "When Lights are Low": "piano",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            { 
+                "If I Were a Bell": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "You're My Everything": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "I Could Write a Book": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Oleo": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "It Could Happen to You": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Woody 'n' You": "piano",
+                "album": "Relaxin' with the Miles Davis Quintet"
             }
         ]
     },
@@ -2044,6 +2600,54 @@
             {
                 "Stablemates": "tenor saxophone",
                 "album": "Miles: The New Miles Davis Quintet"
+            },
+            {
+                "Blues by Five": "tenor saxophone",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Airegin": "tenor saxophone",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "Tune Up": "tenor saxophone",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            {
+                "When Lights are Low": "tenor saxophone",
+                "album": "Cookin' with the Miles Davis Quintet"
+            },
+            { 
+                "If I Were a Bell": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "You're My Everything": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "I Could Write a Book": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Oleo": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "It Could Happen to You": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            },
+            { 
+                "Woody 'n' You": "tenor saxophone",
+                "album": "Relaxin' with the Miles Davis Quintet"
+            }
+        ]
+    },
+    "David Schildkraut": {
+        "tracks": [
+            {
+                "I'll Remember April": "alto saxophone",
+                "album": "Blue Haze"
             }
         ]
     }
