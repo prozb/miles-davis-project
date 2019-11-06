@@ -647,5 +647,182 @@
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Milestonescover.jpg/220px-Milestonescover.jpg"
+    },
+    "Jazz Track": {
+        "tracks": {
+            "Générique": {
+                "writer": ["Miles Davis"]
+            },
+            "L'Assassinat De Carala": {
+                "writer": ["Miles Davis"]
+            },
+            "Sur L'Autoroute": {
+                "writer": ["Miles Davis"]
+            },
+            "Julien Dans L'Ascenseur": {
+                "writer": ["Miles Davis"]
+            },
+            "Florence Sur Les Champs-Élysées": {
+                "writer": ["Miles Davis"]
+            },
+            "Dîner Au Motel": {
+                "writer": ["Miles Davis"]
+            },
+            "Évasion de Julien": {
+                "writer": ["Miles Davis"]
+            },
+            "Visite du Vigile": {
+                "writer": ["Miles Davis"]
+            },
+            "Au bar du Petit Bac": {
+                "writer": ["Miles Davis"]
+            },
+            "Chez le Photographe du Motel": {
+                "writer": ["Miles Davis"]
+            },
+            "On Green Dolphin Street": {
+                "writer": ["Bronislaw Kaper", "Ned Washington"]
+            },
+            "Fran Dance": {
+                "writer": ["Miles Davis"]
+            },
+            "Stella by Starlight": {
+                "writer": ["Victor Young", "Ned Washington"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/d/d8/JazzTrack_Miles.jpg"
+    },
+    "Porgy And Bess": {
+        "tracks": {
+            "The Buzzard Song": {
+                "writer": ["George Gershwin"]
+            },
+            "Bess, You Is My Woman Now": {
+                "writer": ["George Gershwin"]
+            },
+            "Gone": {
+                "writer": ["Gil Evans"]
+            },
+            "Gone, Gone, Gone": {
+                "writer": ["George Gershwin"]
+            },
+            "Summertime": {
+                "writer": ["George Gershwin"]
+            },
+            "Bess, Oh Where's My Bess": {
+                "writer": ["George Gershwin"]
+            },
+            "Prayer (Oh Doctor Jesus)": {
+                "writer": ["George Gershwin"]
+            },
+            "Fishermen, Strawberry And Devil Crab": {
+                "writer": ["George Gershwin"]
+            },
+            "My Man's Gone Now": {
+                "writer": ["George Gershwin"]
+            },
+            "It Ain't Necessarily So": {
+                "writer": ["George Gershwin"]
+            },
+            "Here Come De Honey Man": {
+                "writer": ["George Gershwin"]
+            },
+            "I Loves You, Porgy": {
+                "writer": ["George Gershwin"]
+            },
+            "There's A Boat That's Leaving Soon For New York": {
+                "writer": ["George Gershwin"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Porgy_and_Bess_%28Miles_Davis%29.jpg/220px-Porgy_and_Bess_%28Miles_Davis%29.jpg"
+    },
+    "Kind of Blue": {
+        "tracks": {
+            "So What": {
+                "writer": ["Miles Davis"]
+            },
+            "Freddie Freeloader": {
+                "writer": ["Miles Davis"]
+            },
+            "Blue in Green": {
+                "writer": ["Miles Davis", "Bill Evans"]
+            },
+            "All Blues": {
+                "writer": ["Miles Davis"]
+            },
+            "Flamenco Sketches": {
+                "writer": ["Miles Davis", "Bill Evans"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/MilesDavisKindofBlue.jpg/220px-MilesDavisKindofBlue.jpg"
+    },
+    "Sketches of Spain": {
+        "tracks": {
+            "Concierto de Aranjuez (Adagio)": {
+                "writer": ["Joaquín Rodrigo"]
+            },
+            "Will o' the Wisp": {
+                "writer": ["Manuel de Falla"]
+            },
+            "The Pan Piper (Alborada de Vigo)": {
+                "writer": ["traditional"]
+            },
+            "Saeta": {
+                "writer": ["Gil Evans"]
+            },
+            "Solea": {
+                "writer": ["Gil Evans"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Miles_Davis_-_Sketches_of_Spain.png/220px-Miles_Davis_-_Sketches_of_Spain.png"
+    },
+    "Someday My Prince Will Come": {
+        "tracks": {
+            "Someday My Prince Will Come": {
+                "writer": ["Frank Churchill", "Larry Morey"]
+            },
+            "Old Folks": {
+                "writer": ["Willard Robison", "Dedette Lee Hill"]
+            },
+            "Pfrancing": {
+                "writer": ["Miles Davis"]
+            },
+            "Drad-Dog": {
+                "writer": ["Miles Davis"]
+            },
+            "Teo": {
+                "writer": ["Miles Davis"]
+            },
+            "I Thought About You": {
+                "writer": ["Jimmy Van Heusen", "Johnny Mercer"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg/220px-MilesDavis_SomedayMyPrinceWillCome.jpg"
+    },
+    "Quiet Nights": {
+        "tracks": {
+            "Song No. 2 (a.k.a. Prenda Minha, Brazilian folk song)": {
+                "writer": ["Gil Evans", "Miles Davis"]
+            },
+            "Once Upon a Summertime": {
+                "writer": ["Johnny Mercer", "Michel Legrand"]
+            },
+            "Aos Pés da Cruz": {
+                "writer": ["Marino Pinto", "José Gonçalves"]
+            },
+            "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": {
+                "writer": ["Gil Evans", "Miles Davis"]
+            },
+            "Wait Till You See Her": {
+                "writer": ["Richard Rodgers", "Lorenz Hart"]
+            },
+            "Corcovado": {
+                "writer": ["Antônio Carlos Jobim"]
+            },
+            "Summer Night": {
+                "writer": ["Harry Warren", "Al Dubin"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/MileDavis_QuietNights.jpg/220px-MileDavis_QuietNights.jpg"
     }
 }

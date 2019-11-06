@@ -1,6 +1,185 @@
 {
     "Miles Davis": {
         "tracks": [
+            { 
+                "Once Upon a Summertime": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Summer Night": "trumpet",
+                "album": "Quiet Nights" 	
+            },                       
+            { 
+                "Teo": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Someday My Prince Will Come": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Old Folks": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Pfrancing": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Drad-Dog": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "I Thought About You": "trumpet",
+                "album": "Someday My Prince Will Come" 
+            },            
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },            
+            {
+                "So What": "trumpet",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Freddie Freeloader": "trumpet",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "trumpet",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "trumpet",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "trumpet",
+                "album": "Kind of Blue" 
+            },            
+            {   "The Buzzard Song": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trumpet",
+                "album": "Porgy And Bess" 
+            },
+            {
+                "Générique": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "L'Assassinat De Carala": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Sur L'Autoroute": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Julien Dans L'Ascenseur": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Florence Sur Les Champs-Élysées": "trumpet",
+                "album": "Jazz Track" 
+            },
+            {
+                "Dîner Au Motel": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Évasion de Julien": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Visite du Vigile": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Au bar du Petit Bac": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Chez le Photographe du Motel": "trumpet",
+                "album": "Jazz Track"
+            },          
+            {
+                "On Green Dolphin Street": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "trumpet",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "trumpet",
+                "album": "Jazz Track"
+            },
             {
                 "Conception": "trumpet",
                 "album": "The New Sounds"
@@ -1013,6 +1192,26 @@
     },
     "Jay Jay Johnson": {
         "tracks": [
+            { 
+                "Once Upon a Summertime": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trombone",
+                "album": "Quiet Nights" 	
+            },           
             {
                 "Dear Old Stockholm": "trombone",
                 "album": "Young Man with a Horn"
@@ -1169,6 +1368,46 @@
     },
     "Kenny Clarke": {
         "tracks": [
+            {
+                "Générique": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "L'Assassinat De Carala": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Sur L'Autoroute": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Julien Dans L'Ascenseur": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Florence Sur Les Champs-Élysées": "drums",
+                "album": "Jazz Track" 
+            },
+            {
+                "Dîner Au Motel": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Évasion de Julien": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Visite du Vigile": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Au bar du Petit Bac": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Chez le Photographe du Motel": "drums",
+                "album": "Jazz Track"
+            },
             {
                 "Dear Old Stockholm": "drums",
                 "album": "Young Man with a Horn"
@@ -2449,6 +2688,33 @@
     },
     "Philly Joe Jones": {
         "tracks": [
+            {   "The Buzzard Song": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "drums",
+                "album": "Porgy And Bess" 
+            },            
             {
                 "The Serpent's Tooth (Take 1)": "drums",
                 "album": "Miles Davis and Horns"
@@ -2669,6 +2935,145 @@
     },
     "Paul Chambers": {
         "tracks": [
+            { 
+                "Once Upon a Summertime": "bass",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "bass",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "bass",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "bass",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "bass",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Summer Night": "bass",
+                "album": "Quiet Nights" 	
+            },            
+            { 
+                "Someday My Prince Will Come": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Old Folks": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Pfrancing": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Drad-Dog": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Teo": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "I Thought About You": "bass",
+                "album": "Someday My Prince Will Come" 
+            },
+            {
+                "Concierto de Aranjuez (Adagio)": "bass",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "bass",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "bass",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "bass",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"bass",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "So What": "double bass",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Freddie Freeloader": "double bass",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "double bass",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "double bass",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "double bass",
+                "album": "Kind of Blue" 
+            },        
+            {   "The Buzzard Song": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "bass",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "bass",
+                "album": "Porgy And Bess" 
+            },
+            {
+                "On Green Dolphin Street": "bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "bass",
+                "album": "Jazz Track"
+            },
             {
                 "No Line": "bass",
                 "album": "Miles Davis and Horns"
@@ -2985,6 +3390,46 @@
     },
     "Elvin Jones": {
         "tracks": [
+            { 
+                "Once Upon a Summertime": "percussion",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "percussion",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "percussion",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "percussion",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "percussion",
+                "album": "Quiet Nights" 	
+            },       
+            {
+                "Concierto de Aranjuez (Adagio)": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"percussion",
+                "album": "Sketches of Spain" 
+            },
             {
                 "Nature Boy": "drums",
                 "album": "Blue Moods"
@@ -3209,6 +3654,42 @@
     },
     "John Coltrane": {
         "tracks": [
+            { 
+                "Teo": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            },
+            {
+                "So What": "tenor saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Freddie Freeloader": "tenor saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "tenor saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "tenor saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "tenor saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "On Green Dolphin Street": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "tenor saxophone",
+                "album": "Jazz Track"
+            },
             {
                 "Just Squeeze Me": "tenor saxophone",
                 "album": "Miles: The New Miles Davis Quintet"
@@ -3382,6 +3863,85 @@
     "Bernie Glow": {
         "tracks": [
             { 
+                "Once Upon a Summertime": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trumpet",
+                "album": "Quiet Nights" 	
+            },        
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trumpet",
+                "album": "Porgy And Bess" 
+            },
+            { 
                 "Springsville": "trumpet",
                 "album": "Miles Ahead"
             },
@@ -3425,6 +3985,85 @@
     },
     "Ernie Royal": {
         "tracks": [
+            { 
+                "Once Upon a Summertime": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trumpet",
+                "album": "Quiet Nights" 	
+            },          
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trumpet",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "trumpet",
                 "album": "Miles Ahead"
@@ -3470,6 +4109,85 @@
     "Louis Mucci": {
         "tracks": [
             { 
+                "Once Upon a Summertime": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trumpet",
+                "album": "Quiet Nights" 	
+            },          
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trumpet",
+                "album": "Porgy And Bess" 
+            },
+            { 
                 "Springsville": "trumpet",
                 "album": "Miles Ahead"
             },
@@ -3513,6 +4231,26 @@
     },
     "Taft Jordan": {
         "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },
             { 
                 "Springsville": "trumpet",
                 "album": "Miles Ahead"
@@ -3602,6 +4340,85 @@
     "Frank Rehak": {
         "tracks": [
             { 
+                "Once Upon a Summertime": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trombone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trombone",
+                "album": "Quiet Nights" 	
+            },          
+            {
+                "Concierto de Aranjuez (Adagio)": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trombone",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trombone",
+                "album": "Porgy And Bess" 
+            },
+            { 
                 "Springsville": "trombone",
                 "album": "Miles Ahead"
             },
@@ -3645,6 +4462,45 @@
     },
     "Jimmy Cleveland": {
         "tracks": [
+            {   "The Buzzard Song": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trombone",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "trombone",
                 "album": "Miles Ahead"
@@ -3689,6 +4545,45 @@
     },
     "Joe Bennett": {
         "tracks": [
+            {   "The Buzzard Song": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trombone",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "trombone",
                 "album": "Miles Ahead"
@@ -3777,6 +4672,45 @@
     },
     "Willie Ruff": {
         "tracks": [
+            {   "The Buzzard Song": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "horn",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "french horn",
                 "album": "Miles Ahead"
@@ -3822,6 +4756,26 @@
     },
     "Tony Miranda": {
         "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"french horn",
+                "album": "Sketches of Spain" 
+            },
             { 
                 "Springsville": "french horn",
                 "album": "Miles Ahead"
@@ -3913,6 +4867,85 @@
     "Bill Barber": {
         "tracks": [
             { 
+                "Once Upon a Summertime": "tuba",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "tuba",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "tuba",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "tuba",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "tuba",
+                "album": "Quiet Nights" 	
+            },          
+            {
+                "Concierto de Aranjuez (Adagio)": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"tuba",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "tuba",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "tuba",
+                "album": "Porgy And Bess" 
+            },
+            { 
                 "Springsville": "tuba",
                 "album": "Miles Ahead"
             },
@@ -4000,6 +5033,45 @@
     },
     "Danny Bank": {
         "tracks": [
+            {   "The Buzzard Song": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "flute",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "bass clarinet",
                 "album": "Miles Ahead"
@@ -4044,6 +5116,65 @@
     },
     "Romeo Penque": {
         "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "oboe",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "oboe",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "oboe",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "oboe",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"oboe",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "flute",
+                "album": "Porgy And Bess" 
+            },
             { 
                 "Springsville": "flute",
                 "album": "Miles Ahead"
@@ -4133,6 +5264,46 @@
     "Wynton Kelly": {
         "tracks": [
             { 
+                "Someday My Prince Will Come": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Old Folks": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Pfrancing": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Drad-Dog": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Teo": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "I Thought About You": "piano",
+                "album": "Someday My Prince Will Come" 
+            },
+            {
+                "So What": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "piano",
+                "album": "Kind of Blue" 
+            },
+            { 
                 "Springsville": "piano",
                 "album": "Miles Ahead"
             },
@@ -4176,6 +5347,73 @@
     },
     "Julian \"Cannonball\" Adderley": {
         "tracks": [
+            {
+                "So What": "alto saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Freddie Freeloader": "alto saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "alto saxophone",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "alto saxophone",
+                "album": "Kind of Blue" 
+            },            
+            {   "The Buzzard Song": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "alto saxophone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "alto saxophone",
+                "album": "Porgy And Bess" 
+            },
+            {
+                "On Green Dolphin Street": "alto saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "alto saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "alto saxophone",
+                "album": "Jazz Track"
+            },
             { 
                 "Dr. Jekyll": "alto saxophone",
                 "album": "Milestones"
@@ -4201,5 +5439,1167 @@
                 "album": "Milestones"
             }                                                
         ]
+    },
+    "Barney Wilen": {
+        "tracks": [
+            {
+                "Générique": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "L'Assassinat De Carala": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Sur L'Autoroute": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Julien Dans L'Ascenseur": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Florence Sur Les Champs-Élysées": "tenor saxophone",
+                "album": "Jazz Track" 
+            },
+            {
+                "Dîner Au Motel": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Évasion de Julien": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Visite du Vigile": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Au bar du Petit Bac": "tenor saxophone",
+                "album": "Jazz Track"
+            },
+            {
+                "Chez le Photographe du Motel": "tenor saxophone",
+                "album": "Jazz Track"
+            }                                         
+        ]
+    },
+    "René Urtreger": {
+        "tracks": [
+            {
+                "Générique": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "L'Assassinat De Carala": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Sur L'Autoroute": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Julien Dans L'Ascenseur": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Florence Sur Les Champs-Élysées": "piano",
+                "album": "Jazz Track" 
+            },
+            {
+                "Dîner Au Motel": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Évasion de Julien": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Visite du Vigile": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Au bar du Petit Bac": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Chez le Photographe du Motel": "piano",
+                "album": "Jazz Track"
+            }                                             
+        ]
+    },
+    "Pierre Michelot": {
+        "tracks": [
+            {
+                "Générique": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "L'Assassinat De Carala": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Sur L'Autoroute": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Julien Dans L'Ascenseur": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Florence Sur Les Champs-Élysées": "double bass",
+                "album": "Jazz Track" 
+            },
+            {
+                "Dîner Au Motel": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Évasion de Julien": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Visite du Vigile": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Au bar du Petit Bac": "double bass",
+                "album": "Jazz Track"
+            },
+            {
+                "Chez le Photographe du Motel": "double bass",
+                "album": "Jazz Track"
+            }                            
+        ]
+    },
+    "Bill Evans": {
+        "tracks": [
+            {
+                "So What": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "piano",
+                "album": "Kind of Blue" 
+            },
+            {
+                "On Green Dolphin Street": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "piano",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "piano",
+                "album": "Jazz Track"
+            }           
+        ]
+    },
+    "Jimmy Cobb": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "drums",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "drums",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "drums",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "drums",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "drums",
+                "album": "Quiet Nights" 	
+            },          
+            { 
+                "Someday My Prince Will Come": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Old Folks": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Pfrancing": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Drad-Dog": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Teo": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "I Thought About You": "drums",
+                "album": "Someday My Prince Will Come" 
+            },
+            {
+                "Concierto de Aranjuez (Adagio)": "drums",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "drums",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "drums",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "drums",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"drums",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "So What": "drums",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Freddie Freeloader": "drums",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Blue in Green": "drums",
+                "album": "Kind of Blue" 
+            },
+            {
+                "All Blues": "drums",
+                "album": "Kind of Blue" 
+            },
+            {
+                "Flamenco Sketches": "drums",
+                "album": "Kind of Blue" 
+            },        
+            {   "The Buzzard Song": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "drums",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "drums",
+                "album": "Porgy And Bess" 
+            },            
+            {
+                "On Green Dolphin Street": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Fran Dance": "drums",
+                "album": "Jazz Track"
+            },
+            {
+                "Stella by Starlight": "drums",
+                "album": "Jazz Track"
+            }    
+        ]
+    },
+    "Johnny Coles": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trumpet",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trumpet",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trumpet",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "Dick Hixon": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "trombone",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"trombone",
+                "album": "Sketches of Spain" 
+            },
+            {   "The Buzzard Song": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "trombone",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "trombone",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "Julius Watkins": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "french horn",
+                "album": "Quiet Nights" 	
+            },          
+            {   "The Buzzard Song": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "horn",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "Gunther Schuller": {
+        "tracks": [
+            {   "The Buzzard Song": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "horn",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "horn",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "Phil Bodner": {
+        "tracks": [
+            {   "The Buzzard Song": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "flute",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "Jerome Richardson": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "woodwinds",
+                "album": "Quiet Nights" 	
+            },           
+            {   "The Buzzard Song": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, You Is My Woman Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Gone, Gone, Gone": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Summertime": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Bess, Oh Where's My Bess": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Prayer (Oh Doctor Jesus)": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Fishermen, Strawberry And Devil Crab": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "My Man's Gone Now": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "It Ain't Necessarily So": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "Here Come De Honey Man": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "I Loves You, Porgy": "flute",
+                "album": "Porgy And Bess" 	
+            },
+            {   "There's A Boat That's Leaving Soon For New York": "flute",
+                "album": "Porgy And Bess" 
+            }
+        ]
+    },
+    "John Barrows": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"french horn",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Albert Block": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "flute",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "flute",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "flute",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "flute",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "flute",
+                "album": "Quiet Nights" 	
+            }          
+        ]
+    },
+    "James Buffington": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"french horn",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Eddie Caine": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "flute",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "flute",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "flute",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "flute",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"flute",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Earl Chapin": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"french horn",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Harold Feldman": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "clarinet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "clarinet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "clarinet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "clarinet",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"clarinet",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Jack Knitzer": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "bassoon",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "bassoon",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "bassoon",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "bassoon",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"bassoon",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Jose Mangual": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "percussion",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"percussion",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Jimmy McAllister": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "tuba",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"tuba",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Janet Putnam": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "harp",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "harp",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "harp",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "harp",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "harp",
+                "album": "Quiet Nights" 	
+            },          
+            {
+                "Concierto de Aranjuez (Adagio)": "harp",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "harp",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "harp",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "harp",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"harp",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Joe Singer": {
+        "tracks": [
+            {
+                "Concierto de Aranjuez (Adagio)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Will o' the Wisp": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "The Pan Piper (Alborada de Vigo)": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Saeta": "french horn",
+                "album": "Sketches of Spain" 
+            },
+            {
+                "Solea":"french horn",
+                "album": "Sketches of Spain" 
+            }
+        ]
+    },
+    "Hank Mobley": {
+        "tracks": [
+            { 
+                "Someday My Prince Will Come": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Old Folks": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Pfrancing": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "Drad-Dog": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            },
+            { 
+                "I Thought About You": "tenor saxophone",
+                "album": "Someday My Prince Will Come" 
+            }
+        ]
+    },
+    "Shorty Baker": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "trumpet",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "trumpet",
+                "album": "Quiet Nights" 	
+            }          
+        ]
+    },
+    "Ray Alonge": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "french horn",
+                "album": "Quiet Nights" 	
+            }           
+        ]
+    },
+    "Don Corrado": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "french horn",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "french horn",
+                "album": "Quiet Nights" 	
+            }
+        ]
+    },
+    "Steve Lacy": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "soprano saxophone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "soprano saxophone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "soprano saxophone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "soprano saxophone",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "soprano saxophone",
+                "album": "Quiet Nights" 	
+            }        
+        ]
+    },
+    "Ray Beckenstein": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "woodwinds",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "woodwinds",
+                "album": "Quiet Nights" 	
+            }        
+        ]
+    },
+    "Garvin Bushell": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "bassoons",
+                "album": "Quiet Nights" 	
+            }                
+        ]
+    },
+    "Bob Tricarico": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "bassoons",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "bassoons",
+                "album": "Quiet Nights" 	
+            }            
+        ]
+    },
+    "Willie Bobo": {
+        "tracks": [
+            { 
+                "Once Upon a Summertime": "bongos",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Aos Pés da Cruz": "bongos",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": "bongos",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Wait Till You See Her": "bongos",
+                "album": "Quiet Nights" 	
+            },
+            { 
+                "Corcovado": "bongos",
+                "album": "Quiet Nights" 	
+            }                   
+        ]
+    },
+    "George Coleman": {
+        "tracks": [
+            { 
+                "Summer Night": "tenor saxophone",
+                "album": "Quiet Nights" 	
+            }               
+        ]
+    },
+    "Victor Feldman": {
+        "tracks": [
+            { 
+                "Summer Night": "piano",
+                "album": "Quiet Nights" 	
+            }               
+        ]
+    },
+    "Ron Carter": {
+        "tracks": [
+            { 
+                "Summer Night": "bass",
+                "album": "Quiet Nights" 	
+            }               
+        ]
+    },
+    "Frank Butler": {
+        "tracks": [
+            { 
+                "Summer Night": "drums",
+                "album": "Quiet Nights" 	
+            }               
+        ]
     }
+
 }
