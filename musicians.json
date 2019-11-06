@@ -2,6 +2,134 @@
     "Miles Davis": {
         "tracks": [
             { 
+                "Nefertiti":  "trumpet",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Fall":  "trumpet",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Hand Jive":  "trumpet",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Madness":  "trumpet",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Riot":  "trumpet",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Pinocchio":  "trumpet",
+                "album": "Nefertiti" 
+            },            
+            {
+                "Prince of Darkness": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "Pee Wee": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "Masqualero": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "The Sorcerer": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "Limbo": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "Vonetta": "trumpet",
+                "album": "Sorcerer"
+            },
+            {
+                "Nothing Like You": "trumpet",
+                "album": "Sorcerer" 
+            },            
+            {
+                "Orbits": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {
+                "Circle": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {
+                "Footprints": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {
+                "Dolores": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {
+                "Freedom Jazz Dance": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {
+                "Ginger Bread Boy": "trumpet",
+                "album": "Miles Smiles"
+            },
+            {   
+                "E.S.P.": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "Eighty-One": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "Little One": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "R.J.": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "Agitation": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "Iris": "trumpet",
+                "album": "E.S.P"
+            },
+            {   
+                "Mood": "trumpet",
+                "album": "E.S.P"
+            },            
+            {
+                "Basin Street Blues": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Seven Steps to Heaven": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "I Fall in Love Too Easily": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "So Near, So Far": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Baby Won't You Please Come Home": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Joshua": "trumpet",
+                "album": "Seven Steps to Heaven" 
+            },
+            { 
                 "Once Upon a Summertime": "trumpet",
                 "album": "Quiet Nights" 	
             },
@@ -2935,6 +3063,10 @@
     },
     "Paul Chambers": {
         "tracks": [
+            {
+                "Nothing Like You": "bass",
+                "album": "Sorcerer" 
+            },
             { 
                 "Once Upon a Summertime": "bass",
                 "album": "Quiet Nights" 	
@@ -4339,6 +4471,10 @@
     },
     "Frank Rehak": {
         "tracks": [
+            {
+                "Nothing Like You": "trombone",
+                "album": "Sorcerer" 
+            },            
             { 
                 "Once Upon a Summertime": "trombone",
                 "album": "Quiet Nights" 	
@@ -5606,6 +5742,10 @@
     },
     "Jimmy Cobb": {
         "tracks": [
+            {
+                "Nothing Like You": "drums",
+                "album": "Sorcerer" 
+            },
             { 
                 "Once Upon a Summertime": "drums",
                 "album": "Quiet Nights" 	
@@ -6547,6 +6687,10 @@
     },
     "Willie Bobo": {
         "tracks": [
+            {
+                "Nothing Like You": "bongos",
+                "album": "Sorcerer" 
+            },            
             { 
                 "Once Upon a Summertime": "bongos",
                 "album": "Quiet Nights" 	
@@ -6571,6 +6715,18 @@
     },
     "George Coleman": {
         "tracks": [
+            {
+                "Seven Steps to Heaven": "tenor saxophone",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "So Near, So Far": "tenor saxophone",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Joshua": "tenor saxophone",
+                "album": "Seven Steps to Heaven" 
+            },
             { 
                 "Summer Night": "tenor saxophone",
                 "album": "Quiet Nights" 	
@@ -6582,14 +6738,150 @@
             { 
                 "Summer Night": "piano",
                 "album": "Quiet Nights" 	
+            },
+            {
+                "Basin Street Blues": "piano",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "I Fall in Love Too Easily": "piano",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Baby Won't You Please Come Home": "piano",
+                "album": "Seven Steps to Heaven" 
             }               
         ]
     },
     "Ron Carter": {
         "tracks": [
             { 
+                "Nefertiti":  "double bass",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Fall":  "double bass",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Hand Jive":  "double bass",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Madness":  "double bass",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Riot":  "double bass",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Pinocchio":  "double bass",
+                "album": "Nefertiti" 
+            },            
+            {
+                "Prince of Darkness": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "Pee Wee": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "Masqualero": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "The Sorcerer": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "Limbo": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "Vonetta": "double bass",
+                "album": "Sorcerer"
+            },
+            {
+                "Orbits": "double bass",
+                "album": "Miles Smiles"
+            },
+            {
+                "Circle": "double bass",
+                "album": "Miles Smiles"
+            },
+            {
+                "Footprints": "double bass",
+                "album": "Miles Smiles"
+            },
+            {
+                "Dolores": "double bass",
+                "album": "Miles Smiles"
+            },
+            {
+                "Freedom Jazz Dance": "double bass",
+                "album": "Miles Smiles"
+            },
+            {
+                "Ginger Bread Boy": "double bass",
+                "album": "Miles Smiles"
+            },
+            {   
+                "E.S.P.": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "Eighty-One": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "Little One": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "R.J.": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "Agitation": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "Iris": "bass",
+                "album": "E.S.P"
+            },
+            {   
+                "Mood": "bass",
+                "album": "E.S.P"
+            },            
+            {
+                "Seven Steps to Heaven": "bass",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "So Near, So Far": "bass",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Joshua": "bass",
+                "album": "Seven Steps to Heaven" 
+            },
+            { 
                 "Summer Night": "bass",
                 "album": "Quiet Nights" 	
+            },
+            {
+                "Basin Street Blues": "bass",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "I Fall in Love Too Easily": "bass",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Baby Won't You Please Come Home": "bass",
+                "album": "Seven Steps to Heaven" 
             }               
         ]
     },
@@ -6598,7 +6890,367 @@
             { 
                 "Summer Night": "drums",
                 "album": "Quiet Nights" 	
+            },
+            {
+                "Basin Street Blues": "drums",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "I Fall in Love Too Easily": "drums",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Baby Won't You Please Come Home": "drums",
+                "album": "Seven Steps to Heaven" 
             }               
+        ]
+    },
+    "Herbie Hancock": {
+        "tracks": [
+            { 
+                "Nefertiti":  "piano",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Fall":  "piano",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Hand Jive":  "piano",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Madness":  "piano",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Riot":  "piano",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Pinocchio":  "piano",
+                "album": "Nefertiti" 
+            },            
+            {
+                "Prince of Darkness": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "Pee Wee": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "Masqualero": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "The Sorcerer": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "Limbo": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "Vonetta": "piano",
+                "album": "Sorcerer"
+            },
+            {
+                "Orbits": "piano",
+                "album": "Miles Smiles"
+            },
+            {
+                "Circle": "piano",
+                "album": "Miles Smiles"
+            },
+            {
+                "Footprints": "piano",
+                "album": "Miles Smiles"
+            },
+            {
+                "Dolores": "piano",
+                "album": "Miles Smiles"
+            },
+            {
+                "Freedom Jazz Dance": "piano",
+                "album": "Miles Smiles"
+            },
+            {
+                "Ginger Bread Boy": "piano",
+                "album": "Miles Smiles"
+            },
+            {   
+                "E.S.P.": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "Eighty-One": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "Little One": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "R.J.": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "Agitation": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "Iris": "piano",
+                "album": "E.S.P"
+            },
+            {   
+                "Mood": "piano",
+                "album": "E.S.P"
+            },            
+            {
+                "Seven Steps to Heaven": "piano",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "So Near, So Far": "piano",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Joshua": "piano",
+                "album": "Seven Steps to Heaven" 
+            }       
+        ]
+    },
+    "Tony Williams": {
+        "tracks": [
+            { 
+                "Nefertiti":  "drums",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Fall":  "drums",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Hand Jive":  "drums",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Madness":  "drums",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Riot":  "drums",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Pinocchio":  "drums",
+                "album": "Nefertiti" 
+            },            
+            {
+                "Prince of Darkness": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "Pee Wee": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "Masqualero": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "The Sorcerer": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "Limbo": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "Vonetta": "drums",
+                "album": "Sorcerer"
+            },
+            {
+                "Orbits": "drums",
+                "album": "Miles Smiles"
+            },
+            {
+                "Circle": "drums",
+                "album": "Miles Smiles"
+            },
+            {
+                "Footprints": "drums",
+                "album": "Miles Smiles"
+            },
+            {
+                "Dolores": "drums",
+                "album": "Miles Smiles"
+            },
+            {
+                "Freedom Jazz Dance": "drums",
+                "album": "Miles Smiles"
+            },
+            {
+                "Ginger Bread Boy": "drums",
+                "album": "Miles Smiles"
+            },
+            {   
+                "E.S.P.": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "Eighty-One": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "Little One": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "R.J.": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "Agitation": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "Iris": "drums",
+                "album": "E.S.P"
+            },
+            {   
+                "Mood": "drums",
+                "album": "E.S.P"
+            },            
+            {
+                "Seven Steps to Heaven": "drums",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "So Near, So Far": "drums",
+                "album": "Seven Steps to Heaven" 
+            },
+            {
+                "Joshua": "drums",
+                "album": "Seven Steps to Heaven" 
+            }
+        ]
+    },
+    "Wayne Shorter": {
+        "tracks": [
+            { 
+                "Nefertiti":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Fall":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Hand Jive":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Madness":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Riot":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },
+            { 
+                "Pinocchio":  "tenor saxophone",
+                "album": "Nefertiti" 
+            },            
+            {
+                "Prince of Darkness": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "Pee Wee": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "Masqualero": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "The Sorcerer": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "Limbo": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "Vonetta": "tenor saxophone",
+                "album": "Sorcerer"
+            },
+            {
+                "Nothing Like You": "tenor saxophone",
+                "album": "Sorcerer" 
+            },            
+            {
+                "Orbits": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {
+                "Circle": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {
+                "Footprints": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {
+                "Dolores": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {
+                "Freedom Jazz Dance": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {
+                "Ginger Bread Boy": "tenor saxophone",
+                "album": "Miles Smiles"
+            },
+            {   
+                "E.S.P.": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "Eighty-One": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "Little One": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "R.J.": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "Agitation": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "Iris": "tenor saxophone",
+                "album": "E.S.P"
+            },
+            {   
+                "Mood": "tenor saxophone",
+                "album": "E.S.P"
+            }            
+        ]
+    },
+    "Bob Dorough": {
+        "tracks": [
+            {
+                "Nothing Like You": "vocals",
+                "album": "Sorcerer" 
+            }
         ]
     }
 

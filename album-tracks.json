@@ -824,5 +824,126 @@
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/MileDavis_QuietNights.jpg/220px-MileDavis_QuietNights.jpg"
+    },
+    "Seven Steps to Heaven": {
+        "tracks": {
+            "Basin Street Blues": {
+                "writer": ["Spencer Williams"]
+            },
+            "Seven Steps to Heaven": {
+                "writer": ["Victor Feldman", "Miles Davis"]
+            },
+            "I Fall in Love Too Easily": {
+                "writer": ["Jule Styne"]
+            },
+            "So Near, So Far": {
+                "writer": ["Tony Crombie", "Benny Green"]
+            },
+            "Baby Won't You Please Come Home": {
+                "writer": ["Clarence Williams", "Charles Warfield"]
+            },
+            "Joshua": {
+                "writer": ["Victor Feldman"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Seven_Steps_to_Heaven_cover.jpg/220px-Seven_Steps_to_Heaven_cover.jpg"
+    },
+    "E.S.P": {
+        "tracks": {
+            "E.S.P.": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Eighty-One": {
+                "writer": ["Ron Carter", "Miles Davis"]
+            },
+            "Little One": {
+                "writer": ["Herbie Hancocks"]
+            },
+            "R.J.": {
+                "writer": ["Ron Carter"]
+            },
+            "Agitation": {
+                "writer": ["Miles Davis"]
+            },
+            "Iris": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Mood": {
+                "writer": ["Ron Carter", "Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/E.S.P._cover.jpg/220px-E.S.P._cover.jpg"
+    },
+    "Miles Smiles": {
+        "tracks": {
+            "Orbits": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Circle": {
+                "writer": ["Miles Davis"]
+            },
+            "Footprints": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Dolores": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Freedom Jazz Dance": {
+                "writer": ["Eddie Harris"]
+            },
+            "Ginger Bread Boy": {
+                "writer": ["Jimmy Heath"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Miles_Davis_-_Miles_Smiles.jpg/220px-Miles_Davis_-_Miles_Smiles.jpg"
+    },
+    "Sorcerer": {
+        "tracks": {
+            "Prince of Darkness": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Pee Wee": {
+                "writer": ["Tony Williams"]
+            },
+            "Masqualero": {
+                "writer": ["Wayne Shorter"]
+            },
+            "The Sorcerer": {
+                "writer": ["Herbie Hancock"]
+            },
+            "Limbo": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Vonetta": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Nothing Like You": {
+                "writer": ["Bob Dorough", "Fran Landesman"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Miles_Davis_Sorcerer.jpg/220px-Miles_Davis_Sorcerer.jpg"
+    },
+    "Nefertiti": {
+        "tracks": {
+            "Nefertiti": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Fall": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Hand Jive": {
+                "writer": ["Tony Williams"]
+            },
+            "Madness": {
+                "writer": ["Herbie Hancock"]
+            },
+            "Riot": {
+                "writer": ["Herbie Hancock"]
+            },
+            "Pinocchio": {
+                "writer": ["Wayne Shorter"]
+            } 
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Miles_Davis_-_Nefertiti.jpg/220px-Miles_Davis_-_Nefertiti.jpg"
     }
 }
