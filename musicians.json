@@ -1,6 +1,266 @@
 {
     "Miles Davis": {
         "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "vocals",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Human Nature" : "trumpet",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "trumpet",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Ms. Morrisine" : "trumpet",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "trumpet",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "trumpet",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "trumpet",
+                "album": "You're Under Arrest"  
+            },            
+            { 
+                "Decoy" : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "trumpet",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "trumpet",
+                "album": "Decoy"  
+            },            
+            { 
+                "Come Get It" : "trumpet",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "trumpet",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "trumpet",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "trumpet",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "trumpet",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "trumpet",
+                "album": "Star People"  
+            },            
+            {
+                "Fat Time" : "trumpet",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "trumpet",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Shout" : "trumpet",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "trumpet",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "trumpet",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "trumpet",
+                "album": "The Man with the Horn"   
+            },            
+            {
+                "On The Corner" : "trumpet",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "trumpet",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "trumpet",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "trumpet",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "trumpet",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "trumpet",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "trumpet",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "trumpet",
+                "album": "Live-Evil"   
+            },
+            {
+                "Sivad" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "trumpet",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And By Conrad Roberts" : "trumpet",
+                "album": "Live-Evil"
+            },            
+            { 
+                "Right Off" : "trumpet",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "trumpet",
+                "album": "Jack Johnson"
+            },            
+            { 
+                "Pharaoh's Dance" : "trumpet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "trumpet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "trumpet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "trumpet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "trumpet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Peaceful" : "trumpet",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "trumpet",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "trumpet",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "trumpet",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Frelon Brun" : "trumpet",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Tout de Suite" : "trumpet",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "trumpet",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "trumpet",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Mademoiselle Mabry": "trumpet",
+                "album": "Filles de Kilimanjaro"
+            },            
+            {
+                "Stuff": "cornet",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Paraphernalia": "trumpet",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Black Comedy": "cornet",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Country Son": "trumpet",
+                "album": "Miles in the Sky"
+            },            
             { 
                 "Nefertiti":  "trumpet",
                 "album": "Nefertiti" 
@@ -5709,7 +5969,31 @@
         ]
     },
     "Bill Evans": {
-        "tracks": [
+        "tracks": [     
+            { 
+                "Come Get It" : "saxophone",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "saxophone",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "saxophone",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "saxophone",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "saxophone",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "saxophone",
+                "album": "Star People"  
+            },               
             {
                 "So What": "piano",
                 "album": "Kind of Blue" 
@@ -6755,6 +7039,42 @@
     },
     "Ron Carter": {
         "tracks": [
+            {
+                "Nem Um Talvez" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "bass",
+                "album": "Live-Evil"
+            },
+            { 
+                "Tout de Suite" : "electric bass",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "electric bass",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "electric bass",
+                "album": "Filles de Kilimanjaro"
+            },
+            {
+                "Stuff": "electric bass",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Paraphernalia": "bass",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Black Comedy": "bass",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Country Son": "electric bass",
+                "album": "Miles in the Sky"
+            },            
             { 
                 "Nefertiti":  "double bass",
                 "album": "Nefertiti" 
@@ -6907,6 +7227,102 @@
     },
     "Herbie Hancock": {
         "tracks": [
+            {
+                "On The Corner" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "electric piano",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "electric piano",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "Little Church" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "electric piano",
+                "album": "Live-Evil"
+            },
+            { 
+                "Right Off" : "organ",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "organ",
+                "album": "Jack Johnson"
+            },            
+            { 
+                "Peaceful" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "electric piano",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Tout de Suite" : "electric piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "electric piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "electric piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            {
+                "Stuff": "piano",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Paraphernalia": "piano",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Black Comedy": "piano",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Country Son": "electric piano",
+                "album": "Miles in the Sky"
+            },            
             { 
                 "Nefertiti":  "piano",
                 "album": "Nefertiti" 
@@ -7024,6 +7440,58 @@
     "Tony Williams": {
         "tracks": [
             { 
+                "Peaceful" : "drums",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "drums",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "drums",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "drums",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Frelon Brun" : "drums",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Tout de Suite" : "drums",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "drums",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "drums",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Mademoiselle Mabry": "drums",
+                "album": "Filles de Kilimanjaro"
+            },            
+            {
+                "Stuff": "drums",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Paraphernalia": "drums",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Black Comedy": "drums",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Country Son": "electric drums",
+                "album": "Miles in the Sky"
+            },            
+            { 
                 "Nefertiti":  "drums",
                 "album": "Nefertiti" 
             },
@@ -7139,6 +7607,86 @@
     },
     "Wayne Shorter": {
         "tracks": [
+            {
+                "Gemini" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "saxophone",
+                "album": "Live-Evil"
+            },
+            { 
+                "Pharaoh's Dance" : "soprano saxophone",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "soprano saxophone",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "soprano saxophone",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "soprano saxophone",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "soprano saxophone",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Peaceful" : "soprano saxophone",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "soprano saxophone",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "soprano saxophone",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "soprano saxophone",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Frelon Brun" : "tenor saxophone",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Tout de Suite" : "tenor saxophone",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "tenor saxophone",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "tenor saxophone",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Mademoiselle Mabry": "tenor saxophone",
+                "album": "Filles de Kilimanjaro"
+            },            
+            {
+                "Stuff": "tenor saxophone",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Paraphernalia": "tenor saxophone",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Black Comedy": "tenor saxophone",
+                "album": "Miles in the Sky"
+            },
+            {
+                "Country Son": "tenor saxophone",
+                "album": "Miles in the Sky"
+            },            
             { 
                 "Nefertiti":  "tenor saxophone",
                 "album": "Nefertiti" 
@@ -7252,6 +7800,2133 @@
                 "album": "Sorcerer" 
             }
         ]
+    },
+    "George Benson": {
+        "tracks": [
+            {
+                "Paraphernalia": "electric guitar",
+                "album": "Miles in the Sky"
+            }
+        ]
+    },
+    "Chick Corea": {
+        "tracks": [
+            {
+                "On The Corner" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "electric piano",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "electric piano",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "Little Church" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "electric piano",
+                "album": "Live-Evil"
+            },
+            { 
+                "Pharaoh's Dance" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "electric piano",
+                "album": "Bitches Brew"
+            },            
+            { 
+                "Peaceful" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "electric piano",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Tout de Suite" : "piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Petits Machins" : "piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Filles de Kilimanjaro": "piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Mademoiselle Mabry": "RMI electra-piano",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Frelon Brun" : "RMI electra-piano",
+                "album": "Filles de Kilimanjaro"
+            }
+        ]
+    },
+    "Dave Holland": {
+        "tracks": [
+            {
+                "Little Church" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "bass",
+                "album": "Live-Evil"
+            },
+            { 
+                "Pharaoh's Dance" : "double bass",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "double bass",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "double bass",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "double bass",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "double bass",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "double bass",
+                "album": "Bitches Brew"
+            },            
+            { 
+                "Peaceful" : "bass",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "bass",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "bass",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "bass",
+                "album": "In a Silent Way"
+            },            
+            { 
+                "Frelon Brun" : "double bass",
+                "album": "Filles de Kilimanjaro"
+            },
+            { 
+                "Mademoiselle Mabry": "double bass",
+                "album": "Filles de Kilimanjaro"
+            }
+        ]
+    },
+    "John McLaughlin": {
+        "tracks": [
+            {
+                "Ms. Morrisine" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "On The Corner" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Sivad" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "guitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And By Conrad Roberts" : "guitar",
+                "album": "Live-Evil"
+            },
+            { 
+                "Right Off" : "electric guitar",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "electric guitar",
+                "album": "Jack Johnson"
+            },            
+            { 
+                "Pharaoh's Dance" : "electric guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "electric guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "electric guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "electric guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "electric guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "electric guitar",
+                "album": "Bitches Brew"
+            },            
+            { 
+                "Peaceful" : "guitar",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "guitar",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "guitar",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "guitar",
+                "album": "In a Silent Way"
+            }            
+        ]
+    },
+    "Joe Zawinul": {
+        "tracks": [
+            {
+                "Gemini" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "electric piano",
+                "album": "Live-Evil"
+            },
+            { 
+                "Pharaoh's Dance" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "electric piano",
+                "album": "Bitches Brew"
+            },            
+            { 
+                "Peaceful" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "electric piano",
+                "album": "In a Silent Way"
+            }            
+        ]
+    },
+    "Bennie Maupin": {
+        "tracks": [
+            {
+                "On The Corner" : "bass clarinet",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "bass clarinet",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "bass clarinet",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "bass clarinet",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "bass clarinet",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "bass clarinet",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "bass clarinet",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "bass clarinet",
+                "album": "Live-Evil"   
+            },
+            { 
+                "Pharaoh's Dance" : "bass clarinet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "bass clarinet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "bass clarinet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "bass clarinet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "bass clarinet",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Peaceful" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "Shhh" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "In a Silent Way" : "electric piano",
+                "album": "In a Silent Way"
+            },
+            { 
+                "It's About That Time" : "electric piano",
+                "album": "In a Silent Way"
+            }            
+        ]
+    },
+    "Larry Young": {
+        "tracks": [
+            { 
+                "Pharaoh's Dance" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "electric piano",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "electric piano",
+                "album": "Bitches Brew"
+            }    
+        ]
+    },
+    "Harvey Brooks": {
+        "tracks": [
+            { 
+                "Pharaoh's Dance" : "bass guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "bass guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "bass guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "bass guitar",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "bass guitar",
+                "album": "Bitches Brew"
+            }
+        ]
+    },
+    "Lenny White": {
+        "tracks": [
+            { 
+                "Pharaoh's Dance" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "drums",
+                "album": "Bitches Brew"
+            }
+        ]
+    },
+    "Jack DeJohnette": {
+        "tracks": [
+            {
+                "On The Corner" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "drums",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "drums",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Sivad" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And drums By Conrad Roberts" : "drums",
+                "album": "Live-Evil"
+            },            
+            { 
+                "Pharaoh's Dance" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "drums",
+                "album": "Bitches Brew"
+            }          
+        ]
+    },
+    "Don Alias": {
+        "tracks": [
+            {
+                "On The Corner" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "drums",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "drums",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "drums",
+                "album": "Live-Evil"   
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "congas",
+                "album": "Bitches Brew"
+            }   
+        ]
+    },
+    "Juma Santos": {
+        "tracks": [
+            { 
+                "Miles Runs the Voodoo Down" : "congas",
+                "album": "Bitches Brew"
+            }   
+        ]
+    },
+    "Billy Cobham": {
+        "tracks": [
+            {
+                "Gemini" : "drums",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "drums",
+                "album": "Live-Evil"
+            },
+            { 
+                "Right Off" : "drums",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "drums",
+                "album": "Jack Johnson"
+            },            
+            { 
+                "Pharaoh's Dance" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "drums",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "drums",
+                "album": "Bitches Brew"
+            }            
+        ]
+    },
+    "Airto Moreira": {
+        "tracks": [
+            {
+                "Sivad" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Gemini" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "percussion",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And By Conrad Roberts" : "percussion",
+                "album": "Live-Evil"
+            },            
+            { 
+                "Pharaoh's Dance" : "cuica",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Bitches Brew" : "cuica",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Spanish Key" : "cuica",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Miles Runs the Voodoo Down" : "cuica",
+                "album": "Bitches Brew"
+            },
+            { 
+                "John McLaughlin" : "cuica",
+                "album": "Bitches Brew"
+            },
+            { 
+                "Sanctuary" : "cuica",
+                "album": "Bitches Brew"
+            }            
+        ]
+    },
+    "Steve Grossman": {
+        "tracks": [
+            {
+                "Little Church" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "saxophone",
+                "album": "Live-Evil"
+            },
+            { 
+                "Right Off" : "soprano saxophone",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "soprano saxophone",
+                "album": "Jack Johnson"
+            }                   
+        ]
+    },
+    "Michael Henderson": {
+        "tracks": [
+            {
+                "On The Corner" : "bass guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "bass guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "bass guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "bass guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "bass guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "bass guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "bass guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "bass guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Sivad" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "bass",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And bass By Conrad Roberts" : "bass",
+                "album": "Live-Evil"
+            },
+            { 
+                "Right Off" : "electric bass",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "electric bass",
+                "album": "Jack Johnson"
+            }                      
+        ]
+    },
+    "Brock Peters": {
+        "tracks": [
+            { 
+                "Right Off" : "narration",
+                "album": "Jack Johnson"
+            },
+            { 
+                "Yesternow" : "narration",
+                "album": "Jack Johnson"
+            }                      
+        ]
+    },
+    "Hermeto Pascoal": {
+        "tracks": [
+            {
+                "Nem Um Talvez" : "vocals",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "vocals",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "electric piano",
+                "album": "Live-Evil"
+            }                
+        ]
+    },
+    "Keith Jarrett": {
+        "tracks": [
+            {
+                "Sivad" : "piano",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And By Conrad Roberts" : "piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Little Church" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Nem Um Talvez" : "electric piano",
+                "album": "Live-Evil"
+            },
+            {
+                "Selim" : "electric piano",
+                "album": "Live-Evil"
+            }         
+        ]
+    },
+    "Gary Bartz": {
+        "tracks": [
+            {
+                "Sivad" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "What I Say" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "Funky Tonk" : "saxophone",
+                "album": "Live-Evil"
+            },
+            {
+                "Inamorata And By Conrad Roberts" : "saxophone",
+                "album": "Live-Evil"
+            }
+        ]
+    },
+    "Khalil Balakrishna": {
+        "tracks": [
+            {
+                "On The Corner" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Gemini" : "sitar",
+                "album": "Live-Evil"
+            },
+            {
+                "Double Image" : "sitar",
+                "album": "Live-Evil"
+            }
+        ]
+    },
+    "Carlos Garnett": {
+        "tracks": [
+            {
+                "On The Corner" : "saxophone",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "saxophone",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "saxophone",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "saxophone",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "saxophone",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Dave Liebman": {
+        "tracks": [
+            {
+                "On The Corner" : "saxophone",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "saxophone",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "saxophone",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "saxophone",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "saxophone",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "saxophone",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Harold Ivory Williams": {
+        "tracks": [
+            {
+                "On The Corner" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "electric piano",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "electric piano",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "electric piano",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "electric piano",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "electric piano",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Cedric Lawson": {
+        "tracks": [
+            {
+                "On The Corner" : "organ",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "organ",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "organ",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "organ",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "organ",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "organ",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "organ",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "organ",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Dave Creamer": {
+        "tracks": [
+            {
+                "On The Corner" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "guitar",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Reggie Lucas": {
+        "tracks": [
+            {
+                "On The Corner" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "guitar",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Collin Walcott": {
+        "tracks": [
+            {
+                "On The Corner" : "electric sitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "electric sitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "electric sitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "electric sitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "electric sitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "electric sitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "electric sitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "electric sitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "On The Corner" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "guitar",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "guitar",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "guitar",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "guitar",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "guitar",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Al Foster": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "drums",
+                "album": "You're Under Arrest"  
+            },            
+            { 
+                "Decoy" : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "drums",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "drums",
+                "album": "Decoy"  
+            },            
+            { 
+                "Come Get It" : "drums",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "drums",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "drums",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "drums",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "drums",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "drums",
+                "album": "Star People"  
+            },            
+            {
+                "Fat Time" : "drums",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "drums",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "drums",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "drums",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "On The Corner" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "drums",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "drums",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "drums",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Billy Hart": {
+        "tracks": [
+            {
+                "On The Corner" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "drums",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "drums",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "drums",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "James Mtume": {
+        "tracks": [
+            {
+                "On The Corner" : "percussion",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "percussion",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "percussion",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "percussion",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "percussion",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "percussion",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "percussion",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "percussion",
+                "album": "Live-Evil"   
+            },
+            {
+                "On The Corner" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "drums",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "drums",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "drums",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "drums",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "drums",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Paul Buckmaster": {
+        "tracks": [
+            {
+                "On The Corner" : "cello",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "cello",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "cello",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "cello",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "cello",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "cello",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "cello",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "cello",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Badal Roy": {
+        "tracks": [
+            {
+                "On The Corner" : "tabla",
+                "album": "Live-Evil"   
+            },
+            {
+                "New York Girl" : "tabla",
+                "album": "Live-Evil"   
+            },
+            {
+                "Thinkin' One Thing And Doin' Another" : "tabla",
+                "album": "Live-Evil"    
+            },
+            {
+                "Vote For Miles" : "tabla",
+                "album": "Live-Evil"  
+            },
+            {
+                "Black Satin" : "tabla",
+                "album": "Live-Evil" 
+            },
+            {
+                "One And One" : "tabla",
+                "album": "Live-Evil" 
+            },
+            {
+                "Helen Butte" : "tabla",
+                "album": "Live-Evil" 
+            },
+            {
+                "Mr. Freedom X" : "tabla",
+                "album": "Live-Evil"   
+            }
+        ]
+    },
+    "Bill Evans (saxophonist)": {
+        "tracks": [
+            { 
+                "What It Is" : "soprano saxophone",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "soprano saxophone",
+                "album": "Decoy"  
+            },
+            {
+                "Fat Time" : "saxophone",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "saxophone",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "saxophone",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "saxophone",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "saxophone",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Barry Finnerty": {
+        "tracks": [
+            {
+                "Fat Time" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Shout" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "guitar",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Mike Stern": {
+        "tracks": [
+            { 
+                "Come Get It" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "electric guitar",
+                "album": "Star People"  
+            },            
+            {
+                "The Man with the Horn" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Shout" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "guitar",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "guitar",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Marcus Miller": {
+        "tracks": [
+            { 
+                "Come Get It" : "electric bass",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "electric bass",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "electric bass",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "electric bass",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "electric bass",
+                "album": "Star People"  
+            },            
+            {
+                "Fat Time" : "bass",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Back Seat Betty" : "bass",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Aida" : "bass",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "Ursula" : "bass",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Sammy Figueroa": {
+        "tracks": [
+            {
+                "Ursula" : "percussion",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Robert Irving III": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Human Nature" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Ms. Morrisine" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "synthesizer",
+                "album": "You're Under Arrest"  
+            },            
+            { 
+                "Decoy" : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "synthesizer",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "synthesizer",
+                "album": "Decoy"  
+            },            
+            {
+                "Shout" : "piano",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "piano",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Randy Hall": {
+        "tracks": [
+            {
+                "Shout" : "vocals",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "vocals",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Felton Crews": {
+        "tracks": [
+            {
+                "Shout" : "bass",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "bass",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "Vincent Wilburn": {
+        "tracks": [
+            {
+                "Human Nature" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Ms. Morrisine" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "drums",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Shout" : "drums",
+                "album": "The Man with the Horn"   
+            },
+            {
+                "The Man with the Horn" : "drums",
+                "album": "The Man with the Horn"   
+            }
+        ]
+    },
+    "John Scofield": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Human Nature" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "guitar",
+                "album": "You're Under Arrest"  
+            },
+            { 
+                "Decoy" : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "guitar",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "guitar",
+                "album": "Decoy"  
+            },            
+            { 
+                "It Gets Better" : "electric guitar",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "electric guitar",
+                "album": "Star People"  
+            }
+        ]
+    },
+    "Tom Barney": {
+        "tracks": [
+            { 
+                "Speak" : "electric bass",
+                "album": "Star People"  
+            }
+        ]
+    },
+    "Mino Cinelu": {
+        "tracks": [
+            { 
+                "Decoy" : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "percussion",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "percussion",
+                "album": "Decoy"  
+            },            
+            { 
+                "Come Get It" : "percussion",
+                "album": "Star People"  
+            },
+            { 
+                "It Gets Better" : "percussion",
+                "album": "Star People"  
+            },
+            { 
+                "Speak" : "percussion",
+                "album": "Star People"  
+            },
+            { 
+                "Star People" : "percussion",
+                "album": "Star People"  
+            },
+            { 
+                "U'N'I" : "percussion",
+                "album": "Star People"  
+            },
+            { 
+                "Star on Cicely" : "percussion",
+                "album": "Star People"  
+            }            
+        ]
+    },
+    "Branford Marsalis": {
+        "tracks": [
+            { 
+                "Decoy" : "soprano saxophone",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "soprano saxophone",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "soprano saxophone",
+                "album": "Decoy"  
+            }
+        ]
+    },
+    "Darryl \"The Munch\" Jones": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Human Nature" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Ms. Morrisine" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "bass",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "bass",
+                "album": "You're Under Arrest"  
+            },            
+            { 
+                "Decoy" : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "Robot 415" : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "Code M.D." : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "Freaky Deaky" : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "What It Is" : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "That's Right" : "bass",
+                "album": "Decoy"  
+            },
+            { 
+                "That's What Happened" : "bass",
+                "album": "Decoy"  
+            }            
+        ]
+    },
+    "Bob Berg": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "soprano saxophone",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "tenor saxophone",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "tenor saxophone",
+                "album": "You're Under Arrest"  
+            }  
+        ]
+    },
+    "Steve Thornton": {
+        "tracks": [
+            {
+                "Human Nature" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "MD1 Something's On Your Mind MD2" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Ms. Morrisine" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia Prelude" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Katia" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Time After Time" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "You're Under Arrest" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : "percussion",
+                "album": "You're Under Arrest"  
+            },
+            {
+                "One Phone Call/Street Scenes" : "vocals",
+                "album": "You're Under Arrest"  
+            }            
+        ]
+    },
+    "Gordon Sumner": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "vocals",
+                "album": "You're Under Arrest"  
+            }
+        ]
+    },
+    "Marek Olko": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "vocals",
+                "album": "You're Under Arrest"  
+            }
+        ]
+    },
+    "James Prindiville": {
+        "tracks": [
+            {
+                "One Phone Call/Street Scenes" : "vocals",
+                "album": "You're Under Arrest"  
+            }
+        ]
+    },
+    "Kenny Garrett": {
+        "tracks": [
+            {
+                "Human Nature" : "alto saxophone",
+                "album": "You're Under Arrest"  
+            }
+        ]
     }
-
 }

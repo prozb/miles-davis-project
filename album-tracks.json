@@ -945,5 +945,261 @@
             } 
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Miles_Davis_-_Nefertiti.jpg/220px-Miles_Davis_-_Nefertiti.jpg"
+    },
+    "Miles in the Sky": {
+        "tracks": {
+            "Stuff": {
+                "writer": ["Miles Davis"]
+            },
+            "Paraphernalia": {
+                "writer": ["Wayne Shorter"]
+            },
+            "Black Comedy": {
+                "writer": ["Tony Williams"]
+            },
+            "Country Son": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/MilesDavis_MilesInTheSky.jpg/220px-MilesDavis_MilesInTheSky.jpg"
+    },
+    "Filles de Kilimanjaro": {
+        "tracks": {
+            "Frelon Brun" : {
+                "writer": ["Brown Hornet"]
+            },
+            "Tout de Suite" : {
+                "writer": ["Right Away"]
+            },
+            "Petits Machins" : {
+                "writer": ["Little Stuff"]
+            },
+            "Filles de Kilimanjaro": {
+                "writer": ["Girls of Kilimanjaro"]
+            },
+            "Mademoiselle Mabry": {
+                "writer": ["Miss Mabry"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg/220px-Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg"
+    },
+    "In a Silent Way": {
+        "tracks": {
+            "Peaceful" : {
+                "writer": ["Miles Davis"]
+            },
+            "Shhh" : {
+                "writer": ["Miles Davis"]
+            },
+            "In a Silent Way" : {
+                "writer": ["Joe Zawinul"]
+            },
+            "It's About That Time" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Miles-davis-in-a-silent-way.jpg/220px-Miles-davis-in-a-silent-way.jpg"
+    },
+    "Bitches Brew": {
+        "tracks": {
+            "Pharaoh's Dance" : {
+                "writer": ["Joe Zawinul"]
+            },
+            "Bitches Brew" : {
+                "writer": ["Miles Davis"]
+            },
+            "Spanish Key" : {
+                "writer": ["Miles Davis"]
+            },
+            "John McLaughlin" : {
+                "writer": ["Miles Davis"]
+            },
+            "Miles Runs the Voodoo Down" : {
+                "writer": ["Miles Davis"]
+            },
+            "Sanctuary" : {
+                "writer": ["Wayne Shorter"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bitches_brew.jpg/220px-Bitches_brew.jpg"
+    },
+    "Jack Johnson": {
+        "tracks": {
+            "Right Off" : {
+                "writer": ["Miles Davis"]
+            },
+            "Yesternow" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Jack_Johnson_S_30455.jpg/220px-Jack_Johnson_S_30455.jpg"
+    },
+    "Live-Evil": {
+        "tracks": {
+            "Sivad" : {
+                "writer": ["Miles Davis"]
+            },
+            "Little Church" : {
+                "writer": ["Miles Davis"]
+            },
+            "Gemini" : {
+                "writer": ["Miles Davis"]
+            },
+            "Double Image" : {
+                "writer": ["Joe Zawinul"]
+            },
+            "What I Say" : {
+                "writer": ["Miles Davis"]
+            },
+            "Nem Um Talvez" : {
+                "writer": ["Miles Davis"]
+            },
+            "Selim" : {
+                "writer": ["Miles Davis"]
+            },
+            "Funky Tonk" : {
+                "writer": ["Miles Davis"]
+            },
+            "Inamorata And Narration By Conrad Roberts" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Miles_Davis_Live-Evil.jpg/220px-Miles_Davis_Live-Evil.jpg"
+    },
+    "On the Corner": {
+        "tracks": {
+            "Sivad" : {
+                "writer": ["Miles Davis"]
+            },
+            "On The Corner": {
+                "writer": ["Miles Davis"]
+            },	
+            "New York Girl": {
+                "writer": ["Miles Davis"]
+            },	
+            "Thinkin' One Thing And Doin' Another": {
+                "writer": ["Miles Davis"]
+            },	
+            "Vote For Miles": {
+                "writer": ["Miles Davis"]
+            },	
+            "Black Satin": {
+                "writer": ["Miles Davis"]
+            },	
+            "One And One": {
+                "writer": ["Miles Davis"]
+            },	
+            "Helen Butte": {
+                "writer": ["Miles Davis"]
+            },	
+            "Mr. Freedom X": {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Miles_Davis_On_The_Corner.jpg/220px-Miles_Davis_On_The_Corner.jpg"
+    },
+    "The Man with the Horn": {
+        "tracks": {
+            "Fat Time" : {
+                "writer": ["Miles Davis"]
+            },
+            "Back Seat Betty" : {
+                "writer": ["Miles Davis"]
+            },
+            "Shout" : {
+                "writer": ["Glenn Burris", "Randy Hall", "Robert Irving III"]
+            },
+            "Aida" : {
+                "writer": ["Miles Davis"]
+            },
+            "The Man with the Horn" : {
+                "writer": ["Robert Irving III", "Randy Hall"]
+            },
+            "Ursula" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Miles_Davis_The_Man_With_The_Horn.jpg/220px-Miles_Davis_The_Man_With_The_Horn.jpg"
+    },
+    "Star People": {
+        "tracks": {
+            "Come Get It" : {
+                "writer": ["Miles Davis"]
+            },
+            "It Gets Better" : {
+                "writer": ["Miles Davis"]
+            },
+            "Speak" : {
+                "writer": ["Miles Davis"]
+            },
+            "Star People" : {
+                "writer": ["Miles Davis"]
+            },
+            "U'N'I" : {
+                "writer": ["Miles Davis"]
+            },
+            "Star on Cicely" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Miles_Davis_Star_People.jpg/220px-Miles_Davis_Star_People.jpg"
+    },
+    "Decoy": {
+        "tracks": {
+            "Decoy" : {
+                "writer": ["Robert Irving III"]
+            },
+            "Robot 415" : {
+                "writer": ["Robert Irving III", "Miles Davis"]
+            },
+            "Code M.D." : {
+                "writer": ["Robert Irving III"]
+            },
+            "Freaky Deaky" : {
+                "writer": ["Miles Davis"]
+            },
+            "What It Is" : {
+                "writer": ["Miles Davis", "John Scofield"]
+            },
+            "That's Right" : {
+                "writer": ["Miles Davis", "John Scofield"]
+            },
+            "That's What Happened" : {
+                "writer": ["Miles Davis", "John Scofield"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Decoy_Miles_Davis.jpg/220px-Decoy_Miles_Davis.jpg"
+    },
+    "You're Under Arrest": {
+        "tracks": {
+            "One Phone Call/Street Scenes" : {
+                "writer": ["Miles Davis"]
+            },
+            "Human Nature" : {
+                "writer": ["John Bettis", "Steve Porcaro"]
+            },
+            "MD1 Something's On Your Mind MD2" : {
+                "writer": ["John Bettis", "Steve Porcaro"]
+            },
+            "Ms. Morrisine" : {
+                "writer": ["Miles Davis", "Morrisine Tynes Irving", "Robert Irving III"]
+            },
+            "Katia Prelude" : {
+                "writer": ["Miles Davis, Robert Irving III"]
+            },
+            "Katia" : {
+                "writer": ["Miles Davis, Robert Irving III"]
+            },
+            "Time After Time" : {
+                "writer": ["Cyndi Lauper", "Rob Hyman"]
+            },
+            "You're Under Arrest" : {
+                "writer": ["John Scofield"]
+            },
+            "Medley: Jean Pierre/You're Under Arrest/Then There Were None" : {
+                "writer": ["Miles Davis", "Robert Irving III", "John Scofield"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_You%27re_Under_Arrest_front.jpg/220px-Miles_Davis_You%27re_Under_Arrest_front.jpg"
     }
 }
