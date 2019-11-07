@@ -1201,5 +1201,130 @@
             }
         },
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_You%27re_Under_Arrest_front.jpg/220px-Miles_Davis_You%27re_Under_Arrest_front.jpg"
+    },
+    "Tutu": {
+        "tracks": {
+            "Tutu" : {
+                "writer": ["Miles Davis"]
+            },
+            "Tomaas" : {
+                "writer": ["Miles Davis", "Marcus Miller"]
+            },
+            "Portia" : {
+                "writer": ["Miles Davis"]
+            },
+            "Splatch" : {
+                "writer": ["Miles Davis"]
+            },
+            "Perfect Way" : {
+                "writer": ["David Gamson", "Green Gartside"]
+            },
+            "Backyard Ritual" : {
+                "writer": ["George Duke"]
+            },
+            "Don't Lose Your Mind" : {
+                "writer": ["Miles Davis"]
+            },
+            "Full Nelson" : {
+                "writer": ["Miles Davis"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Miles_Davis-Tutu_%28album_cover%29.jpg/220px-Miles_Davis-Tutu_%28album_cover%29.jpg"
+    },
+    "Amandla": {
+        "tracks": {
+            "Catémbe" : {
+                "writer": ["Marcus Miller"]
+            },
+            "Cobra" : {
+                "writer": ["George Duke"]
+            },
+            "Big Time" : {
+                "writer": ["Marcus Miller"]
+            },
+            "Hannibal" : {
+                "writer": ["Marcus Miller"]
+            },
+            "Jo-Jo" : {
+                "writer": ["Marcus Miller"]
+            },
+            "Amandla" : {
+                "writer": ["Marcus Miller"]
+            },
+            "Jilli" : {
+                "writer": ["John Bigham"]
+            },
+            "Mr. Pastorius" : {
+                "writer": ["Marcus Miller"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Amandla_%28album%29.jpg/220px-Amandla_%28album%29.jpg"
+    },
+    "Aura": {
+        "tracks": {
+            "Intro" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "White" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Yellow" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Orange" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Red" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Green" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Blue" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Electric Red" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Indigo" : {
+                "writer": ["Palle Mikkelborg"]
+            },
+            "Violet" : {
+                "writer": ["Palle Mikkelborg"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MilesDavisAura.jpg/220px-MilesDavisAura.jpg"
+    },
+    "Doo-Bop": {
+        "tracks": {
+            "Mystery" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "The Doo-Bop Song" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "Chocolate Chip" : {
+                "writer": ["Miles Davis", "Easy Mo Bee", "Donald Hepburn"]
+            },
+            "High Speed Chase" : {
+                "writer": ["Miles Davis", "Easy Mo Bee", "Larry Mizell"]
+            },
+            "Blow" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "Sonya" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "Fantasy" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "Duke Booty" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            },
+            "Mystery (Reprise)" : {
+                "writer": ["Miles Davis", "Easy Mo Bee"]
+            }
+        },
+        "icon": "https://upload.wikimedia.org/wikipedia/en/e/eb/Doo-Bop_front.jpg"
     }
 }

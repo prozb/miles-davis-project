@@ -2,6 +2,146 @@
     "Miles Davis": {
         "tracks": [
             {
+                "Mystery" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "The Doo-Bop Song" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Chocolate Chip" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "High Speed Chase" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Sonya" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Fantasy" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Duke Booty" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Mystery (Reprise)" : "trumpet",
+                "album": "Aura"  
+            },            
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            },            
+            {
+                "Catémbe" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Mr. Pastorius" : "trumpet",
+                "album": "Amandla"  
+            },
+            {
+                "Backyard Ritual" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Tutu" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Tomaas" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Portia" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Splatch" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Perfect Way" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Don't Lose Your Mind" : "trumpet",
+                "album": "Tutu"  
+            },
+            {
+                "Full Nelson" : "trumpet",
+                "album": "Tutu"  
+            },            
+            {
                 "One Phone Call/Street Scenes" : "vocals",
                 "album": "You're Under Arrest"  
             },
@@ -7992,6 +8132,46 @@
     "John McLaughlin": {
         "tracks": [
             {
+                "Intro" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "White" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "guitar",
+                "album": "Aura"  
+            },            
+            {
                 "Ms. Morrisine" : "guitar",
                 "album": "You're Under Arrest"  
             },
@@ -8403,6 +8583,18 @@
     },
     "Don Alias": {
         "tracks": [
+            {
+                "Catémbe" : "percussion",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "percussion",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "percussion",
+                "album": "Amandla"  
+            },
             {
                 "On The Corner" : "drums",
                 "album": "Live-Evil"   
@@ -9052,6 +9244,10 @@
     "Al Foster": {
         "tracks": [
             {
+                "Mr. Pastorius" : "drums",
+                "album": "Amandla"  
+            },
+            {
                 "One Phone Call/Street Scenes" : "drums",
                 "album": "You're Under Arrest"  
             },
@@ -9451,6 +9647,138 @@
     },
     "Marcus Miller": {
         "tracks": [
+            {
+                "Catémbe" : "keyboards",
+                "album": "Amandla"  
+            },
+            {
+                "Catémbe" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "keyboards",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "bass clarinet",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "soprano saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "bass clarinet",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "soprano saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "bass clarinet",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "soprano saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "bass clarinet",
+                "album": "Amandla"  
+            },
+            {
+                "Mr. Pastorius" : "bass",
+                "album": "Amandla"  
+            },
+            {
+                "Mr. Pastorius" : "keyboard",
+                "album": "Amandla"  
+            },
+            {
+                "Mr. Pastorius" : "bass clarinet",
+                "album": "Amandla"  
+            },
+            {
+                "Backyard Ritual" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Tutu" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Tomaas" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Portia" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Splatch" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Perfect Way" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Don't Lose Your Mind" : "guitar",
+                "album": "Tutu"  
+            },
+            {
+                "Full Nelson" : "guitar",
+                "album": "Tutu"  
+            },            
             { 
                 "Come Get It" : "electric bass",
                 "album": "Star People"  
@@ -9703,6 +10031,10 @@
     },
     "Mino Cinelu": {
         "tracks": [
+            {
+                "Catémbe" : "percussion",
+                "album": "Amandla"  
+            },
             { 
                 "Decoy" : "percussion",
                 "album": "Decoy"  
@@ -9924,9 +10256,1698 @@
     "Kenny Garrett": {
         "tracks": [
             {
+                "Catémbe" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Cobra" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "alto saxophone",
+                "album": "Amandla"  
+            },
+            {
                 "Human Nature" : "alto saxophone",
                 "album": "You're Under Arrest"  
             }
         ]
+    },
+    "Jason Miles": {
+        "tracks": [
+            {
+                "Tutu" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Tomaas" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Portia" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Splatch" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Perfect Way" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Don't Lose Your Mind" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Full Nelson" : "synthesizer",
+                "album": "Tutu"  
+            }            
+        ]
+    },
+    "Paulinho da Costa": {
+        "tracks": [
+            {
+                "Hannibal" : "percussion",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "percussion",
+                "album": "Amandla"  
+            },
+            {
+                "Tutu" : "percussion",
+                "album": "Tutu"  
+            },
+            {
+                "Portia" : "percussion",
+                "album": "Tutu"  
+            },
+            {
+                "Splatch" : "percussion",
+                "album": "Tutu"  
+            },
+            {
+                "Backyard Ritual" : "percussion",
+                "album": "Tutu"  
+            }  
+        ]
+    },
+    "Adam Holzman": {
+        "tracks": [
+            {
+                "Splatch" : "synthesizer",
+                "album": "Tutu"  
+            }
+        ]
+    },
+    "Steve Reid": {
+        "tracks": [
+            {
+                "Splatch" : "percussion",
+                "album": "Tutu"  
+            }
+        ]
+    },
+    "George Duke": {
+        "tracks": [
+            {
+                "Cobra" : "keyboards",
+                "album": "Amandla"  
+            },
+            {
+                "Backyard Ritual" : "electric piano",
+                "album": "Tutu"  
+            }
+        ]
+    },
+    "Omar Hakim": {
+        "tracks": [
+            {
+                "Tomaas" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Hannibal" : "drums",
+                "album": "Amandla"  
+            },
+            {
+                "Amandla" : "drums",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Bernard Wright": {
+        "tracks": [
+            {
+                "Tomaas" : "synthesizer",
+                "album": "Tutu"  
+            },
+            {
+                "Don't Lose Your Mind" : "synthesizer",
+                "album": "Tutu"  
+            }
+        ]
+    },
+    "Michał Urbaniak": {
+        "tracks": [
+            {
+                "Don't Lose Your Mind" : "electric violin",
+                "album": "Tutu"  
+            }
+        ]
+    },
+    "Jabali Billy Hart": {
+        "tracks": [
+            {
+                "Tutu" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Tomaas" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Portia" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Splatch" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Backyard Ritual" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Perfect Way" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Don't Lose Your Mind" : "drums",
+                "album": "Tutu"  
+            },
+            {
+                "Full Nelson" : "drums",
+                "album": "Tutu"  
+            }            
+        ]
+    },
+    "Michael Landau": {
+        "tracks": [
+            {
+                "Cobra" : "guitar",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Joey DeFrancesco": {
+        "tracks": [
+            {
+                "Cobra" : "keyboards",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Ricky Wellman": {
+        "tracks": [
+            {
+                "Jilli" : "drums",
+                "album": "Amandla"  
+            },
+            {
+                "Big Time" : "drums",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Joe Foley McCreary": {
+        "tracks": [
+            {
+                "Big Time" : "guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Hannibal" : "guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "guitar",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Jean-Paul Bourelly": {
+        "tracks": [
+            {
+                "Big Time" : "guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Jo-Jo" : "guitar",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Rick Margitza": {
+        "tracks": [
+            {
+                "Jo-Jo" : "tenor saxophone",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Bashiri Johnson": {
+        "tracks": [
+            {
+                "Amandla" : "percussion",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Joe Sample": {
+        "tracks": [
+            {
+                "Amandla" : "piano",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "John Bigham": {
+        "tracks": [
+            {
+                "Jilli" : "guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "keyboard",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Billy \"Spaceman\" Patterson": {
+        "tracks": [
+            {
+                "Jilli" : "wah-wah guitar",
+                "album": "Amandla"  
+            },
+            {
+                "Jilli" : "keyboard",
+                "album": "Amandla"  
+            }
+        ]
+    },
+    "Benny Rosenfeld": {
+        "tracks": [
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            }            
+        ]
+    },
+    "Idrees Sulieman": {
+        "tracks": [
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            }            
+        ]
+    },
+    "Jens Winther": {
+        "tracks": [
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            }            
+        ]
+    },
+    "Palle Bolvig": {
+        "tracks": [
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            }            
+        ]
+    },
+    "Perry Knudsen": {
+        "tracks": [
+            {
+                "Intro" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trumpet",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trumpet",
+                "album": "Aura"  
+            }            
+        ]
+    },
+    "Jens Engel": {
+        "tracks": [
+            {
+                "Intro" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trombone",
+                "album": "Aura"  
+            }                
+        ]
+    },
+    "Ture Larsen": {
+        "tracks": [
+            {
+                "Intro" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trombone",
+                "album": "Aura"  
+            }                
+        ]
+    },
+    "Vincent Nilsson": {
+        "tracks": [
+            {
+                "Intro" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "White" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "trombone",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "trombone",
+                "album": "Aura"  
+            }                
+        ]
+    },
+    "Ole Kurt Jensen": {
+        "tracks": [
+            {
+                "Intro" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "White" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "bass trombones",
+                "album": "Aura"  
+            }                    
+        ]
+    },
+    "Axel Windfeld": {
+        "tracks": [
+            {
+                "Intro" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "White" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "bass trombones",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "bass trombones",
+                "album": "Aura"  
+            }                    
+        ]
+    },
+    "Jesper Thilo": {
+        "tracks": [
+            {
+                "Intro" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flute",
+                "album": "Aura"  
+            }                         
+        ]
+    },
+    "Per Carsten": {
+        "tracks": [
+            {
+                "Intro" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flute",
+                "album": "Aura"  
+            }                         
+        ]
+    },
+    "Uffe Karskov": {
+        "tracks": [
+            {
+                "Intro" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flute",
+                "album": "Aura"  
+            }                         
+        ]
+    },
+    "Bent Jædig": {
+        "tracks": [
+            {
+                "Intro" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flute",
+                "album": "Aura"  
+            }                         
+        ]
+    },
+    "Flemming Madsen": {
+        "tracks": [
+            {
+                "Intro" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flute",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flute",
+                "album": "Aura"  
+            }                         
+        ]
+    },
+    "Kenneth Knudsen": {
+        "tracks": [
+            {
+                "Intro" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "White" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "keyboard",
+                "album": "Aura"  
+            }                                 
+        ]
+    },
+    "Ole Kock Hansen": {
+        "tracks": [
+            {
+                "Intro" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "White" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "keyboard",
+                "album": "Aura"  
+            }                                 
+        ]
+    },
+    "Thomas Clausen": {
+        "tracks": [
+            {
+                "Intro" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "White" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "keyboard",
+                "album": "Aura"  
+            }                                 
+        ]
+    },
+    "Bjarne Roupé": {
+        "tracks": [
+            {
+                "Intro" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "White" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "guitar",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "guitar",
+                "album": "Aura"  
+            }                                    
+        ]
+    },
+    "Niels-Henning Ørsted Pedersen": {
+        "tracks": [
+            {
+                "Intro" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "White" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "bass",
+                "album": "Aura"  
+            }                                       
+        ]
+    },
+    "Bo Stief": {
+        "tracks": [
+            {
+                "Intro" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "White" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "bass",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "bass",
+                "album": "Aura"  
+            }                                       
+        ]
+    },
+    "Vincent Wilburn Jr., Lennart Gruvstedt": {
+        "tracks": [
+            {
+                "Intro" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "White" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "drums",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "drums",
+                "album": "Aura"  
+            }                                       
+        ]
+    },
+    "Vincent Wilburn Jr.": {
+        "tracks": [
+            {
+                "Intro" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "White" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "electronic drums",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "electronic drums",
+                "album": "Aura"  
+            }                                         
+        ]
+    },
+    "Ethan Weisgaard": {
+        "tracks": [
+            {
+                "Intro" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "White" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "percussion",
+                "album": "Aura"  
+            }                                              
+        ]
+    },
+    "Marilyn Mazur": {
+        "tracks": [
+            {
+                "Intro" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "White" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "percussion",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "percussion",
+                "album": "Aura"  
+            }                                              
+        ]
+    },
+    "Lillian Thornquist": {
+        "tracks": [
+            {
+                "Intro" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "White" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "harp",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "harp",
+                "album": "Aura"  
+            }                                                  
+        ]
+    },
+    "Niels Eje": {
+        "tracks": [
+            {
+                "Intro" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "White" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "english horn",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "english horn",
+                "album": "Aura"  
+            }                                                          
+        ]
+    },
+    "Eva Hess-Thaysen": {
+        "tracks": [
+            {
+                "Intro" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "White" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "vocals",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "vocals",
+                "album": "Aura"  
+            }                                                            
+        ]
+    },
+    "Palle Mikkelborg": {
+        "tracks": [
+            {
+                "Intro" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "White" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Yellow" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Orange" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Red" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Green" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Blue" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Electric Red" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Indigo" : "flugelhorn",
+                "album": "Aura"  
+            },
+            {
+                "Violet" : "flugelhorn",
+                "album": "Aura"  
+            }                                                                    
+        ]
+    },
+    "Deron Johnson": {
+        "tracks": [
+            {
+                "Mystery" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "The Doo-Bop Song" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Chocolate Chip" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "High Speed Chase" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Blow" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Sonya" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Fantasy" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Duke Booty" : "keyboard",
+                "album": "Aura"  
+            },
+            {
+                "Mystery (Reprise)" : "keyboard",
+                "album": "Aura"  
+            }                                                                
+        ]
+    },
+    "J.R": {
+        "tracks": [
+            {
+                "Mystery" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "The Doo-Bop Song" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Chocolate Chip" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "High Speed Chase" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Blow" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Sonya" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Fantasy" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Duke Booty" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Mystery (Reprise)" : "performer",
+                "album": "Aura"  
+            }                                                                
+        ]
+    },
+    "A.B. Money": {
+        "tracks": [
+            {
+                "Mystery" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "The Doo-Bop Song" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Chocolate Chip" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "High Speed Chase" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Blow" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Sonya" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Fantasy" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Duke Booty" : "performer",
+                "album": "Aura"  
+            },
+            {
+                "Mystery (Reprise)" : "performer",
+                "album": "Aura"  
+            }                                                                
+        ]
     }
+   
 }
