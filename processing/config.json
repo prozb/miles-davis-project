@@ -1,0 +1,5 @@
+{
+    "url": "bolt://localhost:7687",
+    "username": "js-agent",
+    "password": "12345"
+}
