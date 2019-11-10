@@ -5,6 +5,8 @@ const musicFile  = fs.readFileSync('./dataset/music.json');
 const musicians  = JSON.parse(musicFile);
 const albumsFile = fs.readFileSync('./dataset/albums.json');
 const albums     = JSON.parse(albumsFile);
+const tracksFile = fs.readFileSync('./dataset/tracks.json');
+const tracks     = JSON.parse(tracksFile);
 // reading configs
 const configFile = fs.readFileSync('./processing/config.json');
 const config     = JSON.parse(configFile);
@@ -20,47 +22,75 @@ try{
   session = driver.session();
 
   if(process.argv[2] === 'clear'){
-    clearDatabase();
+    clearDatabase().then(() => {
+      console.log('deleted items from the database.');
+      session.close();
+      driver.close();
+    })
   }else{
-    fillDatabase();
+    fillDatabase().then(() => {
+      console.log('added all initial values into the database.');
+      session.close();
+      driver.close();
+    })
   }
 }catch (err){
   console.log('terminating program.')
   console.error(err)
 }
 // filling database with initial values
-function fillDatabase(){
-  const promises = [];
-  
-  promises.push(addAllAlbumsIntoDB(albums));
-  promises.push(addInstrumentsToDatabase(getAllInstruments(musicians)));
-  promises.push(addAllMusiciansToDB(musicians));
-
-  Promise.all(promises)
-  .then(() => console.log('successfully inserted all initial values.'))
-  .catch(err => {
+async function fillDatabase(){  
+  // promises.push(addAllAlbumsIntoDB(albums));
+  // promises.push(addInstrumentsToDatabase(getAllInstruments(musicians)));
+  // promises.push(addAllMusiciansToDB(musicians));
+  // promises.push(addAllTracksToDB(tracks));
+  try{
+    await addAllAlbumsIntoDB(albums);
+    await addAllTracksToDB(tracks);
+  }catch(err){
     console.log('error occured.');
     console.log(err);
-  }).finally(() => {
-    session.close();
-    driver.close();
-  });
+  }
 }
 // removing all entries from the database
-function clearDatabase(){
-  const promises = [];
-
-  promises.push(removeAllAlbumsFromDB());
-  promises.push(removeAllInstrumentsFromDB());
-  promises.push(removeAllMusiciansFromDB());
-
-  Promise.all(promises)
-  .then(() => console.log(`${promises.length} methods executed.`))
-  .catch(err => console.log(err))
-  .finally(() => { 
-    session.close();
-    driver.close();
+async function clearDatabase(){
+  await session.run(`match ()-[r]-() delete r`)
+  .then(() => console.log('removing all relations'))
+  .catch(err => {
+      console.log('error occured')
+      console.log(err);
   });
+
+  await session.run(`match (n) delete n`)
+  .then(() => console.log('removing all entries'))
+  .catch(err => {
+      console.log('error occured')
+      console.log(err);
+  });  
+}
+
+async function addAllTracksToDB(tracks){
+  const allTracks = [];
+
+  Object.entries(tracks).forEach(album => {
+    Object.entries(album[1].tracks).forEach(track => {
+      allTracks.push(track);
+    });
+  });
+
+  for(track of allTracks) {
+    await addTrackToDB(track);
+  };
+  console.log(`${allTracks.length} albums added to the database`);
+}
+// adding one track to database
+async function addTrackToDB(track){
+  await session.run(`merge (n:Track {name: $name, writer: $writer}) return n`, 
+  {name: track[0], writer: track[1].writer})
+  .catch(err => {
+    console.log(`cannot create track ${track[0]}`);
+    console.log(err);
+  })
 }
 // adding all musicians to database
 async function addAllMusiciansToDB(musicians){
@@ -78,7 +108,6 @@ async function addAllMusiciansToDB(musicians){
 }
 async function addMusicianToDB(musician){
   await session.run('create (a:Musician {name: $name}) return a', {name: musician})
-  // .then(result => console.log(result.records[0].get(0).properties.name))
   .catch(err => { 
     console.log(`musician ${musician} cannot be added`);
     console.log(err);
