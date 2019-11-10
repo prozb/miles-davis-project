@@ -22,11 +22,40 @@ try{
   // const instruments = getAllInstruments(musicians)
   // addInstrumentsToDatabase(instruments);
   // addAllAlbumsIntoDB(albums);
+  // removeAllAlbumsFromDB();
+  // removeAllInstrumentsFromDB();
+  
 }catch (err){
   console.log('terminating program.')
   console.error(err)
 }
 
+// remove all instruments from db
+function removeAllInstrumentsFromDB(){
+  session.run(`match (n:Instrument) delete n`)
+  .then(() => console.log('success'))
+  .catch(err => {
+      console.log('error occured')
+      console.log(err);
+  }).
+  finally(() => {
+    session.close();
+    driver.close();
+  });
+}
+// removing all albums from database
+function removeAllAlbumsFromDB(){
+  session.run(`match (n:Album) delete n`)
+  .then(() => console.log('success'))
+  .catch(err => {
+      console.log('error occured')
+      console.log(err);
+  }).
+  finally(() => {
+    session.close();
+    driver.close();
+  });
+}
 // getting all instruments of all musicians
 function getAllInstruments(musicians) {
   var instruments = new Set();
@@ -64,17 +93,11 @@ function addAllAlbumsIntoDB(albums){
 async function addAlbumIntoDB(album){
   try{
     await session.run(
-      `create (n:Album {
-        name: $name, 
-        label: $label, 
-        released: $released,
-        url: $url
-      }) return n.name`,
+      `create (n:Album {name: $name, label: $label, released: $released,
+      url: $url}) return n.name`,
       {
-        name: album[0], 
-        label: album[1].label, 
-        released: album[1].released,
-        url: album[1].url
+        name: album[0], label: album[1].label, 
+        released: album[1].released, url: album[1].url
       }
     );
   }catch(err){
