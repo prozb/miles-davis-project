@@ -15,12 +15,15 @@ const password   = config.password;
 
 var driver  = null;
 var session = null;
-try{ 
+try{   
   driver  = neo4j.driver(url, neo4j.auth.basic(username, password));
   session = driver.session();
 
-  fillDatabase();
-  // clearDatabase();
+  if(process.argv[2] === 'clear'){
+    clearDatabase();
+  }else{
+    fillDatabase();
+  }
 }catch (err){
   console.log('terminating program.')
   console.error(err)
@@ -31,6 +34,7 @@ function fillDatabase(){
   
   promises.push(addAllAlbumsIntoDB(albums));
   promises.push(addInstrumentsToDatabase(getAllInstruments(musicians)));
+  promises.push(addAllMusiciansToDB(musicians));
 
   Promise.all(promises)
   .then(() => console.log('successfully inserted all initial values.'))
@@ -48,6 +52,7 @@ function clearDatabase(){
 
   promises.push(removeAllAlbumsFromDB());
   promises.push(removeAllInstrumentsFromDB());
+  promises.push(removeAllMusiciansFromDB());
 
   Promise.all(promises)
   .then(() => console.log(`${promises.length} methods executed.`))
@@ -57,10 +62,41 @@ function clearDatabase(){
     driver.close();
   });
 }
+// adding all musicians to database
+async function addAllMusiciansToDB(musicians){
+  const promises = [];
+  Object.keys(musicians).forEach(musician => {
+    promises.push(addMusicianToDB(musician));
+  });
+
+  await Promise.all(promises)
+  .then(() => console.log(`${promises.length} musicians successfully added.`))
+  .catch(err => { 
+    console.log('error occured in adding musicians into the database');
+    console.log(err);
+   });
+}
+async function addMusicianToDB(musician){
+  await session.run('create (a:Musician {name: $name}) return a', {name: musician})
+  // .then(result => console.log(result.records[0].get(0).properties.name))
+  .catch(err => { 
+    console.log(`musician ${musician} cannot be added`);
+    console.log(err);
+  });
+}
 // remove all instruments from db
 async function removeAllInstrumentsFromDB(){
   await session.run(`match (n:Instrument) delete n`)
   .then(() => console.log('removing all instruments succeeded'))
+  .catch(err => {
+      console.log('error occured')
+      console.log(err);
+  });
+}
+// removing all musicians from database
+async function removeAllMusiciansFromDB(){
+  await session.run(`match (n:Musician) delete n`)
+  .then(() => console.log('removing all musicians succeeded'))
   .catch(err => {
       console.log('error occured')
       console.log(err);
@@ -83,7 +119,6 @@ function getAllInstruments(musicians) {
         instruments.add(track.instrument);
     })
   });
-
   return instruments;
 }
 
@@ -91,9 +126,7 @@ function getAllInstruments(musicians) {
 async function addAllAlbumsIntoDB(albums){ 
   const promises = [];
 
-  Object.entries(albums).forEach(album => {
-    promises.push(addAlbumIntoDB(album));
-  })
+  Object.entries(albums).forEach(album => promises.push(addAlbumIntoDB(album)));
 
   await Promise.all(promises)
   .then(result => {
@@ -104,18 +137,21 @@ async function addAllAlbumsIntoDB(albums){
     console.log(err);
   });
 }
-
+// adding albums into the database
 async function addAlbumIntoDB(album){
   try{
     await session.run(
       `create (n:Album {name: $name, label: $label, released: $released,
-      url: $url}) return n.name`,
+      url: $url, recorded: $recorded, studios: $studios, producers: $producers}) return n.name`,
       {
         name: album[0], label: album[1].label, 
-        released: album[1].released, url: album[1].url
+        released: album[1].released, url: album[1].url, 
+        recorded: album[1].recorded, studios: album[1].studios,
+        producers: album[1].producers
       }
     );
   }catch(err){
+    console.log(`error in album ${album}`)
     console.log(err);
   }
 }
