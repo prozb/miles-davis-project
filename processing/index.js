@@ -70,18 +70,23 @@ async function clearDatabase(){
 }
 
 async function addAllTracksToDB(tracks){
-  const allTracks = [];
-
-  Object.entries(tracks).forEach(album => {
-    Object.entries(album[1].tracks).forEach(track => {
-      allTracks.push(track);
-    });
+  for(const albumKey of Object.keys(tracks)){
+    for(track of Object.entries(tracks[albumKey].tracks)){
+      await addTrackToDB(track);
+      await addRelationAlbumTrack(albumKey, track);
+    }
+  }
+  console.log(`tracks added to the database`);
+}
+async function addRelationAlbumTrack(album, track){
+  // console.log(`creating relation ${album} and ${track[0]}`)
+  var result = await session.run(`match (a:Album), (b:Track) 
+    where a.name = {albumName} and b.name = {trackName} 
+    merge (a)<-[r:PRESENT_IN]-(b) return type(r)`, {
+      albumName: album, trackName: track[0]
   });
 
-  for(track of allTracks) {
-    await addTrackToDB(track);
-  };
-  console.log(`${allTracks.length} albums added to the database`);
+  return result;
 }
 // adding one track to database
 async function addTrackToDB(track){
