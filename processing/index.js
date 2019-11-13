@@ -5,8 +5,8 @@ const musicFile  = fs.readFileSync('./dataset/musicians.json');
 const musicians  = JSON.parse(musicFile);
 const albumsFile = fs.readFileSync('./dataset/album-info.json');
 const albums     = JSON.parse(albumsFile);
-// const tracksFile = fs.readFileSync('./dataset/tracks.json');
-// const tracks     = JSON.parse(tracksFile);
+const tracksFile = fs.readFileSync('./dataset/album-tracks.json');
+const tracks     = JSON.parse(tracksFile);
 // reading configs
 const configFile = fs.readFileSync('./processing/config.json');
 const config     = JSON.parse(configFile);
@@ -43,9 +43,9 @@ async function fillDatabase(){
   try{
     await addAllLabelstIntoDB(albums);
     await addAllAlbumsIntoDB(albums);
-    // await addAllTracksToDB(tracks);
-    // await addAllInstrumentsToDB(musicians);
-    // await addAllMusiciansToDB(musicians);
+    await addAllTracksToDB(tracks);
+    await addAllInstrumentsToDB(musicians);
+    await addAllMusiciansToDB(musicians);
   }catch(err){
     console.log('error occured.');
     console.log(err);
@@ -97,31 +97,29 @@ async function clearDatabase(){
 }
 // adding all tracks into the database
 async function addAllTracksToDB(tracks){
+  var count = 0;
   for(const albumKey of Object.keys(tracks)){
-    for(track of Object.entries(tracks[albumKey].tracks)){
-      await addTrackToDB(track);
-      await addRelationAlbumTrack(albumKey, track);
+    count += tracks[albumKey].tracks.length;
+    for(var i = 0; i < tracks[albumKey].tracks.length; i++){
+      await addTrackToDB(tracks[albumKey].tracks[0]);
+      await addRelationAlbumTrack(albumKey, tracks[albumKey].tracks[0]);
     }
   }
-  console.log(`tracks added to the database`);
+  console.log(`${count} tracks added to the database`);
 }
 // creating album -> track relation
 async function addRelationAlbumTrack(album, track){
   await session.run(`match (a:Album), (b:Track) 
     where a.name = {albumName} and b.name = {trackName} 
     merge (a)<-[r:PRESENT_IN]-(b) return type(r)`, {
-      albumName: album, trackName: track[0]
+      albumName: album, trackName: track
   });
-  console.log(`added relation ${album} <- ${track[0]}`);
+  console.log(`added relation ${album} <- ${track}`);
 }
 // adding one track to database
 async function addTrackToDB(track){
-  await session.run(`merge (n:Track {name: $name, writer: $writer}) return n`, 
-  {name: track[0], writer: track[1].writer})
-  .catch(err => {
-    console.log(`cannot create track ${track[0]}`);
-    console.log(err);
-  })
+  await session.run(`create (n:Track {name: $name}) return n`, 
+  {name: track});
 }
 // adding all musicians to database
 async function addAllMusiciansToDB(musicians){
