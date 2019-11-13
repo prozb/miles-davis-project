@@ -41,7 +41,7 @@ try{
 // filling database with initial values
 async function fillDatabase(){  
   try{
-    // await addAllLabelstIntoDB(albums);
+    await addAllLabelstIntoDB(albums);
     // await addAllAlbumsIntoDB(albums);
     // await addAllTracksToDB(tracks);
     // await addAllInstrumentsToDB(musicians);
