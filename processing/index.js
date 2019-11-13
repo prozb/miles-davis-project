@@ -40,11 +40,8 @@ try{
 }
 // filling database with initial values
 async function fillDatabase(){  
-  // promises.push(addAllAlbumsIntoDB(albums));
-  // promises.push(addInstrumentsToDatabase(getAllInstruments(musicians)));
-  // promises.push(addAllMusiciansToDB(musicians));
-  // promises.push(addAllTracksToDB(tracks));
   try{
+    await addAllLabelstIntoDB(albums);
     await addAllAlbumsIntoDB(albums);
     await addAllTracksToDB(tracks);
   }catch(err){
@@ -52,9 +49,28 @@ async function fillDatabase(){
     console.log(err);
   }
 }
+// adding all labels into db
+async function addAllLabelstIntoDB(albums){
+  const labels = new Set();
+  Object.entries(albums)
+    .forEach(album => labels.add(album[1].label));
+  
+  const promises = [];
+  labels.forEach(label => promises.push(addLabelIntoDB(label)));
+  await Promise.all(promises);
+}
+// adding one label into database
+async function addLabelIntoDB(label){
+  await session.
+  run(`merge (n:Label {name: $name}) return n`, { 
+    name: label 
+  })
+  .catch(console.log);
+}
 // removing all entries from the database
 async function clearDatabase(){
-  await session.run(`match ()-[r]-() delete r`)
+  await session
+  .run(`match ()-[r]-() delete r`)
   .then(() => console.log('removing all relations'))
   .catch(err => {
       console.log('error occured')
@@ -79,14 +95,11 @@ async function addAllTracksToDB(tracks){
   console.log(`tracks added to the database`);
 }
 async function addRelationAlbumTrack(album, track){
-  // console.log(`creating relation ${album} and ${track[0]}`)
-  var result = await session.run(`match (a:Album), (b:Track) 
+  await session.run(`match (a:Album), (b:Track) 
     where a.name = {albumName} and b.name = {trackName} 
     merge (a)<-[r:PRESENT_IN]-(b) return type(r)`, {
-      albumName: album, trackName: track[0]
+      albumName: album, trackName: track
   });
-
-  return result;
 }
 // adding one track to database
 async function addTrackToDB(track){
@@ -159,35 +172,45 @@ function getAllInstruments(musicians) {
 // adding all albums into the database
 async function addAllAlbumsIntoDB(albums){ 
   const promises = [];
-
-  Object.entries(albums).forEach(album => promises.push(addAlbumIntoDB(album)));
+  Object.entries(albums)
+  .forEach(album => promises.push(addAlbumIntoDB(album)));
 
   await Promise.all(promises)
-  .then(result => {
-    console.log(`${result.length} albums added to the database`)
-  })
+  .catch(err => {
+    console.log('error occured');
+    console.log(err);
+  });
+
+  const labelPromises = [];
+  Object.entries(albums)
+  .forEach(album => labelPromises.push(addRelationAlbumLabel(album[0], album[1].label)));
+
+  await Promise.all(labelPromises)
   .catch(err => {
     console.log('error occured');
     console.log(err);
   });
 }
+// adding relation between album and label
+async function addRelationAlbumLabel(album, label){
+  await session.run(`match (a:Album), (b:Label) 
+  where a.name = {albumName} and b.name = {labelName} 
+  merge (a)<-[r:PUBLISHED]-(b) return type(r)`, {
+    albumName: album, labelName: label
+  });
+}
 // adding albums into the database
 async function addAlbumIntoDB(album){
-  try{
-    await session.run(
-      `create (n:Album {name: $name, label: $label, released: $released,
+  await session.run(
+    `create (n:Album {name: $name, released: $released,
       url: $url, recorded: $recorded, studios: $studios, producers: $producers}) return n.name`,
-      {
-        name: album[0], label: album[1].label, 
-        released: album[1].released, url: album[1].url, 
-        recorded: album[1].recorded, studios: album[1].studios,
-        producers: album[1].producers
-      }
-    );
-  }catch(err){
-    console.log(`error in album ${album}`)
-    console.log(err);
-  }
+    {
+      name: album[0],
+      released: album[1].released, url: album[1].url, 
+      recorded: album[1].recorded, studios: album[1].studios,
+      producers: album[1].producers
+    }
+  );
 }
 //adding all instruments into the database
 async function addInstrumentsToDatabase(data){
