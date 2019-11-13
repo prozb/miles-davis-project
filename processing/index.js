@@ -7,6 +7,8 @@ const albumsFile = fs.readFileSync('./dataset/album-info.json');
 const albums     = JSON.parse(albumsFile);
 const tracksFile = fs.readFileSync('./dataset/album-tracks.json');
 const tracks     = JSON.parse(tracksFile);
+const allTracksF = fs.readFileSync('./dataset/all-tracks.json');
+const allTracks  = JSON.parse(allTracksF);
 // reading configs
 const configFile = fs.readFileSync('./processing/config.json');
 const config     = JSON.parse(configFile);
@@ -14,30 +16,30 @@ const url        = config.url;
 const username   = config.username;
 const password   = config.password;
 // staff to handle database requests
-
 var driver  = null;
 var session = null;
 try{   
   driver  = neo4j.driver(url, neo4j.auth.basic(username, password));
   session = driver.session();
-
-  if(process.argv[2] === 'clear'){
-    clearDatabase().then(() => {
-      console.log('deleted items from the database.');
-      session.close();
-      driver.close();
-    })
-  }else{
-    fillDatabase().then(() => {
-      console.log('added all initial values into the database.');
-      session.close();
-      driver.close();
-    })
-  }
 }catch (err){
   console.log('terminating program.')
   console.error(err)
 }
+
+(async () => {
+    if(process.argv[2] === 'clear'){
+      await clearDatabase();
+      console.log('deleted items from the database.');
+
+      session.close();
+      driver.close();
+    }else{
+      await fillDatabase();
+      console.log('added all initial values into the database.');
+      session.close();
+      driver.close();
+    }
+})();
 // filling database with initial values
 async function fillDatabase(){  
   try{
@@ -46,18 +48,45 @@ async function fillDatabase(){
     await addAllTracksToDB(tracks);
     await addAllInstrumentsToDB(musicians);
     await addAllMusiciansToDB(musicians);
+    await addAllWriterIntoDB(allTracks);
   }catch(err){
     console.log('error occured.');
     console.log(err);
   }
 }
-function getAllWriter(tracks){
-  const writers = new Set();
-  Object.entries(tracks).forEach(album => {
-    Object.entries(album[1].tracks).forEach(track => {
-      
-    });
+async function addAllWriterIntoDB(allTracks){
+  const writers  = new Set();
+  
+  var count = 0;
+  for(var track of Object.entries(allTracks)){
+    for(var i = 0; i < track[1].length; i++){
+      if(!writers.has(track[1][i])){
+        await addWriterIntoDB(track[1][i]);
+        count += 1;
+      }
+      writers.add(track[1][i]);
+      await addRelationWriterTrack(track[1][i], track[0]);
+    }
+  }
+  console.log(`${count} writers added into db`);
+}
+async function addRelationWriterTrack(writer, track){
+  await session.run(`match (a:Writer), (b:Track) 
+    where a.name = {writerName} and b.name = {trackName} 
+    merge (a)-[r:WROTE]->(b) return type(r)`, {
+      writerName: writer, trackName: track
   });
+  console.log(`added relation ${writer} -> ${track}`);
+}
+// adding writer into db
+async function addWriterIntoDB(writer){
+  await session.
+    run(`merge (a {name: $name}) 
+          on match set a:Writer 
+          on create set a:Writer return a;`, { 
+      name: writer 
+    })
+    .catch(console.log);
 }
 // adding all labels into db
 async function addAllLabelstIntoDB(albums){
@@ -101,8 +130,8 @@ async function addAllTracksToDB(tracks){
   for(const albumKey of Object.keys(tracks)){
     count += tracks[albumKey].tracks.length;
     for(var i = 0; i < tracks[albumKey].tracks.length; i++){
-      await addTrackToDB(tracks[albumKey].tracks[0]);
-      await addRelationAlbumTrack(albumKey, tracks[albumKey].tracks[0]);
+      await addTrackToDB(tracks[albumKey].tracks[i]);
+      await addRelationAlbumTrack(albumKey, tracks[albumKey].tracks[i]);
     }
   }
   console.log(`${count} tracks added to the database`);
@@ -118,7 +147,7 @@ async function addRelationAlbumTrack(album, track){
 }
 // adding one track to database
 async function addTrackToDB(track){
-  await session.run(`create (n:Track {name: $name}) return n`, 
+  await session.run(`merge (n:Track {name: $name}) return n`, 
   {name: track});
 }
 // adding all musicians to database
