@@ -3,7 +3,7 @@ const fs    = require('fs');
 // reading music files to create database entries
 const musicFile  = fs.readFileSync('./dataset/music.json');
 const musicians  = JSON.parse(musicFile);
-const albumsFile = fs.readFileSync('./dataset/albums.json');
+const albumsFile = fs.readFileSync('./dataset/album-info.json');
 const albums     = JSON.parse(albumsFile);
 const tracksFile = fs.readFileSync('./dataset/tracks.json');
 const tracks     = JSON.parse(tracksFile);
@@ -41,13 +41,23 @@ try{
 // filling database with initial values
 async function fillDatabase(){  
   try{
-    await addAllLabelstIntoDB(albums);
-    await addAllAlbumsIntoDB(albums);
-    await addAllTracksToDB(tracks);
+    // await addAllLabelstIntoDB(albums);
+    // await addAllAlbumsIntoDB(albums);
+    // await addAllTracksToDB(tracks);
+    // await addAllInstrumentsToDB(musicians);
+    // await addAllMusiciansToDB(musicians);
   }catch(err){
     console.log('error occured.');
     console.log(err);
   }
+}
+function getAllWriter(tracks){
+  const writers = new Set();
+  Object.entries(tracks).forEach(album => {
+    Object.entries(album[1].tracks).forEach(track => {
+      
+    });
+  });
 }
 // adding all labels into db
 async function addAllLabelstIntoDB(albums){
@@ -58,6 +68,7 @@ async function addAllLabelstIntoDB(albums){
   const promises = [];
   labels.forEach(label => promises.push(addLabelIntoDB(label)));
   await Promise.all(promises);
+  console.log(`${promises.length} labels added into db`)
 }
 // adding one label into database
 async function addLabelIntoDB(label){
@@ -84,7 +95,7 @@ async function clearDatabase(){
       console.log(err);
   });  
 }
-
+// adding all tracks into the database
 async function addAllTracksToDB(tracks){
   for(const albumKey of Object.keys(tracks)){
     for(track of Object.entries(tracks[albumKey].tracks)){
@@ -94,12 +105,14 @@ async function addAllTracksToDB(tracks){
   }
   console.log(`tracks added to the database`);
 }
+// creating album -> track relation
 async function addRelationAlbumTrack(album, track){
   await session.run(`match (a:Album), (b:Track) 
     where a.name = {albumName} and b.name = {trackName} 
     merge (a)<-[r:PRESENT_IN]-(b) return type(r)`, {
-      albumName: album, trackName: track
+      albumName: album, trackName: track[0]
   });
+  console.log(`added relation ${album} <- ${track[0]}`);
 }
 // adding one track to database
 async function addTrackToDB(track){
@@ -118,12 +131,9 @@ async function addAllMusiciansToDB(musicians){
   });
 
   await Promise.all(promises)
-  .then(() => console.log(`${promises.length} musicians successfully added.`))
-  .catch(err => { 
-    console.log('error occured in adding musicians into the database');
-    console.log(err);
-   });
+  console.log(`${promises.length} musicians successfully added.`);
 }
+//adding one musician into db
 async function addMusicianToDB(musician){
   await session.run('create (a:Musician {name: $name}) return a', {name: musician})
   .catch(err => { 
@@ -180,6 +190,7 @@ async function addAllAlbumsIntoDB(albums){
     console.log('error occured');
     console.log(err);
   });
+  console.log(`albums added to the database`);
 
   const labelPromises = [];
   Object.entries(albums)
@@ -190,6 +201,8 @@ async function addAllAlbumsIntoDB(albums){
     console.log('error occured');
     console.log(err);
   });
+
+  console.log(`${labelPromises.length} labels added to the database`);
 }
 // adding relation between album and label
 async function addRelationAlbumLabel(album, label){
@@ -213,30 +226,21 @@ async function addAlbumIntoDB(album){
   );
 }
 //adding all instruments into the database
-async function addInstrumentsToDatabase(data){
+async function addAllInstrumentsToDB(musicians){
+  const instruments = getAllInstruments(musicians);
   const promises = [];
 
-  data.forEach(instrument => {
+  instruments.forEach(instrument => {
       promises.push(addInstrumentToDB(instrument));
   });
 
-  await Promise.all(promises)
-  .then((results) => {
-    console.log(`${results.length} instruments are added successfuly`)
-  })
-  .catch (err => {
-    console.log('error occured')
-    console.log(err)
-  });
+  await Promise.all(promises);
+  console.log(`${promises.length} instruments are added successfuly`);
 }
 // async function to add instrument into the database
 async function addInstrumentToDB(name){
-  try{
-    await session.run(
-      'create (n:Instrument {name: $name}) return n.name',
-      {name: name}
-    );
-  }catch(err){
-    console.log(err);
-  }
+  await session.run(
+    'merge (n:Instrument {name: $name}) return n.name',
+    {name: name}
+  );
 }

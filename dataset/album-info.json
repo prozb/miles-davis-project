@@ -1,11 +1,11 @@
 {
     "The New Sounds": {
         "url": "https://en.wikipedia.org/wiki/The_New_Sounds_(Miles_Davis_album)",
+        "label": "Prestige Records",
         "released": "1951",
         "recorded": [
             "October 5, 1951"
         ],
-        "label": "Prestige Records",
         "studios": [
             "Apex Studios"
         ],
@@ -15,11 +15,11 @@
     },
     "Young Man with a Horn": {
         "url": "https://en.wikipedia.org/wiki/Young_Man_with_a_Horn_(Miles_Davis_album)",
+        "label": "Blue Note Records",
         "released": "1952",
         "recorded": [
             "May 9, 1952"
         ],
-        "label": "Blue Note Records",
         "studios": [
             "WOR Studios"
         ],
@@ -29,12 +29,12 @@
     },
     "Blue Period": {
         "url": "https://en.wikipedia.org/wiki/Blue_Period_(album)",
+        "label": "Prestige",
         "released": "1953",
         "recorded": [
             "January 17, 1951",
             "October 5, 1951"
         ],
-        "label": "Prestige",
         "studios": [
             "Apex Studios"
         ],
@@ -44,11 +44,11 @@
     },
     "The Compositions Of Al Cohn": {
         "url": "https://en.wikipedia.org/wiki/The_Compositions_Of_Al_Cohn",
+        "label": "Prestige",
         "released": "1953",
         "recorded": [
             "February 19, 1953"
         ],
-        "label": "Prestige",
         "studios": [
             "Beltone Studios"
         ],
@@ -58,11 +58,11 @@
     },
     "Miles Davis Volume 2": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Volume_2",
+        "label": "Blue Note",
         "released": "1953",
         "recorded": [
             "April 20, 1953"
         ],
-        "label": "Blue Note",
         "studios": [
             "WOR Studios"
         ],
@@ -72,11 +72,11 @@
     },
     "Miles Davis, Volume 3": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis,_Volume_3",
+        "label": "Blue Note",
         "released": "1954",
         "recorded": [
             "March 6, 1954"
         ],
-        "label": "Blue Note",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -86,12 +86,12 @@
     },
     "Miles Davis Quartet": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Quartet",
+        "label": "Prestige",
         "released": "1954",
         "recorded": [
             "May 19, 1953",
             "March 15, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "WOR Studios",
             "Beltone Studios"
@@ -102,11 +102,11 @@
     },
     "Miles Davis All-Star Sextet": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_All-Star_Sextet",
+        "label": "Prestige",
         "released": "1954",
         "recorded": [
             "April 29, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -116,11 +116,11 @@
     },
     "Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Quintet_(album)",
+        "label": "Prestige",
         "released": "1954",
         "recorded": [
             "April 3, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -130,11 +130,11 @@
     },
     "Miles Davis with Sonny Rollins": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_with_Sonny_Rollins",
+        "label": "Prestige",
         "released": "1954",
         "recorded": [
             "June 29, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -144,11 +144,11 @@
     },
     "Miles Davis All Stars, Volume 1": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_All_Stars,_Volume_1",
+        "label": "Prestige",
         "released": "1955",
         "recorded": [
             "December 24, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -158,11 +158,11 @@
     },
     "Miles Davis All Stars, Volume 2": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_All_Stars,_Volume_2",
+        "label": "Prestige",
         "released": "1955",
         "recorded": [
             "December 24, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -172,11 +172,11 @@
     },
     "Blue Moods": {
         "url": "https://en.wikipedia.org/wiki/Blue_Moods",
+        "label": "Debut Records",
         "released": "1955",
         "recorded": [
             "July 9, 1955"
         ],
-        "label": "Debut Records",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -186,11 +186,11 @@
     },
     "The Musings of Miles": {
         "url": "https://en.wikipedia.org/wiki/The_Musings_of_Miles",
+        "label": "Prestige",
         "released": "1955",
         "recorded": [
             "June 7, 1955"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -200,11 +200,11 @@
     },
     "Dig": {
         "url": "https://en.wikipedia.org/wiki/Dig_(Miles_Davis_album)",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "October 5, 1951"
         ],
-        "label": "Prestige",
         "studios": [
             "Apex Studios"
         ],
@@ -214,11 +214,11 @@
     },
     "Miles: The New Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Miles:_The_New_Miles_Davis_Quintet",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "November 16, 1955"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -228,12 +228,12 @@
     },
     "Miles Davis and Horns": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_and_Horns",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "January 17, 1951",
             "February 19, 1953"
         ],
-        "label": "Prestige",
         "studios": [
             "Apex Studios"
         ],
@@ -244,11 +244,11 @@
     },
     "Quintet / Sextet": {
         "url": "https://en.wikipedia.org/wiki/Quintet_/_Sextet",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "August 5, 1955"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -258,12 +258,12 @@
     },
     "Collectors' Items": {
         "url": "https://en.wikipedia.org/wiki/Collectors%27_Items",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "October 5, 1951",
             "March 16, 1956"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio",
             "WOR Studios"
@@ -275,12 +275,12 @@
     },
     "Blue Haze": {
         "url": "https://en.wikipedia.org/wiki/Blue_Haze",
+        "label": "Prestige",
         "released": "1956",
         "recorded": [
             "May 19, 1953",
             "April 3, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio",
             "WOR Studios"
@@ -292,11 +292,11 @@
     },
     "Walkin'": {
         "url": "https://en.wikipedia.org/wiki/Walkin%27",
+        "label": "Prestige",
         "released": "1957",
         "recorded": [
             "April 3, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -306,11 +306,11 @@
     },
     "Cookin' with the Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Cookin%27_with_the_Miles_Davis_Quintet",
+        "label": "Prestige",
         "released": "1957",
         "recorded": [
             "October 26, 1956"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -320,12 +320,12 @@
     },
     "Bags' Groove": {
         "url": "https://en.wikipedia.org/wiki/Bags%27_Groove",
+        "label": "Prestige",
         "released": "1957",
         "recorded": [
             "June 29, 1954",
             "December 24, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -335,12 +335,12 @@
     },
     "Relaxin' with the Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Relaxin%27_with_The_Miles_Davis_Quintet",
+        "label": "Prestige",
         "released": "1958",
         "recorded": [
             "May 11, 1956",
             "October 26, 1956"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -350,11 +350,11 @@
     },
     "Miles Davis and the Modern Jazz Giants": {
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_and_the_Modern_Jazz_Giants",
+        "label": "Prestige",
         "released": "1959",
         "recorded": [
             "December 24, 1954"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -364,12 +364,12 @@
     },
     "Workin' with the Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Workin%27_with_The_Miles_Davis_Quintet",
+        "label": "Prestige",
         "released": "1960",
         "recorded": [
             "May 11, 1956",
             "October 26, 1956"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -379,12 +379,12 @@
     },
     "Steamin' with the Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Steamin%27_with_The_Miles_Davis_Quintet",
+        "label": "Prestige",
         "released": "1961",
         "recorded": [
             "May 11, 1956",
             "October 26, 1956"
         ],
-        "label": "Prestige",
         "studios": [
             "Van Gelder Studio"
         ],
@@ -394,12 +394,12 @@
     },
     "'Round About Midnight": {
         "url": "https://en.wikipedia.org/wiki/%27Round_About_Midnight",
+        "label": "Columbia Records",
         "released": "1957",
         "recorded": [
             "October 27, 1955",
             "June 5, 1956"
         ],
-        "label": "Columbia Records",
         "studios": [
             "Columbia studios"
         ],
@@ -409,12 +409,12 @@
     },
     "Miles Ahead": {
         "url": "https://en.wikipedia.org/wiki/Miles_Ahead_(album)",
+        "label": "Columbia",
         "released": "1957",
         "recorded": [
             "May 6, 1957",
             "August 22, 1957"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -425,12 +425,12 @@
     },
     "Milestones": {
         "url": "https://en.wikipedia.org/wiki/Milestones_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "1958",
         "recorded": [
             "April 2, 1958",
             "April 3, 1958"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -440,12 +440,12 @@
     },
     "Jazz Track": {
         "url": "https://en.wikipedia.org/wiki/Jazz_Track",
+        "label": "Columbia",
         "released": "1958",
         "recorded": [
             "December 4, 1957",
             "May 26, 1958"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -455,12 +455,12 @@
     },
     "Porgy And Bess": {
         "url": "https://en.wikipedia.org/wiki/Porgy_and_Bess_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "1959",
         "recorded": [
             "July 22, 1958",
             "August 18, 1958"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -471,12 +471,12 @@
     },
     "Kind of Blue": {
         "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+        "label": "Columbia",
         "released": "August 17, 1959",
         "recorded": [
             "March 2, 1959",
             "April 22, 1959"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -486,13 +486,13 @@
     },
     "Sketches of Spain": {
         "url": "https://en.wikipedia.org/wiki/Sketches_of_Spain",
+        "label": "Columbia",
         "released": "July",
         "recorded": [
             "November 15, 1959",
             "November 20, 1959",
             "March 10, 1960"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -503,13 +503,13 @@
     },
     "Someday My Prince Will Come": {
         "url": "https://en.wikipedia.org/wiki/Someday_My_Prince_Will_Come_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "December 11, 1961",
         "recorded": [
             "March 7, 1961",
             "March 20, 1961",
             "March 21, 1961"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -519,6 +519,7 @@
     },
     "Quiet Nights": {
         "url": "https://en.wikipedia.org/wiki/Quiet_Nights_(Miles_Davis_and_Gil_Evans_album)",
+        "label": "Columbia",
         "released": "December 16, 1963",
         "recorded": [
             "July 27, 1962",
@@ -527,7 +528,6 @@
             "October 9, 1963",
             "October 9, 1963"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio",
             "Columbia Studios"
@@ -539,13 +539,13 @@
     },
     "Seven Steps to Heaven": {
         "url": "https://en.wikipedia.org/wiki/Seven_Steps_to_Heaven",
+        "label": "Columbia",
         "released": "1963",
         "recorded": [
             "April 16, 1963",
             "April 17, 1963",
             "May 14, 1963"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio",
             "Columbia Studios"
@@ -556,12 +556,12 @@
     },
     "E.S.P.": {
         "url": "https://en.wikipedia.org/wiki/E.S.P._(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "1965",
         "recorded": [
             "January 20, 1965",
             "January 22, 1965"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia Studios"
         ],
@@ -571,12 +571,12 @@
     },
     "Miles Smiles": {
         "url": "https://en.wikipedia.org/wiki/Miles_Smiles",
+        "label": "Columbia",
         "released": "1967",
         "recorded": [
             "October 24, 1966",
             "October 25, 1966"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -586,12 +586,12 @@
     },
     "Sorcerer": {
         "url": "https://en.wikipedia.org/wiki/Sorcerer_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "1967",
         "recorded": [
             "August 21, 1962",
             "May 24, 1967"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -601,12 +601,12 @@
     },
     "Nefertiti": {
         "url": "https://en.wikipedia.org/wiki/Nefertiti_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "January 15, 1968",
         "recorded": [
             "June 7, 1967",
             "July 19, 1967"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -617,12 +617,12 @@
     },
     "Miles in the Sky": {
         "url": "https://en.wikipedia.org/wiki/Miles_in_the_Sky",
+        "label": "Columbia",
         "released": "1968",
         "recorded": [
             "January 16, 1968",
             "May 17, 1968"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -632,12 +632,12 @@
     },
     "Filles de Kilimanjaro": {
         "url": "https://en.wikipedia.org/wiki/Filles_de_Kilimanjaro",
+        "label": "Columbia",
         "released": "February 5, 1969",
         "recorded": [
             "June 19, 1968",
             "September 24, 1968"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -647,11 +647,11 @@
     },
     "In a Silent Way": {
         "url": "https://en.wikipedia.org/wiki/In_a_Silent_Way",
+        "label": "Columbia",
         "released": "July 30, 1969",
         "recorded": [
             "February 18, 1969"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -661,12 +661,12 @@
     },
     "Bitches Brew": {
         "url": "https://en.wikipedia.org/wiki/Bitches_Brew",
+        "label": "Columbia",
         "released": "March 30, 1970",
         "recorded": [
             "August 19, 1969",
             "August 21, 1969"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -676,12 +676,12 @@
     },
     "Jack Johnson": {
         "url": "https://en.wikipedia.org/wiki/Jack_Johnson_(album)",
+        "label": "Columbia",
         "released": "February 24, 1971",
         "recorded": [
             "February 18, 1970",
             "April 7, 1970"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -691,11 +691,11 @@
     },
     "Live-Evil": {
         "url": "https://en.wikipedia.org/wiki/Live-Evil_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "November 17, 1971",
         "recorded": [
             "February 6, 1970, June 3, 1970, June 4, 1970"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -705,11 +705,11 @@
     },
     "On the Corner": {
         "url": "https://en.wikipedia.org/wiki/On_the_Corner",
+        "label": "Columbia",
         "released": "October 11, 1972",
         "recorded": [
             "June 1, 1972, June 6, 1972, June 7, 1972"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -719,12 +719,12 @@
     },
     "The Man with the Horn": {
         "url": "https://en.wikipedia.org/wiki/The_Man_with_the_Horn",
+        "label": "Columbia",
         "released": "July 1981",
         "recorded": [
             "June 1, 1980",
             "May 6, 1981"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -734,12 +734,12 @@
     },
     "Star People": {
         "url": "https://en.wikipedia.org/wiki/Star_People",
+        "label": "Columbia",
         "released": "1983",
         "recorded": [
             "September 1, 1982",
             "January 5, 1983"
         ],
-        "label": "Columbia",
         "studios": [
             "Columbia 30th Street Studio"
         ],
@@ -749,6 +749,7 @@
     },
     "Decoy": {
         "url": "https://en.wikipedia.org/wiki/Decoy_(album)",
+        "label": "Columbia",
         "released": "June 1984",
         "recorded": [
             "June 30, 1983",
@@ -757,7 +758,6 @@
             "September 10, 1983",
             "September 11, 1983"
         ],
-        "label": "Columbia",
         "studios": [
             "A&R Studio",
             "Théâtre St. Denis",
@@ -769,12 +769,12 @@
     },
     "You're Under Arrest": {
         "url": "https://en.wikipedia.org/wiki/You%27re_Under_Arrest_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "April 1985",
         "recorded": [
             "January 26, 1984",
             "January 14, 1985"
         ],
-        "label": "Columbia",
         "studios": [
             "Record Plant Studio"
         ],
@@ -785,12 +785,12 @@
     },
     "Tutu": {
         "url": "https://en.wikipedia.org/wiki/Tutu_(album)",
+        "label": "Warner Bros.",
         "released": "September 1986",
         "recorded": [
             "January 6, 1986",
             "March 25, 1986"
         ],
-        "label": "Warner Bros.",
         "studios": [
             "Capitol",
             "Clinton Recording",
@@ -803,26 +803,26 @@
     },
     "Amandla": {
         "url": "https://en.wikipedia.org/wiki/Amandla_(album)",
+        "label": "Warner Bros.",
         "released": "May 18, 1989",
         "recorded": [
             "December 1988, 1989"
         ],
-        "label": "Warner Bros.",
+        "studios": [],
         "producers": [
             "Tommy LiPuma",
             "Marcus Miller",
             "George Duke"
-        ],
-        "studios": []
+        ]
     },
     "Aura": {
         "url": "https://en.wikipedia.org/wiki/Aura_(Miles_Davis_album)",
+        "label": "Columbia",
         "released": "September 12, 1989",
         "recorded": [
             "January 31, 1985",
             "February 4, 1985"
         ],
-        "label": "Columbia",
         "studios": [
             "Easy Sound Studio"
         ],
@@ -832,12 +832,12 @@
     },
     "Doo-Bop": {
         "url": "https://en.wikipedia.org/wiki/Doo-Bop",
+        "label": "Warner Bros.",
         "released": "June 30, 1992",
         "recorded": [
             "January 19, 1991",
             "February 1991"
         ],
-        "label": "Warner Bros.",
         "studios": [
             "Unique Recording Studios"
         ],

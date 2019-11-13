@@ -2,6 +2,31 @@
     "Miles Davis": {
         "tracks": [
             {
+                "name": "The Man I Love (Take 2)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "trumpet"
+            },
+            {
+                "name": "Swing Spring",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "trumpet"
+            },
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "trumpet"
+            },
+            {
+                "name": "Bemsha Swing",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "trumpet"
+            },
+            {
+                "name": "The Man I Love (Take 1)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "trumpet"
+            },            
+            {
                 "name": "Mystery",
                 "album": "Aura",
                 "instrument": "trumpet"
@@ -2379,6 +2404,31 @@
     "Kenny Clarke": {
         "tracks": [
             {
+                "name": "The Man I Love (Take 2)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },
+            {
+                "name": "Swing Spring",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },
+            {
+                "name": "Bemsha Swing",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },
+            {
+                "name": "The Man I Love (Take 1)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },            
+            {
                 "name": "Générique",
                 "album": "Jazz Track",
                 "instrument": "drums"
@@ -2756,6 +2806,31 @@
     },
     "Percy Heath": {
         "tracks": [
+            {
+                "name": "The Man I Love (Take 2)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },
+            {
+                "name": "Swing Spring",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },
+            {
+                "name": "Bemsha Swing",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },
+            {
+                "name": "The Man I Love (Take 1)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },            
             {
                 "name": "Blue Room",
                 "album": "Blue Period",
@@ -3778,6 +3853,31 @@
     "Milt Jackson": {
         "tracks": [
             {
+                "name": "The Man I Love (Take 2)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "vibraphone"
+            },
+            {
+                "name": "Swing Spring",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "vibraphone"
+            },
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "vibraphone"
+            },
+            {
+                "name": "Bemsha Swing",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "vibraphone"
+            },
+            {
+                "name": "The Man I Love (Take 1)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "vibraphone"
+            },            
+            {
                 "name": "Dr. Jackle",
                 "album": "Quintet / Sextet",
                 "instrument": "vibraphone"
@@ -4007,6 +4107,11 @@
     },
     "Philly Joe Jones": {
         "tracks": [
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "drums"
+            },
             {
                 "name": "The Buzzard Song",
                 "album": "Porgy And Bess",
@@ -4326,6 +4431,11 @@
     },
     "Paul Chambers": {
         "tracks": [
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "bass"
+            },
             {
                 "name": "Nothing Like You",
                 "album": "Sorcerer",
@@ -4811,6 +4921,31 @@
     "Thelonious Monk": {
         "tracks": [
             {
+                "name": "The Man I Love (Take 2)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },
+            {
+                "name": "Swing Spring",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },
+            {
+                "name": "Bemsha Swing",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },
+            {
+                "name": "The Man I Love (Take 1)",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },            
+            {
                 "name": "Bags' Groove",
                 "album": "Miles Davis All Stars, Volume 1",
                 "instrument": "piano"
@@ -4986,6 +5121,11 @@
     },
     "Red Garland": {
         "tracks": [
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "piano"
+            },
             {
                 "name": "Will You Still Be Mine?",
                 "album": "The Musings of Miles",
@@ -5240,6 +5380,11 @@
     },
     "John Coltrane": {
         "tracks": [
+            {
+                "name": "Round Midnight",
+                "album": "Miles Davis and the Modern Jazz Giants",
+                "instrument": "tenor saxophone"
+            },
             {
                 "name": "Teo",
                 "album": "Someday My Prince Will Come",
