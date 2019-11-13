@@ -1,7 +1,7 @@
 {
     "The New Sounds": {
         "url": "https://en.wikipedia.org/wiki/The_New_Sounds_(Miles_Davis_album)",
-        "label": "Prestige Records",
+        "label": "Prestige",
         "released": "1951",
         "recorded": [
             "October 5, 1951"
@@ -16,7 +16,7 @@
     },
     "Young Man with a Horn": {
         "url": "https://en.wikipedia.org/wiki/Young_Man_with_a_Horn_(Miles_Davis_album)",
-        "label": "Blue Note Records",
+        "label": "Blue Note",
         "released": "1952",
         "recorded": [
             "May 9, 1952"
@@ -421,7 +421,7 @@
     },
     "'Round About Midnight": {
         "url": "https://en.wikipedia.org/wiki/%27Round_About_Midnight",
-        "label": "Columbia Records",
+        "label": "Columbia",
         "released": "1957",
         "recorded": [
             "October 27, 1955",

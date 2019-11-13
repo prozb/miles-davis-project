@@ -1,12 +1,12 @@
 const neo4j = require('neo4j-driver').v1;
 const fs    = require('fs');
 // reading music files to create database entries
-const musicFile  = fs.readFileSync('./dataset/music.json');
+const musicFile  = fs.readFileSync('./dataset/musicians.json');
 const musicians  = JSON.parse(musicFile);
 const albumsFile = fs.readFileSync('./dataset/album-info.json');
 const albums     = JSON.parse(albumsFile);
-const tracksFile = fs.readFileSync('./dataset/tracks.json');
-const tracks     = JSON.parse(tracksFile);
+// const tracksFile = fs.readFileSync('./dataset/tracks.json');
+// const tracks     = JSON.parse(tracksFile);
 // reading configs
 const configFile = fs.readFileSync('./processing/config.json');
 const config     = JSON.parse(configFile);
@@ -42,7 +42,7 @@ try{
 async function fillDatabase(){  
   try{
     await addAllLabelstIntoDB(albums);
-    // await addAllAlbumsIntoDB(albums);
+    await addAllAlbumsIntoDB(albums);
     // await addAllTracksToDB(tracks);
     // await addAllInstrumentsToDB(musicians);
     // await addAllMusiciansToDB(musicians);
@@ -202,7 +202,7 @@ async function addAllAlbumsIntoDB(albums){
     console.log(err);
   });
 
-  console.log(`${labelPromises.length} labels added to the database`);
+  console.log(`${labelPromises.length} relations label -> album added to the database`);
 }
 // adding relation between album and label
 async function addRelationAlbumLabel(album, label){
@@ -216,12 +216,11 @@ async function addRelationAlbumLabel(album, label){
 async function addAlbumIntoDB(album){
   await session.run(
     `create (n:Album {name: $name, released: $released,
-      url: $url, recorded: $recorded, studios: $studios, producers: $producers}) return n.name`,
+      url: $url, recorded: $recorded, studios: $studios}) return n.name`,
     {
       name: album[0],
       released: album[1].released, url: album[1].url, 
       recorded: album[1].recorded, studios: album[1].studios,
-      producers: album[1].producers
     }
   );
 }
