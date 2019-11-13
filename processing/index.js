@@ -49,22 +49,63 @@ async function fillDatabase(){
     await addAllInstrumentsToDB(musicians);
     await addAllMusiciansToDB(musicians);
     await addAllWriterIntoDB(allTracks);
+    await addAllProducersIntoDB(albums);
   }catch(err){
     console.log('error occured.');
     console.log(err);
   }
 }
+async function addAllProducersIntoDB(albums){
+  const producerSet = new Set();
+  var producerCount = 0;
+
+  for(var album of Object.entries(albums)){
+    for(var i = 0; i < album[1].producers.length; i++){
+      // adding producer into db in case when it isn't in db
+      if(!producerSet.has(album[1].producers[i])){
+        await addProducerIntoDB(album[1].producers[i]);
+        producerSet.add(album[1].producers[i]);
+        producerCount++;
+      }
+      await addRelationProducerAlbum(album[1].producers[i], album[0]);
+    }
+  }
+  console.log(`${producerCount} producers added into db`);
+}
+// adding relation producer -> album
+async function addRelationProducerAlbum(producer, album){
+  await session.run(`match (a:Producer), (b:Album) 
+    where a.name = {producerName} and b.name = {albumName} 
+    merge (a)-[r:PRODUCED]->(b) return type(r)`, {
+      producerName: producer, albumName: album
+  });
+  console.log(`added relation ${producer} -> ${album}`);
+}
+// adding producer into db
+async function addProducerIntoDB(producer){
+  await session.
+  // run(`merge (a {name: $name}) 
+  // on match set a:Writer 
+  // on create set a:Writer return a;`, { 
+  run(`merge (a {name: $name}) 
+        on match set a:Producer 
+        on create set a:Producer return a;`, { 
+    name: producer 
+  })
+  .catch(console.log);
+}
+// adding all writers into db
 async function addAllWriterIntoDB(allTracks){
-  const writers  = new Set();
+  const writers = new Set();
   
   var count = 0;
   for(var track of Object.entries(allTracks)){
     for(var i = 0; i < track[1].length; i++){
       if(!writers.has(track[1][i])){
         await addWriterIntoDB(track[1][i]);
-        count += 1;
+        writers.add(track[1][i]);
+        count++;
       }
-      writers.add(track[1][i]);
       await addRelationWriterTrack(track[1][i], track[0]);
     }
   }
