@@ -50,11 +50,26 @@ async function fillDatabase(){
     await addAllMusiciansToDB(musicians);
     await addAllWriterIntoDB(allTracks);
     await addAllProducersIntoDB(albums);
+    await addAllMusicianTrackInstrumentRelation(musicians);
   }catch(err){
     console.log('error occured.');
     console.log(err);
   }
 }
+// creating track - musician - instrument relations
+async function addAllMusicianTrackInstrumentRelation(musicians){
+  var count = 0;
+  for(musician of Object.entries(musicians)){
+    for(var i = 0; i < musician[1].tracks.length; i++){
+      var track = musician[1].tracks[i];
+      count++;
+      // track, musician, instrument, album
+      await addTrackMusicianInstrumentRelation(track.name, musician[0], track.instrument, track.album); 
+    }
+}
+  console.log(`${count} track - musician - instrument relations added`)
+}
+// adding all producers into db
 async function addAllProducersIntoDB(albums){
   const producerSet = new Set();
   var producerCount = 0;
@@ -72,9 +87,25 @@ async function addAllProducersIntoDB(albums){
   }
   console.log(`${producerCount} producers added into db`);
 }
-
+// track, musician, instrument relation
 async function addTrackMusicianInstrumentRelation(track, musician, instrument, album){
-
+  await session.run(`
+    match 
+      (album:Album {name: $albumName}), (instrument:Instrument {name: $instrumentName}),
+      (musician:Musician {name: $musicianName}), (track:Track {name: $trackName})
+    where exists((track)-[:PRESENT_IN]->(album))
+    merge 
+      (musician)-[:PLAYED]->(playing:TrackPlaying 
+      {name: toString(split(musician.name, ' ')[0] + split(track.name, ' ')[0] + split(instrument.name, ' ')[0])})
+    merge
+      (instrument)<-[:PLAYED]-(playing)
+    merge
+      (track)<-[:PLAYED_ON]-(playing) 
+    return playing`, {
+      musicianName: musician, albumName: album, 
+      instrumentName: instrument, trackName: track
+    });
+  // console.log(`added relation ${producer} -> ${album}`);
 }
 // adding relation producer -> album
 async function addRelationProducerAlbum(producer, album){
