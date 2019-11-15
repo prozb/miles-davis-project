@@ -72,6 +72,10 @@ async function addAllProducersIntoDB(albums){
   }
   console.log(`${producerCount} producers added into db`);
 }
+
+async function addTrackMusicianInstrumentRelation(track, musician, instrument, album){
+
+}
 // adding relation producer -> album
 async function addRelationProducerAlbum(producer, album){
   await session.run(`match (a:Producer), (b:Album) 
@@ -83,11 +87,8 @@ async function addRelationProducerAlbum(producer, album){
 }
 // adding producer into db
 async function addProducerIntoDB(producer){
-  await session.
-  // run(`merge (a {name: $name}) 
-  // on match set a:Writer 
-  // on create set a:Writer return a;`, { 
-  run(`merge (a {name: $name}) 
+  await session
+  .run(`merge (a {name: $name}) 
         on match set a:Producer 
         on create set a:Producer return a;`, { 
     name: producer 
@@ -178,9 +179,14 @@ async function addAllTracksToDB(tracks){
   console.log(`${count} tracks added to the database`);
 }
 // creating album -> track relation
+// since tracks can be present in different albums,
+// you should carefully create new album -> track relation 
+// to avoid one repeating track will be included multiple 
+// times in different albums
+// Oleo -> Album1, Oleo -> Album1, Oleo -> Album2, Oleo -> Album3 etc.
 async function addRelationAlbumTrack(album, track){
   await session.run(`match (a:Album), (b:Track) 
-    where a.name = {albumName} and b.name = {trackName} 
+    where not (b)-[]-(:Album) and a.name = {albumName} and b.name = {trackName}
     merge (a)<-[r:PRESENT_IN]-(b) return type(r)`, {
       albumName: album, trackName: track
   });
@@ -188,7 +194,7 @@ async function addRelationAlbumTrack(album, track){
 }
 // adding one track to database
 async function addTrackToDB(track){
-  await session.run(`merge (n:Track {name: $name}) return n`, 
+  await session.run(`create (n:Track {name: $name}) return n`, 
   {name: track});
 }
 // adding all musicians to database
