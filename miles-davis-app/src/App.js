@@ -6,9 +6,8 @@ import Home from './screens/Home';
 import About from './screens/About';
 import Contact from './screens/Contact';
 import NoMatch from './screens/NoMatch';
-import Layout from './components/Layout';
+import Exploration from './screens/Exploration';
 import NavigationBar from './components/NavigationBar';
-import Jumbotron from './components/Jumbotron';
 
 // Photo by Chris Bair on Unsplash
 class App extends Component{
@@ -16,17 +15,15 @@ class App extends Component{
     return (
       <React.Fragment>
         <NavigationBar/>
-        <Jumbotron/>
-        <Layout>
         <Router>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/exploration" component={Exploration}/>
             <Route component={NoMatch}/>
           </Switch>
         </Router>
-        </Layout>
       </React.Fragment>
     );
   }

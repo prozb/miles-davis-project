@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Jumbotron from '../components/Jumbotron';
 
 export default class Home extends Component {
   constructor(props) {
@@ -9,9 +10,9 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div>
-          Home
-      </div>
+        <React.Fragment>
+        <Jumbotron/>
+        </React.Fragment>
     );
   }
 }
