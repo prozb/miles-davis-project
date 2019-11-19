@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url('assets/safopone-jumbo.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #E1E1DB;
+}
+
+.jumbo-button{
+    padding-top: 20px;
+}
