@@ -18,3 +18,8 @@
 .nav-link{
     font-size: 18px;
 }
+
+#root{ 
+    background-color: cornflowerblue;
+    min-height: 600px;
+}
