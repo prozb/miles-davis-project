@@ -28,7 +28,12 @@
     padding: 15px 0 0 0;
 }
 
+#tr-footer{
+    height: 15px;
+    width:100%;
+    background:transparent;
+}
 #root{ 
-    background-color: cornflowerblue;
-    min-height: 600px;
+    background-color: rgb(140, 169, 223);
+    min-height: 620px;
 }
