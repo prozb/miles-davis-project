@@ -28,8 +28,8 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#about" >About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Explore</a>
@@ -55,9 +55,51 @@
       <!-- </div> -->
     </div>
     <!-- ending jumbotron -->
+    <!-- starting content -->
+    <a name="about"></a>
+    <div class="card-holder container">
+        <div class="row">
+            <!-- neo4j container -->
+            <div class="col-md-4 custom-card d-flex align-items-stretch">
+              <div class="card text-center">
+                <img src="assets/miles-davis.png" class="card-img-top" alt="vis js logo">
+                <div class="card-body">
+                  <h5 class="card-title">Discography of Miles Davis</h5>
+                  <p class="card-text">Miles Davis was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music.</p>
+                  <a target="blank" href="https://en.wikipedia.org/wiki/Miles_Davis" class="btn btn-outline-primary">More info&raquo;</a>
+                </div>
+              </div>
+            </div>
+            <!-- neo4j container -->
+            <div class="col-md-4 custom-card d-flex align-items-stretch">
+              <div class="card text-center">
+                <img src="assets/neo4j.png" class="card-img-top" alt="vis js logo">
+                <div class="card-body">
+                  <h5 class="card-title">Neo4j - the graph database</h5>
+                  <p class="card-text">Neo4j is a highly scalable native graph database, purpose-built to leverage not only data but also data relationships.
+                    </p>
+                  <a target="blank" href="https://neo4j.com/" class="btn btn-outline-primary">More info&raquo;</a>
+                </div>
+              </div>
+            </div>
+            <!-- neovis container -->
+            <div class="col-md-4  custom-card d-flex align-items-stretch">
+                <div class="card text-center">
+                  <img src="assets/vis-js.png" class="card-img-top" alt="vis js logo">
+                  <div class="card-body">
+                    <h5 class="card-title">Vis.js visualization</h5>
+                    <p class="card-text">The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data.</p>
+                    <a target="blank" href="https://visjs.org/" class="btn btn-outline-primary">More info&raquo;</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <hr class="col-xs-12">
 
-    <div>content</div>
-    <div>Photo by Alex Paganelli on Unsplash</div>
+    <!-- ending content -->
+    <div>Footer</div>
+    <div>Credits: Photo by Alex Paganelli on Unsplash</div>
     </div>
   </body>
 </html>
