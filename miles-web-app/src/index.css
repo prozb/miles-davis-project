@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url('assets/safopone-jumbo.jpg');
+    background-image: url('./safopone-jumbo.jpg');
     background-size: cover;
 }
 
