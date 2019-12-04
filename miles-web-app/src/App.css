@@ -1,0 +1,27 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgba(116, 116, 116, 0.2);
+    min-height: 620px;
+    border-radius: 5px;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.start-button-container {
+    justify-content: center;
+    padding: 10px;
+}
