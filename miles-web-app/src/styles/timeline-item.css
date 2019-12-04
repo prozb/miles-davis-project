@@ -1,0 +1,35 @@
+.item-container{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-width: 10px;
+    border-radius: 50px;
+    border-color: green;
+    border-style: solid;
+}
+
+.item-container-hovered {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-width: 15px;
+    border-radius: 50%;
+    border-color: green;
+    border-style: solid;
+}
+
+.information-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.vertical-timeline {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}

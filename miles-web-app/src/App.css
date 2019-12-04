@@ -5,6 +5,7 @@
     flex: 1;
     background-color: rgba(116, 116, 116, 0.2);
     min-height: 620px;
+    /* min-width: 100%; */
     border-radius: 5px;
 }
 
@@ -16,7 +17,7 @@
 .timeline-container {
     /* background-color: coral; */
     justify-content: flex-end;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
     padding: 10px;
     display: flex;
