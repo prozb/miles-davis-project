@@ -16,10 +16,11 @@ export default class StartButton extends Component {
   }
 
   render() {
+    const {style} = this.props;
     const buttonClass = !this.props.started ? startedName : endedName;
     const buttonName  = !this.props.started ? startText : endText;
     return (
-      <button className={buttonClass} onClick={this.props.startSimulation}>
+      <button style={style} className={buttonClass} onClick={this.props.startSimulation}>
           {buttonName}
       </button>
     );
