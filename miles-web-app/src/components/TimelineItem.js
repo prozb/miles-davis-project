@@ -15,10 +15,11 @@ export default class TimelineItem extends Component {
   }
 
   render() {
-    const { icon, name, date, itemId } = this.props;
+    const { icon, name, date, itemId, style, x, y } = this.props;
     const itemClass = this.state.mouseEntered ? "item-container-hovered" : "item-container"
+    const containerClass = this.state.mouseEntered ? "vertical-timeline move-top" : "vertical-timeline"
     return (
-      <div className="vertical-timeline">
+      <div style={style} className={containerClass}>
         {/* album container start */}
         <div id={itemId}
             onClick={this.digIntoAlbum}
@@ -42,7 +43,7 @@ export default class TimelineItem extends Component {
           <p className="lead">{date}</p>
         </div>
         {/* date end */}
-      </div>
+    </div>
     );
   }
 }

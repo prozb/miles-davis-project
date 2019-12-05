@@ -15,12 +15,8 @@
 }
 
 .timeline-container {
-    /* background-color: coral; */
-    justify-content: flex-end;
-    flex-direction: row;
-    flex: 1;
-    padding: 10px;
-    display: flex;
+    padding: 20px;
+    display: block;
 }
 
 .horizontal-container {
