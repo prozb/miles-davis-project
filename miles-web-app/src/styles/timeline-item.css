@@ -29,16 +29,13 @@
 .vertical-timeline {
     position: relative;
     float: left;
-    background-color: aquamarine;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
 }
 
 .move-top {
-    bottom: 20px;
+    top: 20px;
 }

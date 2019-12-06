@@ -1,3 +1,13 @@
 .timeline-container{
-    /* display: inline-block; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+}
+
+.line-container { 
+    position: relative;
+    bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }

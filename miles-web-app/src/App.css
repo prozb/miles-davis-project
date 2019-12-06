@@ -9,6 +9,12 @@
     border-radius: 5px;
 }
 
+.app-container-full {
+    height: 100%;
+    width: 100%;
+    min-height: 900px;
+}
+
 .vertical-container {
     display: flex;
     flex-direction: column;
@@ -16,7 +22,8 @@
 
 .timeline-container {
     padding: 20px;
-    display: block;
+    flex: 10;
+    display: flex;
 }
 
 .horizontal-container {

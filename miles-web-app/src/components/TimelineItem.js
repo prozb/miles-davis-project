@@ -15,11 +15,11 @@ export default class TimelineItem extends Component {
   }
 
   render() {
-    const { icon, name, date, itemId, style, x, y } = this.props;
+    const { icon, name, date, itemId, style} = this.props;
     const itemClass = this.state.mouseEntered ? "item-container-hovered" : "item-container"
     const containerClass = this.state.mouseEntered ? "vertical-timeline move-top" : "vertical-timeline"
     return (
-      <div style={style} className={containerClass}>
+      <div className={containerClass} style={style}>
         {/* album container start */}
         <div id={itemId}
             onClick={this.digIntoAlbum}
@@ -28,7 +28,7 @@ export default class TimelineItem extends Component {
             className={itemClass}
             style={{backgroundImage: `url(${icon})`}}>
           {/* start information about each album */}
-          <Tooltip style={{borderRadius: 10}} placement="top" isOpen={this.state.mouseEntered} target={itemId}>
+          <Tooltip style={{borderRadius: 10,}} placement="right" isOpen={this.state.mouseEntered} target={itemId}>
             <div className="information-container">
               <img src={icon} alt="album" width={150}/>
               <p style={{paddingTop: 10}}>{name}</p>
