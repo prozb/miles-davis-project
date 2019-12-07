@@ -1,0 +1,1 @@
+export const pixelsPerYear = 100;  
