@@ -33,7 +33,7 @@ class App extends React.Component{
     super(props);
     
     this.state = {
-      simulationStarted: true,
+      simulationStarted: false,
       isFull: false,
     }
   }
@@ -45,7 +45,7 @@ class App extends React.Component{
   }
 
   goFull = () => {
-    this.setState({ isFull: false });
+    this.setState({ isFull: true });
   }
 
   render () {
