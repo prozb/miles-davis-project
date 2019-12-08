@@ -10,7 +10,10 @@ export default class AlbumScreen extends Component {
   render() {
     const {name} = this.props;
     return (
-      <div>{name}</div>
+      <div>
+        <button onClick={this.props.switchToTimeline}>back</button>
+        {name}
+      </div>
     );
   }
 }

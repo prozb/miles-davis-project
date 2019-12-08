@@ -35,11 +35,21 @@ class App extends React.Component{
    * @param {string} album name
    */
   switchToAlbum = (name) => {
-    alert('switch')
     this.setState({
       albumScreen: true,
       timelineScreen: false,
       albumName: name,
+    })
+  }
+
+  /**
+   * switching back from album to timeline
+   */
+  switchToTimeline = () => {
+    this.setState({
+      albumScreen: false,
+      timelineScreen: true,
+      albumName: '',
     })
   }
 
@@ -48,7 +58,7 @@ class App extends React.Component{
       return <TimelineScreen switchToAlbum={this.switchToAlbum}/>
     
     if(this.state.simulationStarted && this.state.albumScreen)
-      return <AlbumScreen name={this.state.albumName}/>
+      return <AlbumScreen switchToTimeline={this.switchToTimeline} name={this.state.albumName}/>
     
     return <StartScreen/>
   }
