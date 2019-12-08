@@ -32,6 +32,7 @@ export default class TimelineItem extends Component {
             <div className="information-container">
               <img src={icon} alt="album" width={150}/>
               <p style={{paddingTop: 10}}>{name}</p>
+              <p>{date}</p>
             </div>
           </Tooltip>
           {/* end information about each album */}

@@ -1,13 +1,18 @@
 .timeline-container{
     overflow-y: hidden;
     overflow-x: scroll;
-    
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
 }
 
 .line-container { 
     position: relative;
-    bottom: 75px;
+    bottom: 92px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.timeline-container::-webkit-scrollbar { 
+    display: none;
 }

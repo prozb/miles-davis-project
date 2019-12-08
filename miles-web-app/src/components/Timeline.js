@@ -38,7 +38,7 @@ export default class Timeline extends Component {
         );
         timeline.push(
             <div className="line-container">
-              <svg width={getDistanceBetweenAlbums(album1, album2)} height='10px'>
+              <svg width={getDistanceBetweenAlbums(album1, album2)} height='14px'>
                 <line x1="0" y1="0" x2={getDistanceBetweenAlbums(album1, album2)} y2="0" style={{stroke: 'green', strokeWidth: '30'}}/>
               </svg>
             </div>

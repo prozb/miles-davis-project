@@ -1,18 +1,18 @@
 .item-container{
-    width: 70px;
-    height: 70px;
+    width: 110px;
+    height: 110px;
     background-color: white;
-    border-width: 10px;
-    border-radius: 50px;
+    border-width: 17px;
+    border-radius: 50%;
     border-color: green;
     border-style: solid;
 }
 
 .item-container-hovered {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     background-color: white;
-    border-width: 15px;
+    border-width: 18px;
     border-radius: 50%;
     border-color: green;
     border-style: solid;
