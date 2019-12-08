@@ -31,11 +31,11 @@ export default class Timeline extends Component {
         
         timeline.push(
           <TimelineItem 
-            style={i == 0 ? {paddingLeft: 50,} : {}}
+            style={i === 0 ? {paddingLeft: 50,} : {}}
             itemId={getIdFromName(album1[0])}
             name={album1[0]} 
             icon={album1[1].icon} 
-            date={getReleasedYearFromDate(album1[1].released)}/>
+            date={album1[1].released}/>
         );
         timeline.push(
             <div className="line-container">
@@ -58,6 +58,7 @@ export default class Timeline extends Component {
         );
       }
     }
+
     return timeline;
   }
 
