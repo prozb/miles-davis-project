@@ -31,6 +31,7 @@ export default class Timeline extends Component {
         
         timeline.push(
           <TimelineItem 
+            style={i == 0 ? {paddingLeft: 50,} : {}}
             itemId={getIdFromName(album1[0])}
             name={album1[0]} 
             icon={album1[1].icon} 
@@ -49,6 +50,7 @@ export default class Timeline extends Component {
         // last element
         timeline.push(
           <TimelineItem 
+            style={{paddingRight: 50,}}
             itemId={getIdFromName(album1[0])}
             name={album1[0]} 
             icon={album1[1].icon} 
@@ -63,6 +65,7 @@ export default class Timeline extends Component {
     return (
       <div className="timeline-container">
 				{this.state.timeline}
+        <div></div>
       </div>
     );
   }
