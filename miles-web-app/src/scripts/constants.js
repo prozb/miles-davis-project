@@ -1,1 +1,1 @@
-export const pixelsPerYear = 100;  
+export const pixelsPerYear = 50;  

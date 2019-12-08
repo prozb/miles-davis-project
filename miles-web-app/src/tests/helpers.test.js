@@ -33,17 +33,21 @@ const item5 = {
 	}	
 }
 
-test('testing getting distance between two albums', () => {
-	expect(getDistanceBetweenAlbums(item3, item5)).toBeGreaterThan(2 * pixelsPerYear);
-});
+// test('testing getting distance between two albums with equal release date', () => {
+// 	expect(getDistanceBetweenAlbums(item3, item3)).toEqual(0);
+// });
 
-test('testing getting distance between incorrect albums', () => {
-	expect(getDistanceBetweenAlbums(item3, null)).toEqual(0);
-});
+// test('testing getting distance between two albums', () => {
+// 	expect(getDistanceBetweenAlbums(item3, item5)).toBeGreaterThan(2 * pixelsPerYear);
+// });
 
-test('testing converting time to years, passing incorrect timestamp', () => {
-	expect(convertTimestampToYears(null)).toEqual(0);
-});
+// test('testing getting distance between incorrect albums', () => {
+// 	expect(getDistanceBetweenAlbums(item3, null)).toEqual(0);
+// });
+
+// test('testing converting time to years, passing incorrect timestamp', () => {
+// 	expect(convertTimestampToYears(null)).toEqual(0);
+// });
 
 test('testing converting time to years', () => {
 	var time1 = new Date('1 January, 1995');
@@ -52,22 +56,10 @@ test('testing converting time to years', () => {
 	expect(convertTimestampToYears(Math.abs(time1 - time2))).toEqual(1);
 });
 
-test('testing correct full distance calculated is one day', () => {
-	expect(getFullDistance(item3, item4)).toEqual(24 * 60 * 60 * 1000);
-});
+// test('extract release date from album Tutu, passing correct album', () => {
+// 	expect(getReleaseDateFromAlbum(item2)).toEqual("September 1986");
+// });
 
-test('testing correct full distance calculated greater than zero', () => {
-	expect(getFullDistance(item3, item4)).toBeGreaterThan(0);
-});
-
-test('testing correct full distance is zero for equal albums', () => {
-	expect(getFullDistance(item3, item3)).toEqual(0);
-});
-
-test('extract release date from album Tutu, passing correct album', () => {
-	expect(getReleaseDateFromAlbum(item2)).toEqual("September 1986");
-});
-
-test('extract release date from incorrect album, return empty', () => {
-	expect(getReleaseDateFromAlbum(null)).toEqual("");
-});
+// test('extract release date from incorrect album, return empty', () => {
+// 	expect(getReleaseDateFromAlbum(null)).toEqual("");
+// });

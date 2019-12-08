@@ -1,19 +1,9 @@
 import {pixelsPerYear} from './constants';
 
-// calculating full distance between first and last album in miliseconds
-export const getFullDistance = (first, last) => {
-    if(first && last){
-        var date1 = new Date(getReleaseDateFromAlbum(first));
-        var date2 = new Date(getReleaseDateFromAlbum(last));
-        
-        return Math.abs(date1.getTime() - date2.getTime());
-    }
-    return 0;
-}
 // extracting release date from album
 export const getReleaseDateFromAlbum = (album) => {
     if(album){
-     return album[Object.keys(album)[0]].released;
+			return album[1].released;
     }
     return '';
     
@@ -27,12 +17,27 @@ export const convertTimestampToYears = (timestamp) => {
 }
 // extracting release date from album
 export const getDistanceBetweenAlbums = (album1, album2) => {
+	console.log(album1);
     if(album1 && album2){
         var timeStamp = new Date(getReleaseDateFromAlbum(album1)).getTime() - 
             new Date(getReleaseDateFromAlbum(album2)).getTime();
         return convertTimestampToYears(timeStamp) * pixelsPerYear;
     } 
     return 0;
+}
+
+export const getIdFromName = (name) => {
+    return name.replace(/:/g, '_')
+      .replace(/\s/g, '_')
+      .replace(/,/g, '')
+      .replace(/\//g, '')
+      .replace(/'/g, '')
+      .replace(/`/g, '_')
+      .replace(/\./g, '_');
+}
+
+export const getReleasedYearFromDate = (date) => {
+  return new Date(date).getFullYear();
 }
 
 
