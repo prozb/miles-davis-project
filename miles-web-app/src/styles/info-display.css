@@ -1,18 +1,13 @@
 .info-container {
     background-color: white;
-    min-width: 300px;
-    min-height: 100px;
-    position: absolute;
-    margin: 20px;
-    padding: 10px;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
 .info-shadow {
     border: 0;
     box-shadow: inset 0px 0px 5px 1px rgba(74, 74, 74, 0.4);
     border-radius: 5px;
-    
     background: white;
-    padding: 15px;
+    padding: 10px 10px 0px 10px;
 }

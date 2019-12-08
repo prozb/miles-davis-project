@@ -8,7 +8,7 @@ import albums from '../data/album-info.json';
  * component for displaying all albums
  * @author Pavlo Rozbytskyi
  */
-export default class Timeline extends Component {
+export default class TimelineComponent extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -63,10 +63,10 @@ export default class Timeline extends Component {
   }
 
   render() {
+    const {style} = this.props;
     return (
-      <div className="timeline-container">
+      <div className="timeline-container" style={style}>
 				{this.state.timeline}
-        <div></div>
       </div>
     );
   }

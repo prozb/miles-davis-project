@@ -19,7 +19,7 @@
 }
 
 .information-container {
-    padding: 5px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     flex: 1;
