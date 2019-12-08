@@ -11,6 +11,7 @@ export default class TimelineScreen extends Component {
     };
   }
 
+  
   render() {
     return (
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
@@ -22,7 +23,7 @@ export default class TimelineScreen extends Component {
 
             {/* starting timeline component */}
             <div style={{display: 'flex', alignItems: 'flex-end', flex: 3,}}>
-                <TimelineComponent style={{marginBottom: 20,}}/>
+                <TimelineComponent switchToAlbum={this.props.switchToAlbum} style={{marginBottom: 20,}}/>
             </div>
             {/* ending timeline component */}
         </div>

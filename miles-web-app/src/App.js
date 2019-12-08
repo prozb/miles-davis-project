@@ -17,6 +17,7 @@ class App extends React.Component{
       simulationStarted: true,
       timelineScreen: true,
       albumScreen: false,
+      albumName: '',
     }
   }
   /**
@@ -26,16 +27,28 @@ class App extends React.Component{
     this.setState({
       simulationStarted: !this.state.simulationStarted,
       timelineScreen: true,
+      albumName: ''
     });
   }
-
+  /**
+   * switching from timeline to album
+   * @param {string} album name
+   */
+  switchToAlbum = (name) => {
+    alert('switch')
+    this.setState({
+      albumScreen: true,
+      timelineScreen: false,
+      albumName: name,
+    })
+  }
 
   getСurrentScreen = () => {
     if(this.state.simulationStarted && this.state.timelineScreen)
-      return <TimelineScreen/>
+      return <TimelineScreen switchToAlbum={this.switchToAlbum}/>
     
     if(this.state.simulationStarted && this.state.albumScreen)
-      return <AlbumScreen/>
+      return <AlbumScreen name={this.state.albumName}/>
     
     return <StartScreen/>
   }
@@ -57,7 +70,8 @@ class App extends React.Component{
 
         {/* button container start */}
         <div className="horizontal-container start-button-container">
-          <StartButton started={this.state.simulationStarted} startSimulation={this.startSimulation}/>
+          <StartButton started={this.state.simulationStarted} 
+            startSimulation={this.startSimulation}/>
         </div>
         {/* button container end */}
       </div>

@@ -12,7 +12,8 @@ export default class TimelineItem extends Component {
   }
   
   digIntoAlbum = () => {
-    alert('dig into the album')
+    const {name} = this.props;
+    this.props.switchToAlbum(name);
   }
 
   render() {

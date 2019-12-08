@@ -8,8 +8,9 @@ export default class AlbumScreen extends Component {
   }
 
   render() {
+    const {name} = this.props;
     return (
-      <div>album screen</div>
+      <div>{name}</div>
     );
   }
 }
