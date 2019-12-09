@@ -99,24 +99,24 @@ class HomeRoute extends Component {
 	}
 
 	getNavigationBar = () => {
-		return <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+		return <nav className="navbar navbar-expand-lg navbar-light">
+      <a className="navbar-brand" href="#"><img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/></a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item"  data-toggle="collapse" >
-              <a class="nav-link" href="#about" data-target=".navbar-collapse.show">About</a>
+          <li className="nav-item"  data-toggle="collapse" >
+              <a className="nav-link" href="#about" data-target=".navbar-collapse.show">About</a>
           </li>
-          <li class="nav-item" data-toggle="collapse">
-            <a class="nav-link" href="#exploration" data-target=".navbar-collapse.show">Explore</a>
+          <li className="nav-item" data-toggle="collapse">
+            <a className="nav-link" href="#exploration" data-target=".navbar-collapse.show">Explore</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+          <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -144,45 +144,45 @@ class HomeRoute extends Component {
 
 			<hr className="col-xs-12"></hr>
 
-			<div class="card-holder container">
-        <div class="row">
+			<div className="card-holder container">
+        <div className="row">
 					{/* <!-- neo4j container --> */}
-					<div class="col-md-4 custom-card d-flex align-items-stretch">
-						<div class="card text-center">
-							<img src="assets/miles-davis.png" class="card-img-top" alt="vis js logo"></img>
-							<div class="card-body">
-								<h5 class="card-title">Discography of Miles Davis</h5>
-								<p class="card-text">Miles Davis was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music.</p>
-								<a target="blank" href="https://en.wikipedia.org/wiki/Miles_Davis" class="btn btn-outline-primary">More info&raquo;</a>
+					<div className="col-md-4 custom-card d-flex align-items-stretch">
+						<div className="card text-center">
+							<img src="assets/miles-davis.png" className="card-img-top" alt="vis js logo"></img>
+							<div className="card-body">
+								<h5 className="card-title">Discography of Miles Davis</h5>
+								<p className="card-text">Miles Davis was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music.</p>
+								<a target="blank" href="https://en.wikipedia.org/wiki/Miles_Davis" className="btn btn-outline-primary">More info&raquo;</a>
 							</div>
 						</div>
 					</div>
 					{/* <!-- neo4j container --> */}
-					<div class="col-md-4 custom-card d-flex align-items-stretch">
-						<div class="card text-center">
-							<img src="assets/neo4j.png" class="card-img-top" alt="vis js logo"></img>
-							<div class="card-body">
-								<h5 class="card-title">Neo4j - the graph database</h5>
-								<p class="card-text">Neo4j is a highly scalable native graph database, purpose-built to leverage not only data but also data relationships.
+					<div className="col-md-4 custom-card d-flex align-items-stretch">
+						<div className="card text-center">
+							<img src="assets/neo4j.png" className="card-img-top" alt="vis js logo"></img>
+							<div className="card-body">
+								<h5 className="card-title">Neo4j - the graph database</h5>
+								<p className="card-text">Neo4j is a highly scalable native graph database, purpose-built to leverage not only data but also data relationships.
 									</p>
-								<a target="blank" href="https://neo4j.com/" class="btn btn-outline-primary">More info&raquo;</a>
+								<a target="blank" href="https://neo4j.com/" className="btn btn-outline-primary">More info&raquo;</a>
 							</div>
 						</div>
 					</div>
 					{/* <!-- neovis container --> */}
-					<div class="col-md-4  custom-card d-flex align-items-stretch">
-							<div class="card text-center">
-								<img src="assets/vis-js.png" class="card-img-top" alt="vis js logo"></img>
-								<div class="card-body">
-									<h5 class="card-title">Vis.js visualization</h5>
-									<p class="card-text">The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data.</p>
-									<a target="blank" href="https://visjs.org/" class="btn btn-outline-primary">More info&raquo;</a>
+					<div className="col-md-4  custom-card d-flex align-items-stretch">
+							<div className="card text-center">
+								<img src="assets/vis-js.png" className="card-img-top" alt="vis js logo"></img>
+								<div className="card-body">
+									<h5 className="card-title">Vis.js visualization</h5>
+									<p className="card-text">The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data.</p>
+									<a target="blank" href="https://visjs.org/" className="btn btn-outline-primary">More info&raquo;</a>
 								</div>
 							</div>
 						</div>
 				</div>
     	</div>
-			<hr class="col-xs-12"></hr>
+			<hr className="col-xs-12"></hr>
 		</div>
 	}
 
@@ -198,30 +198,30 @@ class HomeRoute extends Component {
 	}
 
 	getFooter = () => {
-		return <footer class="page-footer font-small my-footer">
+		return <footer className="page-footer font-small my-footer">
 			<a name="contact"></a>
 
-      <div class="container text-center text-md-left">
-      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, est qui distinctio recusandae veritatis soluta aliquid dolorem laboriosam eligendi aspernatur alias libero vel quibusdam quo facilis cumque iusto repudiandae dolor.</p>
+      <div className="container text-center text-md-left">
+      <p className="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, est qui distinctio recusandae veritatis soluta aliquid dolorem laboriosam eligendi aspernatur alias libero vel quibusdam quo facilis cumque iusto repudiandae dolor.</p>
       </div>
       
       {/* <!-- Copyright --> */}
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <div className="footer-copyright text-center py-3">© 2019 Copyright:
         <a target="blank" href="https://rozbitski.de"> rozbitski.de</a>
       </div>
     </footer>
 	}
 
-	handlePress = () => {
+	switchToAlbum = (albumName) => {
 		this.setState({hideComponent: true});
-		this.props.history.push('/album');
+		this.props.history.push(`/album?name=${albumName}`);
 	}
+
   render() {
 		if(this.state.hideComponent)
 			return null;
     return (
 			<div>
-				<button onClick={this.handlePress}>press me</button>
 				{this.getNavigationBar()}
 				{this.getJumbotron()}
 				{this.getContent()}

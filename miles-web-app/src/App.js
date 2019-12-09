@@ -21,7 +21,6 @@ class App extends React.Component{
     this.state = {
       showHome: true,
       showAlbums: false,
-      albumName: ''
     }
   } 
 
