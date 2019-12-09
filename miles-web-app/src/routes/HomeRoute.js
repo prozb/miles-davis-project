@@ -4,9 +4,10 @@ import StartButton from '../components/StartButton';
 import AlbumScreen from '../screens/AlbumScreen';
 import StartScreen from '../screens/StartScreen';
 import TimelineScreen from '../screens/TimelineScreen';
-import {Link} from "react-router-dom";
+import { withRouter } from 'react-router-dom';
 
-export default class HomeRoute extends Component {
+
+class HomeRoute extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -210,9 +211,17 @@ export default class HomeRoute extends Component {
       </div>
     </footer>
 	}
+
+	handlePress = () => {
+		this.setState({hideComponent: true});
+		this.props.history.push('/album');
+	}
   render() {
+		if(this.state.hideComponent)
+			return null;
     return (
 			<div>
+				<button onClick={this.handlePress}>press me</button>
 				{this.getNavigationBar()}
 				{this.getJumbotron()}
 				{this.getContent()}
@@ -227,3 +236,4 @@ export default class HomeRoute extends Component {
   }
 }
 
+export default withRouter(HomeRoute);
