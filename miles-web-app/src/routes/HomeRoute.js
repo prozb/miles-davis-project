@@ -64,11 +64,7 @@ class HomeRoute extends Component {
   }
 
 	getApplicationContainer = () => {
-		return <div className="vertical-container">
-				<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
-					<button className="btn btn-success" onClick={this.goFull}>go full</button>
-				</div>
-				
+		return <div className="vertical-container">				
 				{/* start application container */}
 				<div className="app-container">
 					{/* application screens */}

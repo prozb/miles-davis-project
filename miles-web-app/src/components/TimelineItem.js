@@ -31,7 +31,7 @@ export default class TimelineItem extends Component {
             className={itemClass}
             style={{backgroundImage: `url(${icon})`}}>
           {/* start information about each album */}
-          <Tooltip style={{borderRadius: 10,}} placement="right" isOpen={this.state.mouseEntered} target={itemId}>
+          <Tooltip style={{borderRadius: 10,}} placement="left" isOpen={this.state.mouseEntered} target={itemId}>
             <div className="information-container">
               <img src={icon} alt="album" width={150}/>
               <p style={{paddingTop: 10}}>{name}</p>
