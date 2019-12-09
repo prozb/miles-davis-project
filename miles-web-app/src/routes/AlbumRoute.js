@@ -19,11 +19,15 @@ class AlbumRoute extends Component {
     this.setState({name: values.name});
   }
 
+  switchToAlbum = (albumName) => {
+    this.setState({name: albumName});
+  }
+
   render() {
     return (
       <div className="album-container">
         <div className="timeline-container-albums">
-          <TimelineComponent style={{paddingTop: 10, paddingBottom: 10,}}/>
+          <TimelineComponent switchToAlbum={this.switchToAlbum} style={{paddingTop: 10, paddingBottom: 10,}}/>
         </div>
 
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
