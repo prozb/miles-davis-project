@@ -20,21 +20,20 @@ class App extends React.Component{
 
     this.state = {
       showHome: true,
-      showAlbums: false
+      showAlbums: false,
+      albumName: ''
     }
   } 
 
-  showAlbums = () => {
+  showAlbums = (name) => {
     this.setState({
-      showAlbums: true,
-      showHome: false,
     });
   }
 
   render () {
     return (
       <Router>
-        <Route path='/' render={() => <HomeRoute showAlbums={this.showAlbums}/>}/>
+        <Route path='/' render={() => <HomeRoute/>}/>
         <Route path='/album' render={() => <AlbumRoute/>}/>
       </Router>
     );
