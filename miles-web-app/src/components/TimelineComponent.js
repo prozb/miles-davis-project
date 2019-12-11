@@ -31,6 +31,7 @@ export default class TimelineComponent extends Component {
         
         timeline.push(
           <TimelineItem 
+            showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={i === 0 ? {paddingLeft: 50,} : {}}
             itemId={getIdFromName(album1[0])}
@@ -51,6 +52,7 @@ export default class TimelineComponent extends Component {
         // last element
         timeline.push(
           <TimelineItem 
+            showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={{paddingRight: 50,}}
             itemId={getIdFromName(album1[0])}

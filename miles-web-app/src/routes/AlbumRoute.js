@@ -29,7 +29,6 @@ class AlbumRoute extends Component {
   }
 
   onNavbarButtonPress = () => {
-    console.log('navbar lul')
     this.setState({collapseNavbar: !this.state.collapseNavbar});
   }
 

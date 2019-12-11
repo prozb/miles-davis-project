@@ -31,13 +31,16 @@ export default class TimelineItem extends Component {
             className={itemClass}
             style={{backgroundImage: `url(${icon})`}}>
           {/* start information about each album */}
-          <Tooltip style={{borderRadius: 10,}} placement="left" isOpen={this.state.mouseEntered} target={itemId}>
-            <div className="information-container">
-              <img src={icon} alt="album" width={150}/>
-              <p style={{paddingTop: 10}}>{name}</p>
-              <p>{date}</p>
-            </div>
-          </Tooltip>
+          {this.props.showTooltip ? 
+            <Tooltip style={{borderRadius: 10,}} placement="left" isOpen={this.state.mouseEntered} target={itemId}>
+              <div className="information-container">
+                <img src={icon} alt="album" width={150}/>
+                <p style={{paddingTop: 10}}>{name}</p>
+                <p>{date}</p>
+              </div>
+            </Tooltip> : null
+          }
+         
           {/* end information about each album */}
         </div>
         {/* album container start */}
