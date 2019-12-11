@@ -17,7 +17,6 @@ export const convertTimestampToYears = (timestamp) => {
 }
 // extracting release date from album
 export const getDistanceBetweenAlbums = (album1, album2) => {
-	console.log(album1);
     if(album1 && album2){
         var timeStamp = new Date(getReleaseDateFromAlbum(album1)).getTime() - 
             new Date(getReleaseDateFromAlbum(album2)).getTime();

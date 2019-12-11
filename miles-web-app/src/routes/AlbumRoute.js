@@ -3,8 +3,8 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import TimelineComponent from '../components/TimelineComponent';
 import '../App.css';
-import '../styles/album-route.css';
 import SearchBar from '../components/SearchBar';
+import NavigationBar from '../components/NavigationBar';
 /**
  * @author Pavlo Rozbytskyi
  * 
@@ -15,7 +15,7 @@ class AlbumRoute extends Component {
     super(props);
     this.state = {
       name: '',
-      collapseNavbar: false,
+      collapseNavbar: true,
     };
   }
 
@@ -33,9 +33,9 @@ class AlbumRoute extends Component {
   }
 
   render() {
-    const collapseStyle = this.state.collapseNavbar ? {display: 'flex'} : {display: 'none'};
+    const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     return (
-      <div className="album-container">
+      <div className="full-height">
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
           {/* search bar container */}
           <div>
@@ -43,16 +43,20 @@ class AlbumRoute extends Component {
           </div>
         </div>
         {/* starting navigation and content container */}
-        <div style={{display: 'flex', flex: 1, flexDirection: 'row'}}>
+        <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
           {/* navigation container */}
-          <div style={collapseStyle} className="navigation-container">
-            <p>asdasdasdasdasdasdfasjfalks;dfjkasdhk</p>
+          <div style={collapseStyle}>
+            <NavigationBar />
           </div>
           {/* end navigation container */}
           
           {/* starting content container */}
           <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+            <div>
+              <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+            </div>
+            
+            <div className="full-height album-content">content section</div>
           </div>
           {/* ending content container */}
         </div>
