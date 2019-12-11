@@ -2,6 +2,10 @@ html, body, #root {
     height: 100%;
 }
 
+.triangle-container {
+    margin-top: -12px;
+}
+
 .full-height {
     height: 100%;
 }

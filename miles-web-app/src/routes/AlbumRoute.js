@@ -5,6 +5,7 @@ import TimelineComponent from '../components/TimelineComponent';
 import '../App.css';
 import SearchBar from '../components/SearchBar';
 import NavigationBar from '../components/NavigationBar';
+import Triangle from '../components/Triangle';
 /**
  * @author Pavlo Rozbytskyi
  * 
@@ -52,8 +53,10 @@ class AlbumRoute extends Component {
           
           {/* starting content container */}
           <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <div>
+            <div style={{display: 'flex', flexDirection: 'row'}}>
+              <div className="triangle-container" style={{alignSelf: 'center', paddingLeft: 10}}><Triangle left/></div>
               <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+              <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}><Triangle right/></div>
             </div>
             
             <div className="full-height album-content">content section</div>

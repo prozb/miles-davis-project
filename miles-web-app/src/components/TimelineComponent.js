@@ -3,6 +3,7 @@ import TimelineItem from './TimelineItem';
 import '../styles/timeline.css';
 import {getDistanceBetweenAlbums, getIdFromName, getReleasedYearFromDate} from '../scripts/helpers';
 import albums from '../data/album-info.json';
+import Triangle from './Triangle';
 
 /**
  * component for displaying all albums
