@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+/**
+ * @author Pavlo Rozbytskyi
+ * 
+ * component representing showing menu to the user 
+ */
 export default class AlbumScreen extends Component {
   constructor(props) {
     super(props);

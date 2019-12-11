@@ -5,7 +5,11 @@ import TimelineComponent from '../components/TimelineComponent';
 import '../App.css';
 import '../styles/album-route.css';
 import SearchBar from '../components/SearchBar';
-
+/**
+ * @author Pavlo Rozbytskyi
+ * 
+ * component representing showing menu to the user 
+ */
 class AlbumRoute extends Component {
   constructor(props) {
     super(props);
@@ -26,9 +30,6 @@ class AlbumRoute extends Component {
   render() {
     return (
       <div className="album-container">
-        <div className="timeline-container-albums">
-          <TimelineComponent switchToAlbum={this.switchToAlbum} style={{paddingTop: 10, paddingBottom: 10,}}/>
-        </div>
 
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
           {/* search bar container */}
@@ -36,6 +37,8 @@ class AlbumRoute extends Component {
             <SearchBar name={this.state.name}/>
           </div>
         </div>
+        <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+
       </div>
     );
   }
