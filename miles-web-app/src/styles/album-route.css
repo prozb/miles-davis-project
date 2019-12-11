@@ -1,3 +1,7 @@
 .album-container { 
     padding: 0px 20px 0px 20px;
 }
+
+.navigation-container {
+    background-color: red;
+}

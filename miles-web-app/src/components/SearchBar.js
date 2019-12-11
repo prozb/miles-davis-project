@@ -69,12 +69,13 @@ export default function SearchAppBar(props) {
       <AppBar position="static">
         <Toolbar>
           <IconButton
+            onClick={props.onNavbarButtonPress}
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
+          <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
             {props.name}

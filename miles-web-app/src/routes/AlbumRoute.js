@@ -15,6 +15,7 @@ class AlbumRoute extends Component {
     super(props);
     this.state = {
       name: '',
+      collapseNavbar: false,
     };
   }
 
@@ -27,18 +28,36 @@ class AlbumRoute extends Component {
     this.setState({name: albumName});
   }
 
+  onNavbarButtonPress = () => {
+    console.log('navbar lul')
+    this.setState({collapseNavbar: !this.state.collapseNavbar});
+  }
+
   render() {
+    const collapseStyle = this.state.collapseNavbar ? {display: 'flex'} : {display: 'none'};
     return (
       <div className="album-container">
-
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
           {/* search bar container */}
           <div>
-            <SearchBar name={this.state.name}/>
+            <SearchBar name={this.state.name} onNavbarButtonPress={this.onNavbarButtonPress}/>
           </div>
         </div>
-        <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
-
+        {/* starting navigation and content container */}
+        <div style={{display: 'flex', flex: 1, flexDirection: 'row'}}>
+          {/* navigation container */}
+          <div style={collapseStyle} className="navigation-container">
+            <p>asdasdasdasdasdasdfasjfalks;dfjkasdhk</p>
+          </div>
+          {/* end navigation container */}
+          
+          {/* starting content container */}
+          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+            <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+          </div>
+          {/* ending content container */}
+        </div>
+        {/* starting navigation and content container */}
       </div>
     );
   }
