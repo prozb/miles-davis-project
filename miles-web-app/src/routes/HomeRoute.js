@@ -11,8 +11,8 @@ class HomeRoute extends Component {
   constructor(props) {
     super(props);
     this.state = {
-			simulationStarted: true,
-			timelineScreen: true,
+			simulationStarted: false,
+			timelineScreen: false,
 			albumScreen: false,
 			albumName: '',
 			hideComponent: false,

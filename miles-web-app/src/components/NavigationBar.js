@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
 import '../styles/navigation.css';
-import AlbumNavbarComponent from './AlbumNavbarComponent';
-import Triangle from './Triangle';
+import AlbumInfo from './AlbumInfo';
 
 export default class NavigationBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      tracks: [],
-      musicians: [],
-      instruments: [],
+      tracks: ["Dig", "My Old Flame", "It's Only a Paper Moon", "Dear Old Stockholm", "Chance It",
+      "Donna", "How Deep Is the Ocean?"],
+
+      musicians: ["Miles Davis", "Deron Johnson", "Palle Mikkelborg", "Marilyn Mazur", "Lillian Thornquist",
+      "Niels Eje", "Eva Hess-Thaysen", "Miles Davis", "Deron Johnson", "Palle Mikkelborg", "Marilyn Mazur", "Lillian Thornquist",
+      "Niels Eje", "Eva Hess-Thaysen", "Miles Davis", "Deron Johnson", "Palle Mikkelborg", "Marilyn Mazur", "Lillian Thornquist",
+      "Niels Eje", "Eva Hess-Thaysen"],
+
+      instruments: ["Violet", "Intro", "White", "Yellow", "Orange", "Red", "Green"],
     };
   }
 
   render() {
     return (
       <div className="navigation-container">
-        <AlbumNavbarComponent data={this.tracks} title="Tracks" style={{flex: 1}}/>
-        <AlbumNavbarComponent data={this.musicians} title="Musicians" style={{flex: 1}}/>
-        <AlbumNavbarComponent data={this.instruments} title="Instruments" style={{ flex: 1}}/>
+        <AlbumInfo data={this.state.tracks} title="Tracks" style={{flex: 1}}/>
+        <AlbumInfo data={this.state.musicians} title="Musicians" style={{flex: 1}}/>
+        <AlbumInfo data={this.state.instruments} title="Instruments" style={{ flex: 1}}/>
       </div>
     );
   }
