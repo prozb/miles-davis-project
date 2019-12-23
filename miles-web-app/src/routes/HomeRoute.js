@@ -30,18 +30,6 @@ class HomeRoute extends Component {
     });
 	}
 	
-	/**
-   * switching from timeline to album
-   * @param {string} album name
-   */
-  switchToAlbum = (name) => {
-    this.setState({
-      albumScreen: true,
-      timelineScreen: false,
-      albumName: name,
-    });
-	}
-
   /**
    * switching back from album to timeline
    */
@@ -209,7 +197,7 @@ class HomeRoute extends Component {
 	}
 
 	switchToAlbum = (albumName) => {
-		this.setState({hideComponent: true});
+		this.setState({hideComponent: true, albumName: albumName});
 		this.props.history.push(`/album?name=${albumName}`);
 	}
 

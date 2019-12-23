@@ -5,7 +5,6 @@ import TimelineComponent from '../components/TimelineComponent';
 import '../App.css';
 import SearchBar from '../components/SearchBar';
 import NavigationBar from '../components/NavigationBar';
-import Triangle from '../components/Triangle';
 /**
  * @author Pavlo Rozbytskyi
  * 
@@ -28,6 +27,7 @@ class AlbumRoute extends Component {
   }
 
   switchToAlbum = (albumName) => {
+    this.props.history.push(`/album?name=${albumName}`);
     this.setState({name: albumName});
   }
 
@@ -58,7 +58,7 @@ class AlbumRoute extends Component {
           
         {/* starting content container */}
           <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+            <TimelineComponent highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
           </div>
             {/* ending content container */}
         </div>

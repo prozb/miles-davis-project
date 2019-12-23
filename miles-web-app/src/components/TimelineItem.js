@@ -16,9 +16,18 @@ export default class TimelineItem extends Component {
     this.props.switchToAlbum(name);
   }
 
+  _isActive = (name) => {
+    if(name === this.props.highlighted)
+      return true;
+    return false;
+  }
+
   render() {
     const { link, icon, name, date, itemId, style} = this.props;
-    const itemClass = this.state.mouseEntered ? "item-container-hovered" : "item-container"
+    const activeNormal = this._isActive(name) ? "item-container-active" : "";
+    const activeHovered = this._isActive(name) ? "item-container-hovered-active" : "";
+
+    const itemClass = this.state.mouseEntered ? `item-container-hovered ${activeHovered}` : `item-container ${activeNormal}`
     const containerClass = this.state.mouseEntered ? "vertical-timeline move-top" : "vertical-timeline"
 
     return (

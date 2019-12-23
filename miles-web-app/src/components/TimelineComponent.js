@@ -34,6 +34,7 @@ export default class TimelineComponent extends Component {
 
         timeline.push(
           <TimelineItem 
+            highlighted={this.props.highlighted}
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={i === 0 ? {paddingLeft: 50,} : {}}
@@ -55,6 +56,7 @@ export default class TimelineComponent extends Component {
         // last element
         timeline.push(
           <TimelineItem 
+            highlighted={this.props.highlighted}
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={{paddingRight: 50,}}
@@ -78,7 +80,6 @@ export default class TimelineComponent extends Component {
 }
   render() {
     const {style} = this.props;
-
     return (
       <div style={{display: 'flex', flexDirection: 'row',  width: '95%',  height: 200}}>
         <div className="triangle-container" style={{alignSelf: 'center',}}> 
@@ -86,7 +87,7 @@ export default class TimelineComponent extends Component {
         </div>
 
           <div ref={this.timelineRef} className="timeline-container" style={style}>
-            {this.state.timeline}
+            {this.getAllAlbumComponents()}
           </div>
         
           <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}>

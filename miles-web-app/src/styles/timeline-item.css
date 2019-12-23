@@ -18,6 +18,16 @@
     border-style: solid;
 }
 
+.item-container-hovered-active { 
+    border-color: rgb(20, 98, 157);
+    z-index: 1;
+}
+
+.item-container-active{
+    border-color: rgb(20, 98, 157);
+    z-index: 1;
+}
+
 .information-container {
     padding: 0px;
     display: flex;

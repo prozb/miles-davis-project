@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import HomeRoute from './routes/HomeRoute';
 import AlbumRoute from './routes/AlbumRoute';
-import Button from '@material-ui/core/Button';
 
 import {
   BrowserRouter as Router,
