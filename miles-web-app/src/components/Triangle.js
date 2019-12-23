@@ -7,10 +7,10 @@ export default class Triangle extends Component {
   }
 
   render() {
-    const {left} = this.props;
+    const {left, ...props} = this.props;
     const triangleClass = left ? "triangle-left" : "triangle-right";
     return (
-      <div className={triangleClass}></div>
+      <div className={triangleClass} {...props} ></div>
     );
   }
 }

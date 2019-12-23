@@ -32,6 +32,7 @@ export const getIdFromName = (name) => {
       .replace(/\//g, '')
       .replace(/'/g, '')
       .replace(/`/g, '_')
+      .replace(/-/g, '_')
       .replace(/\./g, '_');
 }
 

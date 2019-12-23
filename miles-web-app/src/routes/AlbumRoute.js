@@ -52,12 +52,16 @@ class AlbumRoute extends Component {
           {/* end navigation container */}
           
           {/* starting content container */}
-          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>{/* 
             <div style={{display: 'flex', flexDirection: 'row'}}>
-              <div className="triangle-container" style={{alignSelf: 'center', paddingLeft: 10}}><Triangle left/></div>
-              <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
-              <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}><Triangle right/></div>
-            </div>
+                <div className="triangle-container" style={{alignSelf: 'center', paddingLeft: 10}}>
+                  <Triangle left/>
+                </div> */}
+                <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+                {/* <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}>
+                  <Triangle onClick={() => alert('penos')} right/>
+                </div>
+            </div> */}
             
             <div className="full-height album-content">content section</div>
           </div>
