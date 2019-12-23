@@ -1,7 +1,7 @@
-import React, { Component, useRef } from 'react';
+import React, { Component } from 'react';
 import TimelineItem from './TimelineItem';
 import '../styles/timeline.css';
-import {getDistanceBetweenAlbums, getIdFromName, getReleasedYearFromDate} from '../scripts/helpers';
+import {getDistanceBetweenAlbums, getIdFromName} from '../scripts/helpers';
 import albums from '../data/album-info.json';
 import Triangle from '../components/Triangle';
 
@@ -14,8 +14,7 @@ export default class TimelineComponent extends Component {
     super(props);
     this.state = {
       timeline: [],
-      albumIds: [],
-      currentPosition: 0
+      highlithed: '', 
     };
     this.timelineRef = React.createRef();
   }
@@ -26,7 +25,6 @@ export default class TimelineComponent extends Component {
   
   getAllAlbumComponents = () => {
     var timeline = [];
-    var ids = [];
 
     for(var i = 0; i < Object.entries(albums).length; i++){
       if(i + 1 <  Object.entries(albums).length){
@@ -34,47 +32,39 @@ export default class TimelineComponent extends Component {
         var album1 = Object.entries(albums)[i];
         var album2 = Object.entries(albums)[i + 1];
 
-        const ref = React.createRef();
-
         timeline.push(
           <TimelineItem 
-            ref={ref}
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={i === 0 ? {paddingLeft: 50,} : {}}
-            itemId={getIdFromName(album1[0])}
+            itemId={`${getIdFromName(album1[0])}${i}`}
             name={album1[0]} 
             icon={album1[1].icon} 
             date={album1[1].released}/>
         );
         timeline.push(
-            <div className="line-container">
+            <div key={`line_${i}`} className="line-container">
               <svg width={getDistanceBetweenAlbums(album1, album2)} height='14px'>
                 <line x1="0" y1="0" x2={getDistanceBetweenAlbums(album1, album2)} y2="0" style={{stroke: 'green', strokeWidth: '30'}}/>
               </svg>
             </div>
         );
-        ids.push(ref);
       }else{
         var album1 = Object.entries(albums)[i];
-        const ref = React.createRef();
 
         // last element
         timeline.push(
           <TimelineItem 
-            ref={ref}
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={{paddingRight: 50,}}
-            itemId={getIdFromName(album1[0])}
+            itemId={`${getIdFromName(album1[0])}${i}`}
             name={album1[0]} 
             icon={album1[1].icon} 
             date={album1[1].released}/>
         );
-        ids.push(ref);
       }
     }
-    this.setState({albumIds: ids});
 
     return timeline;
   }

@@ -5,7 +5,7 @@ import AlbumScreen from '../screens/AlbumScreen';
 import StartScreen from '../screens/StartScreen';
 import TimelineScreen from '../screens/TimelineScreen';
 import { withRouter } from 'react-router-dom';
-
+import queryString from 'query-string';
 
 class HomeRoute extends Component {
   constructor(props) {
@@ -40,7 +40,7 @@ class HomeRoute extends Component {
       timelineScreen: false,
       albumName: name,
     });
-  }
+	}
 
   /**
    * switching back from album to timeline
@@ -214,7 +214,7 @@ class HomeRoute extends Component {
 	}
 
   render() {
-		if(this.state.hideComponent)
+		if(!this.props.active)
 			return null;
     return (
 			<div>

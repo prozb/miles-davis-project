@@ -22,6 +22,8 @@ class AlbumRoute extends Component {
 
   componentDidMount() {
     const values = queryString.parse(this.props.location.search);
+    if(values.name)
+      this.props.showAlbums(values.name);
     this.setState({name: values.name});
   }
 
@@ -35,6 +37,9 @@ class AlbumRoute extends Component {
 
   render() {
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
+
+    if(!this.props.active)
+			return null;
     return (
       <div className="full-height">
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
@@ -51,21 +56,11 @@ class AlbumRoute extends Component {
           </div>
           {/* end navigation container */}
           
-          {/* starting content container */}
-          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>{/* 
-            <div style={{display: 'flex', flexDirection: 'row'}}>
-                <div className="triangle-container" style={{alignSelf: 'center', paddingLeft: 10}}>
-                  <Triangle left/>
-                </div> */}
-                <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
-                {/* <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}>
-                  <Triangle onClick={() => alert('penos')} right/>
-                </div>
-            </div> */}
-            
-            <div className="full-height album-content">content section</div>
+        {/* starting content container */}
+          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+            <TimelineComponent switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
           </div>
-          {/* ending content container */}
+            {/* ending content container */}
         </div>
         {/* starting navigation and content container */}
       </div>
