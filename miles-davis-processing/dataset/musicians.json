@@ -9074,27 +9074,27 @@
             {
                 "name": "Once Upon a Summertime",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Aos Pés da Cruz",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Wait Till You See Her",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Corcovado",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             }
         ]
     },
@@ -9103,27 +9103,27 @@
             {
                 "name": "Once Upon a Summertime",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Aos Pés da Cruz",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Wait Till You See Her",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             },
             {
                 "name": "Corcovado",
                 "album": "Quiet Nights",
-                "instrument": "bassoons"
+                "instrument": "bassoon"
             }
         ]
     },
@@ -10776,27 +10776,27 @@
             {
                 "name": "Pharaoh's Dance",
                 "album": "Bitches Brew",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Bitches Brew",
                 "album": "Bitches Brew",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Spanish Key",
                 "album": "Bitches Brew",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Miles Runs the Voodoo Down",
                 "album": "Bitches Brew",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "John McLaughlin",
                 "album": "Bitches Brew",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             }
         ]
     },
@@ -11188,42 +11188,42 @@
             {
                 "name": "On The Corner",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "New York Girl",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Thinkin' One Thing And Doin' Another",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Vote For Miles",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Black Satin",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "One And One",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Helen Butte",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Mr. Freedom X",
                 "album": "Live-Evil",
-                "instrument": "bass guitar"
+                "instrument": "bass"
             },
             {
                 "name": "Sivad",
@@ -12257,7 +12257,7 @@
             {
                 "name": "Catémbe",
                 "album": "Amandla",
-                "instrument": "keyboards"
+                "instrument": "keyboard"
             },
             {
                 "name": "Catémbe",
@@ -12267,7 +12267,7 @@
             {
                 "name": "Cobra",
                 "album": "Amandla",
-                "instrument": "keyboards"
+                "instrument": "keyboard"
             },
             {
                 "name": "Cobra",
@@ -13136,7 +13136,7 @@
             {
                 "name": "Cobra",
                 "album": "Amandla",
-                "instrument": "keyboards"
+                "instrument": "keyboard"
             },
             {
                 "name": "Backyard Ritual",
@@ -13245,7 +13245,7 @@
             {
                 "name": "Cobra",
                 "album": "Amandla",
-                "instrument": "keyboards"
+                "instrument": "keyboard"
             }
         ]
     },
@@ -13342,7 +13342,7 @@
             {
                 "name": "Jilli",
                 "album": "Amandla",
-                "instrument": "wah-wah guitar"
+                "instrument": "wah-wah pedal"
             },
             {
                 "name": "Jilli",
@@ -14544,52 +14544,52 @@
             {
                 "name": "Intro",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "White",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Yellow",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Orange",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Red",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Green",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Blue",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Electric Red",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Indigo",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             },
             {
                 "name": "Violet",
                 "album": "Aura",
-                "instrument": "electronic drums"
+                "instrument": "electric drums"
             }
         ]
     },
