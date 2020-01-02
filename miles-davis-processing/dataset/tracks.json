@@ -2,148 +2,344 @@
     "Conception": {
         "albums": [
             "The New Sounds"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey",
+            "Jackie McLean"
         ]
     },
     "Dig": {
         "albums": [
             "The New Sounds",
             "Dig"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey",
+            "Jackie McLean"
         ]
     },
     "My Old Flame": {
         "albums": [
             "The New Sounds"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey"
         ]
     },
     "It's Only a Paper Moon": {
         "albums": [
             "The New Sounds",
             "Dig"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey"
         ]
     },
     "Dear Old Stockholm": {
         "albums": [
             "Young Man with a Horn",
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke",
+            "Jackie McLean",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Chance It": {
         "albums": [
             "Young Man with a Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke",
+            "Jackie McLean"
         ]
     },
     "Donna": {
         "albums": [
             "Young Man with a Horn",
             "Miles Davis Volume 2"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke",
+            "Jackie McLean"
         ]
     },
     "How Deep Is the Ocean?": {
         "albums": [
             "Young Man with a Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke"
         ]
     },
     "Woody 'n' You": {
         "albums": [
             "Young Man with a Horn",
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Yesterdays": {
         "albums": [
             "Young Man with a Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke"
         ]
     },
     "Bluing": {
         "albums": [
             "Blue Period",
             "Dig"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey",
+            "Jackie McLean"
         ]
     },
     "Blue Room": {
         "albums": [
             "Blue Period"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "John Lewis",
+            "Percy Heath",
+            "Roy Haynes"
         ]
     },
     "Out of the Blue": {
         "albums": [
             "Blue Period",
             "Dig"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey",
+            "Jackie McLean"
         ]
     },
     "Tasty Pudding": {
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "John Lewis",
+            "Al Cohn",
+            "Zoot Sims",
+            "Sonny Truitt",
+            "Leonard Gaskin"
         ]
     },
     "Floppy": {
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "John Lewis",
+            "Al Cohn",
+            "Zoot Sims",
+            "Sonny Truitt",
+            "Leonard Gaskin"
         ]
     },
     "Willie the Wailer": {
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "John Lewis",
+            "Al Cohn",
+            "Zoot Sims",
+            "Sonny Truitt",
+            "Leonard Gaskin"
         ]
     },
     "For Adults Only": {
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "John Lewis",
+            "Al Cohn",
+            "Zoot Sims",
+            "Sonny Truitt",
+            "Leonard Gaskin"
         ]
     },
     "Take Off": {
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Weirdo": {
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Wouldn't You": {
         "albums": [
             "Miles Davis Volume 2"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Oscar Pettiford",
+            "Kenny Clarke",
+            "Jackie McLean"
         ]
     },
     "Ray's Idea": {
         "albums": [
             "Miles Davis Volume 2"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Percy Heath",
+            "Jimmy Heath"
         ]
     },
     "I Waited for You": {
         "albums": [
             "Miles Davis Volume 2"
-        ]
+        ],
+        "musicians": []
     },
     "Well, You Needn't": {
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3",
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "The Leap": {
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Lazy Susan": {
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Tempus Fugit": {
         "albums": [
             "Miles Davis Volume 2"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Jay Jay Johnson",
+            "Gil Coggins",
+            "Percy Heath",
+            "Jimmy Heath"
         ]
     },
     "It Never Entered My Mind": {
@@ -151,11 +347,26 @@
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3",
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland"
         ]
     },
     "When Lights Are Low": {
         "albums": [
             "Miles Davis Quartet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John Lewis",
+            "Percy Heath",
+            "Max Roach"
         ]
     },
     "Tune Up": {
@@ -163,6 +374,16 @@
             "Miles Davis Quartet",
             "Blue Haze",
             "Cookin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John Lewis",
+            "Percy Heath",
+            "Max Roach",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Miles Ahead": {
@@ -170,12 +391,44 @@
             "Miles Davis Quartet",
             "Blue Haze",
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John Lewis",
+            "Percy Heath",
+            "Max Roach",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "Smooch": {
         "albums": [
             "Miles Davis Quartet",
             "Blue Haze"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Percy Heath",
+            "Charles Mingus",
+            "Max Roach"
         ]
     },
     "Four": {
@@ -183,47 +436,101 @@
             "Miles Davis Quartet",
             "Blue Haze",
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Old Devil Moon": {
         "albums": [
             "Miles Davis Quartet",
             "Blue Haze"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Blue Haze": {
         "albums": [
             "Miles Davis Quartet",
             "Blue Haze"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Blakey",
+            "Percy Heath",
+            "Horace Silver",
+            "Max Roach"
         ]
     },
     "Blue 'n' Boogie": {
         "albums": [
             "Miles Davis All-Star Sextet",
             "Walkin'"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Lucky Thompson"
         ]
     },
     "Walkin": {
         "albums": [
             "Miles Davis All-Star Sextet"
-        ]
+        ],
+        "musicians": []
     },
     "Solar": {
         "albums": [
             "Miles Davis Quintet",
             "Walkin'"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Dave Schildkraut"
         ]
     },
     "You Don't Know What Love Is": {
         "albums": [
             "Miles Davis Quintet",
             "Walkin'"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Dave Schildkraut"
         ]
     },
     "I'll Remember April": {
         "albums": [
             "Miles Davis Quintet",
             "Blue Haze"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Dave Schildkraut",
+            "David Schildkraut"
         ]
     },
     "Airegin": {
@@ -231,6 +538,17 @@
             "Miles Davis with Sonny Rollins",
             "Cookin' with the Miles Davis Quintet",
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Oleo": {
@@ -238,1342 +556,4267 @@
             "Miles Davis with Sonny Rollins",
             "Bags' Groove",
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "But Not for Me": {
         "albums": [
             "Miles Davis with Sonny Rollins"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Doxy": {
         "albums": [
             "Miles Davis with Sonny Rollins",
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "Bags' Groove": {
         "albums": [
             "Miles Davis All Stars, Volume 1"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "Swing Spring": {
         "albums": [
             "Miles Davis All Stars, Volume 1",
             "Miles Davis and the Modern Jazz Giants"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "Bemsha Swing": {
         "albums": [
             "Miles Davis All Stars, Volume 2",
             "Miles Davis and the Modern Jazz Giants"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "The Man I Love": {
         "albums": [
             "Miles Davis All Stars, Volume 2"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "Nature Boy": {
         "albums": [
             "Blue Moods"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Charles Mingus",
+            "Britt Woodman",
+            "Teddy Charles",
+            "Elvin Jones"
         ]
     },
     "Alone Together": {
         "albums": [
             "Blue Moods"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Charles Mingus",
+            "Britt Woodman",
+            "Teddy Charles",
+            "Elvin Jones"
         ]
     },
     "There's No You": {
         "albums": [
             "Blue Moods"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Charles Mingus",
+            "Britt Woodman",
+            "Teddy Charles",
+            "Elvin Jones"
         ]
     },
     "Easy Living": {
         "albums": [
             "Blue Moods"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Charles Mingus",
+            "Britt Woodman",
+            "Teddy Charles",
+            "Elvin Jones"
         ]
     },
     "Will You Still Be Mine?": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "I See Your Face Before Me": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "I Didn't": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "A Gal in Calico": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "A Night in Tunisia": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "Green Haze": {
         "albums": [
             "The Musings of Miles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Oscar Pettiford",
+            "Philly Joe Jones",
+            "Red Garland"
         ]
     },
     "Denial": {
         "albums": [
             "Dig"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Walter Bishop, Jr.",
+            "Tommy Potter",
+            "Art Blakey",
+            "Jackie McLean"
         ]
     },
     "Just Squeeze Me": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "There Is No Greater Love": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "How Am I to Know?": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "S'posin": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "The Theme": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Stablemates": {
         "albums": [
             "Miles: The New Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Morpheus": {
         "albums": [
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "John Lewis",
+            "Percy Heath",
+            "Roy Haynes",
+            "Bennie Green"
         ]
     },
     "Down": {
         "albums": [
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "John Lewis",
+            "Percy Heath",
+            "Roy Haynes",
+            "Bennie Green"
         ]
     },
     "Blue Room (Take 1)": {
         "albums": [
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "John Lewis",
+            "Percy Heath",
+            "Roy Haynes",
+            "Bennie Green"
         ]
     },
     "Whispering": {
         "albums": [
             "Miles Davis and Horns"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "John Lewis",
+            "Percy Heath",
+            "Roy Haynes",
+            "Bennie Green"
         ]
     },
     "Dr. Jackle": {
         "albums": [
             "Quintet / Sextet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Percy Heath",
+            "Jackie McLean",
+            "Milt Jackson",
+            "Ray Bryant",
+            "Art Taylor"
         ]
     },
     "Bitty Ditty": {
         "albums": [
             "Quintet / Sextet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Percy Heath",
+            "Milt Jackson",
+            "Ray Bryant",
+            "Art Taylor"
         ]
     },
     "Minor March": {
         "albums": [
             "Quintet / Sextet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Percy Heath",
+            "Jackie McLean",
+            "Milt Jackson",
+            "Ray Bryant",
+            "Art Taylor"
         ]
     },
     "Changes": {
         "albums": [
             "Quintet / Sextet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Percy Heath",
+            "Milt Jackson",
+            "Ray Bryant",
+            "Art Taylor"
         ]
     },
     "The Serpent's Tooth (Take 1)": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Walter Bishop, Jr.",
+            "Percy Heath",
+            "Charlie Chan",
+            "Philly Joe Jones"
         ]
     },
     "The Serpent's Tooth (Take 2)": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Walter Bishop, Jr.",
+            "Percy Heath",
+            "Charlie Chan",
+            "Philly Joe Jones"
         ]
     },
     "Round About Midnight": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Walter Bishop, Jr.",
+            "Percy Heath",
+            "Charlie Chan",
+            "Philly Joe Jones"
         ]
     },
     "Compulsion": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Walter Bishop, Jr.",
+            "Percy Heath",
+            "Charlie Chan",
+            "Philly Joe Jones"
         ]
     },
     "No Line": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Tommy Flanagan",
+            "Paul Chambers"
         ]
     },
     "Vierd Blues": {
         "albums": [
             "Collectors' Items"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Tommy Flanagan",
+            "Paul Chambers"
         ]
     },
     "In Your Own Sweet Way": {
         "albums": [
             "Collectors' Items",
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Tommy Flanagan",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "When Lights are Low": {
         "albums": [
             "Blue Haze",
             "Cookin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John Lewis",
+            "Percy Heath",
+            "Max Roach",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Walkin'": {
         "albums": [
             "Walkin'"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Lucky Thompson"
         ]
     },
     "Love Me or Leave Me": {
         "albums": [
             "Walkin'"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver",
+            "Dave Schildkraut"
         ]
     },
     "My Funny Valentine": {
         "albums": [
             "Cookin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland"
         ]
     },
     "Blues by Five": {
         "albums": [
             "Cookin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Bags' Groove (Take 1)": {
         "albums": [
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "Bags' Groove (Take 2)": {
         "albums": [
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "But Not for Me (Take 2)": {
         "albums": [
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "But Not for Me (Take 1)": {
         "albums": [
             "Bags' Groove"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Horace Silver"
         ]
     },
     "If I Were a Bell": {
         "albums": [
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "You're My Everything": {
         "albums": [
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "I Could Write a Book": {
         "albums": [
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "It Could Happen to You": {
         "albums": [
             "Relaxin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "The Theme (Take 1)": {
         "albums": [
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Trane's Blues (a.k.a. Vierd Blues)": {
         "albums": [
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Ahmad's Blues": {
         "albums": [
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Half Nelson": {
         "albums": [
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "The Theme (Take 2)": {
         "albums": [
             "Workin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Surrey with the Fringe on Top": {
         "albums": [
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Salt Peanuts": {
         "albums": [
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Something I Dreamed Last Night": {
         "albums": [
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland"
         ]
     },
     "Diane": {
         "albums": [
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "When I Fall in Love": {
         "albums": [
             "Steamin' with the Miles Davis Quintet"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland"
         ]
     },
     "'Round Midnight": {
         "albums": [
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Ah-Leu-Cha": {
         "albums": [
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "All of You": {
         "albums": [
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Bye Bye Blackbird": {
         "albums": [
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Tadd's Delight": {
         "albums": [
             "'Round About Midnight"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane"
         ]
     },
     "Springsville": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "The Maids of Cadiz": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "The Duke": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "My Ship": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "Blues for Pablo": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "New Rhumba": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "The Meaning Of The Blues": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "Lament": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "I Don't Wanna Be Kissed (By Anyone but You)": {
         "albums": [
             "Miles Ahead"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Art Taylor",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "John Carisi",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Tom Mitchell",
+            "Willie Ruff",
+            "Tony Miranda",
+            "Jim Buffington",
+            "Bill Barber",
+            "Lee Konitz",
+            "Danny Bank",
+            "Romeo Penque",
+            "Sid Cooper",
+            "Wynton Kelly"
         ]
     },
     "Dr. Jekyll": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Sid's Ahead": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Two Bass Hit": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Miles": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Billy Boy": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Straight, No Chaser": {
         "albums": [
             "Milestones"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Red Garland",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley"
         ]
     },
     "Générique": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "L'Assassinat De Carala": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Sur L'Autoroute": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Julien Dans L'Ascenseur": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Florence Sur Les Champs-Élysées": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Dîner Au Motel": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Évasion de Julien": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Visite du Vigile": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Au bar du Petit Bac": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "Chez le Photographe du Motel": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Barney Wilen",
+            "René Urtreger",
+            "Pierre Michelot"
         ]
     },
     "On Green Dolphin Street": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "Fran Dance": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "Stella by Starlight": {
         "albums": [
             "Jazz Track"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "The Buzzard Song": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Bess, You Is My Woman Now": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Gone": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Gone, Gone, Gone": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Summertime": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Bess, Oh Where's My Bess": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Prayer (Oh Doctor Jesus)": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Fishermen, Strawberry And Devil Crab": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "My Man's Gone Now": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "It Ain't Necessarily So": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "Here Come De Honey Man": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "I Loves You, Porgy": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "There's A Boat That's Leaving Soon For New York": {
         "albums": [
             "Porgy And Bess"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Jimmy Cleveland",
+            "Joe Bennett",
+            "Willie Ruff",
+            "Bill Barber",
+            "Danny Bank",
+            "Romeo Penque",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "Julius Watkins",
+            "Gunther Schuller",
+            "Phil Bodner",
+            "Jerome Richardson"
         ]
     },
     "So What": {
         "albums": [
             "Kind of Blue"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Wynton Kelly",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "Freddie Freeloader": {
         "albums": [
             "Kind of Blue"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Julian \"Cannonball\" Adderley",
+            "Jimmy Cobb"
         ]
     },
     "Blue in Green": {
         "albums": [
             "Kind of Blue"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Wynton Kelly",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "All Blues": {
         "albums": [
             "Kind of Blue"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Wynton Kelly",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "Flamenco Sketches": {
         "albums": [
             "Kind of Blue"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Wynton Kelly",
+            "Julian \"Cannonball\" Adderley",
+            "Bill Evans",
+            "Jimmy Cobb"
         ]
     },
     "Concierto de Aranjuez (Adagio)": {
         "albums": [
             "Sketches of Spain"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "Frank Rehak",
+            "Tony Miranda",
+            "Bill Barber",
+            "Romeo Penque",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "John Barrows",
+            "James Buffington",
+            "Eddie Caine",
+            "Earl Chapin",
+            "Harold Feldman",
+            "Jack Knitzer",
+            "Jose Mangual",
+            "Jimmy McAllister",
+            "Janet Putnam",
+            "Joe Singer"
         ]
     },
     "Will o' the Wisp": {
         "albums": [
             "Sketches of Spain"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "Frank Rehak",
+            "Tony Miranda",
+            "Bill Barber",
+            "Romeo Penque",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "John Barrows",
+            "James Buffington",
+            "Eddie Caine",
+            "Earl Chapin",
+            "Harold Feldman",
+            "Jack Knitzer",
+            "Jose Mangual",
+            "Jimmy McAllister",
+            "Janet Putnam",
+            "Joe Singer"
         ]
     },
     "The Pan Piper (Alborada de Vigo)": {
         "albums": [
             "Sketches of Spain"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "Frank Rehak",
+            "Tony Miranda",
+            "Bill Barber",
+            "Romeo Penque",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "John Barrows",
+            "James Buffington",
+            "Eddie Caine",
+            "Earl Chapin",
+            "Harold Feldman",
+            "Jack Knitzer",
+            "Jose Mangual",
+            "Jimmy McAllister",
+            "Janet Putnam",
+            "Joe Singer"
         ]
     },
     "Saeta": {
         "albums": [
             "Sketches of Spain"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "Frank Rehak",
+            "Tony Miranda",
+            "Bill Barber",
+            "Romeo Penque",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "John Barrows",
+            "James Buffington",
+            "Eddie Caine",
+            "Earl Chapin",
+            "Harold Feldman",
+            "Jack Knitzer",
+            "Jose Mangual",
+            "Jimmy McAllister",
+            "Janet Putnam",
+            "Joe Singer"
         ]
     },
     "Solea": {
         "albums": [
             "Sketches of Spain"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Taft Jordan",
+            "Frank Rehak",
+            "Tony Miranda",
+            "Bill Barber",
+            "Romeo Penque",
+            "Jimmy Cobb",
+            "Johnny Coles",
+            "Dick Hixon",
+            "John Barrows",
+            "James Buffington",
+            "Eddie Caine",
+            "Earl Chapin",
+            "Harold Feldman",
+            "Jack Knitzer",
+            "Jose Mangual",
+            "Jimmy McAllister",
+            "Janet Putnam",
+            "Joe Singer"
         ]
     },
     "Someday My Prince Will Come": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Wynton Kelly",
+            "Jimmy Cobb",
+            "Hank Mobley"
         ]
     },
     "Old Folks": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Wynton Kelly",
+            "Jimmy Cobb",
+            "Hank Mobley"
         ]
     },
     "Pfrancing": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Wynton Kelly",
+            "Jimmy Cobb",
+            "Hank Mobley"
         ]
     },
     "Drad-Dog": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Wynton Kelly",
+            "Jimmy Cobb",
+            "Hank Mobley"
         ]
     },
     "Teo": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "John Coltrane",
+            "Wynton Kelly",
+            "Jimmy Cobb"
         ]
     },
     "I Thought About You": {
         "albums": [
             "Someday My Prince Will Come"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Wynton Kelly",
+            "Jimmy Cobb",
+            "Hank Mobley"
         ]
     },
     "Song No. 2 (a.k.a. Prenda Minha, Brazilian folk song)": {
         "albums": [
             "Quiet Nights"
-        ]
+        ],
+        "musicians": []
     },
     "Once Upon a Summertime": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Bill Barber",
+            "Jimmy Cobb",
+            "Julius Watkins",
+            "Jerome Richardson",
+            "Albert Block",
+            "Janet Putnam",
+            "Shorty Baker",
+            "Ray Alonge",
+            "Don Corrado",
+            "Steve Lacy",
+            "Ray Beckenstein",
+            "Garvin Bushell",
+            "Bob Tricarico",
+            "Willie Bobo"
         ]
     },
     "Aos Pés da Cruz": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Bill Barber",
+            "Jimmy Cobb",
+            "Julius Watkins",
+            "Jerome Richardson",
+            "Albert Block",
+            "Janet Putnam",
+            "Shorty Baker",
+            "Ray Alonge",
+            "Don Corrado",
+            "Steve Lacy",
+            "Ray Beckenstein",
+            "Garvin Bushell",
+            "Bob Tricarico",
+            "Willie Bobo"
         ]
     },
     "Song No. 1 (a.k.a. Adelita by Francisco Tárrega)": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Bill Barber",
+            "Jimmy Cobb",
+            "Julius Watkins",
+            "Jerome Richardson",
+            "Albert Block",
+            "Janet Putnam",
+            "Shorty Baker",
+            "Ray Alonge",
+            "Don Corrado",
+            "Steve Lacy",
+            "Ray Beckenstein",
+            "Garvin Bushell",
+            "Bob Tricarico",
+            "Willie Bobo"
         ]
     },
     "Wait Till You See Her": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Bill Barber",
+            "Jimmy Cobb",
+            "Julius Watkins",
+            "Jerome Richardson",
+            "Albert Block",
+            "Janet Putnam",
+            "Shorty Baker",
+            "Ray Alonge",
+            "Don Corrado",
+            "Steve Lacy",
+            "Ray Beckenstein",
+            "Garvin Bushell",
+            "Bob Tricarico",
+            "Willie Bobo"
         ]
     },
     "Corcovado": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Jay Jay Johnson",
+            "Paul Chambers",
+            "Elvin Jones",
+            "Bernie Glow",
+            "Ernie Royal",
+            "Louis Mucci",
+            "Frank Rehak",
+            "Bill Barber",
+            "Jimmy Cobb",
+            "Julius Watkins",
+            "Jerome Richardson",
+            "Albert Block",
+            "Janet Putnam",
+            "Shorty Baker",
+            "Ray Alonge",
+            "Don Corrado",
+            "Steve Lacy",
+            "Ray Beckenstein",
+            "Garvin Bushell",
+            "Bob Tricarico",
+            "Willie Bobo"
         ]
     },
     "Summer Night": {
         "albums": [
             "Quiet Nights"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "George Coleman",
+            "Victor Feldman",
+            "Ron Carter",
+            "Frank Butler"
         ]
     },
     "Basin Street Blues": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Victor Feldman",
+            "Ron Carter",
+            "Frank Butler"
         ]
     },
     "Seven Steps to Heaven": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "George Coleman",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams"
         ]
     },
     "I Fall in Love Too Easily": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Victor Feldman",
+            "Ron Carter",
+            "Frank Butler"
         ]
     },
     "So Near, So Far": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "George Coleman",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams"
         ]
     },
     "Baby Won't You Please Come Home": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Victor Feldman",
+            "Ron Carter",
+            "Frank Butler"
         ]
     },
     "Joshua": {
         "albums": [
             "Seven Steps to Heaven"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "George Coleman",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams"
         ]
     },
     "E.S.P.": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Eighty-One": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Little One": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "R.J.": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Agitation": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Iris": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Mood": {
         "albums": [
             "E.S.P."
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Orbits": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Circle": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Footprints": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Dolores": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Freedom Jazz Dance": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Ginger Bread Boy": {
         "albums": [
             "Miles Smiles"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Prince of Darkness": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Pee Wee": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Masqualero": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "The Sorcerer": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Limbo": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Vonetta": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Nothing Like You": {
         "albums": [
             "Sorcerer"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Paul Chambers",
+            "Frank Rehak",
+            "Jimmy Cobb",
+            "Willie Bobo",
+            "Wayne Shorter",
+            "Bob Dorough"
         ]
     },
     "Nefertiti": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Fall": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Hand Jive": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Madness": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Riot": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Pinocchio": {
         "albums": [
             "Nefertiti"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Stuff": {
         "albums": [
             "Miles in the Sky"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Paraphernalia": {
         "albums": [
             "Miles in the Sky"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "George Benson"
         ]
     },
     "Black Comedy": {
         "albums": [
             "Miles in the Sky"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Country Son": {
         "albums": [
             "Miles in the Sky"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter"
         ]
     },
     "Frelon Brun": {
         "albums": [
             "Filles de Kilimanjaro"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland"
         ]
     },
     "Tout de Suite": {
         "albums": [
             "Filles de Kilimanjaro"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea"
         ]
     },
     "Petits Machins": {
         "albums": [
             "Filles de Kilimanjaro"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea"
         ]
     },
     "Filles de Kilimanjaro": {
         "albums": [
             "Filles de Kilimanjaro"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea"
         ]
     },
     "Mademoiselle Mabry": {
         "albums": [
             "Filles de Kilimanjaro"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland"
         ]
     },
     "Peaceful": {
         "albums": [
             "In a Silent Way"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin"
         ]
     },
     "Shhh": {
         "albums": [
             "In a Silent Way"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin"
         ]
     },
     "In a Silent Way": {
         "albums": [
             "In a Silent Way"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin"
         ]
     },
     "It's About That Time": {
         "albums": [
             "In a Silent Way"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Tony Williams",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin"
         ]
     },
     "Pharaoh's Dance": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin",
+            "Larry Young",
+            "Harvey Brooks",
+            "Lenny White",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "Bitches Brew": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin",
+            "Harvey Brooks",
+            "Lenny White",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "Spanish Key": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin",
+            "Larry Young",
+            "Harvey Brooks",
+            "Lenny White",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "John McLaughlin": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin",
+            "Larry Young",
+            "Harvey Brooks",
+            "Lenny White",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "Miles Runs the Voodoo Down": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Bennie Maupin",
+            "Larry Young",
+            "Harvey Brooks",
+            "Lenny White",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Juma Santos",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "Sanctuary": {
         "albums": [
             "Bitches Brew"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira"
         ]
     },
     "Right Off": {
         "albums": [
             "Jack Johnson"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "John McLaughlin",
+            "Billy Cobham",
+            "Steve Grossman",
+            "Michael Henderson",
+            "Brock Peters"
         ]
     },
     "Yesternow": {
         "albums": [
             "Jack Johnson"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "John McLaughlin",
+            "Billy Cobham",
+            "Steve Grossman",
+            "Michael Henderson",
+            "Brock Peters"
         ]
     },
     "Sivad": {
         "albums": [
             "Live-Evil",
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Michael Henderson",
+            "Keith Jarrett",
+            "Gary Bartz"
         ]
     },
     "Little Church": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Steve Grossman",
+            "Hermeto Pascoal",
+            "Keith Jarrett"
         ]
     },
     "Gemini": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira",
+            "Khalil Balakrishna"
         ]
     },
     "Double Image": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Wayne Shorter",
+            "Chick Corea",
+            "Dave Holland",
+            "John McLaughlin",
+            "Joe Zawinul",
+            "Jack DeJohnette",
+            "Billy Cobham",
+            "Airto Moreira",
+            "Khalil Balakrishna"
         ]
     },
     "What I Say": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Michael Henderson",
+            "Keith Jarrett",
+            "Gary Bartz"
         ]
     },
     "Nem Um Talvez": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Chick Corea",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Steve Grossman",
+            "Hermeto Pascoal",
+            "Keith Jarrett"
         ]
     },
     "Selim": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Ron Carter",
+            "Herbie Hancock",
+            "Chick Corea",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Steve Grossman",
+            "Michael Henderson",
+            "Hermeto Pascoal",
+            "Keith Jarrett"
         ]
     },
     "Funky Tonk": {
         "albums": [
             "Live-Evil"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Jack DeJohnette",
+            "Airto Moreira",
+            "Keith Jarrett",
+            "Gary Bartz"
         ]
     },
     "Inamorata And Narration By Conrad Roberts": {
         "albums": [
             "Live-Evil"
-        ]
+        ],
+        "musicians": []
     },
     "On The Corner": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "New York Girl": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Thinkin' One Thing And Doin' Another": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Vote For Miles": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Black Satin": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "One And One": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Helen Butte": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Mr. Freedom X": {
         "albums": [
             "On the Corner"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Herbie Hancock",
+            "Chick Corea",
+            "John McLaughlin",
+            "Bennie Maupin",
+            "Jack DeJohnette",
+            "Don Alias",
+            "Michael Henderson",
+            "Khalil Balakrishna",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "Dave Creamer",
+            "Reggie Lucas",
+            "Collin Walcott",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
         ]
     },
     "Fat Time": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Barry Finnerty",
+            "Marcus Miller"
         ]
     },
     "Back Seat Betty": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Barry Finnerty",
+            "Mike Stern",
+            "Marcus Miller"
         ]
     },
     "Shout": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Barry Finnerty",
+            "Mike Stern",
+            "Robert Irving III",
+            "Randy Hall",
+            "Felton Crews",
+            "Vincent Wilburn"
         ]
     },
     "Aida": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Barry Finnerty",
+            "Mike Stern",
+            "Marcus Miller"
         ]
     },
     "The Man with the Horn": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans (saxophonist)",
+            "Mike Stern",
+            "Robert Irving III",
+            "Randy Hall",
+            "Felton Crews",
+            "Vincent Wilburn"
         ]
     },
     "Ursula": {
         "albums": [
             "The Man with the Horn"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Barry Finnerty",
+            "Mike Stern",
+            "Marcus Miller",
+            "Sammy Figueroa"
         ]
     },
     "Come Get It": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "Marcus Miller",
+            "Mino Cinelu"
         ]
     },
     "It Gets Better": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "Marcus Miller",
+            "John Scofield",
+            "Mino Cinelu"
         ]
     },
     "Speak": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "John Scofield",
+            "Tom Barney",
+            "Mino Cinelu"
         ]
     },
     "Star People": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "Marcus Miller",
+            "Mino Cinelu"
         ]
     },
     "U'N'I": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "Marcus Miller",
+            "Mino Cinelu"
         ]
     },
     "Star on Cicely": {
         "albums": [
             "Star People"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Bill Evans",
+            "Al Foster",
+            "Mike Stern",
+            "Marcus Miller",
+            "Mino Cinelu"
         ]
     },
     "Decoy": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Branford Marsalis",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "Robot 415": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "Code M.D.": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Branford Marsalis",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "Freaky Deaky": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "What It Is": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "That's Right": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Branford Marsalis",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "That's What Happened": {
         "albums": [
             "Decoy"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Bill Evans (saxophonist)",
+            "Robert Irving III",
+            "John Scofield",
+            "Mino Cinelu",
+            "Darryl \"The Munch\" Jones"
         ]
     },
     "One Phone Call/Street Scenes": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Bob Berg",
+            "Steve Thornton",
+            "Gordon Sumner",
+            "Marek Olko",
+            "James Prindiville"
         ]
     },
     "Human Nature": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Robert Irving III",
+            "Vincent Wilburn",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton",
+            "Kenny Garrett"
         ]
     },
     "MD1 Something's On Your Mind MD2": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Robert Irving III",
+            "Vincent Wilburn",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton"
         ]
     },
     "Ms. Morrisine": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Robert Irving III",
+            "Vincent Wilburn",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton"
         ]
     },
     "Katia Prelude": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Robert Irving III",
+            "Vincent Wilburn",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton"
         ]
     },
     "Katia": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Robert Irving III",
+            "Vincent Wilburn",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton"
         ]
     },
     "Time After Time": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Steve Thornton"
         ]
     },
     "You're Under Arrest": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Bob Berg",
+            "Steve Thornton"
         ]
     },
     "Medley: Jean Pierre/You're Under Arrest/Then There Were None": {
         "albums": [
             "You're Under Arrest"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Robert Irving III",
+            "John Scofield",
+            "Darryl \"The Munch\" Jones",
+            "Bob Berg",
+            "Steve Thornton"
         ]
     },
     "Tutu": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Paulinho da Costa",
+            "Jabali Billy Hart"
         ]
     },
     "Tomaas": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Omar Hakim",
+            "Bernard Wright",
+            "Jabali Billy Hart"
         ]
     },
     "Portia": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Paulinho da Costa",
+            "Jabali Billy Hart"
         ]
     },
     "Splatch": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Paulinho da Costa",
+            "Adam Holzman",
+            "Steve Reid",
+            "Jabali Billy Hart"
         ]
     },
     "Perfect Way": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Jabali Billy Hart"
         ]
     },
     "Backyard Ritual": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Paulinho da Costa",
+            "George Duke",
+            "Jabali Billy Hart"
         ]
     },
     "Don't Lose Your Mind": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Bernard Wright",
+            "Michał Urbaniak",
+            "Jabali Billy Hart"
         ]
     },
     "Full Nelson": {
         "albums": [
             "Tutu"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Jason Miles",
+            "Jabali Billy Hart"
         ]
     },
     "Catémbe": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Don Alias",
+            "Marcus Miller",
+            "Mino Cinelu",
+            "Kenny Garrett"
         ]
     },
     "Cobra": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "George Duke",
+            "Michael Landau",
+            "Joey DeFrancesco"
         ]
     },
     "Big Time": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Don Alias",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "Ricky Wellman",
+            "Joe Foley McCreary",
+            "Jean-Paul Bourelly"
         ]
     },
     "Hannibal": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "Paulinho da Costa",
+            "Omar Hakim",
+            "Joe Foley McCreary"
         ]
     },
     "Jo-Jo": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "Paulinho da Costa",
+            "Jean-Paul Bourelly",
+            "Rick Margitza"
         ]
     },
     "Amandla": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Don Alias",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "Omar Hakim",
+            "Bashiri Johnson",
+            "Joe Sample"
         ]
     },
     "Jilli": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Marcus Miller",
+            "Kenny Garrett",
+            "Ricky Wellman",
+            "Joe Foley McCreary",
+            "John Bigham",
+            "Billy \"Spaceman\" Patterson"
         ]
     },
     "Mr. Pastorius": {
         "albums": [
             "Amandla"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Al Foster",
+            "Marcus Miller"
         ]
     },
     "Intro": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "White": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Yellow": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Orange": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Red": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Green": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Blue": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Electric Red": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Indigo": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Violet": {
         "albums": [
             "Aura"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "John McLaughlin",
+            "Benny Rosenfeld",
+            "Idrees Sulieman",
+            "Jens Winther",
+            "Palle Bolvig",
+            "Perry Knudsen",
+            "Jens Engel",
+            "Ture Larsen",
+            "Vincent Nilsson",
+            "Ole Kurt Jensen",
+            "Axel Windfeld",
+            "Jesper Thilo",
+            "Per Carsten",
+            "Uffe Karskov",
+            "Bent Jædig",
+            "Flemming Madsen",
+            "Kenneth Knudsen",
+            "Ole Kock Hansen",
+            "Thomas Clausen",
+            "Bjarne Roupé",
+            "Niels-Henning Ørsted Pedersen",
+            "Bo Stief",
+            "Vincent Wilburn Jr., Lennart Gruvstedt",
+            "Vincent Wilburn Jr.",
+            "Ethan Weisgaard",
+            "Marilyn Mazur",
+            "Lillian Thornquist",
+            "Niels Eje",
+            "Eva Hess-Thaysen",
+            "Palle Mikkelborg"
         ]
     },
     "Mystery": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "The Doo-Bop Song": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Chocolate Chip": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "High Speed Chase": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Blow": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Sonya": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Fantasy": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Duke Booty": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "Mystery (Reprise)": {
         "albums": [
             "Doo-Bop"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Deron Johnson",
+            "J.R",
+            "A.B. Money"
         ]
     },
     "The Man I Love (Take 2)": {
         "albums": [
             "Miles Davis and the Modern Jazz Giants"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     },
     "Round Midnight": {
         "albums": [
             "Miles Davis and the Modern Jazz Giants"
-        ]
+        ],
+        "musicians": []
     },
     "The Man I Love (Take 1)": {
         "albums": [
             "Miles Davis and the Modern Jazz Giants"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
         ]
     }
 }
