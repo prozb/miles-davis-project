@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/prozb/miles-davis-project#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "node-fetch": "^2.6.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-router-dom": "^5.1.2"
   },
