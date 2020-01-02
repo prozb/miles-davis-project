@@ -612,10 +612,10 @@
         "instruments": [
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/Red_Garland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Red_Garland_9A.jpg/220px-Red_Garland_9A.jpg",
+        "birthdate": "May 13, 1923",
+        "deathdate": "April 23, 1984"
     },
     "John Coltrane": {
         "albums": [
@@ -634,10 +634,10 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/John_Coltrane",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/John_Coltrane_in_1963.jpg/220px-John_Coltrane_in_1963.jpg",
+        "birthdate": "September 23, 1926",
+        "deathdate": "July 17, 1967"
     },
     "David Schildkraut": {
         "albums": [
@@ -646,10 +646,10 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Dave_Schildkraut",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "January 7, 1925",
+        "deathdate": "January 1, 1998"
     },
     "Bernie Glow": {
         "albums": [
@@ -661,10 +661,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Bernie_Glow",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "February 6, 1926 ",
+        "deathdate": "May 8, 1982"
     },
     "Ernie Royal": {
         "albums": [
@@ -676,10 +676,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Ernie_Royal",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "June 2, 1921",
+        "deathdate": "March 16, 1983"
     },
     "Louis Mucci": {
         "albums": [
@@ -691,10 +691,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Lou_Mucci",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "December 13, 1909",
+        "deathdate": "January 4, 2000"
     },
     "Taft Jordan": {
         "albums": [
@@ -704,10 +704,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/Taft_Jordan",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg/240px-Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg",
+        "birthdate": "February 15, 1915",
+        "deathdate": "December 1, 1981"
     },
     "John Carisi": {
         "albums": [
@@ -716,10 +716,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/John_Carisi",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "February 23, 1922",
+        "deathdate": "October 3, 1992"
     },
     "Frank Rehak": {
         "albums": [
@@ -732,10 +732,10 @@
         "instruments": [
             "trombone"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Frank_Rehak",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "July 6, 1926",
+        "deathdate": "June 22, 1987"
     },
     "Jimmy Cleveland": {
         "albums": [
@@ -745,10 +745,10 @@
         "instruments": [
             "trombone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Cleveland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jimmy_Cleveland.jpg/220px-Jimmy_Cleveland.jpg",
+        "birthdate": "May 3, 1926",
+        "deathdate": "August 23, 2008"
     },
     "Joe Bennett": {
         "albums": [
@@ -760,8 +760,8 @@
         ],
         "url": "",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "1926",
+        "deathdate": "2012"
     },
     "Tom Mitchell": {
         "albums": [
@@ -770,10 +770,10 @@
         "instruments": [
             "bass trombone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/569163-Thomas-Mitchell",
+        "icon": "https://img.discogs.com/mz_pGHf1YrzXnXVnC7kXF6eVRFI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-569163-1470336901-7502.jpeg.jpg",
+        "birthdate": "1926",
+        "deathdate": "2003"
     },
     "Willie Ruff": {
         "albums": [
@@ -784,9 +784,9 @@
             "horn",
             "french horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://de.wikipedia.org/wiki/Willie_Ruff",
+        "icon": "https://img.discogs.com/6SHS6INQisGTYxmwTJCw2Ysfi80=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-268553-1122738190.jpg.jpg",
+        "birthdate": "September 1, 1931",
         "deathdate": ""
     },
     "Tony Miranda": {
@@ -797,10 +797,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
+        "url": "https://en.wikipedia.org/wiki/Tony_Miranda",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "1919",
+        "deathdate": "11. November 2001"
     },
     "Jim Buffington": {
         "albums": [
@@ -809,10 +809,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/James_Buffington",
+        "icon": "https://img.discogs.com/x51MgWGPSUIHWAClchfmXT0RkY8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-301721-1467351246-5834.jpeg.jpg",
+        "birthdate": "May 15, 1922",
+        "deathdate": "July 20, 1981"
     },
     "Bill Barber": {
         "albums": [
@@ -824,10 +824,10 @@
         "instruments": [
             "tuba"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/271038-Bill-Barber",
+        "icon": "https://www.discogs.com/artist/271038-Bill-Barber",
+        "birthdate": "May 21, 1920",
+        "deathdate": "June 18, 2007"
     },
     "Lee Konitz": {
         "albums": [
@@ -836,9 +836,9 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/artist/259092-Lee-Konitz",
+        "icon": "https://img.discogs.com/2nAwJDBJGIykMzNrybEsSUGgu4w=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-259092-1555651614-2702.jpeg.jpg",
+        "birthdate": "October 13, 1927",
         "deathdate": ""
     },
     "Danny Bank": {
@@ -850,10 +850,10 @@
             "flute",
             "bass clarinet"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/260718-Danny-Bank",
+        "icon": "https://img.discogs.com/VdmMyS9HBAfvC227XV6DNl_G1PU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-260718-1415204010-9340.jpeg.jpg",
+        "birthdate": "July 17, 1922",
+        "deathdate": "June 5, 2010"
     },
     "Romeo Penque": {
         "albums": [
@@ -865,10 +865,10 @@
             "oboe",
             "flute"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/255113-Romeo-Penque",
+        "icon": "https://img.discogs.com/Av8snkzIE7MrOJQdX-H5V70fzBg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-255113-1529059912-8170.jpeg.jpg",
+        "birthdate": "17 October 1916",
+        "deathdate": "June 1985"
     },
     "Sid Cooper": {
         "albums": [
@@ -877,10 +877,10 @@
         "instruments": [
             "flute"
         ],
-        "url": "",
+        "url": "https://de.wikipedia.org/wiki/Sid_Cooper",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "2. November 1918",
+        "deathdate": "18. Juli 2011"
     },
     "Wynton Kelly": {
         "albums": [
@@ -891,10 +891,10 @@
         "instruments": [
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/252308-Wynton-Kelly",
+        "icon": "https://img.discogs.com/qysr0bBsI3r1lFlOAzhyXHn0pp8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252308-1107766386.jpg.jpg",
+        "birthdate": "December 2, 1931",
+        "deathdate": "April 12, 1971"
     },
     "Julian \"Cannonball\" Adderley": {
         "albums": [
@@ -906,10 +906,10 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/252309-Julian-Adderley",
+        "icon": "https://img.discogs.com/3rvygcJ-HnlgkpbkfacruT-QmTY=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252309-1549389668-6521.jpeg.jpg",
+        "birthdate": "September 15, 1928",
+        "deathdate": "August 8, 1975"
     },
     "Barney Wilen": {
         "albums": [
@@ -918,10 +918,10 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/59287-Barney-Wilen",
+        "icon": "https://img.discogs.com/rhuZKWcselI3SBwOprLOgzonI6w=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-59287-1285697850.jpeg.jpg",
+        "birthdate": "March 4, 1937",
+        "deathdate": "May 25, 1996"
     },
     "René Urtreger": {
         "albums": [
@@ -930,9 +930,9 @@
         "instruments": [
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/artist/251622-René-Urtreger",
+        "icon": "https://img.discogs.com/SvwFHc6fMn23yyz5NdeTB554J6E=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-251622-1321286901.jpeg.jpg",
+        "birthdate": "July 6, 1934",
         "deathdate": ""
     },
     "Pierre Michelot": {
@@ -942,10 +942,10 @@
         "instruments": [
             "double bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/251623-Pierre-Michelot",
+        "icon": "https://img.discogs.com/C6sFIqy9mcirJIBQKrUymElSfSE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-251623-1135087188.jpeg.jpg",
+        "birthdate": "March 03, 1928",
+        "deathdate": "July 03, 2005"
     },
     "Bill Evans": {
         "albums": [
@@ -957,10 +957,10 @@
             "saxophone",
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/252310-Bill-Evans",
+        "icon": "https://img.discogs.com/Lx8PC7J4aCD3ZkxZ4SN4_4EwYkE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252310-1477367202-7744.jpeg.jpg",
+        "birthdate": "August 16,  1929",
+        "deathdate": "September, 15 1980"
     },
     "Jimmy Cobb": {
         "albums": [
@@ -975,9 +975,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/artist/252311-Jimmy-Cobb",
+        "icon": "https://img.discogs.com/uA1FlSZVJP3OoFimVRdL_ypY798=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252311-1479556761-5966.png.jpg",
+        "birthdate": "January 20, 1929",
         "deathdate": ""
     },
     "Johnny Coles": {
@@ -988,10 +988,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/255109-Johnny-Coles",
+        "icon": "https://img.discogs.com/fyJWqLJV5koexFVfMtJKrDxqK6k=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-255109-1335103306.jpeg.jpg",
+        "birthdate": "July 3, 1926",
+        "deathdate": "December 21, 1996"
     },
     "Dick Hixon": {
         "albums": [
@@ -1001,10 +1001,10 @@
         "instruments": [
             "trombone"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/artist/313578-Richard-Hixson",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "May 17, 1924",
+        "deathdate": "November 25, 1982"
     },
     "Julius Watkins": {
         "albums": [
@@ -1015,10 +1015,10 @@
             "french horn",
             "horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/274971-Julius-Watkins",
+        "icon": "https://img.discogs.com/ET7546iAjiBUlXBjchIZXFUvPUQ=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-274971-1272356865.jpeg.jpg",
+        "birthdate": "October, 10 1921",
+        "deathdate": "April 4, 1977"
     },
     "Gunther Schuller": {
         "albums": [
@@ -1027,10 +1027,10 @@
         "instruments": [
             "horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/269868-Gunther-Schuller",
+        "icon": "https://img.discogs.com/3riyO3fauRssHmER4li15cbwFXE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-269868-1115107491.jpg.jpg",
+        "birthdate": "November 22, 1925",
+        "deathdate": "June 21, 2015"
     },
     "Phil Bodner": {
         "albums": [
@@ -1039,10 +1039,10 @@
         "instruments": [
             "flute"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/260720-Phil-Bodner",
+        "icon": "https://img.discogs.com/goc_BG08bASta82fhXFkO5rugpU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-260720-1344713972-8917.jpeg.jpg",
+        "birthdate": "June 13, 1917",
+        "deathdate": "February 24, 2008"
     },
     "Jerome Richardson": {
         "albums": [
@@ -1053,10 +1053,10 @@
             "woodwinds",
             "flute"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/72480-Jerome-Richardson",
+        "icon": "https://img.discogs.com/K5nvnBV0QwoDjvYmEykcbRZ5COA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-72480-1326832153.jpeg.jpg",
+        "birthdate": "November 15, 1920",
+        "deathdate": "June 23, 2000"
     },
     "John Barrows": {
         "albums": [
@@ -1065,10 +1065,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/275276-John-Barrows",
+        "icon": "https://img.discogs.com/rpeUBD8WblU2frAlpi49uHV9v1E=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-275276-1366640883-3833.jpeg.jpg",
+        "birthdate": "February 12, 1913",
+        "deathdate": "January 11, 1974"
     },
     "Albert Block": {
         "albums": [
@@ -1077,10 +1077,10 @@
         "instruments": [
             "flute"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/artist/275269-Al-Block",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "1925",
+        "deathdate": "15 August 2015"
     },
     "James Buffington": {
         "albums": [
@@ -1089,10 +1089,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/301721-Jim-Buffington",
+        "icon": "https://img.discogs.com/x51MgWGPSUIHWAClchfmXT0RkY8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-301721-1467351246-5834.jpeg.jpg",
+        "birthdate": "May 15, 1922",
+        "deathdate": "July 20, 1981"
     },
     "Eddie Caine": {
         "albums": [
@@ -1101,10 +1101,10 @@
         "instruments": [
             "flute"
         ],
-        "url": "",
+        "url": "https://de.wikipedia.org/wiki/Eddie_Caine#cite_note-obit-1",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "1923",
+        "deathdate": "August 19, 2016"
     },
     "Earl Chapin": {
         "albums": [
@@ -1113,10 +1113,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/artist/275273-Earl-Chapin",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "1926",
+        "deathdate": "January 21, 1997"
     },
     "Harold Feldman": {
         "albums": [
@@ -1149,10 +1149,10 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/275265-Jose-Mangual",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "March 18, 1924",
+        "deathdate": "1998"
     },
     "Jimmy McAllister": {
         "albums": [
@@ -1161,7 +1161,7 @@
         "instruments": [
             "tuba"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/artist/275272-James-McAllister",
         "icon": "",
         "birthdate": "",
         "deathdate": ""
@@ -1174,10 +1174,10 @@
         "instruments": [
             "harp"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/artist/260730-Janet-Putnam",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "20 May, 1921",
+        "deathdate": "31 July, 2011"
     },
     "Joe Singer": {
         "albums": [
@@ -1198,10 +1198,10 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/135872-Hank-Mobley",
+        "icon": "https://img.discogs.com/8QXmk0uC9Xxz3S-Z1Xc3PHR8qLs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-135872-1367166852-9730.jpeg.jpg",
+        "birthdate": "July 07, 1930",
+        "deathdate": "May 30, 1986"
     },
     "Shorty Baker": {
         "albums": [
@@ -1210,10 +1210,10 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/309982-Harold-Baker",
+        "icon": "https://img.discogs.com/IxV3nUf5Pm0YoMIlVZwqaPHh8X8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-309982-1372867856-9966.jpeg.jpg",
+        "birthdate": "May 26, 1914",
+        "deathdate": "November 8, 1966"
     },
     "Ray Alonge": {
         "albums": [
@@ -1222,10 +1222,10 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/295645-Ray-Alonge",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "birthdate": "July 16, 1924",
+        "deathdate": "January 17, 2000"
     },
     "Don Corrado": {
         "albums": [
@@ -1234,7 +1234,7 @@
         "instruments": [
             "french horn"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/341139-Donald-Corrado",
         "icon": "",
         "birthdate": "",
         "deathdate": ""
@@ -1246,10 +1246,10 @@
         "instruments": [
             "soprano saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/97532-Steve-Lacy",
+        "icon": "https://img.discogs.com/cpV2x7K90USni5gLApCLsfd0aA8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-97532-1425841356-3286.jpeg.jpg",
+        "birthdate": "July 23, 1934",
+        "deathdate": "June 4, 2004"
     },
     "Ray Beckenstein": {
         "albums": [
@@ -1258,10 +1258,10 @@
         "instruments": [
             "woodwinds"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/272747-Ray-Beckenstein",
+        "icon": "https://img.discogs.com/WQPHYE0Kp-n9wXNEMCAzdndJrpI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-272747-1366640784-8617.jpeg.jpg",
+        "birthdate": "August 14, 1923",
+        "deathdate": "August 24, 2009"
     },
     "Garvin Bushell": {
         "albums": [
@@ -1270,10 +1270,10 @@
         "instruments": [
             "bassoon"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/260911-Garvin-Bushell",
+        "icon": "https://img.discogs.com/j_Z-vAslr8oIFgvQUdo_w0JBW5c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-260911-1123595540.jpg.jpg",
+        "birthdate": "September 25, 1902 ",
+        "deathdate": "October 31, 1991"
     },
     "Bob Tricarico": {
         "albums": [
