@@ -1,6 +1,6 @@
 const fs = require('fs');
-const tracksFile = fs.readFileSync('./album-tracks.json');
-const musiciansFile = fs.readFileSync('./musicians.json');
+const tracksFile = fs.readFileSync('../old-dataset/album-tracks.json');
+const musiciansFile = fs.readFileSync('../old-dataset/musicians.json');
 const albums = JSON.parse(tracksFile);
 const musicians = JSON.parse(musiciansFile);
 const tracks = {};
@@ -14,7 +14,6 @@ Object.entries(albums).forEach(album => {
     }else{
       var trackObject = {};
       trackObject.albums = [];
-      trackObject.musicians = [];
       trackObject.albums.push(album[0]);
       tracks[track] = trackObject;
     }
@@ -22,18 +21,26 @@ Object.entries(albums).forEach(album => {
 });
 
 Object.entries(tracks).forEach(track => {
-  var name = track[0];
-  var allMusicians = [];
-  Object.entries(musicians).forEach(musician => {
-    
-    musician[1].tracks.forEach(elem => {
-      if(elem.name === name && !allMusicians.includes(musician[0])){
-        allMusicians.push(musician[0]);
-      }
-    })
+  var musiciansOfTrack = [];
+  track[1].albums.forEach(albumElem => {
+    var name = track[0];
+    var allMusicians = [];
+    Object.entries(musicians).forEach(musician => {
+      
+      musician[1].tracks.forEach(elem => {
+        if(elem.name === name && elem.album === albumElem){
+          var obj = {};
+          obj[musician[0]] = elem.instrument;
+          allMusicians.push(obj);
+        }
+      })
+    });
+    var musObj = {};
+    musObj[albumElem] = allMusicians;
+    musiciansOfTrack.push(musObj);
   });
-  track[1].musicians = allMusicians;
+  track[1].albums = musiciansOfTrack;
 });
 
 var json = JSON.stringify(tracks);
-fs.writeFileSync('tracks.json', json, 'utf8');
+fs.writeFileSync('tracks-new1.json', json, 'utf8');
