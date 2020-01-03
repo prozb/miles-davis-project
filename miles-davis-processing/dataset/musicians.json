@@ -947,21 +947,6 @@
         "birthdate": "March 03, 1928",
         "deathdate": "July 03, 2005"
     },
-    "Bill Evans": {
-        "albums": [
-            "Star People",
-            "Kind of Blue",
-            "Jazz Track"
-        ],
-        "instruments": [
-            "saxophone",
-            "piano"
-        ],
-        "url": "https://www.discogs.com/artist/252310-Bill-Evans",
-        "icon": "https://img.discogs.com/Lx8PC7J4aCD3ZkxZ4SN4_4EwYkE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252310-1477367202-7744.jpeg.jpg",
-        "birthdate": "August 16,  1929",
-        "deathdate": "September, 15 1980"
-    },
     "Jimmy Cobb": {
         "albums": [
             "Sorcerer",
@@ -1282,7 +1267,7 @@
         "instruments": [
             "bassoon"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/317502-Bob-Tricarico",
         "icon": "",
         "birthdate": "",
         "deathdate": ""
@@ -1295,10 +1280,10 @@
         "instruments": [
             "bongos"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/33585-Willie-Bobo",
+        "icon": "https://img.discogs.com/IsyE95zb3uUy_vzEL6PoFCLHMEM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-33585-1166405983.jpeg.jpg",
+        "birthdate": "February 28, 1934",
+        "deathdate": "September 15, 1983"
     },
     "George Coleman": {
         "albums": [
@@ -1308,9 +1293,9 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/253367-George-Coleman",
+        "icon": "https://img.discogs.com/h9tM-t1gz9bICOX0bxWsMS7lrdI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-253367-1438004140-2797.jpeg.jpg",
+        "birthdate": "March 8, 1935",
         "deathdate": ""
     },
     "Victor Feldman": {
@@ -1321,10 +1306,10 @@
         "instruments": [
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/255752-Victor-Feldman",
+        "icon": "https://img.discogs.com/NQeYKAwTVQ-FeMFrXlSxv6mUvMI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-255752-1107767309.jpg.jpg",
+        "birthdate": "April 7, 1934",
+        "deathdate": "May 12, 1987"
     },
     "Ron Carter": {
         "albums": [
@@ -1343,9 +1328,9 @@
             "electric bass",
             "double bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/95088-Ron-Carter",
+        "icon": "https://img.discogs.com/riEFXbez7bN20uKbGFboHxQblmo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-95088-1432652543-5488.jpeg.jpg",
+        "birthdate": "May 4, 1937",
         "deathdate": ""
     },
     "Frank Butler": {
@@ -1356,10 +1341,10 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/254110-Frank-Butler",
+        "icon": "https://img.discogs.com/67KReS4cjMhc6xgLSIVVQH9FDdo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-254110-1107767250.jpg.jpg",
+        "birthdate": "February 18, 1928",
+        "deathdate": "July 24, 1984"
     },
     "Herbie Hancock": {
         "albums": [
@@ -1379,9 +1364,9 @@
             "organ",
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/3865-Herbie-Hancock",
+        "icon": "https://img.discogs.com/RxhwJ-mNFOsjmIUQ3IOkfCAPEaE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-3865-1105986677.jpg.jpg",
+        "birthdate": "April 12, 1940",
         "deathdate": ""
     },
     "Tony Williams": {
@@ -1399,10 +1384,10 @@
             "drums",
             "electric drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/260318-Tony-Williams-2",
+        "icon": "https://img.discogs.com/guVruXHtht5uV_nL6h1FirNAcKo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-260318-1365528667-1188.jpeg.jpg",
+        "birthdate": "April 15, 1928",
+        "deathdate": "August 14, 1992"
     },
     "Wayne Shorter": {
         "albums": [
@@ -1421,9 +1406,9 @@
             "soprano saxophone",
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Wayne_Shorter",
+        "icon": "https://img.discogs.com/nA_zRfOwaTiKnmCkg2yn4TSnRj4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-29979-001.jpg.jpg",
+        "birthdate": "August 25, 1933",
         "deathdate": ""
     },
     "Bob Dorough": {
@@ -1433,10 +1418,10 @@
         "instruments": [
             "vocals"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/57626-Bob-Dorough",
+        "icon": "https://img.discogs.com/LWRoJ6G4JXOqZMqil__o-XMqF4I=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-57626-1115121190.jpg.jpg",
+        "birthdate": "December 12, 1923",
+        "deathdate": "April 23, 2018"
     },
     "George Benson": {
         "albums": [
@@ -1445,9 +1430,9 @@
         "instruments": [
             "electric guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/2266-George-Benson",
+        "icon": "https://img.discogs.com/bGTcfvteVzVLbomgdlAAngR9Pt4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-2266-1488862087-4344.jpeg.jpg",
+        "birthdate": "March 22, 1943",
         "deathdate": ""
     },
     "Chick Corea": {
@@ -1462,9 +1447,9 @@
             "piano",
             "RMI electra-piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Chick_Corea",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg/220px-Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg",
+        "birthdate": "June 12, 1941",
         "deathdate": ""
     },
     "Dave Holland": {
@@ -1478,9 +1463,9 @@
             "bass",
             "double bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Dave_Holland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Dave_Holland1.jpg/220px-Dave_Holland1.jpg",
+        "birthdate": "October 1, 1946",
         "deathdate": ""
     },
     "John McLaughlin": {
@@ -1496,9 +1481,9 @@
             "guitar",
             "electric guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_McLaughlin_Blue_Note_2016.JPG/220px-John_McLaughlin_Blue_Note_2016.JPG",
+        "birthdate": "January 4, 1942",
         "deathdate": ""
     },
     "Joe Zawinul": {
@@ -1510,10 +1495,10 @@
         "instruments": [
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/Joe_Zawinul",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Joe_zawinul_2007-03-28_live_in_freiburg.jpg/220px-Joe_zawinul_2007-03-28_live_in_freiburg.jpg",
+        "birthdate": "July 7, 1932",
+        "deathdate": "September 11, 2007"
     },
     "Bennie Maupin": {
         "albums": [
@@ -1525,9 +1510,9 @@
             "bass clarinet",
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Bennie_Maupin",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bennie-maupin-1326016807.jpg/250px-Bennie-maupin-1326016807.jpg",
+        "birthdate": "August 29, 1940",
         "deathdate": ""
     },
     "Larry Young": {
@@ -1537,10 +1522,10 @@
         "instruments": [
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://en.wikipedia.org/wiki/Larry_Young_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Larry_Young_%28musician%29.gif/220px-Larry_Young_%28musician%29.gif",
+        "birthdate": "October 7, 1940",
+        "deathdate": "March 30, 1978"
     },
     "Harvey Brooks": {
         "albums": [
@@ -1549,9 +1534,9 @@
         "instruments": [
             "bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Harvey_Brooks_(bassist)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Harveycapture.jpg/220px-Harveycapture.jpg",
+        "birthdate": "July 4, 1944",
         "deathdate": ""
     },
     "Lenny White": {
@@ -1561,9 +1546,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://en.wikipedia.org/wiki/Lenny_White",
+        "icon": "https://img.discogs.com/cJNl-pmZsvuD_ASPGid-hKriRVk=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-74210-1500409548-5720.jpeg.jpg",
+        "birthdate": "December 19, 1949",
         "deathdate": ""
     },
     "Jack DeJohnette": {
@@ -1574,9 +1559,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/238626-Jack-DeJohnette",
+        "icon": "https://img.discogs.com/n8dRSpHhxTX-pd3dPynm47A5Ock=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-238626-1479635499-4502.jpeg.jpg",
+        "birthdate": "August 9, 1942",
         "deathdate": ""
     },
     "Don Alias": {
@@ -1590,10 +1575,10 @@
             "drums",
             "congas"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/267099-Don-Alias",
+        "icon": "https://img.discogs.com/10IThSIBk9ixGdig_cY66ygCLQk=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-267099-1112776104.jpg.jpg",
+        "birthdate": "December 25, 1939",
+        "deathdate": "March 28, 2006"
     },
     "Juma Santos": {
         "albums": [
@@ -1602,10 +1587,10 @@
         "instruments": [
             "congas"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/297013-Jumma-Santos",
+        "icon": "https://img.discogs.com/QSUPtX688WETKSptEOZ5GSsjqq4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-297013-1268861934.jpeg.jpg",
+        "birthdate": "January 15, 1948",
+        "deathdate": "September 10, 2007"
     },
     "Billy Cobham": {
         "albums": [
@@ -1616,9 +1601,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/35199-Billy-Cobham",
+        "icon": "https://img.discogs.com/JgQ5ik8CqeQGndvEsCJ2TagTocM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-35199-1108286834.jpg.jpg",
+        "birthdate": "May 16, 1944",
         "deathdate": ""
     },
     "Airto Moreira": {
@@ -1630,9 +1615,9 @@
             "percussion",
             "cuica"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/14068-Airto-Moreira",
+        "icon": "https://img.discogs.com/TC_VwbXZyj0w9y5-tWsiaEoo5k0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-14068-1473789780-1301.jpeg.jpg",
+        "birthdate": "August 5, 1941",
         "deathdate": ""
     },
     "Steve Grossman": {
@@ -1644,9 +1629,9 @@
             "saxophone",
             "soprano saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/256167-Steve-Grossman",
+        "icon": "https://img.discogs.com/G8MUVaXDNlZXeOImRotyAT8NWQw=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-256167-1108287141.jpg.jpg",
+        "birthdate": "January 18, 1951",
         "deathdate": ""
     },
     "Michael Henderson": {
@@ -1658,9 +1643,9 @@
             "bass",
             "electric bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/113678-Michael-Henderson",
+        "icon": "https://img.discogs.com/9odWm9ZPmD45OtyrakCJVOUOruM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-113678-1502487270-2449.jpeg.jpg",
+        "birthdate": "July 7, 1951",
         "deathdate": ""
     },
     "Brock Peters": {
@@ -1670,10 +1655,10 @@
         "instruments": [
             "narration"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/407548-Brock-Peters",
+        "icon": "https://img.discogs.com/fjSlf9msBKSURfG9f58pLJhS2fI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-407548-1271069508.gif.jpg",
+        "birthdate": "July 2, 1927",
+        "deathdate": "August 23, 2005"
     },
     "Hermeto Pascoal": {
         "albums": [
@@ -1683,9 +1668,9 @@
             "vocals",
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/256166-Hermeto-Pascoal",
+        "icon": "https://img.discogs.com/4Za33OW6Jt7Ya2Zwy7_qdrsP1NE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-256166-1512688439-2880.jpeg.jpg",
+        "birthdate": "June 22, 1936",
         "deathdate": ""
     },
     "Keith Jarrett": {
@@ -1696,9 +1681,9 @@
             "piano",
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/145273-Keith-Jarrett",
+        "icon": "https://img.discogs.com/wRvJ6Skdw_g0LSC1HnNAHg76TS4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-145273-1232815677.jpeg.jpg",
+        "birthdate": "May 8, 1945",
         "deathdate": ""
     },
     "Gary Bartz": {
@@ -1708,9 +1693,9 @@
         "instruments": [
             "saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/45008-Gary-Bartz",
+        "icon": "https://img.discogs.com/dCt4rxjiqJU24Gq-D050HYBO5x8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-45008-1511108035-4095.jpeg.jpg",
+        "birthdate": "September 26, 1940",
         "deathdate": ""
     },
     "Khalil Balakrishna": {
@@ -1721,8 +1706,8 @@
             "guitar",
             "sitar"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/262579-Khalil-Balakrishna",
+        "icon": "https://img.discogs.com/7Oxp8v-sjJ1GoNJf_KnrclvisOU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-262579-1557889269-5563.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -1733,9 +1718,9 @@
         "instruments": [
             "saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/5683-Carlos-Garnett",
+        "icon": "https://img.discogs.com/1_MIevtoHkgrtKTiTigfV52faeE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-5683-1107445132.jpg.jpg",
+        "birthdate": "December 1, 1938",
         "deathdate": ""
     },
     "Dave Liebman": {
@@ -1745,9 +1730,9 @@
         "instruments": [
             "saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/65749-David-Liebman",
+        "icon": "https://img.discogs.com/B9ZTKsygeCji_PRS9F0Z_pDjzEw=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-65749-1396034078-8889.jpeg.jpg",
+        "birthdate": "September 4, 1946",
         "deathdate": ""
     },
     "Harold Ivory Williams": {
@@ -1757,10 +1742,10 @@
         "instruments": [
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/315688-Harold-Ivory-Williams",
+        "icon": "https://img.discogs.com/7rjZekyoR_CC0FwnFNi1B1SG670=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-315688-1184071250.jpeg.jpg",
+        "birthdate": "August 25, 1949",
+        "deathdate": "June 9, 2010"
     },
     "Cedric Lawson": {
         "albums": [
@@ -1769,8 +1754,8 @@
         "instruments": [
             "organ"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/295398-Cedric-Lawson",
+        "icon": "https://img.discogs.com/Gy7k41pC25yhARmIqf89QHWd9c8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-295398-1338154845-4854.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -1793,10 +1778,10 @@
         "instruments": [
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/62811-Reggie-Lucas",
+        "icon": "https://img.discogs.com/Ui7aqPwLLJdCbqRhvhb1N5H-h4c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-62811-1333976220.jpeg.jpg",
+        "birthdate": "February 25, 1953",
+        "deathdate": "May 19, 2018"
     },
     "Collin Walcott": {
         "albums": [
@@ -1806,10 +1791,10 @@
             "electric sitar",
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/315689-Collin-Walcott",
+        "icon": "https://img.discogs.com/mL_SQ_xddUQ2DzpMranEQ4xEDzY=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-315689-1270422828.jpeg.jpg",
+        "birthdate": "February 24, 1945",
+        "deathdate": "November 8, 1984"
     },
     "Al Foster": {
         "albums": [
@@ -1823,9 +1808,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/271001-Al-Foster",
+        "icon": "https://img.discogs.com/Tqx0RZvQlQucB2SBqjfbZqzAmYI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-271001-1204713396.jpeg.jpg",
+        "birthdate": "January 18, 1943",
         "deathdate": ""
     },
     "Billy Hart": {
@@ -1835,9 +1820,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/252742-Billy-Hart",
+        "icon": "https://img.discogs.com/QmU8G-bF4IN3E9OPGB_s13L9K9c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252742-1124200125.jpg.jpg",
+        "birthdate": "November 29, 1940",
         "deathdate": ""
     },
     "James Mtume": {
@@ -1848,9 +1833,9 @@
             "percussion",
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/38236-James-Mtume",
+        "icon": "https://img.discogs.com/oVrO20S2D-6eZDXeH4gVuny8g8w=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-38236-1504956466-2360.jpeg.jpg",
+        "birthdate": "1947",
         "deathdate": ""
     },
     "Paul Buckmaster": {
@@ -1860,10 +1845,10 @@
         "instruments": [
             "cello"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/289733-Paul-Buckmaster",
+        "icon": "https://img.discogs.com/_Uf52t27S1X3hGpm5Y3zrVMzAac=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-289733-1510185469-9438.jpeg.jpg",
+        "birthdate": "June 13, 1946",
+        "deathdate": "November 7, 2017"
     },
     "Badal Roy": {
         "albums": [
@@ -1872,24 +1857,28 @@
         "instruments": [
             "tabla"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/272930-Badal-Roy",
+        "icon": "https://img.discogs.com/BEvcXR3RzyIJMdJorKuuQAxDeEM=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-272930-1400023347-7558.jpeg.jpg",
+        "birthdate": "1945",
         "deathdate": ""
     },
-    "Bill Evans (saxophonist)": {
+    "Bill Evans": {
         "albums": [
             "Decoy",
-            "The Man with the Horn"
+            "The Man with the Horn",
+            "Star People",
+            "Kind of Blue",
+            "Jazz Track"
         ],
         "instruments": [
             "soprano saxophone",
-            "saxophone"
+            "saxophone",
+            "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/artist/252310-Bill-Evans",
+        "icon": "https://img.discogs.com/Lx8PC7J4aCD3ZkxZ4SN4_4EwYkE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252310-1477367202-7744.jpeg.jpg",
+        "birthdate": "August 16,  1929",
+        "deathdate": "September, 15 1980"
     },
     "Barry Finnerty": {
         "albums": [
@@ -1898,9 +1887,9 @@
         "instruments": [
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://de.wikipedia.org/wiki/Barry_Finnerty",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barry_Finnerty_in_April_2018.jpg/220px-Barry_Finnerty_in_April_2018.jpg",
+        "birthdate": "Dezember 3, 1951",
         "deathdate": ""
     },
     "Mike Stern": {
@@ -1912,9 +1901,9 @@
             "electric guitar",
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/276062-Mike-Stern",
+        "icon": "https://img.discogs.com/BN1xjxYyPI_s_Bn8aucuArNpVIg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-276062-1209267599.jpeg.jpg",
+        "birthdate": "January 10, 1953",
         "deathdate": ""
     },
     "Marcus Miller": {
@@ -1932,9 +1921,9 @@
             "guitar",
             "electric bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/79989-Marcus-Miller",
+        "icon": "https://img.discogs.com/VOpkhBfAC9yPwJnpqqsZ-ITdCqc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-79989-1446067079-7490.jpeg.jpg",
+        "birthdate": "1959",
         "deathdate": ""
     },
     "Sammy Figueroa": {
@@ -1944,9 +1933,9 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
+        "icon": "https://img.discogs.com/weYmdWfCEJpwD6qotpRr0RIDZZw=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-253339-1121500889.jpg.jpg",
+        "birthdate": "November 16, 1948",
         "deathdate": ""
     },
     "Robert Irving III": {
@@ -1959,9 +1948,9 @@
             "synthesizer",
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/237979-Robert-Irving-III",
+        "icon": "https://img.discogs.com/4sg5vCZfJvBcWCjpnDCZCbSOcNU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-237979-1539809439-3999.jpeg.jpg",
+        "birthdate": "October 27, 1953",
         "deathdate": ""
     },
     "Randy Hall": {
@@ -1971,9 +1960,9 @@
         "instruments": [
             "vocals"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/279709-Randy-Hall",
+        "icon": "https://img.discogs.com/h_lwJFJsQEFLoaWuy3AShrH8l6M=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-279709-1240143778.jpeg.jpg",
+        "birthdate": "April 19, 1958",
         "deathdate": ""
     },
     "Felton Crews": {
@@ -1983,8 +1972,8 @@
         "instruments": [
             "bass"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/271066-Felton-Crews",
+        "icon": "https://img.discogs.com/4QkBzW7C8mx0FsP5537aTKRHhKA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-271066-1337166509-6023.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -1996,9 +1985,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/279708-Vincent-Wilburn",
+        "icon": "https://img.discogs.com/dfijK7-y3kxHMD5lKmx3mBAxbAc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-279708-1539864643-8520.png.jpg",
+        "birthdate": "1958",
         "deathdate": ""
     },
     "John Scofield": {
@@ -2011,9 +2000,9 @@
             "guitar",
             "electric guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/12628-John-Scofield",
+        "icon": "https://img.discogs.com/Cf_REI8lM--2skWmxW9lg5S4tmA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-12628-1204702214.jpeg.jpg",
+        "birthdate": "26 December, 1951",
         "deathdate": ""
     },
     "Tom Barney": {
@@ -2023,8 +2012,8 @@
         "instruments": [
             "electric bass"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/276063-Tom-Barney",
+        "icon": "https://img.discogs.com/SKO4MwNgmHFO3qaJSTtj3S6Ml2o=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-276063-1146331793.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -2037,9 +2026,9 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/196880-Mino-Cinelu",
+        "icon": "https://img.discogs.com/K9yFA6FbSPT9Jf3R5WXzEv4RXvk=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-196880-1457315648-7570.jpeg.jpg",
+        "birthdate": "March 10, 1957",
         "deathdate": ""
     },
     "Branford Marsalis": {
@@ -2049,9 +2038,9 @@
         "instruments": [
             "soprano saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/27803-Branford-Marsalis",
+        "icon": "https://img.discogs.com/UQUM6qetr_GWIL4Eza2qrCOrGig=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-27803-1539808704-5890.jpeg.jpg",
+        "birthdate": "August 26, 1960",
         "deathdate": ""
     },
     "Darryl \"The Munch\" Jones": {
@@ -2062,9 +2051,9 @@
         "instruments": [
             "bass"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/271000-Darryl-Jones",
+        "icon": "https://img.discogs.com/a-K7ggVwXQDkgSvYtb9mKW1rci0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-271000-1539806980-4598.jpeg.jpg",
+        "birthdate": "December 11, 1961",
         "deathdate": ""
     },
     "Bob Berg": {
@@ -2075,10 +2064,10 @@
             "soprano saxophone",
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/181108-Bob-Berg",
+        "icon": "https://img.discogs.com/8wpILYqnJKL0HaAYohgvKrHReqU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-181108-1115447530.jpg.jpg",
+        "birthdate": "April 7, 1951",
+        "deathdate": "December 5, 2002"
     },
     "Steve Thornton": {
         "albums": [
@@ -2088,8 +2077,8 @@
             "percussion",
             "vocals"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/90492-Steve-Thornton",
+        "icon": "https://img.discogs.com/Y0LbTjCl_P9QxzLTnHXDg1Bt-eE=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-90492-1147887843.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -2100,9 +2089,9 @@
         "instruments": [
             "vocals"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/13961-Sting",
+        "icon": "https://img.discogs.com/Z_pU2HmTZvgwtC_4v0-okjf8QZY=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-13961-1553333085-3053.jpeg.jpg",
+        "birthdate": "October 2, 1951",
         "deathdate": ""
     },
     "Marek Olko": {
@@ -2112,7 +2101,7 @@
         "instruments": [
             "vocals"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/314149-Marek-Olko",
         "icon": "",
         "birthdate": "",
         "deathdate": ""
@@ -2124,10 +2113,10 @@
         "instruments": [
             "vocals"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/4236678-Jim-Rose-2",
+        "icon": "https://img.discogs.com/AQke6ZFq-3Bu9dpk5-CW3ne-e0s=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-4236678-1423172924-5317.jpeg.jpg",
         "birthdate": "",
-        "deathdate": ""
+        "deathdate": "Oct 1, 2014"
     },
     "Kenny Garrett": {
         "albums": [
@@ -2137,9 +2126,9 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/55729-Kenny-Garrett",
+        "icon": "https://img.discogs.com/eBtGSLwghLDRK19wZQz8iKh95ow=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-55729-1115106200.jpg.jpg",
+        "birthdate": "October 9, 1960",
         "deathdate": ""
     },
     "Jason Miles": {
@@ -2149,7 +2138,7 @@
         "instruments": [
             "synthesizer"
         ],
-        "url": "",
+        "url": "https://www.discogs.com/de/artist/204170-Jason-Miles",
         "icon": "",
         "birthdate": "",
         "deathdate": ""
@@ -2162,9 +2151,9 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/46163-Paulinho-Da-Costa",
+        "icon": "https://img.discogs.com/DCpuZpk9tYg2UUauVtjTOaLPuSw=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-46163-1442522200-4493.jpeg.jpg",
+        "birthdate": "May 31, 1948",
         "deathdate": ""
     },
     "Adam Holzman": {
@@ -2174,9 +2163,9 @@
         "instruments": [
             "synthesizer"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/295061-Adam-Holzman",
+        "icon": "https://img.discogs.com/x_v2axexMZ25i5c0u6MVDyJz7xI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-295061-1411029201-3590.jpeg.jpg",
+        "birthdate": "February 15, 1958",
         "deathdate": ""
     },
     "Steve Reid": {
@@ -2186,10 +2175,10 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://de.wikipedia.org/wiki/Steve_Reid",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Steve_Reid_Circulo_de_Bellas_Artes_2.JPG/220px-Steve_Reid_Circulo_de_Bellas_Artes_2.JPG",
+        "birthdate": "Januar 29, 1944",
+        "deathdate": "April 13, 2010"
     },
     "George Duke": {
         "albums": [
@@ -2200,10 +2189,10 @@
             "keyboard",
             "electric piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/12803-George-Duke",
+        "icon": "https://img.discogs.com/6oE3qW6xjVMAKskKfUFVUONCSz4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-12803-1521784850-2093.jpeg.jpg",
+        "birthdate": "Jan 12, 1946",
+        "deathdate": "August 5, 2013"
     },
     "Omar Hakim": {
         "albums": [
@@ -2213,9 +2202,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/253649-Omar-Hakim",
+        "icon": "https://img.discogs.com/nSSmWgzcT8YJD5piinRCYsBiZfI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-253649-1449582503-3554.jpeg.jpg",
+        "birthdate": "February 12, 1959",
         "deathdate": ""
     },
     "Bernard Wright": {
@@ -2225,9 +2214,9 @@
         "instruments": [
             "synthesizer"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/64796-Bernard-Wright",
+        "icon": "https://img.discogs.com/8DYCWuxfQN8piFC-nffIvJ68uXo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-64796-1275743072.jpeg.jpg",
+        "birthdate": "November 16, 1963",
         "deathdate": ""
     },
     "Michał Urbaniak": {
@@ -2237,9 +2226,9 @@
         "instruments": [
             "electric violin"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/455886-Michał-Urbaniak",
+        "icon": "https://img.discogs.com/qckRsDtIHGwC1GDaLBiGUlIy0J0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-455886-1306680650.jpeg.jpg",
+        "birthdate": "January 22, 1943",
         "deathdate": ""
     },
     "Jabali Billy Hart": {
@@ -2249,9 +2238,9 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/252742-Billy-Hart",
+        "icon": "https://img.discogs.com/QmU8G-bF4IN3E9OPGB_s13L9K9c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252742-1124200125.jpg.jpg",
+        "birthdate": "November 29, 1940",
         "deathdate": ""
     },
     "Michael Landau": {
@@ -2261,9 +2250,9 @@
         "instruments": [
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/253974-Michael-Landau",
+        "icon": "https://img.discogs.com/2-H602sn5P33gMc3VGg4-OpcJ8c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-253974-1407446796-3359.jpeg.jpg",
+        "birthdate": "June 1, 1958",
         "deathdate": ""
     },
     "Joey DeFrancesco": {
@@ -2273,9 +2262,9 @@
         "instruments": [
             "keyboard"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/44566-Joey-DeFrancesco",
+        "icon": "https://img.discogs.com/hrxmxlTyTsO7y9w4SQKu4C3bbwU=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-44566-1454077738-6574.jpeg.jpg",
+        "birthdate": "April 10, 1971",
         "deathdate": ""
     },
     "Ricky Wellman": {
@@ -2285,8 +2274,8 @@
         "instruments": [
             "drums"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/327536-Ricky-Wellman",
+        "icon": "https://img.discogs.com/9GIwl8T1XNJvjVCCZSq3IJzL-xg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-327536-1272473143.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -2297,8 +2286,8 @@
         "instruments": [
             "guitar"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/5375743-Joe-Foley-McCreary",
+        "icon": "https://img.discogs.com/iannS7PzBQQfJPCKFeJxuPKVLno=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-5375743-1556897865-6973.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -2309,9 +2298,9 @@
         "instruments": [
             "guitar"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/252263-Jean-Paul-Bourelly",
+        "icon": "https://img.discogs.com/bLb2ZR32LQQsHB-mBWzM1cGJhz4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252263-1279387714.jpeg.jpg",
+        "birthdate": "1960",
         "deathdate": ""
     },
     "Rick Margitza": {
@@ -2321,9 +2310,9 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
+        "url": "https://www.discogs.com/de/artist/298111-Rick-Margitza",
+        "icon": "https://img.discogs.com/gjlhs9n2Yt2NBvvtAGyCtPxkIs8=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-298111-1113666222.jpg.jpg",
+        "birthdate": "October 24, 1961",
         "deathdate": ""
     },
     "Bashiri Johnson": {
@@ -2333,8 +2322,8 @@
         "instruments": [
             "percussion"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/144589-Bashiri-Johnson",
+        "icon": "https://img.discogs.com/e8jweQZ6XUQUsmBvSQOyZo2MTFc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-144589-1139160561.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
@@ -2345,10 +2334,10 @@
         "instruments": [
             "piano"
         ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
+        "url": "https://www.discogs.com/de/artist/60451-Joe-Sample",
+        "icon": "https://img.discogs.com/T1EgGguMgBLGI1yCXFTcyf0zKgg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-60451-1167392924.jpeg.jpg",
+        "birthdate": "February 1, 1939",
+        "deathdate": "September 12, 2014"
     },
     "John Bigham": {
         "albums": [
@@ -2358,8 +2347,8 @@
             "guitar",
             "keyboard"
         ],
-        "url": "",
-        "icon": "",
+        "url": "https://www.discogs.com/de/artist/327544-John-Bigham",
+        "icon": "https://img.discogs.com/0XMxR-siAh1SOz8OpXhRMJsI-_w=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-327544-1194191881.jpeg.jpg",
         "birthdate": "",
         "deathdate": ""
     },
