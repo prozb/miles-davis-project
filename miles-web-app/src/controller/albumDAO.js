@@ -1,7 +1,16 @@
+var albums = require('../assets/albums.json');
+/**
+ * @author Pavlo Rozbytskyi
+ * album Data Access Object layer provides basic read functionality  
+ */
 class AlbumDAO {
-  getFirstAticle = () => {
-    
+  constructor() {
+    this.allAlbums = Object.entries(albums);
+  }
+  // reading all albums
+  getAll = () => {
+    return this.allAlbums;
   }
 }
 
-export default AlbumDAO;
+export const albumDAO = new AlbumDAO()

@@ -2,4 +2,4 @@ class TrackDAO {
 
 }
 
-export default TrackDAO;
+export const trackDAO = new TrackDAO()

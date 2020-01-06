@@ -2,4 +2,4 @@ class InstrumentService {
 
 }
 
-export { InstrumentService };
+export const instrumentService = new InstrumentService();

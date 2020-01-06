@@ -2,4 +2,4 @@ class TrackService {
 
 }
 
-export { TrackService };
+export const trackService = new TrackService(); 

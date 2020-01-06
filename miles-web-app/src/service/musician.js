@@ -2,4 +2,4 @@ class MusicianService {
 
 }
 
-export { MusicianService };
+export const musicianService = new MusicianService(); 

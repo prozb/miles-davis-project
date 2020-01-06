@@ -81,7 +81,7 @@ export default class Timeline extends Component {
   render() {
     const {style} = this.props;
     return (
-      <div style={{display: 'flex', flexDirection: 'row',  width: '95%',  height: 200}}>
+      <div style={{display: 'flex', flexDirection: 'row',  width: '100%',  height: 200}}>
         <div className="triangle-container" style={{alignSelf: 'center',}}> 
           <Triangle onClick={this._handleLeftClick} left={true}/> 
         </div>
@@ -90,7 +90,7 @@ export default class Timeline extends Component {
             {this.getAllAlbumComponents()}
           </div>
         
-          <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 10}}>
+          <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 5}}>
             <Triangle onClick={this._handleRightClick} right={true}/>
           </div>
         </div>

@@ -3,6 +3,8 @@
     overflow-x: scroll;
     -ms-overflow-style: none; 
     scrollbar-width: none;
+    flex: 10;
+    display: flex;
 }
 
 .line-container { 
@@ -14,6 +16,10 @@
     margin-left: -5px;
     margin-right: -5px;
     z-index: -1;
+}
+
+.triangle-container {
+    margin-top: -31px;
 }
 
 .timeline-container::-webkit-scrollbar { 

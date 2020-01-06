@@ -1,42 +1,19 @@
 import React, { Component } from 'react';
-import '../App.css';
-import { StartScreen } from '../screens';
-import { StartButton } from '../components';
+import './home-route.css';
+import { StartScreen } from '../../screens';
+import { StartButton } from '../../components';
 import { withRouter } from 'react-router-dom';
+import { albumService } from '../../service';
 
 class HomeRoute extends Component {
   constructor(props) {
     super(props);
     this.state = {
-			simulationStarted: false,
-			timelineScreen: false,
 			albumScreen: false,
 			albumName: '',
 			hideComponent: false,
     };
 	}
-	
-	/**
-   * starting simulation
-   */
-  startSimulation = () => {
-    this.setState({
-      simulationStarted: !this.state.simulationStarted,
-      timelineScreen: true,
-      albumName: ''
-    });
-	}
-	
-  /**
-   * switching back from album to timeline
-   */
-  switchToTimeline = () => {
-    this.setState({
-      albumScreen: false,
-      timelineScreen: true,
-      albumName: '',
-    })
-  }
 
   getСurrentScreen = () => {
     return <StartScreen/>
@@ -54,7 +31,7 @@ class HomeRoute extends Component {
 				{/* button container start */}
 				<div className="horizontal-container start-button-container">
 					<StartButton started={this.state.simulationStarted} 
-						startSimulation={this.startSimulation}/>
+						startSimulation={this.switchToAlbum}/>
 				</div>
 				{/* button container end */}
 			</div>
@@ -187,7 +164,8 @@ class HomeRoute extends Component {
     </footer>
 	}
 
-	switchToAlbum = (albumName) => {
+	switchToAlbum = () => {
+		var albumName = albumService.getFirstAlbum()[0];
 		this.setState({hideComponent: true, albumName: albumName});
 		this.props.history.push(`/album?name=${albumName}`);
 	}

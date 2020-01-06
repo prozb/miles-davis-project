@@ -1,6 +1,6 @@
-import AlbumService from './album';
-import InstrumentService from './instrument';
-import MusicianService from './musician';
-import TrackService from './track';
+import { albumService } from './album';
+import { instrumentService } from './instrument';
+import { musicianService } from './musician';
+import { trackService } from './track';
 
-export { AlbumService, InstrumentService, MusicianService, TrackService };
+export { albumService, instrumentService, musicianService, trackService };

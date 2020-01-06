@@ -1,11 +1,11 @@
-import AlbumDAO from './albumDAO';
-import InstrumentDAO from './instrumentDAO';
-import MusicianDAO from './musicianDAO';
-import TrackDAO from './trackDAO';
+import { albumDAO } from './albumDAO';
+import { instrumentDAO } from './instrumentDAO';
+import { musicianDAO } from './musicianDAO';
+import { trackDAO } from './trackDAO';
 
 export { 
-  AlbumDAO as albumDAO, 
-  InstrumentDAO as instrumentDAO, 
-  MusicianDAO as musicianDAO, 
-  TrackDAO as trackDAO 
+  albumDAO, 
+  instrumentDAO, 
+  musicianDAO, 
+  trackDAO 
 };

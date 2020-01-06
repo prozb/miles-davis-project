@@ -1,0 +1,60 @@
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(116, 116, 116, 0.2);
+  min-height: 620px;
+  border-radius: 5px;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-button-container {
+  justify-content: center;
+  padding: 10px;
+}
+
+.jumbotron {
+  background-image: url('../../safopone-jumbo.jpg');
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #E1E1DB;
+}
+
+.jumbo-button{
+  padding-top: 20px;
+}
+
+.custom-card{
+  padding: 20px;
+}
+
+.nav-link{
+  font-size: 18px;
+}
+
+.my-footer{
+  background: #DDDDD6;
+  padding: 20px 0 0 0;
+}
+
+.credits{
+  padding: 15px 0 0 0;
+}
+
+#tr-footer{
+  height: 15px;
+  width:100%;
+  background:transparent;
+}

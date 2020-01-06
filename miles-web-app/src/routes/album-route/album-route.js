@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
-import '../App.css';
-import { SearchBar, NavigationBar, Timeline } from '../components';
-import { albumDAO } from '../controller';
+import './album-route.css';
+import { SearchBar, NavigationBar, Timeline } from '../../components';
+import { albumService } from '../../service';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -20,15 +20,14 @@ class AlbumRoute extends Component {
   }
 
   componentDidMount() {
-    console.log(albumDAO);
     const values = queryString.parse(this.props.location.search);
-    console.log(values);
     if(values.name){
       this.props.showAlbums(values.name);
+      this.setState({name: values.name});
     }else{
-
+      this.props.showAlbums(albumService.getFirstAlbum()[0]);
+      this.setState({name: albumService.getFirstAlbum()[0]});
     }
-    this.setState({name: values.name});
   }
 
   switchToAlbum = (albumName) => {

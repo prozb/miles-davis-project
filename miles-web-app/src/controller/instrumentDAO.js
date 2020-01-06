@@ -2,4 +2,4 @@ class InstrumentDAO {
 
 }
 
-export default InstrumentDAO;
+export const instrumentDAO = new InstrumentDAO()

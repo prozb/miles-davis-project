@@ -2,4 +2,4 @@ class MusicianDAO {
 
 }
 
-export default MusicianDAO;
+export const musicianDAO = new MusicianDAO()
