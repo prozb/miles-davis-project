@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import HomeRoute from './routes/HomeRoute';
-import AlbumRoute from './routes/AlbumRoute';
-
+import { AlbumRoute, HomeRoute } from './routes';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 /**
  * @author Pavlo Rozbytskyi
+ * This is first screen of the application. Default page is homepage
+ * and from the homepage you can visit albums page.   
  */
 class App extends React.Component{
   constructor(props){
@@ -20,7 +18,6 @@ class App extends React.Component{
     this.state = {
       showHome: true,
       showAlbums: false,
-      albumName: ''
     }
   } 
 
@@ -28,12 +25,12 @@ class App extends React.Component{
     this.setState({
       showHome: false,
       showAlbums: true,
-      albumName: 'name',
     });
   }
 
   render () {
     return (
+      // router to switch between main pages
       <Router>
         <Route path='/' render={() => <HomeRoute
            active={this.state.showHome} 

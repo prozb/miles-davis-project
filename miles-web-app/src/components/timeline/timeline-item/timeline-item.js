@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/timeline-item.css';
+import './timeline-item.css';
 import { Tooltip } from 'reactstrap';
-import {getReleasedYearFromDate} from '../scripts/helpers';
+import {getReleasedYearFromDate} from '../../../scripts/helpers';
 
 export default class TimelineItem extends Component {
   constructor(props) {

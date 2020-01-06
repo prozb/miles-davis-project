@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../styles/navigation.css';
-import AlbumInfo from './AlbumInfo';
+import './navigation.css';
+import NavigationSection from './nav-section/nav-section';
 
 export default class NavigationBar extends Component {
   constructor(props) {
@@ -21,9 +21,9 @@ export default class NavigationBar extends Component {
   render() {
     return (
       <div className="navigation-container">
-        <AlbumInfo data={this.state.tracks} title="Tracks" style={{flex: 1}}/>
-        <AlbumInfo data={this.state.musicians} title="Musicians" style={{flex: 1}}/>
-        <AlbumInfo data={this.state.instruments} title="Instruments" style={{ flex: 1}}/>
+        <NavigationSection data={this.state.tracks} title="Tracks" style={{flex: 1}}/>
+        <NavigationSection data={this.state.musicians} title="Musicians" style={{flex: 1}}/>
+        <NavigationSection data={this.state.instruments} title="Instruments" style={{ flex: 1}}/>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/triangle.css';
+import './triangle.css';
 
 export default class Triangle extends Component {
   render() {

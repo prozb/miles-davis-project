@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import TimelineItem from './TimelineItem';
-import '../styles/timeline.css';
-import {getDistanceBetweenAlbums, getIdFromName} from '../scripts/helpers';
-import albums from '../data/album-info.json';
-import Triangle from '../components/Triangle';
+import TimelineItem from './timeline-item/timeline-item';
+import './timeline.css';
+import { getDistanceBetweenAlbums, getIdFromName } from '../../scripts/helpers';
+import albums from '../../assets/album-info.json';
+import { Triangle } from '..';
 
 /**
  * component for displaying all albums
  * @author Pavlo Rozbytskyi
  */
-export default class TimelineComponent extends Component {
+export default class Timeline extends Component {
   constructor(props) {
     super(props);
     this.state = {

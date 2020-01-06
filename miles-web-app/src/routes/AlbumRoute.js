@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
-import TimelineComponent from '../components/TimelineComponent';
 import '../App.css';
-import SearchBar from '../components/SearchBar';
-import NavigationBar from '../components/NavigationBar';
+import { SearchBar, NavigationBar, Timeline } from '../components';
+import { albumDAO } from '../controller';
+
 /**
  * @author Pavlo Rozbytskyi
  * 
@@ -20,9 +20,14 @@ class AlbumRoute extends Component {
   }
 
   componentDidMount() {
+    console.log(albumDAO);
     const values = queryString.parse(this.props.location.search);
-    if(values.name)
+    console.log(values);
+    if(values.name){
       this.props.showAlbums(values.name);
+    }else{
+
+    }
     this.setState({name: values.name});
   }
 
@@ -58,7 +63,7 @@ class AlbumRoute extends Component {
           
         {/* starting content container */}
           <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <TimelineComponent highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+            <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
           </div>
             {/* ending content container */}
         </div>

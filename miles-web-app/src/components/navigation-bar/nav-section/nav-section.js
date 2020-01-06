@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../styles/navigation.css';
+import './nav-section.css';
 import Box from '@material-ui/core/Box';
 import MenuItem from '@material-ui/core/MenuItem';
 
-export default class AlbumInfo extends Component {
+export default class NavigationSection extends Component {
   constructor(props) {
     super(props);
     this.state = {

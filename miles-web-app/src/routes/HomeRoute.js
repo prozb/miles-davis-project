@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
-import StartButton from '../components/StartButton';
-import AlbumScreen from '../screens/AlbumScreen';
-import StartScreen from '../screens/StartScreen';
-import TimelineScreen from '../screens/TimelineScreen';
+import { StartScreen } from '../screens';
+import { StartButton } from '../components';
 import { withRouter } from 'react-router-dom';
-import queryString from 'query-string';
 
 class HomeRoute extends Component {
   constructor(props) {
@@ -42,12 +39,6 @@ class HomeRoute extends Component {
   }
 
   getСurrentScreen = () => {
-    if(this.state.simulationStarted && this.state.timelineScreen)
-      return <TimelineScreen switchToAlbum={this.switchToAlbum}/>
-    
-    if(this.state.simulationStarted && this.state.albumScreen)
-      return <AlbumScreen switchToTimeline={this.switchToTimeline} name={this.state.albumName}/>
-    
     return <StartScreen/>
   }
 

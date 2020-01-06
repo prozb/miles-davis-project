@@ -1,0 +1,5 @@
+class AlbumService {
+
+}
+
+export { AlbumService };

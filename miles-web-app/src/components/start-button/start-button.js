@@ -9,12 +9,6 @@ const startText   = "Start exploration";
 const endText     = "End exploration"
 
 export default class StartButton extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
   render() {
     const {style} = this.props;
     const buttonClass = !this.props.started ? startedName : endedName;

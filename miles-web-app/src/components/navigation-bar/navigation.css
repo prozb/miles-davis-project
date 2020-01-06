@@ -11,9 +11,3 @@
   display: flex;
   overflow-y: hidden;
 }
-
-.navigation-element {
-  border-bottom: 1px solid rgb(224, 224, 224);
-  align-self: auto;
-  overflow-x: scroll;
-}
