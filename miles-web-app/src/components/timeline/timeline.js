@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TimelineItem from './timeline-item/timeline-item';
 import './timeline.css';
-import { getDistanceBetweenAlbums, getIdFromName } from '../../scripts/helpers';
+import { getDistanceBetweenAlbums } from '../../scripts/helpers';
 import albums from '../../assets/album-info.json';
 import { Triangle } from '..';
 
@@ -52,7 +52,7 @@ export default class Timeline extends Component {
             </div>
         );
       }else{
-        var album1 = Object.entries(albums)[i];
+        var album3 = Object.entries(albums)[i];
 
         // last element
         timeline.push(
@@ -63,9 +63,9 @@ export default class Timeline extends Component {
             style={{paddingRight: 50,}}
             itemId={i}
             key={i}
-            name={album1[0]} 
-            icon={album1[1].icon} 
-            date={album1[1].released}/>
+            name={album3[0]} 
+            icon={album3[1].icon} 
+            date={album3[1].released}/>
         );
       }
     }

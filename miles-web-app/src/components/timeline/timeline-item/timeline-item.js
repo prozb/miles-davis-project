@@ -23,7 +23,7 @@ export default class TimelineItem extends Component {
   }
 
   render() {
-    const { link, icon, name, date, style, itemId} = this.props;
+    const { icon, name, date, style, itemId} = this.props;
     const activeNormal = this._isActive(name) ? "item-container-active" : "";
     const activeHovered = this._isActive(name) ? "item-container-hovered-active" : "";
 

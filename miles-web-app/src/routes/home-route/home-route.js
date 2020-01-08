@@ -52,14 +52,14 @@ class HomeRoute extends Component {
 
 	getNavigationBar = () => {
 		return <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="#"><img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/></a>
+      <a className="navbar-brand" href="/#"><img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item"  data-toggle="collapse" >
               <a className="nav-link" href="#about" data-target=".navbar-collapse.show">About</a>
@@ -77,7 +77,7 @@ class HomeRoute extends Component {
 
 	getContent = () => {
 		return <div>
-			<a name="about"></a>
+			<a alt="about section" name="about"></a>
 
 			<div className="container">
 				<div className="row padding">
