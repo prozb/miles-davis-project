@@ -16,25 +16,48 @@ class AlbumRoute extends Component {
     this.state = {
       name: '',
       collapseNavbar: true,
+      album: '',
     };
   }
 
   componentDidMount() {
+    // getting values from the query string
     const values = queryString.parse(this.props.location.search);
     if(values.name){
+      // if values from query string exist, get album name
       this.props.showAlbums(values.name);
-      this.setState({name: values.name});
+      this.setCurrentAlbum(values.name);
     }else{
-      this.props.showAlbums(albumService.getFirstAlbum()[0]);
-      this.setState({name: albumService.getFirstAlbum()[0]});
+      // if values from query string does not exist, get first album
+      // and set this album as current album
+      var albumName = albumService.getFirstAlbum()[0];
+      this.props.showAlbums(albumName);
+      this.setCurrentAlbum(albumName);
     }
   }
-
+  /**
+   * switching from current album to next album
+   * choosen by user 
+   * @param {string} albumName  - name of the next album chosen by user
+   */
   switchToAlbum = (albumName) => {
     this.props.history.push(`/album?name=${albumName}`);
-    this.setState({name: albumName});
+    this.setCurrentAlbum(albumName);
   }
-
+  /**
+   * setting album by name to current webpage state
+   * @param {string} albumName - name of the album
+   */
+  setCurrentAlbum = (albumName) => {
+    var album = albumService.getAlbumByName(albumName);
+    this.setState({
+      album: album,
+      name: albumName,
+    });
+  }
+  /**
+   * collapsing navbar
+   */
   onNavbarButtonPress = () => {
     this.setState({collapseNavbar: !this.state.collapseNavbar});
   }
