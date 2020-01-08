@@ -37,7 +37,7 @@ class AlbumRoute extends Component {
   }
   /**
    * switching from current album to next album
-   * choosen by user 
+   * choosen by user  
    * @param {string} albumName  - name of the next album chosen by user
    */
   switchToAlbum = (albumName) => {

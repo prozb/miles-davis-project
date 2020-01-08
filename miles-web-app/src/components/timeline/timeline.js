@@ -38,7 +38,8 @@ export default class Timeline extends Component {
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={i === 0 ? {paddingLeft: 50,} : {}}
-            itemId={`${getIdFromName(album1[0])}${i}`}
+            itemId={i}
+            key={i}
             name={album1[0]} 
             icon={album1[1].icon} 
             date={album1[1].released}/>
@@ -60,7 +61,8 @@ export default class Timeline extends Component {
             showTooltip={this.props.showTooltip}
             switchToAlbum={this.props.switchToAlbum}
             style={{paddingRight: 50,}}
-            itemId={`${getIdFromName(album1[0])}${i}`}
+            itemId={i}
+            key={i}
             name={album1[0]} 
             icon={album1[1].icon} 
             date={album1[1].released}/>

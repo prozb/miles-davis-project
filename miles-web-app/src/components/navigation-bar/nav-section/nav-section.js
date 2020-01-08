@@ -4,14 +4,8 @@ import Box from '@material-ui/core/Box';
 import MenuItem from '@material-ui/core/MenuItem';
 
 export default class NavigationSection extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
-  getElementToRender = (name) => {
-    return <div className="list-element">
+  getElementToRender = (name, key) => {
+    return <div key={key} className="list-element">
       <MenuItem>
         <Box fontSize={18}>
           {name}
@@ -24,7 +18,7 @@ export default class NavigationSection extends Component {
     var elements = [];
 
     for(var i = 0; i < this.props.data.length; i++){
-      elements.push(this.getElementToRender(this.props.data[i]));
+      elements.push(this.getElementToRender(this.props.data[i], i));
     }
 
     return elements;
@@ -38,8 +32,10 @@ export default class NavigationSection extends Component {
         <Box fontSize={18} fontWeight="600" style={{padding: 10}}>
           {this.props.title}
         </Box>
-        {/* <div style={{overflowX: 'hide'}}> */}
-        {this.getAllTitles()}
+        <React.Fragment key="getIdFromName">
+          {/* <div style={{overflowX: 'hide'}}> */}
+          {this.getAllTitles()}
+        </React.Fragment>
       </div>
     );
   }
