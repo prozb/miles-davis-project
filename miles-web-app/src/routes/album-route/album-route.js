@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
-import { SearchBar, NavigationBar, Timeline } from '../../components';
+import { SearchBar, NavigationBar, Timeline, GraphComponent } from '../../components';
 import { albumService, musicianService } from '../../service';
 
 /**
@@ -17,7 +17,7 @@ class AlbumRoute extends Component {
       name: '',
       collapseNavbar: true,
       album: '',
-      musicians: '',
+      musicians: [],
     };
   }
 
@@ -46,7 +46,6 @@ class AlbumRoute extends Component {
       var musicianObject = musicianService.getMusicinaByName(mus);
       musicians.push(musicianObject);
     });
-    console.log(musicians);
     this.setState({musicians: musicians});
   }
   /**
@@ -99,11 +98,17 @@ class AlbumRoute extends Component {
           </div>
           {/* end navigation container */}
           
-        {/* starting content container */}
-          <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+          {/* starting content container */}
+          <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+            {/* <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}> */}
+              <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
+            {/* </div> */}
+
+            <div>
+              <GraphComponent data={this.state.musicians}/>
+            </div>
           </div>
-            {/* ending content container */}
+          {/* ending content container */}
         </div>
         {/* starting navigation and content container */}
       </div>

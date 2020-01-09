@@ -40,5 +40,24 @@ export const getReleasedYearFromDate = (date) => {
   return new Date(date).getFullYear();
 }
 
-
+  /**
+   * update current albums if change occured
+   * @param {Array} prev - previous musicians
+   * @param {Array} current - current musicians to render
+   */
+  export const diffAlbums = (prev, current, maxIndex) => {
+    var curr = current.map(mus => mus[0]);
+    //getting compound musicians for previous album and new album
+    var compound = prev.filter(mus => curr.includes(mus.data.label));
+    // don't perform anything if no data changed
+    if(compound.length === prev.length)
+      return;
+    var coumpoundMaped = compound.map(mus => mus.data.label);
+    var newData = curr.filter(mus => !coumpoundMaped.includes(mus));
+    var newDataMaped = newData.map(name => {
+      return {data: {id: ++maxIndex, label: name}}
+    });
+    var elements = [...compound, ...newDataMaped];
+    return {maxIndex: maxIndex, elements: elements};
+  }
 
