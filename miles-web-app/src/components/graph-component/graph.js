@@ -22,8 +22,6 @@ export default class Graph extends React.Component {
     if(elements.length === 0)
       return null;
 
-    console.log(elements);
-
     return <CytoscapeComponent 
       stylesheet={[
         {
@@ -38,8 +36,12 @@ export default class Graph extends React.Component {
         },
       ]}
       cy={(cy) => { 
-        this.cy = cy 
-        cy.layout({name:'random', spacingFactor: 0.5}).run();
+        this.cy = cy;
+        this.cy.layout({name:'random', spacingFactor: 0.5}).run();
+        this.cy.on('boxselect', 'node', evt => {
+          var selected = this.cy.$(':selected');
+          console.log(selected);
+        });
       }}
       elements={elements} 
       style={{ width: '100%', height: '800px'}}
