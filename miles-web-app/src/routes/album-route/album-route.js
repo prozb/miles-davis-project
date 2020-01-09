@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline } from '../../components';
-import { albumService } from '../../service';
+import { albumService, musicianService } from '../../service';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -17,6 +17,7 @@ class AlbumRoute extends Component {
       name: '',
       collapseNavbar: true,
       album: '',
+      musicians: '',
     };
   }
 
@@ -34,6 +35,19 @@ class AlbumRoute extends Component {
       this.props.showAlbums(albumName);
       this.setCurrentAlbum(albumName);
     }
+  }
+  /**
+   * setting all musicians of current album to component state
+   * @param album - current album
+   */
+  setMusiciansOfAlbum = (album) => {
+    var musicians = [];
+    album[1].musicians.forEach(mus => {
+      var musicianObject = musicianService.getMusicinaByName(mus);
+      musicians.push(musicianObject);
+    });
+    console.log(musicians);
+    this.setState({musicians: musicians});
   }
   /**
    * switching from current album to next album
@@ -54,6 +68,8 @@ class AlbumRoute extends Component {
       album: album,
       name: albumName,
     });
+
+    this.setMusiciansOfAlbum(album);
   }
   /**
    * collapsing navbar
