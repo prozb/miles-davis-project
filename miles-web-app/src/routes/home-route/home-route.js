@@ -77,7 +77,7 @@ class HomeRoute extends Component {
 
 	getContent = () => {
 		return <div>
-			<a alt="about section" name="about"></a>
+			<a alt="about section" name="about"/>
 
 			<div className="container">
 				<div className="row padding">
@@ -89,7 +89,7 @@ class HomeRoute extends Component {
 						<br/>
 					</div>
 					<div className="col-lg-6">
-							<img src="assets/davis.png" className="img-fluid "/>
+							<img alt="graph representation" src="assets/davis.png" className="img-fluid "/>
 					</div>
 				</div>
     	</div>
@@ -151,7 +151,7 @@ class HomeRoute extends Component {
 
 	getFooter = () => {
 		return <footer className="page-footer font-small my-footer">
-			<a name="contact"></a>
+			<a name="contact"> </a>
 
       <div className="container text-center text-md-left">
       <p className="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, est qui distinctio recusandae veritatis soluta aliquid dolorem laboriosam eligendi aspernatur alias libero vel quibusdam quo facilis cumque iusto repudiandae dolor.</p>
