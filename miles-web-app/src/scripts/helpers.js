@@ -44,6 +44,7 @@ export const getReleasedYearFromDate = (date) => {
    * update current albums if change occured
    * @param {Array} prev - previous musicians
    * @param {Array} current - current musicians to render
+   * @param {Number} maxIndex - max id of element
    */
   export const diffAlbums = (prev, current, maxIndex) => {
     var curr = current.map(mus => mus[0]);
@@ -60,4 +61,3 @@ export const getReleasedYearFromDate = (date) => {
     var elements = [...compound, ...newDataMaped];
     return {maxIndex: maxIndex, elements: elements};
   }
-
