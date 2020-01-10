@@ -18,7 +18,7 @@ export default class NavigationSection extends Component {
     var elements = [];
 
     for(var i = 0; i < this.props.data.length; i++){
-      elements.push(this.getElementToRender(this.props.data[i], i));
+      elements.push(this.getElementToRender(this.props.data[i][0], i));
     }
 
     return elements;

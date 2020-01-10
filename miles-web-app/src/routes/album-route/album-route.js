@@ -106,7 +106,7 @@ class AlbumRoute extends Component {
         <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
           {/* navigation container */}
           <div style={collapseStyle}>
-            <NavigationBar />
+            <NavigationBar tracks={this.state.tracks} musicians={this.state.musicians}/>
           </div>
           {/* end navigation container */}
           

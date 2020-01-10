@@ -9,5 +9,5 @@
   justify-content: baseline;
   overflow-x: scroll;
   display: flex;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
