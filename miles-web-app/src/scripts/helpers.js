@@ -71,6 +71,7 @@ export const getReleasedYearFromDate = (date) => {
    */
   export const getCytoElementsMusicianTrackAlbum = (tracks, musicians, album) => {
     var index = 0;
+    console.log(tracks);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
     var convAlbum = { data: {id: index++, label: album[0], icon: album[1].icon === '' ? 'none' : album[1].icon} };
     var convTracks = tracks.flatMap(track => {

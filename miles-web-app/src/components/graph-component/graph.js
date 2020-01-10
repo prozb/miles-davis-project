@@ -20,7 +20,7 @@ export default class Graph extends React.Component {
     if(this.props.album === '')
       return null;
 
-    const elements = getCytoElementsMusicianTrackAlbum([], this.props.data, this.props.album);
+    const elements = getCytoElementsMusicianTrackAlbum(this.props.tracks, this.props.musicians, this.props.album);
     if(elements.length === 0)
       return null;
 

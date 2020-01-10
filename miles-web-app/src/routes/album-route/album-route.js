@@ -75,7 +75,6 @@ class AlbumRoute extends Component {
     var musicians = this.getMusiciansOfAlbum(album);
     var tracks = this.getTracksOfAlbum(album);
 
-    console.log(tracks);
     this.setState({
       album: album,
       name: albumName,
@@ -118,7 +117,7 @@ class AlbumRoute extends Component {
             {/* </div> */}
 
             <div>
-              <GraphComponent data={this.state.musicians} album={this.state.album}/>
+              <GraphComponent tracks={this.state.tracks} musicians={this.state.musicians} album={this.state.album}/>
             </div>
           </div>
           {/* ending content container */}
