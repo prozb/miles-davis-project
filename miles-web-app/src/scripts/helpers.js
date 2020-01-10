@@ -99,23 +99,36 @@ export const getReleasedYearFromDate = (date) => {
    */
   export const getCytoElementsMusicianInstrument = (relations) => {
     var index = 0;
+    var row = 0; 
     console.log(relations);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    // var converted = relations.map(rel => {
-    //     var node = { data: {id: index, type: 'track', label: track[0], icon: track[1].icon === '' ? 'none' : track[1].icon} };
-    //     var edge = { data: { source: 0, type: 'track', target: index++, label: 'plays on' } };
-    //     // returning track node and edge from this node to album node
-    //     return {};
-    // });
-    // var convMus = musicians.flatMap(musician => {
-    //     var node = { data: {id: index, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon}}
-    //     var edge = { data: { source: index++, type: 'musician', target: 0, label: 'plays on' } };
-    //     // returning musician node and edge from this node to album node
-    //     return [node, edge];
-    // });
-    // // returning array containing all elements of album
-    // return [convAlbum, ...convTracks, ...convMus]; 
-    return [];
+    var converted = relations.flatMap(rel => {
+        var node1 = { data: {
+            id: index, 
+            type: 'musician', 
+            label: rel[0][0], 
+            icon: rel[0][1].icon === '' ? 'none' : rel[0][1].icon,
+            row: row,
+            col: 0,
+          }
+        };
+        index++;
+        var node2 = { data: {
+            id: index, 
+            type: 'instrument', 
+            label: rel[1][0], 
+            icon: rel[1][1].url === '' ? 'none' : rel[1][1].url,
+            row: row++,
+            col: 1,
+          } 
+        };
+        index--;
+        var edge = { data: { source: index++, target: index} };
+        index++;
+        // returning track node and edge from this node to album node
+        return [node1, node2, edge];
+    });
+    return converted;
   } 
   /**
    * making array of relations type {string} musician - {string} instrument 
