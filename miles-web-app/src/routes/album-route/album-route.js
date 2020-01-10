@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, GraphComponent } from '../../components';
-import { albumService, musicianService } from '../../service';
+import { albumService, musicianService, trackService } from '../../service';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -18,6 +18,7 @@ class AlbumRoute extends Component {
       collapseNavbar: true,
       album: '',
       musicians: [],
+      tracks: [],
     };
   }
 
@@ -37,16 +38,24 @@ class AlbumRoute extends Component {
     }
   }
   /**
-   * setting all musicians of current album to component state
+   * getting all musicians of current album to component state
    * @param album - current album
    */
-  setMusiciansOfAlbum = (album) => {
+  getMusiciansOfAlbum = (album) => {
     var musicians = [];
     album[1].musicians.forEach(mus => {
       var musicianObject = musicianService.getMusicinaByName(mus);
       musicians.push(musicianObject);
     });
-    this.setState({musicians: musicians});
+    return musicians;
+  }
+
+  /**
+   * setting all tracks of current album to component state
+   * @param album - current album
+   */
+  getTracksOfAlbum = (album) => {
+    return trackService.getAllTracksOfAlbum(album[0]);
   }
   /**
    * switching from current album to next album
@@ -63,12 +72,16 @@ class AlbumRoute extends Component {
    */
   setCurrentAlbum = (albumName) => {
     var album = albumService.getAlbumByName(albumName);
+    var musicians = this.getMusiciansOfAlbum(album);
+    var tracks = this.getTracksOfAlbum(album);
+
+    console.log(tracks);
     this.setState({
       album: album,
       name: albumName,
+      musicians: musicians,
+      tracks: tracks,
     });
-
-    this.setMusiciansOfAlbum(album);
   }
   /**
    * collapsing navbar
