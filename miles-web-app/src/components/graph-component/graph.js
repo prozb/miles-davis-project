@@ -1,6 +1,7 @@
 import './graph.css';
 import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
+import { getCytoElementsMusicianTrackAlbum } from '../../scripts/helpers';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -9,16 +10,14 @@ import CytoscapeComponent from 'react-cytoscapejs';
 export default class Graph extends React.Component {
   constructor(props){
     super(props);
-
-    this.state = {
-      elements: [],
-    };
   }
-  
+
   render(){
-    const elements = this.props.data.map((musician, index) => {
-      return { data: {id: index, label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon}}
-    });
+    // dont render component if album not set 
+    if(this.props.album === '')
+      return null;
+
+    const elements = getCytoElementsMusicianTrackAlbum([], this.props.data, this.props.album);
     if(elements.length === 0)
       return null;
 
@@ -40,7 +39,7 @@ export default class Graph extends React.Component {
         this.cy.layout({name:'random', spacingFactor: 0.5}).run();
         this.cy.on('boxselect', 'node', evt => {
           var selected = this.cy.$(':selected');
-          console.log(selected);
+          {/* console.log(selected); */}
         });
       }}
       elements={elements} 

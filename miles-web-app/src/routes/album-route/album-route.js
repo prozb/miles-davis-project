@@ -105,7 +105,7 @@ class AlbumRoute extends Component {
             {/* </div> */}
 
             <div>
-              <GraphComponent data={this.state.musicians}/>
+              <GraphComponent data={this.state.musicians} album={this.state.album}/>
             </div>
           </div>
           {/* ending content container */}

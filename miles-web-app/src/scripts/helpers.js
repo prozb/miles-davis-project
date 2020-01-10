@@ -61,3 +61,30 @@ export const getReleasedYearFromDate = (date) => {
     var elements = [...compound, ...newDataMaped];
     return {maxIndex: maxIndex, elements: elements};
   }
+
+  /**
+   * converting musicians and tracks to data format readable by 
+   * cytoscape
+   * @param {Array} tracks tracks to display on graph
+   * @param {Array} musicians musicians to display on graph
+   * @param {Object} album data for this album
+   */
+  export const getCytoElementsMusicianTrackAlbum = (tracks, musicians, album) => {
+    var index = 0;
+    // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
+    var convAlbum = { data: {id: index++, label: album[0], icon: album[1].icon === '' ? 'none' : album[1].icon} };
+    var convTracks = tracks.flatMap(track => {
+        var node = { data: {id: index, label: track[0], icon: track[1].icon === '' ? 'none' : track[1].icon} };
+        var edge = { data: { source: index++, target: 0, label: 'plays on' } };
+        // returning track node and edge from this node to album node
+        return [node, edge];
+    });
+    var convMus = musicians.flatMap(musician => {
+        var node = { data: {id: index, label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon}}
+        var edge = { data: { source: index++, target: 0, label: 'plays on' } };
+        // returning musician node and edge from this node to album node
+        return [node, edge];
+    });
+    // returning array containing all elements of album
+    return [convAlbum, ...convTracks, ...convMus]; 
+  } 
