@@ -1,4 +1,5 @@
 import {pixelsPerYear} from './constants';
+import {instrumentService, musicianService} from '../service'
 
 // extracting release date from album
 export const getReleaseDateFromAlbum = (album) => {
@@ -88,3 +89,45 @@ export const getReleasedYearFromDate = (date) => {
     // returning array containing all elements of album
     return [convAlbum, ...convTracks, ...convMus]; 
   } 
+
+  /**
+   * converting musicians - instrument relations to data format readable by 
+   * cytoscape
+   * @param {Array} tracks tracks to display on graph
+   * @param {Array} musicians musicians to display on graph
+   * @param {Object} album data for this album
+   */
+  export const getCytoElementsMusicianInstrument = (relations) => {
+    var index = 0;
+    console.log(relations);
+    // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
+    // var converted = relations.map(rel => {
+    //     var node = { data: {id: index, type: 'track', label: track[0], icon: track[1].icon === '' ? 'none' : track[1].icon} };
+    //     var edge = { data: { source: 0, type: 'track', target: index++, label: 'plays on' } };
+    //     // returning track node and edge from this node to album node
+    //     return {};
+    // });
+    // var convMus = musicians.flatMap(musician => {
+    //     var node = { data: {id: index, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon}}
+    //     var edge = { data: { source: index++, type: 'musician', target: 0, label: 'plays on' } };
+    //     // returning musician node and edge from this node to album node
+    //     return [node, edge];
+    // });
+    // // returning array containing all elements of album
+    // return [convAlbum, ...convTracks, ...convMus]; 
+    return [];
+  } 
+  /**
+   * making array of relations type {string} musician - {string} instrument 
+   * to {object} musician - {object} instrument
+   * @param {Array} relations - musician - instrument relations
+   */
+  export const getObjectsToMusicianInstrumentRelation = (relations) => {
+    var converted = relations.map(rel => {
+      var newRel = {};
+      newRel[0] = musicianService.getMusicinaByName(Object.entries(rel)[0][0]);
+      newRel[1] = instrumentService.getByName(Object.entries(rel)[0][1]);
+      return newRel;
+    });
+    return converted;
+  }

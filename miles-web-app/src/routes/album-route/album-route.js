@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
-import { SearchBar, NavigationBar, Timeline, GraphComponent, TrackDisplay } from '../../components';
+import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService } from '../../service';
 
 /**
@@ -134,7 +134,7 @@ class AlbumRoute extends Component {
 
             <div className="data-box-size">
               {!this.state.trackDisplay ? 
-                <GraphComponent 
+                <AlbumGraph 
                   showTrackDisplay={this.showTrackDisplay}
                   tracks={this.state.tracks} 
                   musicians={this.state.musicians} 

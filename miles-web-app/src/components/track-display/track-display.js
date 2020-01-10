@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {trackService} from '../../service';
+import { TrackGraph } from '../../components';
+import { getObjectsToMusicianInstrumentRelation } from '../../scripts/helpers';
 /**
  * @author Pavlo Rozbytskyi
  * component for representation of all musicians played on current traсk
@@ -15,12 +17,14 @@ export default class TrackDisplay extends Component {
   
   render() {
     const { name, album } = this.props;
-    const elements = trackService.getMusicianInstrumentRelationOnTrack(name, album[0]);
-    console.log(elements);
+    const relations = trackService.getMusicianInstrumentRelationOnTrack(name, album[0]);
+    const converted = getObjectsToMusicianInstrumentRelation(relations);
     return(
       <div className="track-display-container">
         <VerticalTimeline
-        layout={"1-column"}>
+          className="track-display-container"
+          layout={"1-column"}>
+
           <VerticalTimelineElement
             contentStyle={{backgroundColor: '#ECD6A8'}}
             contentArrowStyle={{borderRight: '15px solid #ECD6A8'}}
@@ -31,9 +35,7 @@ export default class TrackDisplay extends Component {
             >
             <h3 className="vertical-timeline-element-title">{this.props.name}</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, porro dolorum vero sed quia doloremque eligendi. Odit vero vel at hic, quasi reiciendis voluptatem omnis aut asperiores quaerat? Consectetur!
-            </p>
+            <TrackGraph name={this.props.name} album={this.props.album} data={converted}/>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
