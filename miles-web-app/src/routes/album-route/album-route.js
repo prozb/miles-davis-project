@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
-import { SearchBar, NavigationBar, Timeline, GraphComponent } from '../../components';
+import { SearchBar, NavigationBar, Timeline, GraphComponent, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService } from '../../service';
 
 /**
@@ -19,6 +19,8 @@ class AlbumRoute extends Component {
       album: '',
       musicians: [],
       tracks: [],
+      trackDisplay: false,
+      trackName: ''
     };
   }
 
@@ -80,6 +82,8 @@ class AlbumRoute extends Component {
       name: albumName,
       musicians: musicians,
       tracks: tracks,
+      trackDisplay: false,
+      trackName: ''
     });
   }
   /**
@@ -87,6 +91,19 @@ class AlbumRoute extends Component {
    */
   onNavbarButtonPress = () => {
     this.setState({collapseNavbar: !this.state.collapseNavbar});
+  }
+  /**
+   * show track description
+   * @param {string} trackName - track which description to show
+   */
+  showTrackDisplay = (trackName) => {
+    this.setState({trackDisplay: true, trackName: trackName});
+  }
+  /**
+   * hide track display
+   */
+  hideTrackDisplay = () => {
+    this.setState({trackDisplay: false, trackName: ''});
   }
 
   render() {
@@ -117,7 +134,15 @@ class AlbumRoute extends Component {
             {/* </div> */}
 
             <div>
-              <GraphComponent tracks={this.state.tracks} musicians={this.state.musicians} album={this.state.album}/>
+              {!this.state.trackDisplay ? 
+                <GraphComponent 
+                  showTrackDisplay={this.showTrackDisplay}
+                  hideTrackDisplay={this.hideTrackDisplay}
+                  tracks={this.state.tracks} 
+                  musicians={this.state.musicians} 
+                  album={this.state.album}/> : 
+                <TrackDisplay name={this.state.trackName}/>
+              }
             </div>
           </div>
           {/* ending content container */}

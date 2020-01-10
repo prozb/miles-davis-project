@@ -4,5 +4,6 @@ import NavigationBar from './navigation-bar/navigation';
 import StartButton from './start-button/start-button';
 import Timeline from './timeline/timeline';
 import Graph from './graph-component/graph';
+import TrackDisplay from './track-display/track-display';
 
-export { Triangle, SearchAppBar as SearchBar, NavigationBar, StartButton, Timeline, Graph as GraphComponent };
+export { Triangle, SearchAppBar as SearchBar, NavigationBar, StartButton, Timeline, Graph as GraphComponent, TrackDisplay };

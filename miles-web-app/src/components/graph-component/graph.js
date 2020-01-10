@@ -15,6 +15,27 @@ export default class Graph extends React.Component {
     super(props);
   }
 
+  /**
+   * node click handler
+   * @param {Object} node - node data
+   */
+  handleNodeClick = (node) => {
+    switch(node.type) {
+      case "track":
+        // showing track display 
+        this.props.showTrackDisplay(node.label);
+        break;
+      case "album":
+        // handling pressing on album node
+        break;
+      case "musician":
+        // handling pressing on musician node
+        break;
+      default:
+        break;
+    }
+  }
+
   render(){
     // dont render component if album not set 
     if(this.props.album === '')
@@ -24,23 +45,6 @@ export default class Graph extends React.Component {
     if(elements.length === 0)
       return null;
 
-
-      // style: [
-      //   {
-      //     selector: 'node[type="human"]',
-      //     style: {
-      //       'shape': 'triangle',
-      //       'background-color': 'red'
-      //     }
-      //   },
-      //   {
-      //     selector: 'node[type="mouse"]',
-      //     style: {
-      //       'shape': 'square',
-      //       'background-color': 'blue'
-      //     }
-      //   }
-      // ]
     return <CytoscapeComponent 
       stylesheet={[
         {
@@ -99,6 +103,7 @@ export default class Graph extends React.Component {
         this.cy.on('boxselect', 'node', evt => {
           var selected = this.cy.$(':selected');
         });
+        this.cy.on('tap', 'node', evt => this.handleNodeClick(evt.target.data()));
       }}
       elements={elements} 
       style={{ width: '100%', height: '800px'}}
