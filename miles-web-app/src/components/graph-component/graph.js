@@ -1,8 +1,11 @@
 import './graph.css';
 import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
+import Cytoscape from 'cytoscape';
+import coseBilkent from 'cytoscape-cose-bilkent';
 import { getCytoElementsMusicianTrackAlbum } from '../../scripts/helpers';
 
+Cytoscape.use(coseBilkent);
 /**
  * @author Pavlo Rozbytskyi
  * component renders all musicians of each album
@@ -21,6 +24,23 @@ export default class Graph extends React.Component {
     if(elements.length === 0)
       return null;
 
+
+      // style: [
+      //   {
+      //     selector: 'node[type="human"]',
+      //     style: {
+      //       'shape': 'triangle',
+      //       'background-color': 'red'
+      //     }
+      //   },
+      //   {
+      //     selector: 'node[type="mouse"]',
+      //     style: {
+      //       'shape': 'square',
+      //       'background-color': 'blue'
+      //     }
+      //   }
+      // ]
     return <CytoscapeComponent 
       stylesheet={[
         {
@@ -36,7 +56,7 @@ export default class Graph extends React.Component {
       ]}
       cy={(cy) => { 
         this.cy = cy;
-        this.cy.layout({name:'random', spacingFactor: 0.5}).run();
+        this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
         this.cy.on('boxselect', 'node', evt => {
           var selected = this.cy.$(':selected');
           {/* console.log(selected); */}
@@ -44,6 +64,6 @@ export default class Graph extends React.Component {
       }}
       elements={elements} 
       style={{ width: '100%', height: '800px'}}
-      layout={{name: 'random', spacingFactor: 0.5}}/>;
+      layout={{name: 'cose-bilkent', spacingFactor: 2}}/>;
   }
 }
