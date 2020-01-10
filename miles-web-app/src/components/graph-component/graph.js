@@ -44,13 +44,52 @@ export default class Graph extends React.Component {
     return <CytoscapeComponent 
       stylesheet={[
         {
-          selector: 'node',
+          selector: 'node[type="musician"]',
           style: {
-            width: 70,
-            height: 70,
+            width: 100,
+            height: 100,
             shape: 'ellipce',
             content: 'data(label)',
-            'background-image': 'data(icon)'
+            'background-image': 'data(icon)',
+            'border-color': '#36A8AB',
+            'border-width': '5px'
+          }
+        },
+        {
+          selector: 'node[type="track"]',
+          style: {
+            width: 50,
+            height: 50,
+            shape: 'ellipce',
+            content: 'data(label)',
+            'background-color': '#E1AC3C'
+          }
+        },
+        {
+          selector: 'edge[type="track"]',
+          style: {
+            'line-color': '#E1AC3C',
+          }
+        },
+        {
+          selector: 'edge[type="musician"]',
+          style: {
+            'line-color': '#36A8AB',
+          }
+        },
+        {
+          selector: 'node[type="album"]',
+          style: {
+            width: 130,
+            height: 130,
+            shape: 'ellipce',
+            content: 'data(label)',
+            'background-image': 'data(icon)',
+            'border-color': '#2E6299',
+            'border-width': '15px',
+            'text-margin-y': '-10',
+            'font-weight': 'bold',
+            'font-size': '20'
           }
         },
       ]}
@@ -59,7 +98,6 @@ export default class Graph extends React.Component {
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
         this.cy.on('boxselect', 'node', evt => {
           var selected = this.cy.$(':selected');
-          {/* console.log(selected); */}
         });
       }}
       elements={elements} 
