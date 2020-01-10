@@ -5,3 +5,20 @@
 .vertical {
   flex-direction: column;
 }
+
+.data-display-container {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  z-index: -5;
+}
+
+.box-shadow {
+  -webkit-box-shadow: -7px 18px 35px -8px rgba(0,0,0,0.54);
+  -moz-box-shadow: -7px 18px 35px -8px rgba(0,0,0,0.54);
+  box-shadow: -7px 18px 35px -8px rgba(0,0,0,0.54);
+}
+
+.data-box-size {
+  height: 100%;
+}

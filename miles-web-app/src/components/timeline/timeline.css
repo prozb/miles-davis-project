@@ -5,6 +5,7 @@
     scrollbar-width: none;
     flex: 10;
     display: flex;
+    z-index: 1;
 }
 
 .line-container { 

@@ -81,9 +81,9 @@ export default class Timeline extends Component {
     this.timelineRef.current.scrollLeft += 600;
 }
   render() {
-    const {style} = this.props;
+    const {style, className} = this.props;
     return (
-      <div style={{display: 'flex', flexDirection: 'row',  width: '100%',  height: 200}}>
+      <div className={className} style={{display: 'flex', flexDirection: 'row',  width: '100%',  height: 200}}>
         <div className="triangle-container" style={{alignSelf: 'center',}}> 
           <Triangle onClick={this._handleLeftClick} left={true}/> 
         </div>

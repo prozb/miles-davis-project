@@ -27,6 +27,17 @@ class TrackService {
 
     return tracks.map(track => this.getTrackByName(track));
   }
+  /**
+   * getting all instrument - musician relations by track and album name
+   * @param {string} trackName - track name 
+   * @param {string} albumName - album name  
+   */
+  getMusicianInstrumentRelationOnTrack = (trackName, albumName) => {
+    var relations = trackDAO.getAll()
+      .filter(track => track[0] === trackName)[0][1].albums
+      .filter(album => Object.keys(album)[0] === albumName)[0];
+    return Object.entries(relations)[0][1];
+  }
 }
 
 export const trackService = new TrackService(); 

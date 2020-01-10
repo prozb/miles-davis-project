@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-.vertical-timeline {
+.vertical-timeline-custom {
     position: relative;
     float: left;
     display: flex;

@@ -1,0 +1,9 @@
+.icon-container{
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: #3B6294;
+  border-style: solid;
+}

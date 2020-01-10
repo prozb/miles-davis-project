@@ -106,7 +106,7 @@ export default class Graph extends React.Component {
         this.cy.on('tap', 'node', evt => this.handleNodeClick(evt.target.data()));
       }}
       elements={elements} 
-      style={{ width: '100%', height: '800px'}}
+      style={{ width: '100%', height: '100%'}}
       layout={{name: 'cose-bilkent', spacingFactor: 2}}/>;
   }
 }

@@ -103,6 +103,7 @@ class AlbumRoute extends Component {
    * hide track display
    */
   hideTrackDisplay = () => {
+    console.log('gide')
     this.setState({trackDisplay: false, trackName: ''});
   }
 
@@ -129,19 +130,19 @@ class AlbumRoute extends Component {
           
           {/* starting content container */}
           <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            {/* <div className="hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}> */}
-              <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20}}/>
-            {/* </div> */}
+            <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
 
-            <div>
+            <div className="data-box-size">
               {!this.state.trackDisplay ? 
                 <GraphComponent 
                   showTrackDisplay={this.showTrackDisplay}
-                  hideTrackDisplay={this.hideTrackDisplay}
                   tracks={this.state.tracks} 
                   musicians={this.state.musicians} 
                   album={this.state.album}/> : 
-                <TrackDisplay name={this.state.trackName}/>
+                <TrackDisplay 
+                  album={this.state.album}
+                  name={this.state.trackName}
+                  hideTrackDisplay={this.hideTrackDisplay}/>
               }
             </div>
           </div>
