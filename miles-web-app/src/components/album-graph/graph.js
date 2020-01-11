@@ -3,7 +3,6 @@ import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import Cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
-import { getCytoElementsMusicianTrackAlbum } from '../../scripts/helpers';
 
 Cytoscape.use(coseBilkent);
 /**
@@ -29,7 +28,7 @@ export default class Graph extends React.Component {
         // handling pressing on album node
         break;
       case "musician":
-        // handling pressing on musician node
+        this.props.showMusicianDisplay(node.label);
         break;
       default:
         break;
@@ -38,13 +37,8 @@ export default class Graph extends React.Component {
 
   render(){
     // dont render component if album not set 
-    if(this.props.album === '')
+    if(this.props.data.length === 0)
       return null;
-
-    const elements = getCytoElementsMusicianTrackAlbum(this.props.tracks, this.props.musicians, this.props.album);
-    if(elements.length === 0)
-      return null;
-
     return <CytoscapeComponent 
       stylesheet={[
         {
@@ -67,6 +61,16 @@ export default class Graph extends React.Component {
             shape: 'ellipce',
             content: 'data(label)',
             'background-color': '#E1AC3C'
+          }
+        },
+        {
+          selector: 'node[type="instrument"]',
+          style: {
+            width: 90,
+            height: 90,
+            shape: 'ellipce',
+            content: 'data(label)',
+            'background-image': 'data(icon)',
           }
         },
         {
@@ -105,7 +109,7 @@ export default class Graph extends React.Component {
         });
         this.cy.on('tap', 'node', evt => this.handleNodeClick(evt.target.data()));
       }}
-      elements={elements} 
+      elements={this.props.data} 
       style={{ width: '100%', height: '100%'}}
       layout={{name: 'cose-bilkent', spacingFactor: 2}}/>;
   }

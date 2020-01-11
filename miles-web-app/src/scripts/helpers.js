@@ -1,5 +1,5 @@
 import {pixelsPerYear} from './constants';
-import {instrumentService, musicianService} from '../service'
+import {instrumentService, musicianService, albumService} from '../service'
 
 // extracting release date from album
 export const getReleaseDateFromAlbum = (album) => {
@@ -90,6 +90,40 @@ export const getReleasedYearFromDate = (date) => {
     return [convAlbum, ...convTracks, ...convMus]; 
   } 
 
+
+  /**
+   * convertive data for musician perspective to data format readable by 
+   * cytoscape
+   * @param {string} tracks tracks to display on graph
+   */
+  export const getCytoElementsMusicianInstrumentAlbum = (musicianName) => {
+    var index = 0;
+    var musician    = musicianService.getMusicinaByName(musicianName);
+    // instruments and albums names
+    var instruments = musicianService.getInstrumentsOfMusician(musicianName);
+    var albums      = musicianService.getAlbumsOfMusician(musicianName);
+    // instruments and albums objects
+    var instObjects = instruments.map(instr => instrumentService.getByName(instr));
+    var albObjects  = albums.map(alb => albumService.getAlbumByName(alb));
+    // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
+    var convMus   = { data: {id: index++, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon} };
+    var convInstr = instObjects.flatMap(instr => {
+        var node = { data: {id: index, type: 'instrument', label: instr[0], icon: instr[1].url === '' ? 'none' : instr[1].url} };
+        var edge = { data: { source: 0, type: 'instrument', target: index++} };
+        // returning instrument node and edge from this node to musician node
+        return [node, edge];
+    });
+    var convAlb = albObjects.flatMap(alb => {
+       // console.log(alb);
+        var node = { data: {id: index, type: 'album', label: alb[0], icon: alb[1].icon === '' ? 'none' : alb[1].icon}}
+        var edge = { data: { source: index++, type: 'musician', target: 0 }};
+        // returning musician node and edge from this node to album node
+        return [node, edge];
+    });
+    // // returning array containing all elements of album
+    return [convMus, ...convInstr, ...convAlb]; 
+  } 
+
   /**
    * converting musicians - instrument relations to data format readable by 
    * cytoscape
@@ -100,7 +134,6 @@ export const getReleasedYearFromDate = (date) => {
   export const getCytoElementsMusicianInstrument = (relations) => {
     var index = 0;
     var row = 0; 
-    console.log(relations);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
     var converted = relations.flatMap(rel => {
         var node1 = { data: {

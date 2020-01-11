@@ -25,7 +25,6 @@ export default class TrackGraph extends React.Component {
 
     if(elements.length === 0)
       return null;
-    console.log(elements);
     return <CytoscapeComponent 
       stylesheet={[
         {

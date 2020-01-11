@@ -4,6 +4,7 @@ import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService } from '../../service';
+import { getCytoElementsMusicianTrackAlbum, getCytoElementsMusicianInstrumentAlbum } from '../../scripts/helpers';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -20,7 +21,9 @@ class AlbumRoute extends Component {
       musicians: [],
       tracks: [],
       trackDisplay: false,
-      trackName: ''
+      trackName: '',
+      musicianDisplay: false,
+      musicianName: '',
     };
   }
 
@@ -83,7 +86,9 @@ class AlbumRoute extends Component {
       musicians: musicians,
       tracks: tracks,
       trackDisplay: false,
-      trackName: ''
+      trackName: '',
+      musicianDisplay: false,
+      musicianName: '',
     });
   }
   /**
@@ -103,13 +108,32 @@ class AlbumRoute extends Component {
    * hide track display
    */
   hideTrackDisplay = () => {
-    console.log('gide')
+    console.log('hide track')
     this.setState({trackDisplay: false, trackName: ''});
   }
-
+  /**
+   * showing musician perspective
+   * @param {string} albumName - album name
+   */
+  showMusicianDisplay = (albumName) => {
+    this.setState({
+      musicianDisplay: true, 
+      musicianName: albumName
+    });
+  }
   render() {
+    const {album, musicians, tracks, musicianDisplay, musicianName} = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
 
+    var elements = [];
+    if(album){
+      if(musicianDisplay){
+        elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
+      }else{
+        elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
+      }
+    }
+ 
     if(!this.props.active)
 			return null;
     return (
@@ -135,10 +159,9 @@ class AlbumRoute extends Component {
             <div className="data-box-size">
               {!this.state.trackDisplay ? 
                 <AlbumGraph 
+                  showMusicianDisplay={this.showMusicianDisplay}
                   showTrackDisplay={this.showTrackDisplay}
-                  tracks={this.state.tracks} 
-                  musicians={this.state.musicians} 
-                  album={this.state.album}/> : 
+                  data={elements}/> : 
                 <TrackDisplay 
                   album={this.state.album}
                   name={this.state.trackName}
