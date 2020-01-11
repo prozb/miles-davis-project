@@ -109,7 +109,9 @@ class AlbumRoute extends Component {
    */
   hideTrackDisplay = () => {
     console.log('hide track')
-    this.setState({trackDisplay: false, trackName: ''});
+    this.setState({
+      trackDisplay: false, 
+      trackName: ''});
   }
   /**
    * showing musician perspective
@@ -124,7 +126,7 @@ class AlbumRoute extends Component {
   render() {
     const {album, musicians, tracks, musicianDisplay, musicianName} = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
-
+    console.log('updating render')
     var elements = [];
     if(album){
       if(musicianDisplay){

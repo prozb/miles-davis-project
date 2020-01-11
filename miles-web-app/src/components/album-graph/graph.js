@@ -37,6 +37,7 @@ export default class Graph extends React.Component {
 
   render(){
     // dont render component if album not set 
+    console.log('grapg component')
     if(this.props.data.length === 0)
       return null;
     return <CytoscapeComponent 
@@ -48,9 +49,14 @@ export default class Graph extends React.Component {
             height: 100,
             shape: 'ellipce',
             content: 'data(label)',
-            'background-image': 'data(icon)',
             'border-color': '#36A8AB',
             'border-width': '5px'
+          }
+        },
+        {
+          selector: 'node[icon]',
+          style: {
+            'background-image': 'data(icon)',
           }
         },
         {
@@ -70,7 +76,6 @@ export default class Graph extends React.Component {
             height: 90,
             shape: 'ellipce',
             content: 'data(label)',
-            'background-image': 'data(icon)',
           }
         },
         {
@@ -92,7 +97,6 @@ export default class Graph extends React.Component {
             height: 130,
             shape: 'ellipce',
             content: 'data(label)',
-            'background-image': 'data(icon)',
             'border-color': '#2E6299',
             'border-width': '15px',
             'text-margin-y': '-10',
