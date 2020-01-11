@@ -79,7 +79,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipce',
+        shape: 'ellipse',
         content: 'data(label)',
         'border-color': '#36A8AB',
         'border-width': '5px'
@@ -119,7 +119,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipce',
+        shape: 'ellipse',
         content: 'data(label)',
         'border-color': '#2E6299',
         'font-size': '20'
@@ -146,6 +146,38 @@ export default class Graph extends React.Component {
     }
     return albumStyle;
   }
+
+  /**
+   * getting style of instrument nodes and edges for each perspective
+   * @param {string} type - type of perspective should be displayed
+   * possible types are: musician, track, album
+   */
+  getInstrumentStyle = (type) => {
+    // default style
+    var instrumetStyle = {
+      selector: 'node[type="instrument"]',
+      style: {
+        width: 100,
+        height: 100,
+        shape: 'ellipse',
+        content: 'data(label)',
+        'border-color': '#FBE44D',
+      }
+    };
+    
+    switch(type){
+      case "musician": 
+        instrumetStyle.style.width = 100;
+        instrumetStyle.style.height = 100;
+        instrumetStyle.style['border-width'] = '5px';
+        instrumetStyle.style['text-margin-y'] = '-5';
+        break;
+      default: 
+        break;
+    }
+    return instrumetStyle;
+  }
+
   render(){
     // dont render component if album not set 
     if(this.props.data.length === 0)
@@ -153,11 +185,13 @@ export default class Graph extends React.Component {
     const {type} = this.props;
     const musiciansStyle = this.getMusicianStyle(type);
     const albumStyle = this.getAlbumStyle(type);
+    const instrumentStyle = this.getInstrumentStyle(type);
 
     return <CytoscapeComponent 
       stylesheet={[
         musiciansStyle,
         albumStyle,
+        instrumentStyle,
         {
           selector: 'node[icon]',
           style: {
@@ -169,24 +203,21 @@ export default class Graph extends React.Component {
           style: {
             width: 50,
             height: 50,
-            shape: 'ellipce',
+            shape: 'ellipse',
             content: 'data(label)',
             'background-color': '#E1AC3C'
-          }
-        },
-        {
-          selector: 'node[type="instrument"]',
-          style: {
-            width: 90,
-            height: 90,
-            shape: 'ellipce',
-            content: 'data(label)',
           }
         },
         {
           selector: 'edge[type="track"]',
           style: {
             'line-color': '#E1AC3C',
+          }
+        },
+        {
+          selector: 'edge[type="instrument"]',
+          style: {
+            'line-color': '#FBE44D',
           }
         },
         {

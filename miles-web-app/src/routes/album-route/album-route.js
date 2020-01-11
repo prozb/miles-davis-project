@@ -108,10 +108,10 @@ class AlbumRoute extends Component {
    * hide track display
    */
   hideTrackDisplay = () => {
-    console.log('hide track')
     this.setState({
       trackDisplay: false, 
-      trackName: ''});
+      trackName: ''
+    });
   }
   /**
    * showing musician perspective

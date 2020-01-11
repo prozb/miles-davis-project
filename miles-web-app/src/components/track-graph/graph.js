@@ -32,7 +32,7 @@ export default class TrackGraph extends React.Component {
           style: {
             width: 100,
             height: 100,
-            shape: 'ellipce',
+            shape: 'ellipse',
             content: 'data(label)',
             'background-image': 'data(icon)',
             'border-color': '#36A8AB',
