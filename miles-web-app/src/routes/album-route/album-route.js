@@ -123,10 +123,32 @@ class AlbumRoute extends Component {
       musicianName: albumName
     });
   }
+  /**
+   * getting type of current graph to display: musician, album, or track
+   */
+  getCurrentGraphType = () => {
+    if(this.state.trackDisplay)
+      return 'track';
+    else if(this.state.musicianDisplay)
+      return 'musician';
+    else  
+      return 'album';
+  }
+  /**
+   * hinding musicians display
+   */
+  hideMusicianDisplay = () => {
+    this.setState({
+      musicianDisplay: false, 
+      musicianName: ''
+    });
+  }
+
   render() {
     const {album, musicians, tracks, musicianDisplay, musicianName} = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
-    console.log('updating render')
+    const graphType = this.getCurrentGraphType();
+
     var elements = [];
     if(album){
       if(musicianDisplay){
@@ -161,6 +183,8 @@ class AlbumRoute extends Component {
             <div className="data-box-size">
               {!this.state.trackDisplay ? 
                 <AlbumGraph 
+                  type={graphType}
+                  hideMusicianDisplay={this.hideMusicianDisplay}
                   showMusicianDisplay={this.showMusicianDisplay}
                   showTrackDisplay={this.showTrackDisplay}
                   data={elements}/> : 
