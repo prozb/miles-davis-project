@@ -20,17 +20,19 @@ export default class Graph extends React.Component {
    */
   handleNodeClick = (node) => {
     const {type} = this.props;
-    switch(node.type) {
+
+    switch(type) {
+      // handling all clicks on track perspective
       case "track":
         // showing track display 
-        this.props.showTrackDisplay(node.label);
         break;
+      // handling all clicks on album perspective
       case "album":
-        // handling pressing on album node
-        
+        this.handleAlbumPerspectiveClicks(node.type, node.label);
         break;
+      // handling all clicks on album perspective
       case "musician":
-        this.handlePressOnMusician(type, node.label);
+        this.handleMusiciansPerspectiveClicks(node.type, node.label);
         break;
       default:
         break;
@@ -38,14 +40,14 @@ export default class Graph extends React.Component {
   }
 
   /**
-   * handle pressing on album depending on different types of perspectives
+   * handle pressing on nodes in album perspective
    * @param {string} type - type of perspectives
    * @param {string} label - label of musician to be displayed
    */
-  handlePressOnMusician = (type, label) => {
+  handleMusiciansPerspectiveClicks = (type, label) => {
     switch(type){
       case "album":
-        this.props.showMusicianDisplay(label);
+        this.props.switchToAlbum(label);
         break;
       case "musician": 
         this.props.hideMusicianDisplay();
@@ -56,13 +58,18 @@ export default class Graph extends React.Component {
   }
   /**
    * handle pressing on album depending on different types of perspectives
+   * @param {string} type - type of perspectives
+   * @param {string} label - label of album to be displayed
    */
-  handlePressOnAlbum = (type) => {
+  handleAlbumPerspectiveClicks = (type, label) => {
     switch(type){
       case "album":
         break;
       case "musician": 
+        this.props.showMusicianDisplay(label);
         break;
+      case "track": 
+        this.props.showTrackDisplay(label);
       default: 
         break;
     }
@@ -234,7 +241,10 @@ export default class Graph extends React.Component {
         this.cy.on('boxselect', 'node', evt => {
           var selected = this.cy.$(':selected');
         });
-        this.cy.on('tap', 'node', evt => this.handleNodeClick(evt.target.data()));
+        this.cy.unbind("tap");
+        this.cy.bind('tap', 'node', evt => { 
+          this.handleNodeClick(evt.target.data())
+        });
       }}
       elements={this.props.data} 
       style={{ width: '100%', height: '100%'}}

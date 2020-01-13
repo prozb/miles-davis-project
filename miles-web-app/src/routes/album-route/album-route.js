@@ -140,7 +140,9 @@ class AlbumRoute extends Component {
   hideMusicianDisplay = () => {
     this.setState({
       musicianDisplay: false, 
-      musicianName: ''
+      musicianName: '',
+      trackDisplay: false,
+      trackName: '',
     });
   }
 
@@ -149,6 +151,7 @@ class AlbumRoute extends Component {
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     const graphType = this.getCurrentGraphType();
 
+    console.log('track display: ' + this.state.trackDisplay);
     var elements = [];
     if(album){
       if(musicianDisplay){
@@ -184,6 +187,7 @@ class AlbumRoute extends Component {
               {!this.state.trackDisplay ? 
                 <AlbumGraph 
                   type={graphType}
+                  switchToAlbum={this.switchToAlbum}
                   hideMusicianDisplay={this.hideMusicianDisplay}
                   showMusicianDisplay={this.showMusicianDisplay}
                   showTrackDisplay={this.showTrackDisplay}
