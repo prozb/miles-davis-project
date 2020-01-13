@@ -90,6 +90,30 @@ export const getReleasedYearFromDate = (date) => {
     return [convAlbum, ...convTracks, ...convMus]; 
   } 
 
+  /**
+   * converting instruments and musicians to data format readable by 
+   * cytoscape
+   * @param {string} instrumentName name of instrument to be displayed
+   */
+  export const getCytoElementsInstrumentMusician = (name) => {
+    var index = 0;  
+
+    var instrument = instrumentService.getByName(name);
+    var musicians  = instrumentService.getMusiciansOfInstrument(name);
+    // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
+    var convInstr = { data: {id: index, type: 'instrument', label: instrument[0], icon: instrument[1].url === '' ? 'none' : instrument[1].url} };
+    var convMusic = musicians.flatMap(mus => {
+      var indexCp = index + 1;
+      var node = { data: {id: indexCp, type: 'musician', label: mus[0], icon: mus[1].icon === '' ? 'none' : mus[1].icon} };
+      var edge = { data: { source: 0, type: 'musician', target: indexCp} };
+      index++;
+      // returning track node and edge from this node to album node
+      return [node, edge];
+    });
+    // returning array containing all elements of album
+    return [convInstr, ...convMusic]; 
+  } 
+
 
   /**
    * convertive data for musician perspective to data format readable by 

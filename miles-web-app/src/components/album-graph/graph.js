@@ -26,6 +26,10 @@ export default class Graph extends React.Component {
       case "track":
         // showing track display 
         break;
+      case "instrument":
+        // showing track display 
+        this.handleInstrumentsPerspectiveClicks(node.type, node.label);
+        break;
       // handling all clicks on album perspective
       case "album":
         this.handleAlbumPerspectiveClicks(node.type, node.label);
@@ -40,6 +44,22 @@ export default class Graph extends React.Component {
   }
 
   /**
+   * handle pressing on nodes in instrument perspective
+   * @param {string} type - type of perspectives
+   * @param {string} label - label of instrument to be displayed
+   */
+  handleInstrumentsPerspectiveClicks = (type, label) => {
+    switch(type){
+      case "musician": 
+        break;
+      case "instrument": 
+        this.props.hideInstrumentDisplay();
+        break;
+      default: 
+        break;
+    }
+  }
+  /**
    * handle pressing on nodes in album perspective
    * @param {string} type - type of perspectives
    * @param {string} label - label of musician to be displayed
@@ -51,6 +71,9 @@ export default class Graph extends React.Component {
         break;
       case "musician": 
         this.props.hideMusicianDisplay();
+        break;
+      case "instrument": 
+        this.props.showInstrumentDisplay(label);
         break;
       default: 
         break;

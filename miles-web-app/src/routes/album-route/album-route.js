@@ -4,7 +4,9 @@ import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService } from '../../service';
-import { getCytoElementsMusicianTrackAlbum, getCytoElementsMusicianInstrumentAlbum } from '../../scripts/helpers';
+import { getCytoElementsMusicianTrackAlbum, 
+         getCytoElementsMusicianInstrumentAlbum,
+         getCytoElementsInstrumentMusician } from '../../scripts/helpers';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -24,6 +26,8 @@ class AlbumRoute extends Component {
       trackName: '',
       musicianDisplay: false,
       musicianName: '',
+      instrumentDisplay: false,
+      instrumentName: '',
     };
   }
 
@@ -89,6 +93,8 @@ class AlbumRoute extends Component {
       trackName: '',
       musicianDisplay: false,
       musicianName: '',
+      instrumentDisplay: false,
+      instrumentName: '',
     });
   }
   /**
@@ -104,6 +110,29 @@ class AlbumRoute extends Component {
   showTrackDisplay = (trackName) => {
     this.setState({trackDisplay: true, trackName: trackName});
   }
+  /**
+   * show instrument display
+   * @param {string} trackName - track which description to show
+   */
+  showInstrumentDisplay = (name) => {
+    this.setState({
+      musicianDisplay: false,
+      instrumentDisplay: true, 
+      instrumentName: name
+    });
+  }
+
+  /**
+   * hide instrument display
+   */
+  hideInstrumentDisplay = () => {
+    this.setState({
+      musicianDisplay: true,
+      instrumentDisplay: false, 
+      instrumentName: ''
+    });
+  }
+
   /**
    * hide track display
    */
@@ -131,7 +160,8 @@ class AlbumRoute extends Component {
       return 'track';
     else if(this.state.musicianDisplay)
       return 'musician';
-    else  
+    else if(this.state.instrumentDisplay)
+      return 'instrument';
       return 'album';
   }
   /**
@@ -147,15 +177,16 @@ class AlbumRoute extends Component {
   }
 
   render() {
-    const {album, musicians, tracks, musicianDisplay, musicianName} = this.state;
+    const {album, musicians, tracks, musicianDisplay, musicianName, instrumentDisplay, instrumentName} = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     const graphType = this.getCurrentGraphType();
 
-    console.log('track display: ' + this.state.trackDisplay);
     var elements = [];
     if(album){
       if(musicianDisplay){
         elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
+      }else if(instrumentDisplay) {
+        elements = getCytoElementsInstrumentMusician(instrumentName);
       }else{
         elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
       }
@@ -191,6 +222,8 @@ class AlbumRoute extends Component {
                   hideMusicianDisplay={this.hideMusicianDisplay}
                   showMusicianDisplay={this.showMusicianDisplay}
                   showTrackDisplay={this.showTrackDisplay}
+                  showInstrumentDisplay={this.showInstrumentDisplay}
+                  hideInstrumentDisplay={this.hideInstrumentDisplay}
                   data={elements}/> : 
                 <TrackDisplay 
                   album={this.state.album}
