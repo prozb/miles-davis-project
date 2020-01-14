@@ -202,6 +202,14 @@ export default class Graph extends React.Component {
         instrumetStyle.style['border-width'] = '5px';
         instrumetStyle.style['text-margin-y'] = '-5';
         break;
+      case "instrument":
+        instrumetStyle.style.width = 130;
+        instrumetStyle.style.height = 130;
+        instrumetStyle.style['border-width'] = '15px';
+        instrumetStyle.style['text-margin-y'] = '-10';
+        instrumetStyle.style['font-weight'] = 'bold';
+        instrumetStyle.style['font-size'] = '20';
+        break;
       default: 
         break;
     }
