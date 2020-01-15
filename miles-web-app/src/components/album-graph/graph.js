@@ -3,7 +3,8 @@ import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import Cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
-
+import popper from 'cytoscape-popper';
+Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
 /**
  * @author Pavlo Rozbytskyi
@@ -276,6 +277,27 @@ export default class Graph extends React.Component {
         this.cy.unbind("tap");
         this.cy.bind('tap', 'node', evt => { 
           this.handleNodeClick(evt.target.data())
+        });
+
+        this.cy.unbind("cxttap");
+        this.cy.bind('cxttap', 'node', evt => { 
+          let node = evt.target;
+
+          let popper = node.popper({
+            content: () => {
+              let div = document.createElement('div');
+
+              div.innerHTML = 'Sticky Popper content';
+              document.body.appendChild( div );
+              return div;
+            }
+          });
+
+          let update = () => {
+            popper.scheduleUpdate();
+          };
+          node.on('position', update);
+          cy.on('pan zoom resize', update);
         });
 
         this.cy.unbind("boxselect");
