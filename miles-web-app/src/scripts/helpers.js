@@ -114,6 +114,62 @@ export const getReleasedYearFromDate = (date) => {
     return [convInstr, ...convMusic]; 
   } 
 
+  /**
+   * converting elements to data format readable by 
+   * cytoscape
+   * @param {Array} elements name of instrument to be displayed
+   */
+  export const getSpecialCaseElements = (elements) => {
+    var index0 = 0;  
+    var index1 = 0;
+    var compound = [];
+    var musicianElems = [];
+    var elems = elements.reduce((compound, elem, index) => {
+      // getting all albums of musician node
+      var albums = musicianService.getAlbumObjectsOfMusician(elem.data().label);
+      musicianElems.push({ 
+        data: {
+        id: index0++, 
+        type: "album", 
+        label: elem.data().label, 
+        icon: elem.data().icon === '' ? 'none' : elem.data().icon
+      }});
+      if(index === 0){
+       return albums;
+      }else{
+        // getting all names of albums
+        var mapped = albums.map(elem => elem[0]);
+        // getting compound elements of previous node and current
+        var compoundNew = compound.filter(elem => mapped.includes(elem[0]));
+        return compoundNew;
+      }
+    });
+    index1 = index0;
+    var convElements = elems.map(elem => {
+      var convElem = { data: {
+        id: index0++, 
+        type: "musician", 
+        label: elem[0], 
+        icon: elem[1].icon === '' ? 'none' : elem[1].icon
+      }};
+      return convElem;
+    });
+
+  var convEdges = [];
+    var storedIndex = index1; 
+    elems.forEach(elem => {
+      for(var i = 0; i < index1; i++){
+        convEdges.push({ data: { 
+          source: storedIndex, 
+          type: 'musician', 
+          target: i
+        }});
+      }
+      storedIndex++;
+    });
+    return [...convElements, ...musicianElems, ...convEdges];
+  } 
+
 
   /**
    * convertive data for musician perspective to data format readable by 

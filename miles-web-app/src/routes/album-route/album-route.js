@@ -6,7 +6,9 @@ import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '..
 import { albumService, musicianService, trackService } from '../../service';
 import { getCytoElementsMusicianTrackAlbum, 
          getCytoElementsMusicianInstrumentAlbum,
-         getCytoElementsInstrumentMusician } from '../../scripts/helpers';
+         getCytoElementsInstrumentMusician,
+         getSpecialCaseElements
+  } from '../../scripts/helpers';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -28,7 +30,10 @@ class AlbumRoute extends Component {
       musicianName: '',
       instrumentDisplay: false,
       instrumentName: '',
+      specialCase: false,
     };
+    this.data = [];
+    this.specialCaseFunction = getSpecialCaseElements;
   }
 
   componentDidMount() {
@@ -95,6 +100,7 @@ class AlbumRoute extends Component {
       musicianName: '',
       instrumentDisplay: false,
       instrumentName: '',
+      specialCase: false,
     });
   }
   /**
@@ -108,7 +114,10 @@ class AlbumRoute extends Component {
    * @param {string} trackName - track which description to show
    */
   showTrackDisplay = (trackName) => {
-    this.setState({trackDisplay: true, trackName: trackName});
+    this.setState({
+      trackDisplay: true, 
+      trackName: trackName
+    });
   }
   /**
    * show instrument display
@@ -142,6 +151,31 @@ class AlbumRoute extends Component {
       trackName: ''
     });
   }
+  /**
+   * handle collection of selected nodes
+   * @param {Array} elements - selected nodes
+   */
+  handleCollection = (elements) => {
+    var type = this.getCurrentGraphType();
+
+    switch(type){
+      case 'album': 
+        this.specialCaseFunction = getSpecialCaseElements;
+        this.data = elements;
+        this.setState({
+          specialCase: true,
+          trackDisplay: false,
+          musicianDisplay: false,
+          instrumentDisplay: false,   
+        });
+        break;
+      case 'musician':
+        break;
+      default: 
+        break;
+    }
+  }
+
   /**
    * showing musician perspective
    * @param {string} albumName - album name
@@ -179,7 +213,11 @@ class AlbumRoute extends Component {
   }
 
   render() {
-    const {album, musicians, tracks, musicianDisplay, musicianName, instrumentDisplay, instrumentName} = this.state;
+    const {
+        album, musicians, tracks, musicianDisplay, 
+        musicianName, instrumentDisplay, instrumentName,
+        specialCase 
+      } = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     const graphType = this.getCurrentGraphType();
 
@@ -189,7 +227,9 @@ class AlbumRoute extends Component {
         elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
       }else if(instrumentDisplay) {
         elements = getCytoElementsInstrumentMusician(instrumentName);
-      }else{
+      }else if(specialCase) {
+        elements = this.specialCaseFunction(this.data);
+      }else {
         elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
       }
     }
@@ -226,6 +266,7 @@ class AlbumRoute extends Component {
                   showTrackDisplay={this.showTrackDisplay}
                   showInstrumentDisplay={this.showInstrumentDisplay}
                   hideInstrumentDisplay={this.hideInstrumentDisplay}
+                  handleCollection={this.handleCollection}
                   data={elements}/> : 
                 <TrackDisplay 
                   album={this.state.album}

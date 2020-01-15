@@ -12,6 +12,9 @@ Cytoscape.use(coseBilkent);
 export default class Graph extends React.Component {
   constructor(props){
     super(props);
+
+    this.callCount = 0;
+    this.selectedSize = 0;
   }
 
   /**
@@ -270,12 +273,28 @@ export default class Graph extends React.Component {
       cy={(cy) => { 
         this.cy = cy;
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
-        this.cy.on('boxselect', 'node', evt => {
-          var selected = this.cy.$(':selected');
-        });
         this.cy.unbind("tap");
         this.cy.bind('tap', 'node', evt => { 
           this.handleNodeClick(evt.target.data())
+        });
+
+        this.cy.unbind("boxselect");
+        this.cy.bind('boxselect', 'node', evt => { 
+          if(this.callCount === 0){
+            var selected = this.cy.$(':selected');
+            this.props.handleCollection(selected);
+            // call function to trigger
+            this.selectedSize = selected.length;
+            this.callCount++;
+          }else{
+            this.callCount++;
+          }
+
+          if(this.callCount >= this.selectedSize){
+            this.callCount = 0;
+            this.selectedSize = 0;
+            this.cy.$(':selected').unselect();
+          }
         });
       }}
       elements={this.props.data} 

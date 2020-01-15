@@ -1,4 +1,5 @@
 import { musicianDAO } from '../controller';
+import { albumService } from '../service';
 /**
  * @author Pavlo Rozbytskyi
  * musician service layer extends basic functionality from musician dao
@@ -20,6 +21,14 @@ class MusicianService {
    */
   getAlbumsOfMusician = (name) => {
     return musicianDAO.getAll().filter(musician => musician[0] === name)[0][1].albums;
+  }
+  /**
+   * getting all album objects of musician
+   * @param {string} name - musician name
+   */
+  getAlbumObjectsOfMusician = (name) => {
+    var albums = this.getAlbumsOfMusician(name);
+    return albums.map(alb => albumService.getAlbumByName(alb));
   }
 }
 
