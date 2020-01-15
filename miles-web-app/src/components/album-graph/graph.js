@@ -51,6 +51,7 @@ export default class Graph extends React.Component {
   handleInstrumentsPerspectiveClicks = (type, label) => {
     switch(type){
       case "musician": 
+        this.props.showMusicianDisplay(label);
         break;
       case "instrument": 
         this.props.hideInstrumentDisplay();

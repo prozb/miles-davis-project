@@ -149,7 +149,9 @@ class AlbumRoute extends Component {
   showMusicianDisplay = (albumName) => {
     this.setState({
       musicianDisplay: true, 
-      musicianName: albumName
+      musicianName: albumName,
+      instrumentDisplay: false,
+      instrumentName: '',
     });
   }
   /**
