@@ -15,16 +15,12 @@ class HomeRoute extends Component {
     };
 	}
 
-  getСurrentScreen = () => {
-    return <StartScreen/>
-  }
-
 	getApplicationContainer = () => {
 		return <div className="vertical-container">				
 				{/* start application container */}
 				<div className="app-container">
 					{/* application screens */}
-					{this.getСurrentScreen()}
+					<StartScreen/>
 				</div>
 				{/* end application container */}
 
@@ -45,7 +41,7 @@ class HomeRoute extends Component {
 			</p>
 
 			<p className="lead jumbo-button">
-				<a className="btn btn-primary btn-lg" href="application.html" target="_blank" role="button">Explore dataset &raquo;</a>
+				<a className="btn btn-primary btn-lg" href="album" target="_blank" role="button">Explore dataset &raquo;</a>
 			</p>
 		</div>
 	}

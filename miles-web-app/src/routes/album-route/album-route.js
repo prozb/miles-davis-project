@@ -198,7 +198,7 @@ class AlbumRoute extends Component {
       return 'musician';
     else if(this.state.instrumentDisplay)
       return 'instrument';
-      return 'album';
+    return 'album';
   }
   /**
    * hinding musicians display

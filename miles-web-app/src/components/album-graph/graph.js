@@ -42,11 +42,27 @@ export default class Graph extends React.Component {
       case "musician":
         this.handleMusiciansPerspectiveClicks(node.type, node.label);
         break;
+      case "special":
+        break;
       default:
         break;
     }
   }
-
+  /**
+   * handle pressing on nodes in special perspective
+   * @param {string} type - type of perspectives
+   * @param {string} label - label of instrument to be displayed
+   */
+  handleSpecialCase = (type, label) => {
+    switch(type){
+      case "album": 
+        break;
+      case "musician": 
+        break;
+      default: 
+        break;
+    }
+  }
   /**
    * handle pressing on nodes in instrument perspective
    * @param {string} type - type of perspectives

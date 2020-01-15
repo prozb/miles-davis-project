@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-
+import image from '../assets/start-screen.png';
 
 export default class StartScreen extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
   render() {
     return (
-      <div>start screen</div>
+      <div>
+        <img className="img-fluid rounded mg-fluid img-thumbnail" src={image} alt="start screen foto" />
+      </div>
     );
   }
 }
