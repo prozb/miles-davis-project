@@ -1250,12 +1250,12 @@
             "Teo Macero"
         ],
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Miles_Davis_On_The_Corner.jpg/220px-Miles_Davis_On_The_Corner.jpg",
-        "musicians": []
+        "musicians": ["Miles Davis", "Carlos Garnett", "Dave Liebman", "Bennie Maupin", "Chick Corea", "Herbie Hancock", "Harold Ivory Williams", "Cedric Lawson", "Dave Creamer", "Reggie Lucas", "John McLaughlin", "Khalil Balakrishna", "Collin Walcott", "Michael Henderson", "Don Alias", "Jack DeJohnette", "Al Foster", "Billy Hart", "James Mtume", "Paul Buckmaster", "Badal Roy"]
     },
     "The Man with the Horn": {
         "url": "https://en.wikipedia.org/wiki/The_Man_with_the_Horn",
         "label": "Columbia",
-        "released": "July 1981",
+        "released": "1 July, 1981",
         "recorded": [
             "June 1, 1980",
             "May 6, 1981"
@@ -1310,7 +1310,7 @@
     "Decoy": {
         "url": "https://en.wikipedia.org/wiki/Decoy_(album)",
         "label": "Columbia",
-        "released": "June 1984",
+        "released": "June 1, 1984",
         "recorded": [
             "June 30, 1983",
             "July 7, 1983",
@@ -1341,7 +1341,7 @@
     "You're Under Arrest": {
         "url": "https://en.wikipedia.org/wiki/You%27re_Under_Arrest_(Miles_Davis_album)",
         "label": "Columbia",
-        "released": "April 1985",
+        "released": "April 1, 1985",
         "recorded": [
             "January 26, 1984",
             "January 14, 1985"
@@ -1373,7 +1373,7 @@
     "Tutu": {
         "url": "https://en.wikipedia.org/wiki/Tutu_(album)",
         "label": "Warner Bros.",
-        "released": "September 1986",
+        "released": "September 1, 1986",
         "recorded": [
             "January 6, 1986",
             "March 25, 1986"
