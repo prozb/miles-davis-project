@@ -1735,7 +1735,23 @@
                 ]
             },
             {
-                "Miles Davis and the Modern Jazz Giants": []
+                "Miles Davis and the Modern Jazz Giants": [
+                  {
+                    "Miles Davis": "trumpet"
+                  },
+                  {
+                    "Milt Jackson": "vibraphone"
+                  },
+                  {
+                    "Thelonious Monk": "piano"
+                  },
+                  {
+                    "Percy Heath": "bass"
+                  },
+                  {
+                    "Kenny Clarke": "drums"
+                  }
+                ]
             }
         ]
     },
@@ -1761,7 +1777,23 @@
                 ]
             },
             {
-                "Miles Davis and the Modern Jazz Giants": []
+                "Miles Davis and the Modern Jazz Giants": [
+                  {
+                    "Miles Davis": "trumpet"
+                  },
+                  {
+                    "Milt Jackson": "vibraphone"
+                  },
+                  {
+                    "Thelonious Monk": "piano"
+                  },
+                  {
+                    "Percy Heath": "bass"
+                  },
+                  {
+                    "Kenny Clarke": "drums"
+                  }
+                ]
             }
         ]
     },
@@ -10433,21 +10465,72 @@
     "The Man I Love (Take 2)": {
         "albums": [
             {
-                "Miles Davis and the Modern Jazz Giants": []
+                "Miles Davis and the Modern Jazz Giants": [
+                  {
+                    "Miles Davis": "trumpet"
+                  },
+                  {
+                    "Milt Jackson": "vibraphone"
+                  },
+                  {
+                    "Thelonious Monk": "piano"
+                  },
+                  {
+                    "Percy Heath": "bass"
+                  },
+                  {
+                    "Kenny Clarke": "drums"
+                  }
+                ]
             }
         ]
     },
     "Round Midnight": {
         "albums": [
             {
-                "Miles Davis and the Modern Jazz Giants": []
+                "Miles Davis and the Modern Jazz Giants": [
+                  {
+                    "Miles Davis": "trumpet"
+                  },
+                  {
+                    "Milt Jackson": "vibraphone"
+                  },
+                  {
+                    "John Coltrane": "tenor saxophone"
+                  },
+                  {
+                    "Red Garland": "piano"
+                  },
+                  {
+                    "Paul Chambers": "bass"
+                  },
+                  {
+                    "Philly Joe Jones": "drums"
+                  }
+                ]
             }
         ]
     },
     "The Man I Love (Take 1)": {
         "albums": [
             {
-                "Miles Davis and the Modern Jazz Giants": []
+                "Miles Davis and the Modern Jazz Giants": [
+                  {
+                    "Miles Davis": "trumpet"
+                  },
+                  {
+                    "Milt Jackson": "vibraphone"
+                  },
+                  {
+                    "Thelonious Monk": "piano"
+                  },
+                  {
+                    "Percy Heath": "bass"
+                  },
+                  {
+                    "Kenny Clarke": "drums"
+                  }
+                ]
             }
         ]
     }

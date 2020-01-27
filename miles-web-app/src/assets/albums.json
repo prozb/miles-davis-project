@@ -584,7 +584,7 @@
             "Bob Weinstock"
         ],
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/MilesDavisAndTheModernJazzGiants.jpg/220px-MilesDavisAndTheModernJazzGiants.jpg",
-        "musicians": []
+        "musicians": ["Miles Davis", "Kenny Clarke", "Percy Heath", "Milt Jackson", "Philly Joe Jones", "Paul Chambers", "Thelonious Monk", "Red Garland", "John Coltrane"]
     },
     "Workin' with the Miles Davis Quintet": {
         "url": "https://en.wikipedia.org/wiki/Workin%27_with_The_Miles_Davis_Quintet",
