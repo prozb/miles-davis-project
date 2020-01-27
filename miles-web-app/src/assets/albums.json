@@ -206,7 +206,7 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/7/78/Miles_Davis_New_Miles_Davis_Quintet.png",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/e/ea/MilesDavisQuintet1954Album.jpg",
         "musicians": [
             "Miles Davis",
             "Kenny Clarke",
@@ -444,8 +444,8 @@
             "Bob Weinstock",
             "Ira Gitler"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg",
-        "musicians": []
+        "icon": "https://upload.wikimedia.org/wikipedia/en/1/17/CollectorsItems_MilesDavis.jpg",
+        "musicians": ["Miles Davis", "Sonny Rollins", "Charlie Chan", "Walter Bishop, Jr.", "Percy Heath", "Philly Joe Jones", "Tommy Flanagan", "Art Taylor", "Paul Chambers"]
     },
     "Blue Haze": {
         "url": "https://en.wikipedia.org/wiki/Blue_Haze",
@@ -513,7 +513,7 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg/220px-Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/4/45/Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
