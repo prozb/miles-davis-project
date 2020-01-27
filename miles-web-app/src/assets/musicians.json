@@ -55,7 +55,8 @@
             "'Round About Midnight",
             "Miles Ahead",
             "Milestones",
-            "Collectors' Items"
+            "Collectors' Items",
+            "On the Corner"
         ],
         "instruments": [
             "trumpet",
@@ -1366,7 +1367,8 @@
             "Sorcerer",
             "Miles Smiles",
             "E.S.P.",
-            "Seven Steps to Heaven"
+            "Seven Steps to Heaven",
+            "On the Corner"
         ],
         "instruments": [
             "electric piano",
@@ -1449,7 +1451,8 @@
             "Live-Evil",
             "Bitches Brew",
             "In a Silent Way",
-            "Filles de Kilimanjaro"
+            "Filles de Kilimanjaro",
+            "On the Corner"
         ],
         "instruments": [
             "electric piano",
@@ -1484,7 +1487,8 @@
             "Live-Evil",
             "Jack Johnson",
             "Bitches Brew",
-            "In a Silent Way"
+            "In a Silent Way",
+            "On the Corner"
         ],
         "instruments": [
             "guitar",
@@ -1513,7 +1517,8 @@
         "albums": [
             "Live-Evil",
             "Bitches Brew",
-            "In a Silent Way"
+            "In a Silent Way",
+            "On the Corner"
         ],
         "instruments": [
             "bass clarinet",
@@ -1563,7 +1568,8 @@
     "Jack DeJohnette": {
         "albums": [
             "Live-Evil",
-            "Bitches Brew"
+            "Bitches Brew",
+            "On the Corner"
         ],
         "instruments": [
             "drums"
@@ -1577,7 +1583,8 @@
         "albums": [
             "Amandla",
             "Live-Evil",
-            "Bitches Brew"
+            "Bitches Brew",
+            "On the Corner"
         ],
         "instruments": [
             "percussion",
@@ -1646,7 +1653,8 @@
     "Michael Henderson": {
         "albums": [
             "Live-Evil",
-            "Jack Johnson"
+            "Jack Johnson",
+            "On the Corner"
         ],
         "instruments": [
             "bass",
@@ -1709,7 +1717,8 @@
     },
     "Khalil Balakrishna": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "guitar",
@@ -1722,7 +1731,7 @@
     },
     "Carlos Garnett": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil", "On the Corner"
         ],
         "instruments": [
             "saxophone"
@@ -1734,7 +1743,7 @@
     },
     "Dave Liebman": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil", "On the Corner"
         ],
         "instruments": [
             "saxophone"
@@ -1746,7 +1755,8 @@
     },
     "Harold Ivory Williams": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "electric piano"
@@ -1758,7 +1768,8 @@
     },
     "Cedric Lawson": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "organ"
@@ -1768,21 +1779,10 @@
         "birthdate": "",
         "deathdate": ""
     },
-    "Dave Creamer": {
-        "albums": [
-            "Live-Evil"
-        ],
-        "instruments": [
-            "guitar"
-        ],
-        "url": "",
-        "icon": "",
-        "birthdate": "",
-        "deathdate": ""
-    },
     "Reggie Lucas": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "guitar"
@@ -1794,7 +1794,8 @@
     },
     "Collin Walcott": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "electric sitar",
@@ -1812,7 +1813,8 @@
             "Decoy",
             "Star People",
             "The Man with the Horn",
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "drums"
@@ -1824,7 +1826,7 @@
     },
     "Billy Hart": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil", "Tutu", "On the Corner"
         ],
         "instruments": [
             "drums"
@@ -1834,9 +1836,22 @@
         "birthdate": "November 29, 1940",
         "deathdate": ""
     },
+    "David Creamer": {
+        "albums": [
+            "On the Corner"
+        ],
+        "instruments": [
+            "guitar"
+        ],
+        "url": "https://www.discogs.com/de/artist/315690-David-Creamer",
+        "icon": "",
+        "birthdate": "",
+        "deathdate": ""
+    },
     "James Mtume": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "percussion",
@@ -1849,7 +1864,8 @@
     },
     "Paul Buckmaster": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "cello"
@@ -1861,7 +1877,8 @@
     },
     "Badal Roy": {
         "albums": [
-            "Live-Evil"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "tabla"
@@ -1945,6 +1962,18 @@
         "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
         "icon": "https://img.discogs.com/weYmdWfCEJpwD6qotpRr0RIDZZw=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-253339-1121500889.jpg.jpg",
         "birthdate": "November 16, 1948",
+        "deathdate": ""
+    },
+    "Conrad Roberts": {
+        "albums": [
+            "Live-Evil"
+        ],
+        "instruments": [
+            "narration"
+        ],
+        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
+        "icon": "",
+        "birthdate": "",
         "deathdate": ""
     },
     "Robert Irving III": {
@@ -2239,18 +2268,6 @@
         "url": "https://www.discogs.com/de/artist/455886-Michał-Urbaniak",
         "icon": "https://img.discogs.com/qckRsDtIHGwC1GDaLBiGUlIy0J0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-455886-1306680650.jpeg.jpg",
         "birthdate": "January 22, 1943",
-        "deathdate": ""
-    },
-    "Jabali Billy Hart": {
-        "albums": [
-            "Tutu"
-        ],
-        "instruments": [
-            "drums"
-        ],
-        "url": "https://www.discogs.com/de/artist/252742-Billy-Hart",
-        "icon": "https://img.discogs.com/QmU8G-bF4IN3E9OPGB_s13L9K9c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-252742-1124200125.jpg.jpg",
-        "birthdate": "November 29, 1940",
         "deathdate": ""
     },
     "Michael Landau": {
