@@ -214,6 +214,7 @@ export const getReleasedYearFromDate = (date) => {
   export const getCytoElementsMusicianInstrument = (relations) => {
     var index = 0;
     var row = 0; 
+    console.log(relations);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
     var converted = relations.flatMap(rel => {
         var node1 = { data: {
@@ -225,6 +226,7 @@ export const getReleasedYearFromDate = (date) => {
             col: 0,
           }
         };
+
         index++;
         var node2 = { data: {
             id: index, 

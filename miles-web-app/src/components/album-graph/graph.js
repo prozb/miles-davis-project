@@ -141,7 +141,7 @@ export default class Graph extends React.Component {
       case "musician":
         musicianStyle.style.width = 130;
         musicianStyle.style.height = 130;
-        musicianStyle.style['border-width'] = '15px';
+        musicianStyle.style['border-width'] = '5px';
         musicianStyle.style['text-margin-y'] = '-10';
         musicianStyle.style['font-weight'] = 'bold';
         musicianStyle.style['font-size'] = '20';
@@ -170,7 +170,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipse',
+        shape: 'square',
         content: 'data(label)',
         'border-color': '#2E6299',
         'font-size': '20'
@@ -181,7 +181,7 @@ export default class Graph extends React.Component {
       case "album":
         albumStyle.style.width = 130;
         albumStyle.style.height = 130;
-        albumStyle.style['border-width'] = '15px';
+        albumStyle.style['border-width'] = '5px';
         albumStyle.style['text-margin-y'] = '-10';
         albumStyle.style['font-weight'] = 'bold';
         albumStyle.style['font-size'] = '20';
@@ -189,7 +189,7 @@ export default class Graph extends React.Component {
       case "musician": 
         albumStyle.style.width = 100;
         albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '5px';
+        albumStyle.style['border-width'] = '2px';
         albumStyle.style['text-margin-y'] = '-5';
         break;
       default: 
@@ -210,7 +210,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipse',
+        shape: 'diamond',
         content: 'data(label)',
         'border-color': '#FBE44D',
       }
@@ -220,13 +220,13 @@ export default class Graph extends React.Component {
       case "musician": 
         instrumetStyle.style.width = 100;
         instrumetStyle.style.height = 100;
-        instrumetStyle.style['border-width'] = '5px';
+        instrumetStyle.style['border-width'] = '2px';
         instrumetStyle.style['text-margin-y'] = '-5';
         break;
       case "instrument":
         instrumetStyle.style.width = 130;
         instrumetStyle.style.height = 130;
-        instrumetStyle.style['border-width'] = '15px';
+        instrumetStyle.style['border-width'] = '5px';
         instrumetStyle.style['text-margin-y'] = '-10';
         instrumetStyle.style['font-weight'] = 'bold';
         instrumetStyle.style['font-size'] = '20';
@@ -262,7 +262,7 @@ export default class Graph extends React.Component {
           style: {
             width: 50,
             height: 50,
-            shape: 'ellipse',
+            shape: 'round-triangle',
             content: 'data(label)',
             'background-color': '#E1AC3C'
           }
