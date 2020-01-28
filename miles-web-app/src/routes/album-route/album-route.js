@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
-import { albumService, musicianService, trackService } from '../../service';
+import { albumService, musicianService, trackService, instrumentService } from '../../service';
 import { getCytoElementsMusicianTrackAlbum, 
          getCytoElementsMusicianInstrumentAlbum,
          getCytoElementsInstrumentMusician,
@@ -182,6 +182,7 @@ class AlbumRoute extends Component {
    */
   showMusicianDisplay = (albumName) => {
     this.setState({
+      trackDisplay: false,
       musicianDisplay: true, 
       musicianName: albumName,
       instrumentDisplay: false,
@@ -220,17 +221,33 @@ class AlbumRoute extends Component {
       } = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     const graphType = this.getCurrentGraphType();
+    var data1 = [];
+    var data2 = [];
+    var type1 = "";
+    var type2 = "";
 
     var elements = [];
     if(album){
       if(musicianDisplay){
         elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
+        data1 = musicianService.getAlbumsOfMusician(musicianName);
+        data2 = musicianService.getInstrumentsOfMusician(musicianName);
+        type1 = "album";
+        type2 = "instrument";
       }else if(instrumentDisplay) {
         elements = getCytoElementsInstrumentMusician(instrumentName);
+        data1 = instrumentService.getMusiciansOfInstrument(instrumentName).map(elem => elem[0]);
+        data2 = [];
+        type1 = "musician";
+        type2 = "";
       }else if(specialCase) {
         elements = this.specialCaseFunction(this.data);
       }else {
         elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
+        data1 = this.state.musicians.map(elem => elem[0]);
+        data2 = this.state.tracks.map(elem => elem[0]);
+        type1 = "musician";
+        type2 = "track";
       }
     }
  
@@ -248,7 +265,16 @@ class AlbumRoute extends Component {
         <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
           {/* navigation container */}
           <div style={collapseStyle}>
-            <NavigationBar tracks={this.state.tracks} musicians={this.state.musicians}/>
+            <NavigationBar 
+              showMusicianDisplay={this.showMusicianDisplay}
+              showTrackDisplay={this.showTrackDisplay}
+              showAlbumsDisplay={this.switchToAlbum}
+              showInstrumentDisplay={this.showInstrumentDisplay}
+              data1={data1} 
+              data2={data2}
+              type1={type1}
+              type2={type2}
+            />
           </div>
           {/* end navigation container */}
           
