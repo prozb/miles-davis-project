@@ -3,7 +3,12 @@ import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
 import Cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
+import popper from 'cytoscape-popper';
+import tippy, {sticky} from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
+import { musicianService, albumService, instrumentService } from '../../service';
 
+Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
 /**
  * @author Pavlo Rozbytskyi
@@ -12,6 +17,9 @@ Cytoscape.use(coseBilkent);
 export default class Graph extends React.Component {
   constructor(props){
     super(props);
+
+    this.callCount = 0;
+    this.selectedSize = 0;
   }
 
   /**
@@ -38,11 +46,27 @@ export default class Graph extends React.Component {
       case "musician":
         this.handleMusiciansPerspectiveClicks(node.type, node.label);
         break;
+      case "special":
+        break;
       default:
         break;
     }
   }
-
+  /**
+   * handle pressing on nodes in special perspective
+   * @param {string} type - type of perspectives
+   * @param {string} label - label of instrument to be displayed
+   */
+  handleSpecialCase = (type, label) => {
+    switch(type){
+      case "album": 
+        break;
+      case "musician": 
+        break;
+      default: 
+        break;
+    }
+  }
   /**
    * handle pressing on nodes in instrument perspective
    * @param {string} type - type of perspectives
@@ -121,7 +145,7 @@ export default class Graph extends React.Component {
       case "musician":
         musicianStyle.style.width = 130;
         musicianStyle.style.height = 130;
-        musicianStyle.style['border-width'] = '15px';
+        musicianStyle.style['border-width'] = '5px';
         musicianStyle.style['text-margin-y'] = '-10';
         musicianStyle.style['font-weight'] = 'bold';
         musicianStyle.style['font-size'] = '20';
@@ -137,7 +161,68 @@ export default class Graph extends React.Component {
     }
     return musicianStyle;
   }
+  /**
+   * getting tooltip html of node
+   */
+  getTooltipByOfNode = (node) => {
+    var data = node.data();
 
+    switch(data.type){
+      case "musician":
+        var musician = musicianService.getMusicinaByName(data.label);
+        var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
+        return (
+          `<div class="container">
+            <div class="container text-center">
+              <img src="${data.icon}" alt="${data.label}"/>
+            </div>
+
+            <div class="container text-center">
+              <p>${data.label}</p>
+              <p>birth: ${musician[1].birthdate}</p>
+              ${deathdate}
+              <a target="_blank" href="${musician[1].url}">link to a biography</a>
+            </div>
+          </div>
+          `
+        );
+      case "album":
+        var album = albumService.getAlbumByName(data.label);
+        // var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
+        return (
+          `
+          <div class="container">
+            <div class="container text-center">
+              <img src="${data.icon}" alt="${data.label}"/>
+            </div>
+
+            <div class="container text-center">
+              <p>${data.label}</p>
+              <p>release date: ${album[1].released}</p>
+              <p>label: ${album[1].label}</p>
+              <p>producers: ${album[1].producers}</p>
+              <a target="_blank" href="${album[1].url}">link to a album info</a>
+            </div>
+          </div>`
+        );
+      case "instrument":
+        var album = instrumentService.getByName(data.label);
+        return (
+          `
+            <div class="container text-center">
+              <img src="${data.icon}" alt="${data.label}"/>
+            </div>
+            <div class="container text-center">
+              <p>${data.label}</p>
+            </div>`
+        )
+    }
+
+    // switch(data.type){
+    //   : 
+    //     return "Nice track"
+    // }
+  }
   /**
    * getting style of album nodes and edges for each perspective
    * @param {string} type - type of perspective should be displayed
@@ -150,7 +235,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipse',
+        shape: 'square',
         content: 'data(label)',
         'border-color': '#2E6299',
         'font-size': '20'
@@ -161,7 +246,7 @@ export default class Graph extends React.Component {
       case "album":
         albumStyle.style.width = 130;
         albumStyle.style.height = 130;
-        albumStyle.style['border-width'] = '15px';
+        albumStyle.style['border-width'] = '5px';
         albumStyle.style['text-margin-y'] = '-10';
         albumStyle.style['font-weight'] = 'bold';
         albumStyle.style['font-size'] = '20';
@@ -169,7 +254,7 @@ export default class Graph extends React.Component {
       case "musician": 
         albumStyle.style.width = 100;
         albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '5px';
+        albumStyle.style['border-width'] = '2px';
         albumStyle.style['text-margin-y'] = '-5';
         break;
       default: 
@@ -190,7 +275,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipse',
+        shape: 'diamond',
         content: 'data(label)',
         'border-color': '#FBE44D',
       }
@@ -200,13 +285,13 @@ export default class Graph extends React.Component {
       case "musician": 
         instrumetStyle.style.width = 100;
         instrumetStyle.style.height = 100;
-        instrumetStyle.style['border-width'] = '5px';
+        instrumetStyle.style['border-width'] = '2px';
         instrumetStyle.style['text-margin-y'] = '-5';
         break;
       case "instrument":
         instrumetStyle.style.width = 130;
         instrumetStyle.style.height = 130;
-        instrumetStyle.style['border-width'] = '15px';
+        instrumetStyle.style['border-width'] = '5px';
         instrumetStyle.style['text-margin-y'] = '-10';
         instrumetStyle.style['font-weight'] = 'bold';
         instrumetStyle.style['font-size'] = '20';
@@ -242,7 +327,7 @@ export default class Graph extends React.Component {
           style: {
             width: 50,
             height: 50,
-            shape: 'ellipse',
+            shape: 'round-triangle',
             content: 'data(label)',
             'background-color': '#E1AC3C'
           }
@@ -270,12 +355,60 @@ export default class Graph extends React.Component {
       cy={(cy) => { 
         this.cy = cy;
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
-        this.cy.on('boxselect', 'node', evt => {
-          var selected = this.cy.$(':selected');
-        });
         this.cy.unbind("tap");
         this.cy.bind('tap', 'node', evt => { 
           this.handleNodeClick(evt.target.data())
+        });
+
+        this.cy.unbind("cxttap");
+        this.cy.bind('cxttap', 'node', evt => { 
+          let node = evt.target;
+          let dummyDomEle = document.createElement('div');
+          let ref = node.popperRef();
+          let tip = new tippy(dummyDomEle, { // tippy options:
+            // mandatory:
+            appendTo: document.body,
+            flip: ["top", "left"],
+            interactive: true,
+            sticky: true,
+            animation: 'scale',
+            arrow: false,
+            plugins: [sticky],
+            trigger: 'manual', // call show() and hide() yourself
+            lazy: false, // needed for onCreate()
+            onCreate: instance => { instance.popperInstance.reference = ref; }, // needed for `ref` positioning
+            // your custom options follow:
+            content: () => {
+              let content = document.createElement('div');
+              content.innerHTML = this.getTooltipByOfNode(node);
+              return content;
+            },
+            popperOptions: {
+              positionFixed: true
+            }
+          });
+
+          if(node.data().type !== 'track')
+            tip.show();
+        });
+
+        this.cy.unbind("boxselect");
+        this.cy.bind('boxselect', 'node', evt => { 
+          if(this.callCount === 0){
+            var selected = this.cy.$(':selected');
+            this.props.handleCollection(selected);
+            // call function to trigger
+            this.selectedSize = selected.length;
+            this.callCount++;
+          }else{
+            this.callCount++;
+          }
+
+          if(this.callCount >= this.selectedSize){
+            this.callCount = 0;
+            this.selectedSize = 0;
+            this.cy.$(':selected').unselect();
+          }
         });
       }}
       elements={this.props.data} 

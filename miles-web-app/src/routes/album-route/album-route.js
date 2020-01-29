@@ -3,10 +3,12 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
-import { albumService, musicianService, trackService } from '../../service';
+import { albumService, musicianService, trackService, instrumentService } from '../../service';
 import { getCytoElementsMusicianTrackAlbum, 
          getCytoElementsMusicianInstrumentAlbum,
-         getCytoElementsInstrumentMusician } from '../../scripts/helpers';
+         getCytoElementsInstrumentMusician,
+         getSpecialCaseElements
+  } from '../../scripts/helpers';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -28,7 +30,10 @@ class AlbumRoute extends Component {
       musicianName: '',
       instrumentDisplay: false,
       instrumentName: '',
+      specialCase: false,
     };
+    this.data = [];
+    this.specialCaseFunction = getSpecialCaseElements;
   }
 
   componentDidMount() {
@@ -95,6 +100,7 @@ class AlbumRoute extends Component {
       musicianName: '',
       instrumentDisplay: false,
       instrumentName: '',
+      specialCase: false,
     });
   }
   /**
@@ -108,7 +114,10 @@ class AlbumRoute extends Component {
    * @param {string} trackName - track which description to show
    */
   showTrackDisplay = (trackName) => {
-    this.setState({trackDisplay: true, trackName: trackName});
+    this.setState({
+      trackDisplay: true, 
+      trackName: trackName
+    });
   }
   /**
    * show instrument display
@@ -143,11 +152,37 @@ class AlbumRoute extends Component {
     });
   }
   /**
+   * handle collection of selected nodes
+   * @param {Array} elements - selected nodes
+   */
+  handleCollection = (elements) => {
+    var type = this.getCurrentGraphType();
+
+    switch(type){
+      case 'album': 
+        this.specialCaseFunction = getSpecialCaseElements;
+        this.data = elements;
+        this.setState({
+          specialCase: true,
+          trackDisplay: false,
+          musicianDisplay: false,
+          instrumentDisplay: false,   
+        });
+        break;
+      case 'musician':
+        break;
+      default: 
+        break;
+    }
+  }
+
+  /**
    * showing musician perspective
    * @param {string} albumName - album name
    */
   showMusicianDisplay = (albumName) => {
     this.setState({
+      trackDisplay: false,
       musicianDisplay: true, 
       musicianName: albumName,
       instrumentDisplay: false,
@@ -164,7 +199,7 @@ class AlbumRoute extends Component {
       return 'musician';
     else if(this.state.instrumentDisplay)
       return 'instrument';
-      return 'album';
+    return 'album';
   }
   /**
    * hinding musicians display
@@ -179,18 +214,40 @@ class AlbumRoute extends Component {
   }
 
   render() {
-    const {album, musicians, tracks, musicianDisplay, musicianName, instrumentDisplay, instrumentName} = this.state;
+    const {
+        album, musicians, tracks, musicianDisplay, 
+        musicianName, instrumentDisplay, instrumentName,
+        specialCase 
+      } = this.state;
     const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
     const graphType = this.getCurrentGraphType();
+    var data1 = [];
+    var data2 = [];
+    var type1 = "";
+    var type2 = "";
 
     var elements = [];
     if(album){
       if(musicianDisplay){
         elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
+        data1 = musicianService.getAlbumsOfMusician(musicianName);
+        data2 = musicianService.getInstrumentsOfMusician(musicianName);
+        type1 = "album";
+        type2 = "instrument";
       }else if(instrumentDisplay) {
         elements = getCytoElementsInstrumentMusician(instrumentName);
-      }else{
+        data1 = instrumentService.getMusiciansOfInstrument(instrumentName).map(elem => elem[0]);
+        data2 = [];
+        type1 = "musician";
+        type2 = "";
+      }else if(specialCase) {
+        elements = this.specialCaseFunction(this.data);
+      }else {
         elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
+        data1 = this.state.musicians.map(elem => elem[0]);
+        data2 = this.state.tracks.map(elem => elem[0]);
+        type1 = "musician";
+        type2 = "track";
       }
     }
  
@@ -208,7 +265,16 @@ class AlbumRoute extends Component {
         <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
           {/* navigation container */}
           <div style={collapseStyle}>
-            <NavigationBar tracks={this.state.tracks} musicians={this.state.musicians}/>
+            <NavigationBar 
+              showMusicianDisplay={this.showMusicianDisplay}
+              showTrackDisplay={this.showTrackDisplay}
+              showAlbumsDisplay={this.switchToAlbum}
+              showInstrumentDisplay={this.showInstrumentDisplay}
+              data1={data1} 
+              data2={data2}
+              type1={type1}
+              type2={type2}
+            />
           </div>
           {/* end navigation container */}
           
@@ -226,6 +292,7 @@ class AlbumRoute extends Component {
                   showTrackDisplay={this.showTrackDisplay}
                   showInstrumentDisplay={this.showInstrumentDisplay}
                   hideInstrumentDisplay={this.hideInstrumentDisplay}
+                  handleCollection={this.handleCollection}
                   data={elements}/> : 
                 <TrackDisplay 
                   album={this.state.album}

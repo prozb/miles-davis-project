@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TimelineItem from './timeline-item/timeline-item';
 import './timeline.css';
 import { getDistanceBetweenAlbums } from '../../scripts/helpers';
-import albums from '../../assets/album-info.json';
+import albums from '../../assets/albums.json';
 import { Triangle } from '..';
 
 /**
