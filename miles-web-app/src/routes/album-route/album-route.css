@@ -6,6 +6,11 @@
   flex-direction: column;
 }
 
+.horizontal {
+  flex-direction: row;
+  display: flex;
+}
+
 .data-display-container {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -21,4 +26,13 @@
 
 .data-box-size {
   height: 100%;
+}
+
+.results-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.full-width {
+  width: 100%;
 }

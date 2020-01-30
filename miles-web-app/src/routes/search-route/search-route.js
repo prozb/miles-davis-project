@@ -36,6 +36,7 @@ class SearchRoute extends Component {
     var tracks = trackService.getAllContainingSubstring(values.q);
     var musicians = musicianService.getAllContainingSubstring(values.q);
 
+    var count = instruments.length + albums.length + musicians.length + tracks.length;
     return (
       <div className="full-height">
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
@@ -51,11 +52,18 @@ class SearchRoute extends Component {
           </div>
         </div>
 
-        <div className="container ">
-          <CustomizedMenus data={[
-              {name: 'Albums', count: albums.length}, {name: 'Musicians', count: musicians.length},
-              {name: 'Instruments', count: instruments.length}, {name: 'Tracks', count: tracks.length}
-            ]}/>
+        <div className="container horizontal">
+          <div>
+            <CustomizedMenus data={[
+                {name: 'Albums', count: albums.length}, {name: 'Musicians', count: musicians.length},
+                {name: 'Instruments', count: instruments.length}, {name: 'Tracks', count: tracks.length}
+              ]}/>
+          </div>
+
+          <div className="full-width results-container">
+            <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
+            <hr/>
+          </div>
         </div>
         {/* starting navigation and content container */}
       </div>
