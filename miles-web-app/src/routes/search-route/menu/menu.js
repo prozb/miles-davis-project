@@ -30,6 +30,11 @@ const StyledMenuItem = withStyles(theme => ({
   root: {
     '&:focus': {
       backgroundColor: theme.palette.primary.main,
+      margin: '1px',
+      'border-top-left-radius': '5px',
+      'border-top-right-radius': '5px',
+      'border-bottom-left-radius': '5px',
+      'border-bottom-right-radius': '5px',
       '& .MuiListItemIcon-root, & .MuiListItemText-primary': {
         color: theme.palette.common.white,
         'font-weight': 'bold',
@@ -44,8 +49,17 @@ export default function CustomizedMenus(props) {
     var menuItems = [];
 
     data.forEach((item, index) => {
+      var classes = ""
+      if(index === 0){
+        classes = "first-menu-item menu-item";
+      }else if(index === data.length - 1){
+        classes = "last-menu-item menu-item";
+      }else{
+        classes = "menu-item";
+      }
+
       menuItems.push(
-        <div className="menu-item">
+        <div className={classes}>
           <StyledMenuItem>
             <ListItemText primary={item.name} />
               <Badge className="badge-class" pill variant={item.count === 0 ? "light" : "secondary"}>{item.count}</Badge>
