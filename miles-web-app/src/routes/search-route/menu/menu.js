@@ -59,7 +59,7 @@ export default function CustomizedMenus(props) {
       }
 
       menuItems.push(
-        <div key={index} className={classes}>
+        <div key={index} className={classes} onClick={() => props.changeMenuItem(item.name)}>
           <StyledMenuItem>
             <ListItemText primary={item.name} />
               <Badge pill variant={item.count === 0 ? "light" : "info"}>{item.count}</Badge>

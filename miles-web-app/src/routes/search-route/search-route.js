@@ -5,17 +5,16 @@ import queryString from 'query-string';
 import { SearchBar } from '../../components';
 import CustomizedMenus from './menu/menu';
 import { instrumentService, albumService, musicianService, trackService } from '../../service';
+import Graph from '../../components/album-graph/graph';
+import { getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument } from '../../scripts/helpers';
 
 class SearchRoute extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-      musicians: [],
-      tracks: [],
-      instruments: [],
-      albums: [],
       query: '', 
+      type: ''
     }
   }
   /**
@@ -28,6 +27,18 @@ class SearchRoute extends Component {
     this.setState({query: values.q});
   }
 
+  changeMenuItem = (type) => {
+    this.setState({
+      type: type
+    });
+  } 
+  /**
+   * switching to album
+   */
+  switchToAlbum = (albumName) => {
+    this.props.history.push(`/album?name=${albumName}`);
+  }
+
   render() {
     const values = queryString.parse(this.props.location.search);
 
@@ -35,8 +46,33 @@ class SearchRoute extends Component {
     var albums = albumService.getAllContainingSubstring(values.q);
     var tracks = trackService.getAllContainingSubstring(values.q);
     var musicians = musicianService.getAllContainingSubstring(values.q);
-
     var count = instruments.length + albums.length + musicians.length + tracks.length;
+
+    var data = [];
+
+    switch(this.state.type){
+      case "Albums": 
+        data = [...albums.map(elem => getCytoAlbum(elem))];
+        break;
+      case "Instruments": 
+        data = [...instruments.map(elem => getCytoInstrument(elem))];
+        break;
+      case "Musicians": 
+        data = [...musicians.map(elem => getCytoMusician(elem))];
+        break;
+      case "Tracks": 
+        data = [...tracks.map(elem => getCytoTrack(elem))];
+        break;
+
+      default: 
+        data = [
+          ...albums.map(elem => getCytoAlbum(elem)), 
+          ...musicians.map(elem => getCytoMusician(elem)),
+          ...tracks.map(elem => getCytoTrack(elem)),
+          ...instruments.map(elem => getCytoInstrument(elem))
+        ];
+        break;
+    }
     return (
       <div className="full-height">
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
@@ -52,9 +88,11 @@ class SearchRoute extends Component {
           </div>
         </div>
 
-        <div className="container horizontal">
+        <div className="container horizontal full-height">
           <div>
-            <CustomizedMenus data={[
+            <CustomizedMenus 
+              changeMenuItem={this.changeMenuItem}
+              data={[
                 {name: 'Albums', count: albums.length}, {name: 'Musicians', count: musicians.length},
                 {name: 'Instruments', count: instruments.length}, {name: 'Tracks', count: tracks.length}
               ]}/>
@@ -63,6 +101,16 @@ class SearchRoute extends Component {
           <div className="full-width results-container">
             <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
             <hr/>
+            <Graph 
+              switchToAlbum={this.switchToAlbum}
+              hideMusicianDisplay={() => {}}
+              showMusicianDisplay={() => {}}
+              showTrackDisplay={() => {}}
+              showInstrumentDisplay={this.showInstrumentDisplay}
+              hideInstrumentDisplay={() => {}}
+              handleCollection={() => {}}
+              type="musician" 
+              data={data}/>
           </div>
         </div>
         {/* starting navigation and content container */}

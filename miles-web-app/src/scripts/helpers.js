@@ -63,6 +63,50 @@ export const getReleasedYearFromDate = (date) => {
     return {maxIndex: maxIndex, elements: elements};
   }
 
+  export const getCytoAlbum = (album) =>{
+    var convAlbum = { data: {
+      type: "album", 
+      label: album[0], 
+      icon: album[1].icon === '' ? 'none' : 
+      album[1].icon} 
+    };
+
+    return convAlbum;
+  }
+
+  export const getCytoMusician = (musician) =>{
+    var convAlbum = { data: {
+      type: "musician", 
+      label: musician[0], 
+      icon: musician[1].icon === '' ? 'none' : 
+      musician[1].icon} 
+    };
+
+    return convAlbum;
+  }
+
+  export const getCytoInstrument = (instrument) =>{
+    var convAlbum = {
+       data: {
+        type: "instrument", 
+        label: instrument[0], 
+        icon: instrument[1].url === '' ? 'none' : 
+        instrument[1].url
+      } 
+    };
+
+    return convAlbum;
+  }
+
+  export const getCytoTrack = (track) =>{
+    var convAlbum = { data: {
+        type: "track", 
+        label: track[0], 
+      } 
+    };
+
+    return convAlbum;
+  }
   /**
    * converting musicians and tracks to data format readable by 
    * cytoscape

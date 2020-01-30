@@ -4,10 +4,12 @@ import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService, instrumentService } from '../../service';
-import { getCytoElementsMusicianTrackAlbum, 
-         getCytoElementsMusicianInstrumentAlbum,
-         getCytoElementsInstrumentMusician,
-         getSpecialCaseElements
+import { 
+    getCytoAlbum,
+    getCytoElementsMusicianTrackAlbum, 
+    getCytoElementsMusicianInstrumentAlbum,
+    getCytoElementsInstrumentMusician,
+    getSpecialCaseElements
   } from '../../scripts/helpers';
 
 /**
