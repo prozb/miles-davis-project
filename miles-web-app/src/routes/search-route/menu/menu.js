@@ -59,10 +59,10 @@ export default function CustomizedMenus(props) {
       }
 
       menuItems.push(
-        <div className={classes}>
+        <div key={index} className={classes}>
           <StyledMenuItem>
             <ListItemText primary={item.name} />
-              <Badge className="badge-class" pill variant={item.count === 0 ? "light" : "secondary"}>{item.count}</Badge>
+              <Badge pill variant={item.count === 0 ? "light" : "info"}>{item.count}</Badge>
           </StyledMenuItem>
         </div>
       )

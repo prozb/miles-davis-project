@@ -5,6 +5,9 @@ import { musicianService } from '../service';
  * instrument service layer extends basic functionality from instrument dao
  */
 class InstrumentService {
+  getAllContainingSubstring = (query) => {
+    return instrumentDAO.getAll().filter(instrument => instrument[0].includes(query));
+  }
   getByName = (name) => {
     return instrumentDAO.getAll().filter(instrument => instrument[0] === name)[0];
   }

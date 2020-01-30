@@ -14,6 +14,10 @@ class AlbumService {
   getAlbumByName = (name) => {
     return albumDAO.getAll().filter(album => album[0] === name)[0];
   }
+
+  getAllContainingSubstring = (query) => {
+    return albumDAO.getAll().filter(album => album[0].includes(query));
+  }
 }
 
 export const albumService = new AlbumService();

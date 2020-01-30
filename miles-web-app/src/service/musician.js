@@ -42,6 +42,10 @@ class MusicianService {
     }
     return albObjects;
   }
+
+  getAllContainingSubstring = (query) => {
+    return musicianDAO.getAll().filter(musician => musician[0].includes(query));
+  }
 }
 
 export const musicianService = new MusicianService(); 

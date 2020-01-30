@@ -38,6 +38,10 @@ class TrackService {
       .filter(album => Object.keys(album)[0] === albumName)[0];
     return Object.entries(relations)[0][1];
   }
+
+  getAllContainingSubstring = (query) => {
+    return trackDAO.getAll().filter(track => track[0].includes(query));
+  }
 }
 
 export const trackService = new TrackService(); 
