@@ -1,0 +1,19 @@
+.menu-container {
+  margin-top: 30px;
+  min-width: 250px;
+  max-width: 300px;
+  border-radius: 3%;
+  border-width: 1px;
+  border-color: #E2E4E8;
+  border-style: solid;
+}
+
+.menu-item {
+  border-width: 1px;
+  border-color: #E2E4E8;
+  border-bottom-style: solid;
+}
+
+.badge-class {
+  padding-top: 3px;
+}

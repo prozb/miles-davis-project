@@ -15,5 +15,5 @@ export {
   Timeline, 
   Graph as AlbumGraph, 
   TrackDisplay,
-  TrackGraph
+  TrackGraph,
 };

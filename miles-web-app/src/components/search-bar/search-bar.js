@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import InputBase from '@material-ui/core/InputBase';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import SearchIcon from '@material-ui/icons/Search';
 
 const useStyles = makeStyles(theme => ({
@@ -68,15 +69,24 @@ export default function SearchAppBar(props) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            onClick={props.onNavbarButtonPress}
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-          >
-          <MenuIcon />
-          </IconButton>
+          {!props.back ?          
+            <IconButton
+              onClick={props.onNavbarButtonPress}
+              edge="start"
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="open drawer">
+                <MenuIcon />
+            </IconButton>  
+            : <IconButton
+              onClick={props.onNavbarButtonPress}
+              edge="start"
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="back">
+                <ArrowBackIcon />
+            </IconButton>
+          }
           <Typography className={classes.title} variant="h6" noWrap>
             {props.name}
           </Typography>
@@ -85,10 +95,17 @@ export default function SearchAppBar(props) {
               <SearchIcon />
             </div>
             <InputBase
+              onSubmit={event => alert('hello')}
               placeholder="Search…"
+              type="input"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
+              }}
+              onKeyDown={e => {
+                if(e.key === 'Enter' && e.target.value !== '') {
+                  props.switchToSearch(e.target.value);
+                }
               }}
               inputProps={{ 'aria-label': 'search' }}
             />

@@ -80,6 +80,14 @@ class AlbumRoute extends Component {
     this.props.history.push(`/album?name=${albumName}`);
     this.setCurrentAlbum(albumName);
   }
+
+  /**
+   * switching from album screen to next search screen
+   * @param {string} query - query
+   */
+  switchToSearch = (query) => {
+    this.props.history.push(`/search?q=${query}`);
+  }
   /**
    * setting album by name to current webpage state
    * @param {string} albumName - name of the album
@@ -258,7 +266,11 @@ class AlbumRoute extends Component {
         <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
           {/* search bar container */}
           <div>
-            <SearchBar name={this.state.name} onNavbarButtonPress={this.onNavbarButtonPress}/>
+            <SearchBar 
+              button={false}
+              name={this.state.name} 
+              onNavbarButtonPress={this.onNavbarButtonPress}
+              switchToSearch={this.switchToSearch}/>
           </div>
         </div>
         {/* starting navigation and content container */}

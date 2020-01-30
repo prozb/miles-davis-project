@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { AlbumRoute, HomeRoute } from './routes';
+import { AlbumRoute, HomeRoute, SearchRoute } from './routes';
 import {
   BrowserRouter as Router,
   Route,
@@ -18,13 +18,23 @@ class App extends React.Component{
     this.state = {
       showHome: true,
       showAlbums: false,
+      showSearch: false,
     }
   } 
 
-  showAlbums = (name) => {
+  showAlbums = () => {
     this.setState({
       showHome: false,
       showAlbums: true,
+      showSearch: false,
+    });
+  }
+
+  showSearchScreen = () => {
+    this.setState({
+      showHome: false,
+      showAlbums: false,
+      showSearch: true,
     });
   }
 
@@ -38,7 +48,12 @@ class App extends React.Component{
         }/>
         <Route path='/album' render={() => <AlbumRoute 
           active={this.state.showAlbums} 
-          showAlbums={this.showAlbums}/>
+          showAlbums={this.showAlbums}
+          showSearchScreen={this.showSearchScreen}/>
+        }/>
+        <Route path='/search' render={() => <SearchRoute 
+          active={this.state.showSearch} 
+        />
         }/>
       </Router>
     );
