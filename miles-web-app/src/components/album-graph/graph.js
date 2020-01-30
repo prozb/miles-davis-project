@@ -22,13 +22,32 @@ export default class Graph extends React.Component {
     this.selectedSize = 0;
   }
 
+  handleSpecialPerspective = (type, label) => {
+    switch(type){
+      case "musician": 
+        this.props.showMusicianDisplay(label);
+        break;
+      case "instrument": 
+        // this.props.showInstrumentDisplay(label);
+        break;
+      case "album": 
+        this.props.switchToAlbum(label);
+        break;
+      default: 
+        break;
+    }
+  }
   /**
    * node click handler
    * @param {Object} node - node data
    */
   handleNodeClick = (node) => {
-    const {type} = this.props;
+    const {type, special} = this.props;
 
+    if(special){
+      this.handleSpecialPerspective(node.type, node.label);
+      return;
+    }
     switch(type) {
       // handling all clicks on track perspective
       case "track":

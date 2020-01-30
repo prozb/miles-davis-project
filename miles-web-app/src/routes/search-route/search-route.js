@@ -39,6 +39,15 @@ class SearchRoute extends Component {
     this.props.history.push(`/album?name=${albumName}`);
   }
 
+  /**
+   * switching to musician
+   */
+  switchToMusician = (musicianName) => {
+    var albumName = albumService.getFirstAlbum()[0];
+    var query = queryString.stringify({name: albumName, m: musicianName});
+    this.props.history.push(`/album?${query}`);
+  }
+
   render() {
     const values = queryString.parse(this.props.location.search);
 
@@ -104,12 +113,13 @@ class SearchRoute extends Component {
             <Graph 
               switchToAlbum={this.switchToAlbum}
               hideMusicianDisplay={() => {}}
-              showMusicianDisplay={() => {}}
+              showMusicianDisplay={this.switchToMusician}
               showTrackDisplay={() => {}}
-              showInstrumentDisplay={this.showInstrumentDisplay}
+              showInstrumentDisplay={() => {}}
               hideInstrumentDisplay={() => {}}
               handleCollection={() => {}}
-              type="musician" 
+              type="musician"
+              special={true}
               data={data}/>
           </div>
         </div>

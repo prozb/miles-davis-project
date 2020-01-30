@@ -45,6 +45,10 @@ class AlbumRoute extends Component {
       // if values from query string exist, get album name
       this.props.showAlbums(values.name);
       this.setCurrentAlbum(values.name);
+
+      if(values.m){
+        this.showMusicianDisplay(values.m);
+      }
     }else{
       // if values from query string does not exist, get first album
       // and set this album as current album
