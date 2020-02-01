@@ -1,4 +1,4 @@
-var instruments = require('../assets/instruments-cream.json');
+var instruments = require('../assets/instruments.json');
 /**
  * @author Pavlo Rozbytskyi
  * instruments Data Access Object layer provides basic read functionality  

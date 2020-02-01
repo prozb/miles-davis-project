@@ -1,4 +1,4 @@
-var albums = require('../assets/albums-cream.json');
+var albums = require('../assets/albums.json');
 /**
  * @author Pavlo Rozbytskyi
  * album Data Access Object layer provides basic read functionality  

@@ -1,4 +1,4 @@
-var tracks = require('../assets/tracks-cream.json');
+var tracks = require('../assets/tracks.json');
 /**
  * @author Pavlo Rozbytskyi
  * tracks Data Access Object layer provides basic read functionality  
