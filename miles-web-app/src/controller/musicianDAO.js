@@ -1,4 +1,4 @@
-var musicians = require('../assets/musicians.json');
+var musicians = require('../assets/musicians-cream.json');
 /**
  * @author Pavlo Rozbytskyi
  * musicians Data Access Object layer provides basic read functionality  

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TimelineItem from './timeline-item/timeline-item';
 import './timeline.css';
 import { getDistanceBetweenAlbums } from '../../scripts/helpers';
-import albums from '../../assets/albums.json';
+import { albumService } from '../../service';
 import { Triangle } from '..';
 
 /**
@@ -25,12 +25,12 @@ export default class Timeline extends Component {
   
   getAllAlbumComponents = () => {
     var timeline = [];
-
-    for(var i = 0; i < Object.entries(albums).length; i++){
-      if(i + 1 <  Object.entries(albums).length){
+    var albums = albumService.getAll();
+    for(var i = 0; i < albums.length; i++){
+      if(i + 1 <  albums.length){
         // getting actual album data
-        var album1 = Object.entries(albums)[i];
-        var album2 = Object.entries(albums)[i + 1];
+        var album1 = albums[i];
+        var album2 = albums[i + 1];
 
         timeline.push(
           <TimelineItem 
@@ -52,7 +52,7 @@ export default class Timeline extends Component {
             </div>
         );
       }else{
-        var album3 = Object.entries(albums)[i];
+        var album3 = albums[i];
 
         // last element
         timeline.push(
