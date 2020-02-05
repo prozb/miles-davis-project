@@ -339,6 +339,7 @@ export default class Graph extends React.Component {
           selector: 'node[icon]',
           style: {
             'background-image': 'data(icon)',
+            'background-fit': 'contain'
           }
         },
         {
