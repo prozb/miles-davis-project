@@ -263,7 +263,7 @@ export const getReleasedYearFromDate = (date) => {
       var convAlb = albObjects.flatMap(alb => {
         // console.log(alb);
           var node = { data: {id: index, type: 'album', label: alb[0], icon: alb[1].icon === '' ? 'none' : alb[1].icon}}
-          var edge = { data: { source: index++, type: 'musician', target: 0 }};
+          var edge = { data: { source: index++, type: 'album', target: 0 }};
           // returning musician node and edge from this node to album node
           return [node, edge];
       });
@@ -312,7 +312,7 @@ export const getReleasedYearFromDate = (date) => {
             } 
           };
           index--;
-          var edge = { data: { source: index++, target: index} };
+          var edge = { data: { type: 'musician', source: index++, target: index} };
           index++;
           // returning track node and edge from this node to album node
           return [node1, node2, edge];

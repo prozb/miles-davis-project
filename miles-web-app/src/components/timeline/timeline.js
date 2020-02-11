@@ -45,11 +45,11 @@ export default class Timeline extends Component {
             date={album1[1].released}/>
         );
         timeline.push(
-            <div key={`line_${i}`} className="line-container">
-              <svg width={getDistanceBetweenAlbums(album1, album2)} height='14px'>
-                <line x1="0" y1="0" x2={getDistanceBetweenAlbums(album1, album2)} y2="0" style={{stroke: '#3B6295', strokeWidth: '30'}}/>  
-              </svg>
-            </div>
+          <div key={`line_${i}`} className="line-container">
+            <svg width={getDistanceBetweenAlbums(album1, album2)} height='15px'>
+              <line x1="0" y1="0" x2={getDistanceBetweenAlbums(album1, album2)} y2="0" style={{stroke: '#3B6295', strokeWidth: '20'}}/>  
+            </svg>
+          </div>
         );
       }else{
         var album3 = albums[i];

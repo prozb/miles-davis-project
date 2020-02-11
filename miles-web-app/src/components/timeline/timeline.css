@@ -10,7 +10,7 @@
 
 .line-container { 
     position: relative;
-    bottom: 92px;
+    bottom: 90px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

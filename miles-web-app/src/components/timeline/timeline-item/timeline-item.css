@@ -2,7 +2,7 @@
     width: 110px;
     height: 110px;
     background-color: white;
-    border-width: 17px;
+    border-width: 8px;
     border-radius: 50%;
     border-color: #3B6295;
     border-style: solid;
@@ -12,19 +12,19 @@
     width: 150px;
     height: 150px;
     background-color: white;
-    border-width: 18px;
+    border-width: 10px;
     border-radius: 50%;
     border-color: #3B6295;
     border-style: solid;
 }
 
 .item-container-hovered-active { 
-    border-color: #9399ff;
+    border-color: #5b8c85;
     z-index: 1;
 }
 
 .item-container-active{
-    border-color: #9399ff;
+    border-color: #5b8c85;
     z-index: 1;
 }
 

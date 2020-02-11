@@ -296,7 +296,7 @@ export default class Graph extends React.Component {
         height: 100,
         shape: 'diamond',
         content: 'data(label)',
-        'border-color': '#FBE44D',
+        'border-color': '#f18867',
       }
     };
     
@@ -304,7 +304,7 @@ export default class Graph extends React.Component {
       case "musician": 
         instrumetStyle.style.width = 100;
         instrumetStyle.style.height = 100;
-        instrumetStyle.style['border-width'] = '2px';
+        instrumetStyle.style['border-width'] = '5px';
         instrumetStyle.style['text-margin-y'] = '-5';
         break;
       case "instrument":
@@ -361,13 +361,14 @@ export default class Graph extends React.Component {
         {
           selector: 'edge[type="instrument"]',
           style: {
-            'line-color': '#FBE44D',
+            'line-color': '#f18867',
+            'width': 5,
           }
         },
         {
           selector: 'edge[type="musician"]',
           style: {
-            'line-color': '#36A8AB',
+            'line-color': '#469B30',
             'width': 5,
           }
         },
