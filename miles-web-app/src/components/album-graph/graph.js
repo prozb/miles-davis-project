@@ -153,9 +153,9 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'ellipse',
+        shape: 'square',
         content: 'data(label)',
-        'border-color': '#36A8AB',
+        'border-color': '#469B30',
         'border-width': '5px'
       }
     };
@@ -164,7 +164,7 @@ export default class Graph extends React.Component {
       case "musician":
         musicianStyle.style.width = 130;
         musicianStyle.style.height = 130;
-        musicianStyle.style['border-width'] = '5px';
+        musicianStyle.style['border-width'] = '7px';
         musicianStyle.style['text-margin-y'] = '-10';
         musicianStyle.style['font-weight'] = 'bold';
         musicianStyle.style['font-size'] = '20';
@@ -254,7 +254,7 @@ export default class Graph extends React.Component {
       style: {
         width: 100,
         height: 100,
-        shape: 'square',
+        shape: 'ellipse',
         content: 'data(label)',
         'border-color': '#2E6299',
         'font-size': '20'
@@ -265,7 +265,7 @@ export default class Graph extends React.Component {
       case "album":
         albumStyle.style.width = 130;
         albumStyle.style.height = 130;
-        albumStyle.style['border-width'] = '5px';
+        albumStyle.style['border-width'] = '8px';
         albumStyle.style['text-margin-y'] = '-10';
         albumStyle.style['font-weight'] = 'bold';
         albumStyle.style['font-size'] = '20';
@@ -273,7 +273,7 @@ export default class Graph extends React.Component {
       case "musician": 
         albumStyle.style.width = 100;
         albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '2px';
+        albumStyle.style['border-width'] = '5px';
         albumStyle.style['text-margin-y'] = '-5';
         break;
       default: 
@@ -368,6 +368,13 @@ export default class Graph extends React.Component {
           selector: 'edge[type="musician"]',
           style: {
             'line-color': '#36A8AB',
+            'width': 5,
+          }
+        },
+        {
+          selector: 'edge[type="album"]',
+          style: {
+            'line-color': '#2E6299',
             'width': 5,
           }
         },

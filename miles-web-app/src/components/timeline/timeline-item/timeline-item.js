@@ -38,7 +38,7 @@ export default class TimelineItem extends Component {
           onMouseEnter={() => this.setState({mouseEntered: !this.state.mouseEntered})} 
           onMouseLeave={() => this.setState({mouseEntered: !this.state.mouseEntered})}
           className={itemClass}
-          style={{backgroundImage: `url(${icon})`}}>
+          style={{backgroundImage: `url(${icon})`, backgroundSize: 'contain'}}>
           {/* start information about each album */}
           {this.props.showTooltip ? 
             <Tooltip style={{borderRadius: 10,}} placement="left" isOpen={this.state.mouseEntered} target={itemId}>

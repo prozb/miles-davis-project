@@ -4,7 +4,7 @@
     background-color: white;
     border-width: 17px;
     border-radius: 50%;
-    border-color: green;
+    border-color: #3B6295;
     border-style: solid;
 }
 
@@ -14,17 +14,17 @@
     background-color: white;
     border-width: 18px;
     border-radius: 50%;
-    border-color: green;
+    border-color: #3B6295;
     border-style: solid;
 }
 
 .item-container-hovered-active { 
-    border-color: rgb(20, 98, 157);
+    border-color: #9399ff;
     z-index: 1;
 }
 
 .item-container-active{
-    border-color: rgb(20, 98, 157);
+    border-color: #9399ff;
     z-index: 1;
 }
 
