@@ -1,4 +1,5 @@
-var albums = require('../assets/albums.json');
+var config = require('../assets/config.json');
+var albums = require(`../assets/${config["dataset_directory"]}/albums.json`);
 /**
  * @author Pavlo Rozbytskyi
  * album Data Access Object layer provides basic read functionality  

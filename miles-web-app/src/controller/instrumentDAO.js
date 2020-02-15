@@ -1,4 +1,5 @@
-var instruments = require('../assets/instruments.json');
+var config = require('../assets/config.json');
+var instruments = require(`../assets/${config["dataset_directory"]}/instruments.json`);
 /**
  * @author Pavlo Rozbytskyi
  * instruments Data Access Object layer provides basic read functionality  

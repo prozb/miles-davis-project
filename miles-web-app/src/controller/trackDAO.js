@@ -1,4 +1,7 @@
-var tracks = require('../assets/tracks.json');
+// var tracks = require('../assets/cream-dataset/tracks.json');
+var config = require('../assets/config.json');
+var tracks = require(`../assets/${config["dataset_directory"]}/tracks.json`);
+
 /**
  * @author Pavlo Rozbytskyi
  * tracks Data Access Object layer provides basic read functionality  

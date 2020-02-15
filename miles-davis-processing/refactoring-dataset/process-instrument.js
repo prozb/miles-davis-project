@@ -1,5 +1,5 @@
 const fs = require('fs');
-var albums = require('./data/instruments.json');
+var albums = require('./data/instruments-cream.json');
 
 var albumObjects = Object.entries(albums);
 var newObjects = albumObjects.map(element => {
@@ -10,4 +10,4 @@ var newObjects = albumObjects.map(element => {
   return obj;
 });
 
-fs.writeFileSync('./new-data/instruments.json', JSON.stringify(newObjects));
+fs.writeFileSync('./cream-dataset/instruments.json', JSON.stringify(newObjects));

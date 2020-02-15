@@ -1,4 +1,5 @@
-var musicians = require('../assets/musicians.json');
+var config = require('../assets/config.json');
+var musicians = require(`../assets/${config["dataset_directory"]}/musicians.json`);
 /**
  * @author Pavlo Rozbytskyi
  * musicians Data Access Object layer provides basic read functionality  
