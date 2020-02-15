@@ -1,6 +1,8 @@
-{
-    "The New Sounds": {
+[
+    {
+        "id": "The New Sounds",
         "url": "https://en.wikipedia.org/wiki/The_New_Sounds_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/8/8b/MilesNewSounds.jpg",
         "label": "Prestige",
         "released": "1951",
         "recorded": [
@@ -12,7 +14,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/8/8b/MilesNewSounds.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -22,8 +23,10 @@
             "Jackie McLean"
         ]
     },
-    "Young Man with a Horn": {
+    {
+        "id": "Young Man with a Horn",
         "url": "https://en.wikipedia.org/wiki/Young_Man_with_a_Horn_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f8/Miles_Davis_Young_Man_With_a_Horn.jpg",
         "label": "Blue Note",
         "released": "1952",
         "recorded": [
@@ -35,7 +38,6 @@
         "producers": [
             "Alfred Lion"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f8/Miles_Davis_Young_Man_With_a_Horn.jpg",
         "musicians": [
             "Miles Davis",
             "Jay Jay Johnson",
@@ -45,8 +47,10 @@
             "Jackie McLean"
         ]
     },
-    "Blue Period": {
+    {
+        "id": "Blue Period",
         "url": "https://en.wikipedia.org/wiki/Blue_Period_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/2/2f/Blue_Period_%28Miles_Davis_album_-_cover_art%29.jpg",
         "label": "Prestige",
         "released": "1953",
         "recorded": [
@@ -59,7 +63,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/2/2f/Blue_Period_%28Miles_Davis_album_-_cover_art%29.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -72,8 +75,10 @@
             "Jackie McLean"
         ]
     },
-    "The Compositions Of Al Cohn": {
+    {
+        "id": "The Compositions Of Al Cohn",
         "url": "https://en.wikipedia.org/wiki/The_Compositions_Of_Al_Cohn",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/4/48/MilesPlaysAlCohn.jpg",
         "label": "Prestige",
         "released": "1953",
         "recorded": [
@@ -85,7 +90,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/4/48/MilesPlaysAlCohn.jpg",
         "musicians": [
             "Miles Davis",
             "Kenny Clarke",
@@ -96,8 +100,10 @@
             "Leonard Gaskin"
         ]
     },
-    "Miles Davis Volume 2": {
+    {
+        "id": "Miles Davis Volume 2",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Volume_2",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/6/61/Miles_Davis_Volume_2.jpg",
         "label": "Blue Note",
         "released": "1953",
         "recorded": [
@@ -109,7 +115,6 @@
         "producers": [
             "Alfred Lion"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/6/61/Miles_Davis_Volume_2.jpg",
         "musicians": [
             "Miles Davis",
             "Art Blakey",
@@ -123,8 +128,10 @@
             "Jimmy Heath"
         ]
     },
-    "Miles Davis, Volume 3": {
+    {
+        "id": "Miles Davis, Volume 3",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis,_Volume_3",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/MilesVol3BlueNote.jpg/220px-MilesVol3BlueNote.jpg",
         "label": "Blue Note",
         "released": "1954",
         "recorded": [
@@ -136,7 +143,6 @@
         "producers": [
             "Alfred Lion"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/MilesVol3BlueNote.jpg/220px-MilesVol3BlueNote.jpg",
         "musicians": [
             "Miles Davis",
             "Art Blakey",
@@ -144,8 +150,10 @@
             "Horace Silver"
         ]
     },
-    "Miles Davis Quartet": {
+    {
+        "id": "Miles Davis Quartet",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Quartet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/MilesQuartet.jpg/220px-MilesQuartet.jpg",
         "label": "Prestige",
         "released": "1954",
         "recorded": [
@@ -159,7 +167,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/MilesQuartet.jpg/220px-MilesQuartet.jpg",
         "musicians": [
             "Miles Davis",
             "Art Blakey",
@@ -170,8 +177,10 @@
             "Max Roach"
         ]
     },
-    "Miles Davis All-Star Sextet": {
+    {
+        "id": "Miles Davis All-Star Sextet",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_All-Star_Sextet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f1/MilesSextet.jpg",
         "label": "Prestige",
         "released": "1954",
         "recorded": [
@@ -183,7 +192,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/f/f1/MilesSextet.jpg",
         "musicians": [
             "Miles Davis",
             "Jay Jay Johnson",
@@ -193,8 +201,10 @@
             "Lucky Thompson"
         ]
     },
-    "Miles Davis Quintet": {
+    {
+        "id": "Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_Quintet_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/e/ea/MilesDavisQuintet1954Album.jpg",
         "label": "Prestige",
         "released": "1954",
         "recorded": [
@@ -206,7 +216,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/e/ea/MilesDavisQuintet1954Album.jpg",
         "musicians": [
             "Miles Davis",
             "Kenny Clarke",
@@ -215,8 +224,10 @@
             "Dave Schildkraut"
         ]
     },
-    "Miles Davis with Sonny Rollins": {
+    {
+        "id": "Miles Davis with Sonny Rollins",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_with_Sonny_Rollins",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/MilesDavisWithSonnyRollins.jpg/220px-MilesDavisWithSonnyRollins.jpg",
         "label": "Prestige",
         "released": "1954",
         "recorded": [
@@ -228,7 +239,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/MilesDavisWithSonnyRollins.jpg/220px-MilesDavisWithSonnyRollins.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -237,30 +247,10 @@
             "Horace Silver"
         ]
     },
-    "Miles Davis All Stars, Volume 1": {
+    {
+        "id": "Miles Davis All Stars, Volume 1",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_All_Stars,_Volume_1",
-        "label": "Prestige",
-        "released": "1955",
-        "recorded": [
-            "December 24, 1954"
-        ],
-        "studios": [
-            "Van Gelder Studio"
-        ],
-        "producers": [
-            "Bob Weinstock"
-        ],
         "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/MilesAllStarsVol1.jpg/220px-MilesAllStarsVol1.jpg",
-        "musicians": [
-            "Miles Davis",
-            "Kenny Clarke",
-            "Percy Heath",
-            "Milt Jackson",
-            "Thelonious Monk"
-        ]
-    },
-    "Miles Davis All Stars, Volume 2": {
-        "url": "https://en.wikipedia.org/wiki/Miles_Davis_All_Stars,_Volume_2",
         "label": "Prestige",
         "released": "1955",
         "recorded": [
@@ -272,7 +262,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/MilesAllStarsVol2.jpg/220px-MilesAllStarsVol2.jpg",
         "musicians": [
             "Miles Davis",
             "Kenny Clarke",
@@ -281,8 +270,33 @@
             "Thelonious Monk"
         ]
     },
-    "Blue Moods": {
+    {
+        "id": "Miles Davis All Stars, Volume 2",
+        "url": "https://en.wikipedia.org/wiki/Miles_Davis_All_Stars,_Volume_2",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/MilesAllStarsVol2.jpg/220px-MilesAllStarsVol2.jpg",
+        "label": "Prestige",
+        "released": "1955",
+        "recorded": [
+            "December 24, 1954"
+        ],
+        "studios": [
+            "Van Gelder Studio"
+        ],
+        "producers": [
+            "Bob Weinstock"
+        ],
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Thelonious Monk"
+        ]
+    },
+    {
+        "id": "Blue Moods",
         "url": "https://en.wikipedia.org/wiki/Blue_Moods",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Blue_Moods_%28Miles_Davis_album%29.jpg/220px-Blue_Moods_%28Miles_Davis_album%29.jpg",
         "label": "Debut Records",
         "released": "1955",
         "recorded": [
@@ -294,7 +308,6 @@
         "producers": [
             "Charles Mingus"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Blue_Moods_%28Miles_Davis_album%29.jpg/220px-Blue_Moods_%28Miles_Davis_album%29.jpg",
         "musicians": [
             "Miles Davis",
             "Charles Mingus",
@@ -303,8 +316,10 @@
             "Elvin Jones"
         ]
     },
-    "The Musings of Miles": {
+    {
+        "id": "The Musings of Miles",
         "url": "https://en.wikipedia.org/wiki/The_Musings_of_Miles",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/TheMusingsOfMiles_Davis.jpg/220px-TheMusingsOfMiles_Davis.jpg",
         "label": "Prestige",
         "released": "1955",
         "recorded": [
@@ -316,7 +331,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/TheMusingsOfMiles_Davis.jpg/220px-TheMusingsOfMiles_Davis.jpg",
         "musicians": [
             "Miles Davis",
             "Oscar Pettiford",
@@ -324,8 +338,10 @@
             "Red Garland"
         ]
     },
-    "Dig": {
+    {
+        "id": "Dig",
         "url": "https://en.wikipedia.org/wiki/Dig_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dig_MilesDavis.jpg/220px-Dig_MilesDavis.jpg",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -337,7 +353,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Dig_MilesDavis.jpg/220px-Dig_MilesDavis.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -347,8 +362,10 @@
             "Jackie McLean"
         ]
     },
-    "Miles: The New Miles Davis Quintet": {
+    {
+        "id": "Miles: The New Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Miles:_The_New_Miles_Davis_Quintet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/7/78/Miles_Davis_New_Miles_Davis_Quintet.png",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -360,7 +377,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/7/78/Miles_Davis_New_Miles_Davis_Quintet.png",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -369,8 +385,10 @@
             "John Coltrane"
         ]
     },
-    "Miles Davis and Horns": {
+    {
+        "id": "Miles Davis and Horns",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_and_Horns",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_with_horns_Cover.jpg/220px-Miles_Davis_with_horns_Cover.jpg",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -384,7 +402,6 @@
             "Bob Weinstock",
             "Ira Gitler"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_with_horns_Cover.jpg/220px-Miles_Davis_with_horns_Cover.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -405,8 +422,10 @@
             "Paul Chambers"
         ]
     },
-    "Quintet / Sextet": {
+    {
+        "id": "Quintet / Sextet",
         "url": "https://en.wikipedia.org/wiki/Quintet_/_Sextet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -418,7 +437,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Quintet_Sextet.jpg/220px-Quintet_Sextet.jpg",
         "musicians": [
             "Miles Davis",
             "Percy Heath",
@@ -428,8 +446,10 @@
             "Art Taylor"
         ]
     },
-    "Collectors' Items": {
+    {
+        "id": "Collectors' Items",
         "url": "https://en.wikipedia.org/wiki/Collectors%27_Items",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/1/17/CollectorsItems_MilesDavis.jpg",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -444,11 +464,22 @@
             "Bob Weinstock",
             "Ira Gitler"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/1/17/CollectorsItems_MilesDavis.jpg",
-        "musicians": ["Miles Davis", "Sonny Rollins", "Charlie Chan", "Walter Bishop, Jr.", "Percy Heath", "Philly Joe Jones", "Tommy Flanagan", "Art Taylor", "Paul Chambers"]
+        "musicians": [
+            "Miles Davis",
+            "Sonny Rollins",
+            "Charlie Chan",
+            "Walter Bishop, Jr.",
+            "Percy Heath",
+            "Philly Joe Jones",
+            "Tommy Flanagan",
+            "Art Taylor",
+            "Paul Chambers"
+        ]
     },
-    "Blue Haze": {
+    {
+        "id": "Blue Haze",
         "url": "https://en.wikipedia.org/wiki/Blue_Haze",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Blue_haze.JPG/220px-Blue_haze.JPG",
         "label": "Prestige",
         "released": "1956",
         "recorded": [
@@ -463,7 +494,6 @@
             "Bob Weinstock",
             "Ira Gitler"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Blue_haze.JPG/220px-Blue_haze.JPG",
         "musicians": [
             "Miles Davis",
             "Art Blakey",
@@ -476,8 +506,10 @@
             "David Schildkraut"
         ]
     },
-    "Walkin'": {
+    {
+        "id": "Walkin'",
         "url": "https://en.wikipedia.org/wiki/Walkin%27",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Walkin_Miles_Davis_AllStars.jpg/220px-Walkin_Miles_Davis_AllStars.jpg",
         "label": "Prestige",
         "released": "1957",
         "recorded": [
@@ -489,7 +521,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Walkin_Miles_Davis_AllStars.jpg/220px-Walkin_Miles_Davis_AllStars.jpg",
         "musicians": [
             "Miles Davis",
             "Jay Jay Johnson",
@@ -500,8 +531,10 @@
             "Dave Schildkraut"
         ]
     },
-    "Cookin' with the Miles Davis Quintet": {
+    {
+        "id": "Cookin' with the Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Cookin%27_with_the_Miles_Davis_Quintet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/4/45/Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg",
         "label": "Prestige",
         "released": "1957",
         "recorded": [
@@ -513,7 +546,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/4/45/Miles_Davis_-_Cookin%27_with_the_Miles_Davis_Quintet.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -522,8 +554,10 @@
             "John Coltrane"
         ]
     },
-    "Bags' Groove": {
+    {
+        "id": "Bags' Groove",
         "url": "https://en.wikipedia.org/wiki/Bags%27_Groove",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Image-bagsgroove.jpg/220px-Image-bagsgroove.jpg",
         "label": "Prestige",
         "released": "1957",
         "recorded": [
@@ -536,7 +570,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Image-bagsgroove.jpg/220px-Image-bagsgroove.jpg",
         "musicians": [
             "Miles Davis",
             "Sonny Rollins",
@@ -547,8 +580,10 @@
             "Thelonious Monk"
         ]
     },
-    "Relaxin' with the Miles Davis Quintet": {
+    {
+        "id": "Relaxin' with the Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Relaxin%27_with_The_Miles_Davis_Quintet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/d/de/Miles_Davis_relaxin.png",
         "label": "Prestige",
         "released": "1958",
         "recorded": [
@@ -561,7 +596,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/d/de/Miles_Davis_relaxin.png",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -570,8 +604,10 @@
             "John Coltrane"
         ]
     },
-    "Miles Davis and the Modern Jazz Giants": {
+    {
+        "id": "Miles Davis and the Modern Jazz Giants",
         "url": "https://en.wikipedia.org/wiki/Miles_Davis_and_the_Modern_Jazz_Giants",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/MilesDavisAndTheModernJazzGiants.jpg/220px-MilesDavisAndTheModernJazzGiants.jpg",
         "label": "Prestige",
         "released": "1959",
         "recorded": [
@@ -583,11 +619,22 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/MilesDavisAndTheModernJazzGiants.jpg/220px-MilesDavisAndTheModernJazzGiants.jpg",
-        "musicians": ["Miles Davis", "Kenny Clarke", "Percy Heath", "Milt Jackson", "Philly Joe Jones", "Paul Chambers", "Thelonious Monk", "Red Garland", "John Coltrane"]
+        "musicians": [
+            "Miles Davis",
+            "Kenny Clarke",
+            "Percy Heath",
+            "Milt Jackson",
+            "Philly Joe Jones",
+            "Paul Chambers",
+            "Thelonious Monk",
+            "Red Garland",
+            "John Coltrane"
+        ]
     },
-    "Workin' with the Miles Davis Quintet": {
+    {
+        "id": "Workin' with the Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Workin%27_with_The_Miles_Davis_Quintet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MilesDavis_Workin.jpg/220px-MilesDavis_Workin.jpg",
         "label": "Prestige",
         "released": "1960",
         "recorded": [
@@ -600,7 +647,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/MilesDavis_Workin.jpg/220px-MilesDavis_Workin.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -609,8 +655,10 @@
             "John Coltrane"
         ]
     },
-    "Steamin' with the Miles Davis Quintet": {
+    {
+        "id": "Steamin' with the Miles Davis Quintet",
         "url": "https://en.wikipedia.org/wiki/Steamin%27_with_The_Miles_Davis_Quintet",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Steamin%27_With_the_Miles_Davis_Quintet.jpeg/220px-Steamin%27_With_the_Miles_Davis_Quintet.jpeg",
         "label": "Prestige",
         "released": "1961",
         "recorded": [
@@ -623,7 +671,6 @@
         "producers": [
             "Bob Weinstock"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Steamin%27_With_the_Miles_Davis_Quintet.jpeg/220px-Steamin%27_With_the_Miles_Davis_Quintet.jpeg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -632,8 +679,10 @@
             "John Coltrane"
         ]
     },
-    "'Round About Midnight": {
+    {
+        "id": "'Round About Midnight",
         "url": "https://en.wikipedia.org/wiki/%27Round_About_Midnight",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/RoundAboutMidnightMilesDavis.jpg/220px-RoundAboutMidnightMilesDavis.jpg",
         "label": "Columbia",
         "released": "1957",
         "recorded": [
@@ -646,7 +695,6 @@
         "producers": [
             "George Avakian"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/RoundAboutMidnightMilesDavis.jpg/220px-RoundAboutMidnightMilesDavis.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -655,8 +703,10 @@
             "John Coltrane"
         ]
     },
-    "Miles Ahead": {
+    {
+        "id": "Miles Ahead",
         "url": "https://en.wikipedia.org/wiki/Miles_Ahead_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/3/33/Miles_Ahead.jpg",
         "label": "Columbia",
         "released": "1957",
         "recorded": [
@@ -670,7 +720,6 @@
             "George Avakian",
             "Cal Lampley"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/3/33/Miles_Ahead.jpg",
         "musicians": [
             "Miles Davis",
             "Art Taylor",
@@ -695,8 +744,10 @@
             "Wynton Kelly"
         ]
     },
-    "Milestones": {
+    {
+        "id": "Milestones",
         "url": "https://en.wikipedia.org/wiki/Milestones_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Milestonescover.jpg/220px-Milestonescover.jpg",
         "label": "Columbia",
         "released": "1958",
         "recorded": [
@@ -709,7 +760,6 @@
         "producers": [
             "George Avakian"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Milestonescover.jpg/220px-Milestonescover.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -719,8 +769,10 @@
             "Julian \"Cannonball\" Adderley"
         ]
     },
-    "Jazz Track": {
+    {
+        "id": "Jazz Track",
         "url": "https://en.wikipedia.org/wiki/Jazz_Track",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/d/d8/JazzTrack_Miles.jpg",
         "label": "Columbia",
         "released": "1958",
         "recorded": [
@@ -733,7 +785,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/d/d8/JazzTrack_Miles.jpg",
         "musicians": [
             "Miles Davis",
             "Kenny Clarke",
@@ -747,8 +798,10 @@
             "Jimmy Cobb"
         ]
     },
-    "Porgy And Bess": {
+    {
+        "id": "Porgy And Bess",
         "url": "https://en.wikipedia.org/wiki/Porgy_and_Bess_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Porgy_and_Bess_%28Miles_Davis%29.jpg/220px-Porgy_and_Bess_%28Miles_Davis%29.jpg",
         "label": "Columbia",
         "released": "1959",
         "recorded": [
@@ -762,7 +815,6 @@
             "Teo Macero",
             "Cal Lampley"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Porgy_and_Bess_%28Miles_Davis%29.jpg/220px-Porgy_and_Bess_%28Miles_Davis%29.jpg",
         "musicians": [
             "Miles Davis",
             "Philly Joe Jones",
@@ -787,8 +839,10 @@
             "Jerome Richardson"
         ]
     },
-    "Kind of Blue": {
+    {
+        "id": "Kind of Blue",
         "url": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/MilesDavisKindofBlue.jpg/220px-MilesDavisKindofBlue.jpg",
         "label": "Columbia",
         "released": "August 17, 1959",
         "recorded": [
@@ -801,7 +855,6 @@
         "producers": [
             "Irving Townsend"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/MilesDavisKindofBlue.jpg/220px-MilesDavisKindofBlue.jpg",
         "musicians": [
             "Miles Davis",
             "Paul Chambers",
@@ -812,8 +865,10 @@
             "Jimmy Cobb"
         ]
     },
-    "Sketches of Spain": {
+    {
+        "id": "Sketches of Spain",
         "url": "https://en.wikipedia.org/wiki/Sketches_of_Spain",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Miles_Davis_-_Sketches_of_Spain.png/220px-Miles_Davis_-_Sketches_of_Spain.png",
         "label": "Columbia",
         "released": "July 18, 1960",
         "recorded": [
@@ -828,7 +883,6 @@
             "Irving Townsend",
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Miles_Davis_-_Sketches_of_Spain.png/220px-Miles_Davis_-_Sketches_of_Spain.png",
         "musicians": [
             "Miles Davis",
             "Paul Chambers",
@@ -856,8 +910,10 @@
             "Joe Singer"
         ]
     },
-    "Someday My Prince Will Come": {
+    {
+        "id": "Someday My Prince Will Come",
         "url": "https://en.wikipedia.org/wiki/Someday_My_Prince_Will_Come_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg/220px-MilesDavis_SomedayMyPrinceWillCome.jpg",
         "label": "Columbia",
         "released": "December 11, 1961",
         "recorded": [
@@ -871,7 +927,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg/220px-MilesDavis_SomedayMyPrinceWillCome.jpg",
         "musicians": [
             "Miles Davis",
             "Paul Chambers",
@@ -881,8 +936,10 @@
             "Hank Mobley"
         ]
     },
-    "Quiet Nights": {
+    {
+        "id": "Quiet Nights",
         "url": "https://en.wikipedia.org/wiki/Quiet_Nights_(Miles_Davis_and_Gil_Evans_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/MileDavis_QuietNights.jpg/220px-MileDavis_QuietNights.jpg",
         "label": "Columbia",
         "released": "December 16, 1963",
         "recorded": [
@@ -900,7 +957,6 @@
             "Irving Townsend",
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/MileDavis_QuietNights.jpg/220px-MileDavis_QuietNights.jpg",
         "musicians": [
             "Miles Davis",
             "Jay Jay Johnson",
@@ -930,8 +986,10 @@
             "Frank Butler"
         ]
     },
-    "Seven Steps to Heaven": {
+    {
+        "id": "Seven Steps to Heaven",
         "url": "https://en.wikipedia.org/wiki/Seven_Steps_to_Heaven",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Seven_Steps_to_Heaven_cover.jpg/220px-Seven_Steps_to_Heaven_cover.jpg",
         "label": "Columbia",
         "released": "1963",
         "recorded": [
@@ -946,7 +1004,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Seven_Steps_to_Heaven_cover.jpg/220px-Seven_Steps_to_Heaven_cover.jpg",
         "musicians": [
             "Miles Davis",
             "George Coleman",
@@ -957,8 +1014,10 @@
             "Tony Williams"
         ]
     },
-    "E.S.P.": {
+    {
+        "id": "E.S.P.",
         "url": "https://en.wikipedia.org/wiki/E.S.P._(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/E.S.P._cover.jpg/220px-E.S.P._cover.jpg",
         "label": "Columbia",
         "released": "1965",
         "recorded": [
@@ -971,7 +1030,6 @@
         "producers": [
             "Irving Townsend"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/E.S.P._cover.jpg/220px-E.S.P._cover.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -980,8 +1038,10 @@
             "Wayne Shorter"
         ]
     },
-    "Miles Smiles": {
+    {
+        "id": "Miles Smiles",
         "url": "https://en.wikipedia.org/wiki/Miles_Smiles",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Miles_Davis_-_Miles_Smiles.jpg/220px-Miles_Davis_-_Miles_Smiles.jpg",
         "label": "Columbia",
         "released": "1967",
         "recorded": [
@@ -994,7 +1054,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Miles_Davis_-_Miles_Smiles.jpg/220px-Miles_Davis_-_Miles_Smiles.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -1003,8 +1062,10 @@
             "Wayne Shorter"
         ]
     },
-    "Sorcerer": {
+    {
+        "id": "Sorcerer",
         "url": "https://en.wikipedia.org/wiki/Sorcerer_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Miles_Davis_Sorcerer.jpg/220px-Miles_Davis_Sorcerer.jpg",
         "label": "Columbia",
         "released": "1967",
         "recorded": [
@@ -1017,7 +1078,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Miles_Davis_Sorcerer.jpg/220px-Miles_Davis_Sorcerer.jpg",
         "musicians": [
             "Miles Davis",
             "Paul Chambers",
@@ -1031,8 +1091,10 @@
             "Bob Dorough"
         ]
     },
-    "Nefertiti": {
+    {
+        "id": "Nefertiti",
         "url": "https://en.wikipedia.org/wiki/Nefertiti_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Miles_Davis_-_Nefertiti.jpg/220px-Miles_Davis_-_Nefertiti.jpg",
         "label": "Columbia",
         "released": "January 15, 1968",
         "recorded": [
@@ -1046,7 +1108,6 @@
             "Teo Macero",
             "Howard Roberts"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Miles_Davis_-_Nefertiti.jpg/220px-Miles_Davis_-_Nefertiti.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -1055,8 +1116,10 @@
             "Wayne Shorter"
         ]
     },
-    "Miles in the Sky": {
+    {
+        "id": "Miles in the Sky",
         "url": "https://en.wikipedia.org/wiki/Miles_in_the_Sky",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/MilesDavis_MilesInTheSky.jpg/220px-MilesDavis_MilesInTheSky.jpg",
         "label": "Columbia",
         "released": "1968",
         "recorded": [
@@ -1069,7 +1132,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/MilesDavis_MilesInTheSky.jpg/220px-MilesDavis_MilesInTheSky.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -1079,8 +1141,10 @@
             "George Benson"
         ]
     },
-    "Filles de Kilimanjaro": {
+    {
+        "id": "Filles de Kilimanjaro",
         "url": "https://en.wikipedia.org/wiki/Filles_de_Kilimanjaro",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg/220px-Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg",
         "label": "Columbia",
         "released": "February 5, 1969",
         "recorded": [
@@ -1093,7 +1157,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg/220px-Miles_Davis-Filles_de_Kilimanjaro_%28album_cover%29.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -1104,8 +1167,10 @@
             "Dave Holland"
         ]
     },
-    "In a Silent Way": {
+    {
+        "id": "In a Silent Way",
         "url": "https://en.wikipedia.org/wiki/In_a_Silent_Way",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Miles-davis-in-a-silent-way.jpg/220px-Miles-davis-in-a-silent-way.jpg",
         "label": "Columbia",
         "released": "July 30, 1969",
         "recorded": [
@@ -1117,7 +1182,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Miles-davis-in-a-silent-way.jpg/220px-Miles-davis-in-a-silent-way.jpg",
         "musicians": [
             "Miles Davis",
             "Herbie Hancock",
@@ -1130,8 +1194,10 @@
             "Bennie Maupin"
         ]
     },
-    "Bitches Brew": {
+    {
+        "id": "Bitches Brew",
         "url": "https://en.wikipedia.org/wiki/Bitches_Brew",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bitches_brew.jpg/220px-Bitches_brew.jpg",
         "label": "Columbia",
         "released": "March 30, 1970",
         "recorded": [
@@ -1144,7 +1210,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Bitches_brew.jpg/220px-Bitches_brew.jpg",
         "musicians": [
             "Miles Davis",
             "Wayne Shorter",
@@ -1163,8 +1228,10 @@
             "Airto Moreira"
         ]
     },
-    "Jack Johnson": {
+    {
+        "id": "Jack Johnson",
         "url": "https://en.wikipedia.org/wiki/Jack_Johnson_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Jack_Johnson_S_30455.jpg/220px-Jack_Johnson_S_30455.jpg",
         "label": "Columbia",
         "released": "February 24, 1971",
         "recorded": [
@@ -1177,7 +1244,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Jack_Johnson_S_30455.jpg/220px-Jack_Johnson_S_30455.jpg",
         "musicians": [
             "Miles Davis",
             "Herbie Hancock",
@@ -1188,8 +1254,10 @@
             "Brock Peters"
         ]
     },
-    "Live-Evil": {
+    {
+        "id": "Live-Evil",
         "url": "https://en.wikipedia.org/wiki/Live-Evil_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Miles_Davis_Live-Evil.jpg/220px-Miles_Davis_Live-Evil.jpg",
         "label": "Columbia",
         "released": "November 17, 1971",
         "recorded": [
@@ -1201,7 +1269,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Miles_Davis_Live-Evil.jpg/220px-Miles_Davis_Live-Evil.jpg",
         "musicians": [
             "Miles Davis",
             "Ron Carter",
@@ -1237,8 +1304,10 @@
             "Conrad Roberts"
         ]
     },
-    "On the Corner": {
+    {
+        "id": "On the Corner",
         "url": "https://en.wikipedia.org/wiki/On_the_Corner",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Miles_Davis_On_The_Corner.jpg/220px-Miles_Davis_On_The_Corner.jpg",
         "label": "Columbia",
         "released": "October 11, 1972",
         "recorded": [
@@ -1250,11 +1319,34 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Miles_Davis_On_The_Corner.jpg/220px-Miles_Davis_On_The_Corner.jpg",
-        "musicians": ["Miles Davis", "Carlos Garnett", "Dave Liebman", "Bennie Maupin", "Chick Corea", "Herbie Hancock", "Harold Ivory Williams", "Cedric Lawson", "David Creamer", "Reggie Lucas", "John McLaughlin", "Khalil Balakrishna", "Collin Walcott", "Michael Henderson", "Don Alias", "Jack DeJohnette", "Al Foster", "Billy Hart", "James Mtume", "Paul Buckmaster", "Badal Roy"]
+        "musicians": [
+            "Miles Davis",
+            "Carlos Garnett",
+            "Dave Liebman",
+            "Bennie Maupin",
+            "Chick Corea",
+            "Herbie Hancock",
+            "Harold Ivory Williams",
+            "Cedric Lawson",
+            "David Creamer",
+            "Reggie Lucas",
+            "John McLaughlin",
+            "Khalil Balakrishna",
+            "Collin Walcott",
+            "Michael Henderson",
+            "Don Alias",
+            "Jack DeJohnette",
+            "Al Foster",
+            "Billy Hart",
+            "James Mtume",
+            "Paul Buckmaster",
+            "Badal Roy"
+        ]
     },
-    "The Man with the Horn": {
+    {
+        "id": "The Man with the Horn",
         "url": "https://en.wikipedia.org/wiki/The_Man_with_the_Horn",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Miles_Davis_The_Man_With_The_Horn.jpg/220px-Miles_Davis_The_Man_With_The_Horn.jpg",
         "label": "Columbia",
         "released": "1 July, 1981",
         "recorded": [
@@ -1267,7 +1359,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Miles_Davis_The_Man_With_The_Horn.jpg/220px-Miles_Davis_The_Man_With_The_Horn.jpg",
         "musicians": [
             "Miles Davis",
             "Al Foster",
@@ -1282,8 +1373,10 @@
             "Vincent Wilburn"
         ]
     },
-    "Star People": {
+    {
+        "id": "Star People",
         "url": "https://en.wikipedia.org/wiki/Star_People",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Miles_Davis_Star_People.jpg/220px-Miles_Davis_Star_People.jpg",
         "label": "Columbia",
         "released": "1983",
         "recorded": [
@@ -1296,7 +1389,6 @@
         "producers": [
             "Teo Macero"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Miles_Davis_Star_People.jpg/220px-Miles_Davis_Star_People.jpg",
         "musicians": [
             "Miles Davis",
             "Bill Evans",
@@ -1308,8 +1400,10 @@
             "Mino Cinelu"
         ]
     },
-    "Decoy": {
+    {
+        "id": "Decoy",
         "url": "https://en.wikipedia.org/wiki/Decoy_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Decoy_Miles_Davis.jpg/220px-Decoy_Miles_Davis.jpg",
         "label": "Columbia",
         "released": "June 1, 1984",
         "recorded": [
@@ -1327,7 +1421,6 @@
         "producers": [
             "Miles Davis"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Decoy_Miles_Davis.jpg/220px-Decoy_Miles_Davis.jpg",
         "musicians": [
             "Miles Davis",
             "Al Foster",
@@ -1339,8 +1432,10 @@
             "Darryl \"The Munch\" Jones"
         ]
     },
-    "You're Under Arrest": {
+    {
+        "id": "You're Under Arrest",
         "url": "https://en.wikipedia.org/wiki/You%27re_Under_Arrest_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_You%27re_Under_Arrest_front.jpg/220px-Miles_Davis_You%27re_Under_Arrest_front.jpg",
         "label": "Columbia",
         "released": "April 1, 1985",
         "recorded": [
@@ -1354,7 +1449,6 @@
             "Miles Davis",
             "Robert Irving III"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Miles_Davis_You%27re_Under_Arrest_front.jpg/220px-Miles_Davis_You%27re_Under_Arrest_front.jpg",
         "musicians": [
             "Miles Davis",
             "John McLaughlin",
@@ -1371,8 +1465,10 @@
             "Kenny Garrett"
         ]
     },
-    "Tutu": {
+    {
+        "id": "Tutu",
         "url": "https://en.wikipedia.org/wiki/Tutu_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Miles_Davis-Tutu_%28album_cover%29.jpg/220px-Miles_Davis-Tutu_%28album_cover%29.jpg",
         "label": "Warner Bros.",
         "released": "September 1, 1986",
         "recorded": [
@@ -1388,7 +1484,6 @@
             "Marcus Miller",
             "Tommy LiPuma"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Miles_Davis-Tutu_%28album_cover%29.jpg/220px-Miles_Davis-Tutu_%28album_cover%29.jpg",
         "musicians": [
             "Miles Davis",
             "Marcus Miller",
@@ -1403,8 +1498,10 @@
             "Billy Hart"
         ]
     },
-    "Amandla": {
+    {
+        "id": "Amandla",
         "url": "https://en.wikipedia.org/wiki/Amandla_(album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Amandla_%28album%29.jpg/220px-Amandla_%28album%29.jpg",
         "label": "Warner Bros.",
         "released": "May 18, 1989",
         "recorded": [
@@ -1416,7 +1513,6 @@
             "Marcus Miller",
             "George Duke"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Amandla_%28album%29.jpg/220px-Amandla_%28album%29.jpg",
         "musicians": [
             "Miles Davis",
             "Don Alias",
@@ -1439,8 +1535,10 @@
             "Billy \"Spaceman\" Patterson"
         ]
     },
-    "Aura": {
+    {
+        "id": "Aura",
         "url": "https://en.wikipedia.org/wiki/Aura_(Miles_Davis_album)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MilesDavisAura.jpg/220px-MilesDavisAura.jpg",
         "label": "Columbia",
         "released": "September 12, 1989",
         "recorded": [
@@ -1453,7 +1551,6 @@
         "producers": [
             "Palle Mikkelborg"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/MilesDavisAura.jpg/220px-MilesDavisAura.jpg",
         "musicians": [
             "Miles Davis",
             "John McLaughlin",
@@ -1488,8 +1585,10 @@
             "Palle Mikkelborg"
         ]
     },
-    "Doo-Bop": {
+    {
+        "id": "Doo-Bop",
         "url": "https://en.wikipedia.org/wiki/Doo-Bop",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/e/eb/Doo-Bop_front.jpg",
         "label": "Warner Bros.",
         "released": "June 30, 1992",
         "recorded": [
@@ -1502,7 +1601,6 @@
         "producers": [
             "Easy Mo Bee"
         ],
-        "icon": "https://upload.wikimedia.org/wikipedia/en/e/eb/Doo-Bop_front.jpg",
         "musicians": [
             "Miles Davis",
             "Deron Johnson",
@@ -1510,4 +1608,4 @@
             "A.B. Money"
         ]
     }
-}
+]

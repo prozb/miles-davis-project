@@ -1,5 +1,8 @@
-{
-    "Miles Davis": {
+[
+    {
+        "id": "Miles Davis",
+        "url": "https://en.wikipedia.org/wiki/Miles_Davis",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/220px-Miles_Davis_by_Palumbo_cropped.jpg",
         "albums": [
             "Doo-Bop",
             "Aura",
@@ -66,12 +69,13 @@
             "flugelhorn",
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Miles_Davis",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/220px-Miles_Davis_by_Palumbo_cropped.jpg",
         "birthdate": "May 26, 1926",
         "deathdate": "Sep 28, 1991"
     },
-    "Sonny Rollins": {
+    {
+        "id": "Sonny Rollins",
+        "url": "https://en.wikipedia.org/wiki/Sonny_Rollins",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sonny_Rollins_2011.jpg/220px-Sonny_Rollins_2011.jpg",
         "albums": [
             "The New Sounds",
             "Blue Period",
@@ -84,12 +88,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Sonny_Rollins",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sonny_Rollins_2011.jpg/220px-Sonny_Rollins_2011.jpg",
         "birthdate": "Sep 7, 1930",
         "deathdate": ""
     },
-    "Walter Bishop, Jr.": {
+    {
+        "id": "Walter Bishop, Jr.",
+        "url": "https://en.wikipedia.org/wiki/Walter_Bishop_Jr.",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Walter_Bishop%2C_Jr..jpg/250px-Walter_Bishop%2C_Jr..jpg",
         "albums": [
             "The New Sounds",
             "Blue Period",
@@ -100,12 +105,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Walter_Bishop_Jr.",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Walter_Bishop%2C_Jr..jpg/250px-Walter_Bishop%2C_Jr..jpg",
         "birthdate": "Oct 4, 1927",
         "deathdate": "Jan 24, 1998"
     },
-    "Tommy Potter": {
+    {
+        "id": "Tommy Potter",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Potter",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tommy_Potter%2C_Charlie_Parker_and_max_Raoch%2C_Three_Deuces%2C_NYC%2C_ca._August_1947._%28Gottlieb%29.jpg/220px-Tommy_Potter%2C_Charlie_Parker_and_max_Raoch%2C_Three_Deuces%2C_NYC%2C_ca._August_1947._%28Gottlieb%29.jpg",
         "albums": [
             "The New Sounds",
             "Blue Period",
@@ -114,12 +120,13 @@
         "instruments": [
             "double bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Tommy_Potter",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tommy_Potter%2C_Charlie_Parker_and_max_Raoch%2C_Three_Deuces%2C_NYC%2C_ca._August_1947._%28Gottlieb%29.jpg/220px-Tommy_Potter%2C_Charlie_Parker_and_max_Raoch%2C_Three_Deuces%2C_NYC%2C_ca._August_1947._%28Gottlieb%29.jpg",
         "birthdate": "Sep 21, 1918 ",
         "deathdate": "Mar 1, 1988"
     },
-    "Art Blakey": {
+    {
+        "id": "Art Blakey",
+        "url": "https://en.wikipedia.org/wiki/Art_Blakey",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Art_Blakey.jpg/220px-Art_Blakey.jpg",
         "albums": [
             "The New Sounds",
             "Blue Period",
@@ -132,12 +139,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Art_Blakey",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Art_Blakey.jpg/220px-Art_Blakey.jpg",
         "birthdate": "Oct 11, 1919",
         "deathdate": "Oct 16, 1990"
     },
-    "Jay Jay Johnson": {
+    {
+        "id": "Jay Jay Johnson",
+        "url": "https://en.wikipedia.org/wiki/J._J._Johnson",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/JJJohnson.jpg/220px-JJJohnson.jpg",
         "albums": [
             "Quiet Nights",
             "Young Man with a Horn",
@@ -148,12 +156,13 @@
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/J._J._Johnson",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/JJJohnson.jpg/220px-JJJohnson.jpg",
         "birthdate": "Jan 22, 1924",
         "deathdate": "Feb 4, 2001"
     },
-    "Gil Coggins": {
+    {
+        "id": "Gil Coggins",
+        "url": "https://en.wikipedia.org/wiki/Gil_Coggins",
+        "icon": "",
         "albums": [
             "Young Man with a Horn",
             "Miles Davis Volume 2"
@@ -161,12 +170,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Gil_Coggins",
-        "icon": "",
         "birthdate": "August 23, 1928",
         "deathdate": "February 15, 2004"
     },
-    "Oscar Pettiford": {
+    {
+        "id": "Oscar Pettiford",
+        "url": "https://en.wikipedia.org/wiki/Oscar_Pettiford",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Oscar_Pettiford_%28Gottlieb_07051%29.jpg/220px-Oscar_Pettiford_%28Gottlieb_07051%29.jpg",
         "albums": [
             "Young Man with a Horn",
             "Miles Davis Volume 2",
@@ -175,12 +185,13 @@
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Oscar_Pettiford",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Oscar_Pettiford_%28Gottlieb_07051%29.jpg/220px-Oscar_Pettiford_%28Gottlieb_07051%29.jpg",
         "birthdate": "September 30, 1922",
         "deathdate": "September 8, 1960"
     },
-    "Kenny Clarke": {
+    {
+        "id": "Kenny Clarke",
+        "url": "https://en.wikipedia.org/wiki/Kenny_Clarke",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Finale_Internationaal_Jazz_Festival_Loosdrecht%2C_drummer_Kenny_Clarke%2C_Bestanddeelnr_924-7968.jpg/220px-Finale_Internationaal_Jazz_Festival_Loosdrecht%2C_drummer_Kenny_Clarke%2C_Bestanddeelnr_924-7968.jpg",
         "albums": [
             "Jazz Track",
             "Young Man with a Horn",
@@ -200,12 +211,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Kenny_Clarke",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Finale_Internationaal_Jazz_Festival_Loosdrecht%2C_drummer_Kenny_Clarke%2C_Bestanddeelnr_924-7968.jpg/220px-Finale_Internationaal_Jazz_Festival_Loosdrecht%2C_drummer_Kenny_Clarke%2C_Bestanddeelnr_924-7968.jpg",
         "birthdate": "January 9, 1914",
         "deathdate": "January 26, 1985"
     },
-    "John Lewis": {
+    {
+        "id": "John Lewis",
+        "url": "https://en.wikipedia.org/wiki/John_Lewis_(pianist)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Lewis_1977.jpg/220px-John_Lewis_1977.jpg",
         "albums": [
             "Blue Period",
             "The Compositions Of Al Cohn",
@@ -216,12 +228,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/John_Lewis_(pianist)",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Lewis_1977.jpg/220px-John_Lewis_1977.jpg",
         "birthdate": "May 3, 1920",
         "deathdate": "March 29, 2001"
     },
-    "Percy Heath": {
+    {
+        "id": "Percy Heath",
+        "url": "https://en.wikipedia.org/wiki/Percy_Heath",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Percy_Heath.jpg/220px-Percy_Heath.jpg",
         "albums": [
             "Blue Period",
             "Miles Davis Volume 2",
@@ -244,12 +257,13 @@
             "double bass",
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Percy_Heath",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Percy_Heath.jpg/220px-Percy_Heath.jpg",
         "birthdate": "April 30, 1923",
         "deathdate": "April 28, 2005)"
     },
-    "Roy Haynes": {
+    {
+        "id": "Roy Haynes",
+        "url": "https://en.wikipedia.org/wiki/Roy_Haynes",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Roy_Haynes.jpg/285px-Roy_Haynes.jpg",
         "albums": [
             "Blue Period",
             "Miles Davis and Horns"
@@ -257,12 +271,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Roy_Haynes",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Roy_Haynes.jpg/285px-Roy_Haynes.jpg",
         "birthdate": "March 13, 1925",
         "deathdate": ""
     },
-    "Jackie McLean": {
+    {
+        "id": "Jackie McLean",
+        "url": "https://en.wikipedia.org/wiki/Jackie_McLean",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jackie_McLean.jpg/220px-Jackie_McLean.jpg",
         "albums": [
             "Blue Period",
             "Miles Davis Volume 2",
@@ -275,12 +290,13 @@
             "alto saxophone",
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Jackie_McLean",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jackie_McLean.jpg/220px-Jackie_McLean.jpg",
         "birthdate": "May 17, 1931",
         "deathdate": "March 31, 2006"
     },
-    "Al Cohn": {
+    {
+        "id": "Al Cohn",
+        "url": "https://en.wikipedia.org/wiki/Al_Cohn",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Al_Cohn.jpg/240px-Al_Cohn.jpg",
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
@@ -288,12 +304,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Al_Cohn",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Al_Cohn.jpg/240px-Al_Cohn.jpg",
         "birthdate": "November 24, 1925",
         "deathdate": "February 15, 1988"
     },
-    "Zoot Sims": {
+    {
+        "id": "Zoot Sims",
+        "url": "https://en.wikipedia.org/wiki/Zoot_Sims",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Zoot_Sims_1976.jpg/220px-Zoot_Sims_1976.jpg",
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
@@ -301,12 +318,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Zoot_Sims",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Zoot_Sims_1976.jpg/220px-Zoot_Sims_1976.jpg",
         "birthdate": "October 29, 1925",
         "deathdate": "March 23, 1985"
     },
-    "Sonny Truitt": {
+    {
+        "id": "Sonny Truitt",
+        "url": "https://en.wikipedia.org/wiki/Sonny_Truitt",
+        "icon": "",
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
@@ -314,12 +332,13 @@
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Sonny_Truitt",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Leonard Gaskin": {
+    {
+        "id": "Leonard Gaskin",
+        "url": "https://en.wikipedia.org/wiki/Leonard_Gaskin",
+        "icon": "",
         "albums": [
             "The Compositions Of Al Cohn",
             "Miles Davis and Horns"
@@ -327,12 +346,13 @@
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Leonard_Gaskin",
-        "icon": "",
         "birthdate": "August 25, 1920",
         "deathdate": "January 24, 2009"
     },
-    "Horace Silver": {
+    {
+        "id": "Horace Silver",
+        "url": "https://en.wikipedia.org/wiki/Horace_Silver",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Horace_Silver_by_Dmitri_Savitski_1989.jpg/250px-Horace_Silver_by_Dmitri_Savitski_1989.jpg",
         "albums": [
             "Miles Davis Volume 2",
             "Miles Davis, Volume 3",
@@ -347,24 +367,26 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Horace_Silver",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Horace_Silver_by_Dmitri_Savitski_1989.jpg/250px-Horace_Silver_by_Dmitri_Savitski_1989.jpg",
         "birthdate": "September 2, 1928",
         "deathdate": "June 18, 2014"
     },
-    "Jimmy Heath": {
+    {
+        "id": "Jimmy Heath",
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Heath",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jimmy_Heath_1998.jpg/220px-Jimmy_Heath_1998.jpg",
         "albums": [
             "Miles Davis Volume 2"
         ],
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Jimmy_Heath",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jimmy_Heath_1998.jpg/220px-Jimmy_Heath_1998.jpg",
         "birthdate": "October 25, 1926",
         "deathdate": ""
     },
-    "Charles Mingus": {
+    {
+        "id": "Charles Mingus",
+        "url": "https://en.wikipedia.org/wiki/Charles_Mingus",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Charles_Mingus_1976_cropped.jpg/220px-Charles_Mingus_1976_cropped.jpg",
         "albums": [
             "Miles Davis Quartet",
             "Blue Moods",
@@ -374,12 +396,13 @@
             "piano",
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Charles_Mingus",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Charles_Mingus_1976_cropped.jpg/220px-Charles_Mingus_1976_cropped.jpg",
         "birthdate": "April 22, 1922",
         "deathdate": "January 5, 1979"
     },
-    "Max Roach": {
+    {
+        "id": "Max Roach",
+        "url": "https://en.wikipedia.org/wiki/Max_Roach",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Max_Roach.jpg/220px-Max_Roach.jpg",
         "albums": [
             "Miles Davis Quartet",
             "Blue Haze"
@@ -387,12 +410,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Max_Roach",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Max_Roach.jpg/220px-Max_Roach.jpg",
         "birthdate": "January 10, 1924",
         "deathdate": "August 16, 2007"
     },
-    "Lucky Thompson": {
+    {
+        "id": "Lucky Thompson",
+        "url": "https://en.wikipedia.org/wiki/Lucky_Thompson",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lucky_Thompson_Hilda_A._Taylor_and_Al_McKibbon.jpg/220px-Lucky_Thompson_Hilda_A._Taylor_and_Al_McKibbon.jpg",
         "albums": [
             "Miles Davis All-Star Sextet",
             "Walkin'"
@@ -400,12 +424,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Lucky_Thompson",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lucky_Thompson_Hilda_A._Taylor_and_Al_McKibbon.jpg/220px-Lucky_Thompson_Hilda_A._Taylor_and_Al_McKibbon.jpg",
         "birthdate": "June 16, 1924",
         "deathdate": "July 30, 2005"
     },
-    "Dave Schildkraut": {
+    {
+        "id": "Dave Schildkraut",
+        "url": "https://en.wikipedia.org/wiki/Dave_Schildkraut",
+        "icon": "",
         "albums": [
             "Miles Davis Quintet",
             "Walkin'"
@@ -414,24 +439,26 @@
             "alto saxophone",
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Dave_Schildkraut",
-        "icon": "",
         "birthdate": "January 7, 1925",
         "deathdate": "January 1, 1998"
     },
-    "Bennie Green": {
+    {
+        "id": "Bennie Green",
+        "url": "https://en.wikipedia.org/wiki/Bennie_Green",
+        "icon": "",
         "albums": [
             "Miles Davis and Horns"
         ],
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bennie_Green",
-        "icon": "",
         "birthdate": "April 16, 1923",
         "deathdate": "March 23, 1977"
     },
-    "Milt Jackson": {
+    {
+        "id": "Milt Jackson",
+        "url": "https://en.wikipedia.org/wiki/Milt_Jackson",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Milt_Jackson_and_Ray_Brown%2C_New_York%2C_between_1946_and_1948_%28William_P._Gottlieb_04461%29.jpg/220px-Milt_Jackson_and_Ray_Brown%2C_New_York%2C_between_1946_and_1948_%28William_P._Gottlieb_04461%29.jpg",
         "albums": [
             "Quintet / Sextet",
             "Miles Davis All Stars, Volume 1",
@@ -442,24 +469,26 @@
         "instruments": [
             "vibraphone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Milt_Jackson",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Milt_Jackson_and_Ray_Brown%2C_New_York%2C_between_1946_and_1948_%28William_P._Gottlieb_04461%29.jpg/220px-Milt_Jackson_and_Ray_Brown%2C_New_York%2C_between_1946_and_1948_%28William_P._Gottlieb_04461%29.jpg",
         "birthdate": "January 1, 1923",
         "deathdate": "October 9, 1999"
     },
-    "Ray Bryant": {
+    {
+        "id": "Ray Bryant",
+        "url": "https://en.wikipedia.org/wiki/Ray_Bryant",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Raphael_Homer_Bryant.jpg/220px-Raphael_Homer_Bryant.jpg",
         "albums": [
             "Quintet / Sextet"
         ],
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Ray_Bryant",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Raphael_Homer_Bryant.jpg/220px-Raphael_Homer_Bryant.jpg",
         "birthdate": "December 24, 1931",
         "deathdate": "June 2, 2011"
     },
-    "Art Taylor": {
+    {
+        "id": "Art Taylor",
+        "url": "https://en.wikipedia.org/wiki/Art_Taylor",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Art_Taylor_-_photo.jpg/220px-Art_Taylor_-_photo.jpg",
         "albums": [
             "Quintet / Sextet",
             "Miles Davis and Horns",
@@ -469,12 +498,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Art_Taylor",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Art_Taylor_-_photo.jpg/220px-Art_Taylor_-_photo.jpg",
         "birthdate": "April 6, 1929",
         "deathdate": "February 6, 1995"
     },
-    "Charlie Chan": {
+    {
+        "id": "Charlie Chan",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Chan_(composer)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/440px-Portrait_of_Charlie_Parker_in_1947.jpg",
         "albums": [
             "Miles Davis and Horns",
             "Collectors' Items"
@@ -482,12 +512,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Charlie_Chan_(composer)",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/440px-Portrait_of_Charlie_Parker_in_1947.jpg",
         "birthdate": "January 2, 1966",
         "deathdate": ""
     },
-    "Tommy Flanagan": {
+    {
+        "id": "Tommy Flanagan",
+        "url": "https://en.wikipedia.org/wiki/Tommy_Flanagan",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Tommy_Flanagan.jpg/220px-Tommy_Flanagan.jpg",
         "albums": [
             "Miles Davis and Horns",
             "Collectors' Items"
@@ -495,12 +526,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Tommy_Flanagan",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Tommy_Flanagan.jpg/220px-Tommy_Flanagan.jpg",
         "birthdate": "March 16, 1930",
         "deathdate": "November 16, 2001"
     },
-    "Philly Joe Jones": {
+    {
+        "id": "Philly Joe Jones",
+        "url": "https://en.wikipedia.org/wiki/Philly_Joe_Jones",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Philly_Joe_Jones.jpg/220px-Philly_Joe_Jones.jpg",
         "albums": [
             "Porgy And Bess",
             "Miles Davis and Horns",
@@ -518,12 +550,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Philly_Joe_Jones",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Philly_Joe_Jones.jpg/220px-Philly_Joe_Jones.jpg",
         "birthdate": "July 15, 1923",
         "deathdate": "August 30, 1985"
     },
-    "Paul Chambers": {
+    {
+        "id": "Paul Chambers",
+        "url": "https://en.wikipedia.org/wiki/Paul_Chambers",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Paul_Laurence_Dunbar_Chambers%2C_Jr..jpg/220px-Paul_Laurence_Dunbar_Chambers%2C_Jr..jpg",
         "albums": [
             "Sorcerer",
             "Quiet Nights",
@@ -548,12 +581,13 @@
             "bass",
             "double bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Paul_Chambers",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Paul_Laurence_Dunbar_Chambers%2C_Jr..jpg/220px-Paul_Laurence_Dunbar_Chambers%2C_Jr..jpg",
         "birthdate": "April 22, 1935",
         "deathdate": "January 4, 1969"
     },
-    "Thelonious Monk": {
+    {
+        "id": "Thelonious Monk",
+        "url": "https://en.wikipedia.org/wiki/Thelonious_Monk",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/440px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg",
         "albums": [
             "Miles Davis All Stars, Volume 1",
             "Miles Davis All Stars, Volume 2",
@@ -563,36 +597,39 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Thelonious_Monk",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/440px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg",
         "birthdate": "October 10, 1917",
         "deathdate": "February 17, 1982"
     },
-    "Britt Woodman": {
+    {
+        "id": "Britt Woodman",
+        "url": "https://en.wikipedia.org/wiki/Britt_Woodman",
+        "icon": "",
         "albums": [
             "Blue Moods"
         ],
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Britt_Woodman",
-        "icon": "",
         "birthdate": "June 4, 1920",
         "deathdate": "October 13, 2000"
     },
-    "Teddy Charles": {
+    {
+        "id": "Teddy Charles",
+        "url": "https://en.wikipedia.org/wiki/Teddy_Charles",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Teddy_Charles.JPG/250px-Teddy_Charles.JPG",
         "albums": [
             "Blue Moods"
         ],
         "instruments": [
             "vibraphone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Teddy_Charles",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Teddy_Charles.JPG/250px-Teddy_Charles.JPG",
         "birthdate": "April 13, 1928",
         "deathdate": "April 16, 2012"
     },
-    "Elvin Jones": {
+    {
+        "id": "Elvin Jones",
+        "url": "https://en.wikipedia.org/wiki/Elvin_Jones",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Elvin_Jones_3.jpg/220px-Elvin_Jones_3.jpg",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain",
@@ -602,12 +639,13 @@
             "percussion",
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Elvin_Jones",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Elvin_Jones_3.jpg/220px-Elvin_Jones_3.jpg",
         "birthdate": "September 9, 1927",
         "deathdate": "May 18, 2004"
     },
-    "Red Garland": {
+    {
+        "id": "Red Garland",
+        "url": "https://en.wikipedia.org/wiki/Red_Garland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Red_Garland_9A.jpg/220px-Red_Garland_9A.jpg",
         "albums": [
             "The Musings of Miles",
             "Miles: The New Miles Davis Quintet",
@@ -622,12 +660,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Red_Garland",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Red_Garland_9A.jpg/220px-Red_Garland_9A.jpg",
         "birthdate": "May 13, 1923",
         "deathdate": "April 23, 1984"
     },
-    "John Coltrane": {
+    {
+        "id": "John Coltrane",
+        "url": "https://en.wikipedia.org/wiki/John_Coltrane",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/John_Coltrane_in_1963.jpg/220px-John_Coltrane_in_1963.jpg",
         "albums": [
             "Someday My Prince Will Come",
             "Kind of Blue",
@@ -644,24 +683,26 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/John_Coltrane",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/John_Coltrane_in_1963.jpg/220px-John_Coltrane_in_1963.jpg",
         "birthdate": "September 23, 1926",
         "deathdate": "July 17, 1967"
     },
-    "David Schildkraut": {
+    {
+        "id": "David Schildkraut",
+        "url": "https://en.wikipedia.org/wiki/Dave_Schildkraut",
+        "icon": "",
         "albums": [
             "Blue Haze"
         ],
         "instruments": [
             "alto saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Dave_Schildkraut",
-        "icon": "",
         "birthdate": "January 7, 1925",
         "deathdate": "January 1, 1998"
     },
-    "Bernie Glow": {
+    {
+        "id": "Bernie Glow",
+        "url": "https://en.wikipedia.org/wiki/Bernie_Glow",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain",
@@ -671,12 +712,13 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bernie_Glow",
-        "icon": "",
         "birthdate": "February 6, 1926 ",
         "deathdate": "May 8, 1982"
     },
-    "Ernie Royal": {
+    {
+        "id": "Ernie Royal",
+        "url": "https://en.wikipedia.org/wiki/Ernie_Royal",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain",
@@ -686,12 +728,13 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Ernie_Royal",
-        "icon": "",
         "birthdate": "June 2, 1921",
         "deathdate": "March 16, 1983"
     },
-    "Louis Mucci": {
+    {
+        "id": "Louis Mucci",
+        "url": "https://en.wikipedia.org/wiki/Lou_Mucci",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Emil_Terry%2C_Lou_Mucci%2C_Eddie_Zandy%2C_Barry_Galbraith%2C_Bill_Barber%2C_Al_Langstaff%2C_and_Vahe_Takvorian%2C_Columbia_Pictures_studio%2C_New_York%2C_ca._Sept._1947_%28William_P._Gottlieb_08581%29.jpg/480px-thumbnail.jpg",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain",
@@ -701,12 +744,13 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Lou_Mucci",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Emil_Terry%2C_Lou_Mucci%2C_Eddie_Zandy%2C_Barry_Galbraith%2C_Bill_Barber%2C_Al_Langstaff%2C_and_Vahe_Takvorian%2C_Columbia_Pictures_studio%2C_New_York%2C_ca._Sept._1947_%28William_P._Gottlieb_08581%29.jpg/480px-thumbnail.jpg",
         "birthdate": "December 13, 1909",
         "deathdate": "January 4, 2000"
     },
-    "Taft Jordan": {
+    {
+        "id": "Taft Jordan",
+        "url": "https://en.wikipedia.org/wiki/Taft_Jordan",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg/240px-Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg",
         "albums": [
             "Sketches of Spain",
             "Miles Ahead"
@@ -714,24 +758,26 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Taft_Jordan",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg/240px-Taft_Jordan%2C_Aquarium%2C_New_York%2C_N.Y.%2C_ca._Nov._1946_%28William_P._Gottlieb%29.jpg",
         "birthdate": "February 15, 1915",
         "deathdate": "December 1, 1981"
     },
-    "John Carisi": {
+    {
+        "id": "John Carisi",
+        "url": "https://en.wikipedia.org/wiki/John_Carisi",
+        "icon": "",
         "albums": [
             "Miles Ahead"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/John_Carisi",
-        "icon": "",
         "birthdate": "February 23, 1922",
         "deathdate": "October 3, 1992"
     },
-    "Frank Rehak": {
+    {
+        "id": "Frank Rehak",
+        "url": "https://en.wikipedia.org/wiki/Frank_Rehak",
+        "icon": "",
         "albums": [
             "Sorcerer",
             "Quiet Nights",
@@ -742,12 +788,13 @@
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Frank_Rehak",
-        "icon": "",
         "birthdate": "July 6, 1926",
         "deathdate": "June 22, 1987"
     },
-    "Jimmy Cleveland": {
+    {
+        "id": "Jimmy Cleveland",
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Cleveland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jimmy_Cleveland.jpg/220px-Jimmy_Cleveland.jpg",
         "albums": [
             "Porgy And Bess",
             "Miles Ahead"
@@ -755,12 +802,13 @@
         "instruments": [
             "trombone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Jimmy_Cleveland",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jimmy_Cleveland.jpg/220px-Jimmy_Cleveland.jpg",
         "birthdate": "May 3, 1926",
         "deathdate": "August 23, 2008"
     },
-    "Joe Bennett": {
+    {
+        "id": "Joe Bennett",
+        "url": "",
+        "icon": "",
         "albums": [
             "Porgy And Bess",
             "Miles Ahead"
@@ -768,24 +816,26 @@
         "instruments": [
             "trombone"
         ],
-        "url": "",
-        "icon": "",
         "birthdate": "1926",
         "deathdate": "2012"
     },
-    "Tom Mitchell": {
+    {
+        "id": "Tom Mitchell",
+        "url": "https://www.discogs.com/artist/569163-Thomas-Mitchell",
+        "icon": "",
         "albums": [
             "Miles Ahead"
         ],
         "instruments": [
             "bass trombone"
         ],
-        "url": "https://www.discogs.com/artist/569163-Thomas-Mitchell",
-        "icon": "",
         "birthdate": "1926",
         "deathdate": "2003"
     },
-    "Willie Ruff": {
+    {
+        "id": "Willie Ruff",
+        "url": "https://de.wikipedia.org/wiki/Willie_Ruff",
+        "icon": "",
         "albums": [
             "Porgy And Bess",
             "Miles Ahead"
@@ -794,12 +844,13 @@
             "horn",
             "french horn"
         ],
-        "url": "https://de.wikipedia.org/wiki/Willie_Ruff",
-        "icon": "",
         "birthdate": "September 1, 1931",
         "deathdate": ""
     },
-    "Tony Miranda": {
+    {
+        "id": "Tony Miranda",
+        "url": "https://en.wikipedia.org/wiki/Tony_Miranda",
+        "icon": "",
         "albums": [
             "Sketches of Spain",
             "Miles Ahead"
@@ -807,24 +858,26 @@
         "instruments": [
             "french horn"
         ],
-        "url": "https://en.wikipedia.org/wiki/Tony_Miranda",
-        "icon": "",
         "birthdate": "1919",
         "deathdate": "11. November 2001"
     },
-    "Jim Buffington": {
+    {
+        "id": "Jim Buffington",
+        "url": "https://en.wikipedia.org/wiki/James_Buffington",
+        "icon": "",
         "albums": [
             "Miles Ahead"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://en.wikipedia.org/wiki/James_Buffington",
-        "icon": "",
         "birthdate": "May 15, 1922",
         "deathdate": "July 20, 1981"
     },
-    "Bill Barber": {
+    {
+        "id": "Bill Barber",
+        "url": "https://www.discogs.com/artist/271038-Bill-Barber",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bill_Barber.jpg/440px-Bill_Barber.jpg",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain",
@@ -834,24 +887,26 @@
         "instruments": [
             "tuba"
         ],
-        "url": "https://www.discogs.com/artist/271038-Bill-Barber",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bill_Barber.jpg/440px-Bill_Barber.jpg",
         "birthdate": "May 21, 1920",
         "deathdate": "June 18, 2007"
     },
-    "Lee Konitz": {
+    {
+        "id": "Lee Konitz",
+        "url": "https://www.discogs.com/artist/259092-Lee-Konitz",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Konitz_dirigiert_das_Publikum.JPG/440px-Konitz_dirigiert_das_Publikum.JPG",
         "albums": [
             "Miles Ahead"
         ],
         "instruments": [
             "alto saxophone"
         ],
-        "url": "https://www.discogs.com/artist/259092-Lee-Konitz",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Konitz_dirigiert_das_Publikum.JPG/440px-Konitz_dirigiert_das_Publikum.JPG",
         "birthdate": "October 13, 1927",
         "deathdate": ""
     },
-    "Danny Bank": {
+    {
+        "id": "Danny Bank",
+        "url": "https://www.discogs.com/artist/260718-Danny-Bank",
+        "icon": "",
         "albums": [
             "Porgy And Bess",
             "Miles Ahead"
@@ -860,12 +915,13 @@
             "flute",
             "bass clarinet"
         ],
-        "url": "https://www.discogs.com/artist/260718-Danny-Bank",
-        "icon": "",
         "birthdate": "July 17, 1922",
         "deathdate": "June 5, 2010"
     },
-    "Romeo Penque": {
+    {
+        "id": "Romeo Penque",
+        "url": "https://www.discogs.com/artist/255113-Romeo-Penque",
+        "icon": "",
         "albums": [
             "Sketches of Spain",
             "Porgy And Bess",
@@ -875,24 +931,26 @@
             "oboe",
             "flute"
         ],
-        "url": "https://www.discogs.com/artist/255113-Romeo-Penque",
-        "icon": "",
         "birthdate": "17 October 1916",
         "deathdate": "June 1985"
     },
-    "Sid Cooper": {
+    {
+        "id": "Sid Cooper",
+        "url": "https://de.wikipedia.org/wiki/Sid_Cooper",
+        "icon": "",
         "albums": [
             "Miles Ahead"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://de.wikipedia.org/wiki/Sid_Cooper",
-        "icon": "",
         "birthdate": "2. November 1918",
         "deathdate": "18. Juli 2011"
     },
-    "Wynton Kelly": {
+    {
+        "id": "Wynton Kelly",
+        "url": "https://www.discogs.com/artist/252308-Wynton-Kelly",
+        "icon": "",
         "albums": [
             "Someday My Prince Will Come",
             "Kind of Blue",
@@ -901,12 +959,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://www.discogs.com/artist/252308-Wynton-Kelly",
-        "icon": "",
         "birthdate": "December 2, 1931",
         "deathdate": "April 12, 1971"
     },
-    "Julian \"Cannonball\" Adderley": {
+    {
+        "id": "Julian \"Cannonball\" Adderley",
+        "url": "https://www.discogs.com/artist/252309-Julian-Adderley",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cannonball1961_%28crop%29.jpg/440px-Cannonball1961_%28crop%29.jpg",
         "albums": [
             "Kind of Blue",
             "Porgy And Bess",
@@ -916,48 +975,52 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "https://www.discogs.com/artist/252309-Julian-Adderley",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cannonball1961_%28crop%29.jpg/440px-Cannonball1961_%28crop%29.jpg",
         "birthdate": "September 15, 1928",
         "deathdate": "August 8, 1975"
     },
-    "Barney Wilen": {
+    {
+        "id": "Barney Wilen",
+        "url": "https://www.discogs.com/artist/59287-Barney-Wilen",
+        "icon": "",
         "albums": [
             "Jazz Track"
         ],
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://www.discogs.com/artist/59287-Barney-Wilen",
-        "icon": "",
         "birthdate": "March 4, 1937",
         "deathdate": "May 25, 1996"
     },
-    "René Urtreger": {
+    {
+        "id": "René Urtreger",
+        "url": "https://www.discogs.com/artist/251622-René-Urtreger",
+        "icon": "",
         "albums": [
             "Jazz Track"
         ],
         "instruments": [
             "piano"
         ],
-        "url": "https://www.discogs.com/artist/251622-René-Urtreger",
-        "icon": "",
         "birthdate": "July 6, 1934",
         "deathdate": ""
     },
-    "Pierre Michelot": {
+    {
+        "id": "Pierre Michelot",
+        "url": "https://www.discogs.com/artist/251623-Pierre-Michelot",
+        "icon": "",
         "albums": [
             "Jazz Track"
         ],
         "instruments": [
             "double bass"
         ],
-        "url": "https://www.discogs.com/artist/251623-Pierre-Michelot",
-        "icon": "",
         "birthdate": "March 03, 1928",
         "deathdate": "July 03, 2005"
     },
-    "Jimmy Cobb": {
+    {
+        "id": "Jimmy Cobb",
+        "url": "https://www.discogs.com/artist/252311-Jimmy-Cobb",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jimmy_Cobb.jpg/340px-Jimmy_Cobb.jpg",
         "albums": [
             "Sorcerer",
             "Quiet Nights",
@@ -970,12 +1033,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://www.discogs.com/artist/252311-Jimmy-Cobb",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jimmy_Cobb.jpg/340px-Jimmy_Cobb.jpg",
         "birthdate": "January 20, 1929",
         "deathdate": ""
     },
-    "Johnny Coles": {
+    {
+        "id": "Johnny Coles",
+        "url": "https://www.discogs.com/artist/255109-Johnny-Coles",
+        "icon": "",
         "albums": [
             "Sketches of Spain",
             "Porgy And Bess"
@@ -983,12 +1047,13 @@
         "instruments": [
             "trumpet"
         ],
-        "url": "https://www.discogs.com/artist/255109-Johnny-Coles",
-        "icon": "",
         "birthdate": "July 3, 1926",
         "deathdate": "December 21, 1996"
     },
-    "Dick Hixon": {
+    {
+        "id": "Dick Hixon",
+        "url": "https://www.discogs.com/artist/313578-Richard-Hixson",
+        "icon": "",
         "albums": [
             "Sketches of Spain",
             "Porgy And Bess"
@@ -996,12 +1061,13 @@
         "instruments": [
             "trombone"
         ],
-        "url": "https://www.discogs.com/artist/313578-Richard-Hixson",
-        "icon": "",
         "birthdate": "May 17, 1924",
         "deathdate": "November 25, 1982"
     },
-    "Julius Watkins": {
+    {
+        "id": "Julius Watkins",
+        "url": "https://www.discogs.com/artist/274971-Julius-Watkins",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Porgy And Bess"
@@ -1010,36 +1076,39 @@
             "french horn",
             "horn"
         ],
-        "url": "https://www.discogs.com/artist/274971-Julius-Watkins",
-        "icon": "",
         "birthdate": "October, 10 1921",
         "deathdate": "April 4, 1977"
     },
-    "Gunther Schuller": {
+    {
+        "id": "Gunther Schuller",
+        "url": "https://www.discogs.com/artist/269868-Gunther-Schuller",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/96/Gunther_Schuller_and_A.B._Spellman.jpg",
         "albums": [
             "Porgy And Bess"
         ],
         "instruments": [
             "horn"
         ],
-        "url": "https://www.discogs.com/artist/269868-Gunther-Schuller",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/96/Gunther_Schuller_and_A.B._Spellman.jpg",
         "birthdate": "November 22, 1925",
         "deathdate": "June 21, 2015"
     },
-    "Phil Bodner": {
+    {
+        "id": "Phil Bodner",
+        "url": "https://www.discogs.com/artist/260720-Phil-Bodner",
+        "icon": "",
         "albums": [
             "Porgy And Bess"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://www.discogs.com/artist/260720-Phil-Bodner",
-        "icon": "",
         "birthdate": "June 13, 1917",
         "deathdate": "February 24, 2008"
     },
-    "Jerome Richardson": {
+    {
+        "id": "Jerome Richardson",
+        "url": "https://www.discogs.com/artist/72480-Jerome-Richardson",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Porgy And Bess"
@@ -1048,120 +1117,130 @@
             "woodwinds",
             "flute"
         ],
-        "url": "https://www.discogs.com/artist/72480-Jerome-Richardson",
-        "icon": "",
         "birthdate": "November 15, 1920",
         "deathdate": "June 23, 2000"
     },
-    "John Barrows": {
+    {
+        "id": "John Barrows",
+        "url": "https://www.discogs.com/artist/275276-John-Barrows",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://www.discogs.com/artist/275276-John-Barrows",
-        "icon": "",
         "birthdate": "February 12, 1913",
         "deathdate": "January 11, 1974"
     },
-    "Albert Block": {
+    {
+        "id": "Albert Block",
+        "url": "https://www.discogs.com/artist/275269-Al-Block",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://www.discogs.com/artist/275269-Al-Block",
-        "icon": "",
         "birthdate": "1925",
         "deathdate": "15 August 2015"
     },
-    "James Buffington": {
+    {
+        "id": "James Buffington",
+        "url": "https://www.discogs.com/artist/301721-Jim-Buffington",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://www.discogs.com/artist/301721-Jim-Buffington",
-        "icon": "",
         "birthdate": "May 15, 1922",
         "deathdate": "July 20, 1981"
     },
-    "Eddie Caine": {
+    {
+        "id": "Eddie Caine",
+        "url": "https://de.wikipedia.org/wiki/Eddie_Caine#cite_note-obit-1",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://de.wikipedia.org/wiki/Eddie_Caine#cite_note-obit-1",
-        "icon": "",
         "birthdate": "1923",
         "deathdate": "August 19, 2016"
     },
-    "Earl Chapin": {
+    {
+        "id": "Earl Chapin",
+        "url": "https://www.discogs.com/artist/275273-Earl-Chapin",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://www.discogs.com/artist/275273-Earl-Chapin",
-        "icon": "",
         "birthdate": "1926",
         "deathdate": "January 21, 1997"
     },
-    "Harold Feldman": {
+    {
+        "id": "Harold Feldman",
+        "url": "",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "clarinet"
         ],
-        "url": "",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Jack Knitzer": {
+    {
+        "id": "Jack Knitzer",
+        "url": "https://www.discogs.com/de/artist/275271-Jack-Knitzer",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "bassoon"
         ],
-        "url": "https://www.discogs.com/de/artist/275271-Jack-Knitzer",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Jose Mangual": {
+    {
+        "id": "Jose Mangual",
+        "url": "https://www.discogs.com/de/artist/275265-Jose-Mangual",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%28Portrait_of_Machito%2C_Jose_Mangual%2C_and_Carlos_Vidal%28%3F%29%2C_Glen_Island_Casino%2C_New_York%2C_N.Y.%2C_ca._July_1947%29_%28LOC%29_%285062512234%29.jpg/360px-%28Portrait_of_Machito%2C_Jose_Mangual%2C_and_Carlos_Vidal%28%3F%29%2C_Glen_Island_Casino%2C_New_York%2C_N.Y.%2C_ca._July_1947%29_%28LOC%29_%285062512234%29.jpg",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://www.discogs.com/de/artist/275265-Jose-Mangual",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%28Portrait_of_Machito%2C_Jose_Mangual%2C_and_Carlos_Vidal%28%3F%29%2C_Glen_Island_Casino%2C_New_York%2C_N.Y.%2C_ca._July_1947%29_%28LOC%29_%285062512234%29.jpg/360px-%28Portrait_of_Machito%2C_Jose_Mangual%2C_and_Carlos_Vidal%28%3F%29%2C_Glen_Island_Casino%2C_New_York%2C_N.Y.%2C_ca._July_1947%29_%28LOC%29_%285062512234%29.jpg",
         "birthdate": "March 18, 1924",
         "deathdate": "1998"
     },
-    "Jimmy McAllister": {
+    {
+        "id": "Jimmy McAllister",
+        "url": "https://www.discogs.com/artist/275272-James-McAllister",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "tuba"
         ],
-        "url": "https://www.discogs.com/artist/275272-James-McAllister",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Janet Putnam": {
+    {
+        "id": "Janet Putnam",
+        "url": "https://www.discogs.com/artist/260730-Janet-Putnam",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Sketches of Spain"
@@ -1169,120 +1248,130 @@
         "instruments": [
             "harp"
         ],
-        "url": "https://www.discogs.com/artist/260730-Janet-Putnam",
-        "icon": "",
         "birthdate": "20 May, 1921",
         "deathdate": "31 July, 2011"
     },
-    "Joe Singer": {
+    {
+        "id": "Joe Singer",
+        "url": "",
+        "icon": "",
         "albums": [
             "Sketches of Spain"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Hank Mobley": {
+    {
+        "id": "Hank Mobley",
+        "url": "https://www.discogs.com/de/artist/135872-Hank-Mobley",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gedenktafel_Alfred-Lion-Steg_%28Schön%29_Alfred_Lion.jpg/440px-Gedenktafel_Alfred-Lion-Steg_%28Schön%29_Alfred_Lion.jpg",
         "albums": [
             "Someday My Prince Will Come"
         ],
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://www.discogs.com/de/artist/135872-Hank-Mobley",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Gedenktafel_Alfred-Lion-Steg_%28Schön%29_Alfred_Lion.jpg/440px-Gedenktafel_Alfred-Lion-Steg_%28Schön%29_Alfred_Lion.jpg",
         "birthdate": "July 07, 1930",
         "deathdate": "May 30, 1986"
     },
-    "Shorty Baker": {
+    {
+        "id": "Shorty Baker",
+        "url": "https://de.wikipedia.org/wiki/Harold_Shorty_Baker",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shorty_Baker.jpg/440px-Shorty_Baker.jpg",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://de.wikipedia.org/wiki/Harold_Shorty_Baker",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shorty_Baker.jpg/440px-Shorty_Baker.jpg",
         "birthdate": "May 26, 1914",
         "deathdate": "November 8, 1966"
     },
-    "Ray Alonge": {
+    {
+        "id": "Ray Alonge",
+        "url": "https://www.discogs.com/de/artist/295645-Ray-Alonge",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://www.discogs.com/de/artist/295645-Ray-Alonge",
-        "icon": "",
         "birthdate": "July 16, 1924",
         "deathdate": "January 17, 2000"
     },
-    "Don Corrado": {
+    {
+        "id": "Don Corrado",
+        "url": "https://www.discogs.com/de/artist/341139-Donald-Corrado",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "french horn"
         ],
-        "url": "https://www.discogs.com/de/artist/341139-Donald-Corrado",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Steve Lacy": {
+    {
+        "id": "Steve Lacy",
+        "url": "https://de.wikipedia.org/wiki/Steve_Lacy",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Steve_Lacy.jpg",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "soprano saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Steve_Lacy",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/Steve_Lacy.jpg",
         "birthdate": "July 23, 1934",
         "deathdate": "June 4, 2004"
     },
-    "Ray Beckenstein": {
+    {
+        "id": "Ray Beckenstein",
+        "url": "https://www.discogs.com/de/artist/272747-Ray-Beckenstein",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "woodwinds"
         ],
-        "url": "https://www.discogs.com/de/artist/272747-Ray-Beckenstein",
-        "icon": "",
         "birthdate": "August 14, 1923",
         "deathdate": "August 24, 2009"
     },
-    "Garvin Bushell": {
+    {
+        "id": "Garvin Bushell",
+        "url": "https://www.discogs.com/de/artist/260911-Garvin-Bushell",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "bassoon"
         ],
-        "url": "https://www.discogs.com/de/artist/260911-Garvin-Bushell",
-        "icon": "",
         "birthdate": "September 25, 1902 ",
         "deathdate": "October 31, 1991"
     },
-    "Bob Tricarico": {
+    {
+        "id": "Bob Tricarico",
+        "url": "https://www.discogs.com/de/artist/317502-Bob-Tricarico",
+        "icon": "",
         "albums": [
             "Quiet Nights"
         ],
         "instruments": [
             "bassoon"
         ],
-        "url": "https://www.discogs.com/de/artist/317502-Bob-Tricarico",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Willie Bobo": {
+    {
+        "id": "Willie Bobo",
+        "url": "https://www.discogs.com/de/artist/33585-Willie-Bobo",
+        "icon": "",
         "albums": [
             "Sorcerer",
             "Quiet Nights"
@@ -1290,12 +1379,13 @@
         "instruments": [
             "bongos"
         ],
-        "url": "https://www.discogs.com/de/artist/33585-Willie-Bobo",
-        "icon": "",
         "birthdate": "February 28, 1934",
         "deathdate": "September 15, 1983"
     },
-    "George Coleman": {
+    {
+        "id": "George Coleman",
+        "url": "https://www.discogs.com/de/artist/253367-George-Coleman",
+        "icon": "",
         "albums": [
             "Seven Steps to Heaven",
             "Quiet Nights"
@@ -1303,12 +1393,13 @@
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://www.discogs.com/de/artist/253367-George-Coleman",
-        "icon": "",
         "birthdate": "March 8, 1935",
         "deathdate": ""
     },
-    "Victor Feldman": {
+    {
+        "id": "Victor Feldman",
+        "url": "https://de.wikipedia.org/wiki/Victor_Feldman",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Victor_Feldman_1976.jpg/440px-Victor_Feldman_1976.jpg",
         "albums": [
             "Quiet Nights",
             "Seven Steps to Heaven"
@@ -1316,12 +1407,13 @@
         "instruments": [
             "piano"
         ],
-        "url": "https://de.wikipedia.org/wiki/Victor_Feldman",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Victor_Feldman_1976.jpg/440px-Victor_Feldman_1976.jpg",
         "birthdate": "April 7, 1934",
         "deathdate": "May 12, 1987"
     },
-    "Ron Carter": {
+    {
+        "id": "Ron Carter",
+        "url": "https://www.discogs.com/de/artist/95088-Ron-Carter",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ron_Carter.JPG/340px-Ron_Carter.JPG",
         "albums": [
             "Live-Evil",
             "Filles de Kilimanjaro",
@@ -1338,12 +1430,13 @@
             "electric bass",
             "double bass"
         ],
-        "url": "https://www.discogs.com/de/artist/95088-Ron-Carter",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ron_Carter.JPG/340px-Ron_Carter.JPG",
         "birthdate": "May 4, 1937",
         "deathdate": ""
     },
-    "Frank Butler": {
+    {
+        "id": "Frank Butler",
+        "url": "https://www.discogs.com/de/artist/254110-Frank-Butler",
+        "icon": "",
         "albums": [
             "Quiet Nights",
             "Seven Steps to Heaven"
@@ -1351,12 +1444,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://www.discogs.com/de/artist/254110-Frank-Butler",
-        "icon": "",
         "birthdate": "February 18, 1928",
         "deathdate": "July 24, 1984"
     },
-    "Herbie Hancock": {
+    {
+        "id": "Herbie Hancock",
+        "url": "https://de.wikipedia.org/wiki/Herbie_Hancock",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Herbie_Hancock.jpg/440px-Herbie_Hancock.jpg",
         "albums": [
             "Live-Evil",
             "Jack Johnson",
@@ -1375,12 +1469,13 @@
             "organ",
             "piano"
         ],
-        "url": "https://de.wikipedia.org/wiki/Herbie_Hancock",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Herbie_Hancock.jpg/440px-Herbie_Hancock.jpg",
         "birthdate": "April 12, 1940",
         "deathdate": ""
     },
-    "Tony Williams": {
+    {
+        "id": "Tony Williams",
+        "url": "https://de.wikipedia.org/wiki/Tony_Williams",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tony_Williams1.jpg/500px-Tony_Williams1.jpg",
         "albums": [
             "In a Silent Way",
             "Filles de Kilimanjaro",
@@ -1395,12 +1490,13 @@
             "drums",
             "electric drums"
         ],
-        "url": "https://de.wikipedia.org/wiki/Tony_Williams",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tony_Williams1.jpg/500px-Tony_Williams1.jpg",
         "birthdate": "December 12, 1945",
         "deathdate": "February 23, 1997"
     },
-    "Wayne Shorter": {
+    {
+        "id": "Wayne Shorter",
+        "url": "https://de.wikipedia.org/wiki/Wayne_Shorter",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wayne_Shorter.jpg/440px-Wayne_Shorter.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1417,36 +1513,39 @@
             "soprano saxophone",
             "tenor saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Wayne_Shorter",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wayne_Shorter.jpg/440px-Wayne_Shorter.jpg",
         "birthdate": "August 25, 1933",
         "deathdate": ""
     },
-    "Bob Dorough": {
+    {
+        "id": "Bob Dorough",
+        "url": "https://de.wikipedia.org/wiki/Bob_Dorough",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bob_Dorough_1.jpg/440px-Bob_Dorough_1.jpg",
         "albums": [
             "Sorcerer"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://de.wikipedia.org/wiki/Bob_Dorough",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bob_Dorough_1.jpg/440px-Bob_Dorough_1.jpg",
         "birthdate": "December 12, 1923",
         "deathdate": "April 23, 2018"
     },
-    "George Benson": {
+    {
+        "id": "George Benson",
+        "url": "https://de.wikipedia.org/wiki/George_Benson",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/George_Benson_2009.jpg/440px-George_Benson_2009.jpg",
         "albums": [
             "Miles in the Sky"
         ],
         "instruments": [
             "electric guitar"
         ],
-        "url": "https://de.wikipedia.org/wiki/George_Benson",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/George_Benson_2009.jpg/440px-George_Benson_2009.jpg",
         "birthdate": "March 22, 1943",
         "deathdate": ""
     },
-    "Chick Corea": {
+    {
+        "id": "Chick Corea",
+        "url": "https://en.wikipedia.org/wiki/Chick_Corea",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg/220px-Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1459,12 +1558,13 @@
             "piano",
             "RMI electra-piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Chick_Corea",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg/220px-Chick_Corea_Kongsberg_Jazzfestival_2018_%28170650%29.jpg",
         "birthdate": "June 12, 1941",
         "deathdate": ""
     },
-    "Dave Holland": {
+    {
+        "id": "Dave Holland",
+        "url": "https://en.wikipedia.org/wiki/Dave_Holland",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Dave_Holland1.jpg/220px-Dave_Holland1.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1475,12 +1575,13 @@
             "bass",
             "double bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Dave_Holland",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Dave_Holland1.jpg/220px-Dave_Holland1.jpg",
         "birthdate": "October 1, 1946",
         "deathdate": ""
     },
-    "John McLaughlin": {
+    {
+        "id": "John McLaughlin",
+        "url": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_McLaughlin_Blue_Note_2016.JPG/220px-John_McLaughlin_Blue_Note_2016.JPG",
         "albums": [
             "Aura",
             "You're Under Arrest",
@@ -1494,12 +1595,13 @@
             "guitar",
             "electric guitar"
         ],
-        "url": "https://en.wikipedia.org/wiki/John_McLaughlin_(musician)",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_McLaughlin_Blue_Note_2016.JPG/220px-John_McLaughlin_Blue_Note_2016.JPG",
         "birthdate": "January 4, 1942",
         "deathdate": ""
     },
-    "Joe Zawinul": {
+    {
+        "id": "Joe Zawinul",
+        "url": "https://en.wikipedia.org/wiki/Joe_Zawinul",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Joe_zawinul_2007-03-28_live_in_freiburg.jpg/220px-Joe_zawinul_2007-03-28_live_in_freiburg.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1508,12 +1610,13 @@
         "instruments": [
             "electric piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Joe_Zawinul",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Joe_zawinul_2007-03-28_live_in_freiburg.jpg/220px-Joe_zawinul_2007-03-28_live_in_freiburg.jpg",
         "birthdate": "July 7, 1932",
         "deathdate": "September 11, 2007"
     },
-    "Bennie Maupin": {
+    {
+        "id": "Bennie Maupin",
+        "url": "https://en.wikipedia.org/wiki/Bennie_Maupin",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bennie-maupin-1326016807.jpg/250px-Bennie-maupin-1326016807.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1524,48 +1627,52 @@
             "bass clarinet",
             "electric piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bennie_Maupin",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bennie-maupin-1326016807.jpg/250px-Bennie-maupin-1326016807.jpg",
         "birthdate": "August 29, 1940",
         "deathdate": ""
     },
-    "Larry Young": {
+    {
+        "id": "Larry Young",
+        "url": "https://en.wikipedia.org/wiki/Larry_Young_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Larry_Young_%28musician%29.gif/220px-Larry_Young_%28musician%29.gif",
         "albums": [
             "Bitches Brew"
         ],
         "instruments": [
             "electric piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Larry_Young_(musician)",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Larry_Young_%28musician%29.gif/220px-Larry_Young_%28musician%29.gif",
         "birthdate": "October 7, 1940",
         "deathdate": "March 30, 1978"
     },
-    "Harvey Brooks": {
+    {
+        "id": "Harvey Brooks",
+        "url": "https://en.wikipedia.org/wiki/Harvey_Brooks_(bassist)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Harveycapture.jpg/220px-Harveycapture.jpg",
         "albums": [
             "Bitches Brew"
         ],
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Harvey_Brooks_(bassist)",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Harveycapture.jpg/220px-Harveycapture.jpg",
         "birthdate": "July 4, 1944",
         "deathdate": ""
     },
-    "Lenny White": {
+    {
+        "id": "Lenny White",
+        "url": "https://en.wikipedia.org/wiki/Lenny_White",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lenny_White.jpg/440px-Lenny_White.jpg",
         "albums": [
             "Bitches Brew"
         ],
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Lenny_White",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lenny_White.jpg/440px-Lenny_White.jpg",
         "birthdate": "December 19, 1949",
         "deathdate": ""
     },
-    "Jack DeJohnette": {
+    {
+        "id": "Jack DeJohnette",
+        "url": "https://de.wikipedia.org/wiki/Jack_DeJohnette",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Deutsches_Jazzfestival_2015_-_DeJonette_Mitchell_Garrison_-_Jack_DeJohnette_-_03.jpg/440px-Deutsches_Jazzfestival_2015_-_DeJonette_Mitchell_Garrison_-_Jack_DeJohnette_-_03.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew",
@@ -1574,12 +1681,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://de.wikipedia.org/wiki/Jack_DeJohnette",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Deutsches_Jazzfestival_2015_-_DeJonette_Mitchell_Garrison_-_Jack_DeJohnette_-_03.jpg/440px-Deutsches_Jazzfestival_2015_-_DeJonette_Mitchell_Garrison_-_Jack_DeJohnette_-_03.jpg",
         "birthdate": "August 9, 1942",
         "deathdate": ""
     },
-    "Don Alias": {
+    {
+        "id": "Don Alias",
+        "url": "https://www.discogs.com/de/artist/267099-Don-Alias",
+        "icon": "",
         "albums": [
             "Amandla",
             "Live-Evil",
@@ -1591,24 +1699,26 @@
             "drums",
             "congas"
         ],
-        "url": "https://www.discogs.com/de/artist/267099-Don-Alias",
-        "icon": "",
         "birthdate": "December 25, 1939",
         "deathdate": "March 28, 2006"
     },
-    "Juma Santos": {
+    {
+        "id": "Juma Santos",
+        "url": "https://www.discogs.com/de/artist/297013-Jumma-Santos",
+        "icon": "",
         "albums": [
             "Bitches Brew"
         ],
         "instruments": [
             "congas"
         ],
-        "url": "https://www.discogs.com/de/artist/297013-Jumma-Santos",
-        "icon": "",
         "birthdate": "January 15, 1948",
         "deathdate": "September 10, 2007"
     },
-    "Billy Cobham": {
+    {
+        "id": "Billy Cobham",
+        "url": "https://de.wikipedia.org/wiki/Billy_Cobham",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Billy_Cobham.jpg/440px-Billy_Cobham.jpg",
         "albums": [
             "Live-Evil",
             "Jack Johnson",
@@ -1617,12 +1727,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://de.wikipedia.org/wiki/Billy_Cobham",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Billy_Cobham.jpg/440px-Billy_Cobham.jpg",
         "birthdate": "May 16, 1944",
         "deathdate": ""
     },
-    "Airto Moreira": {
+    {
+        "id": "Airto Moreira",
+        "url": "https://de.wikipedia.org/wiki/Airto_Moreira",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Airto_Moreira.jpg/440px-Airto_Moreira.jpg",
         "albums": [
             "Live-Evil",
             "Bitches Brew"
@@ -1631,12 +1742,13 @@
             "percussion",
             "cuica"
         ],
-        "url": "https://de.wikipedia.org/wiki/Airto_Moreira",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Airto_Moreira.jpg/440px-Airto_Moreira.jpg",
         "birthdate": "August 5, 1941",
         "deathdate": ""
     },
-    "Steve Grossman": {
+    {
+        "id": "Steve Grossman",
+        "url": "https://de.wikipedia.org/wiki/Steve_Grossman",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Steve_Grossman.jpg",
         "albums": [
             "Live-Evil",
             "Jack Johnson"
@@ -1645,12 +1757,13 @@
             "saxophone",
             "soprano saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Steve_Grossman",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Steve_Grossman.jpg",
         "birthdate": "January 18, 1951",
         "deathdate": ""
     },
-    "Michael Henderson": {
+    {
+        "id": "Michael Henderson",
+        "url": "https://de.wikipedia.org/wiki/Michael_Henderson",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Michael-Henderson.jpg/440px-Michael-Henderson.jpg",
         "albums": [
             "Live-Evil",
             "Jack Johnson",
@@ -1660,24 +1773,26 @@
             "bass",
             "electric bass"
         ],
-        "url": "https://de.wikipedia.org/wiki/Michael_Henderson",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Michael-Henderson.jpg/440px-Michael-Henderson.jpg",
         "birthdate": "July 7, 1951",
         "deathdate": ""
     },
-    "Brock Peters": {
+    {
+        "id": "Brock Peters",
+        "url": "https://www.discogs.com/de/artist/407548-Brock-Peters",
+        "icon": "",
         "albums": [
             "Jack Johnson"
         ],
         "instruments": [
             "narration"
         ],
-        "url": "https://www.discogs.com/de/artist/407548-Brock-Peters",
-        "icon": "",
         "birthdate": "July 2, 1927",
         "deathdate": "August 23, 2005"
     },
-    "Hermeto Pascoal": {
+    {
+        "id": "Hermeto Pascoal",
+        "url": "https://de.wikipedia.org/wiki/Hermeto_Pascoal",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hermeto_Pascoal_-_Portrait_by_Gert_Chesi.jpg/440px-Hermeto_Pascoal_-_Portrait_by_Gert_Chesi.jpg",
         "albums": [
             "Live-Evil"
         ],
@@ -1685,12 +1800,13 @@
             "vocals",
             "electric piano"
         ],
-        "url": "https://de.wikipedia.org/wiki/Hermeto_Pascoal",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hermeto_Pascoal_-_Portrait_by_Gert_Chesi.jpg/440px-Hermeto_Pascoal_-_Portrait_by_Gert_Chesi.jpg",
         "birthdate": "June 22, 1936",
         "deathdate": ""
     },
-    "Keith Jarrett": {
+    {
+        "id": "Keith Jarrett",
+        "url": "https://de.wikipedia.org/wiki/Keith_Jarrett",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Keith_Jarrett-commons.jpg/500px-Keith_Jarrett-commons.jpg",
         "albums": [
             "Live-Evil"
         ],
@@ -1698,24 +1814,26 @@
             "piano",
             "electric piano"
         ],
-        "url": "https://de.wikipedia.org/wiki/Keith_Jarrett",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Keith_Jarrett-commons.jpg/500px-Keith_Jarrett-commons.jpg",
         "birthdate": "May 8, 1945",
         "deathdate": ""
     },
-    "Gary Bartz": {
+    {
+        "id": "Gary Bartz",
+        "url": "https://de.wikipedia.org/wiki/Gary_Bartz",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gary_Bartz.jpg/440px-Gary_Bartz.jpg",
         "albums": [
             "Live-Evil"
         ],
         "instruments": [
             "saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Gary_Bartz",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gary_Bartz.jpg/440px-Gary_Bartz.jpg",
         "birthdate": "September 26, 1940",
         "deathdate": ""
     },
-    "Khalil Balakrishna": {
+    {
+        "id": "Khalil Balakrishna",
+        "url": "https://www.discogs.com/de/artist/262579-Khalil-Balakrishna",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1724,36 +1842,41 @@
             "guitar",
             "sitar"
         ],
-        "url": "https://www.discogs.com/de/artist/262579-Khalil-Balakrishna",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Carlos Garnett": {
+    {
+        "id": "Carlos Garnett",
+        "url": "https://de.wikipedia.org/wiki/Carlos_Garnett",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Carlos_Garnett.JPG/440px-Carlos_Garnett.JPG",
         "albums": [
-            "Live-Evil", "On the Corner"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Carlos_Garnett",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Carlos_Garnett.JPG/440px-Carlos_Garnett.JPG",
         "birthdate": "December 1, 1938",
         "deathdate": ""
     },
-    "Dave Liebman": {
+    {
+        "id": "Dave Liebman",
+        "url": "https://de.wikipedia.org/wiki/David_Liebman",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dave-liebman_DSC02995.jpg/440px-Dave-liebman_DSC02995.jpg",
         "albums": [
-            "Live-Evil", "On the Corner"
+            "Live-Evil",
+            "On the Corner"
         ],
         "instruments": [
             "saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/David_Liebman",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dave-liebman_DSC02995.jpg/440px-Dave-liebman_DSC02995.jpg",
         "birthdate": "September 4, 1946",
         "deathdate": ""
     },
-    "Harold Ivory Williams": {
+    {
+        "id": "Harold Ivory Williams",
+        "url": "https://www.discogs.com/de/artist/315688-Harold-Ivory-Williams",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1761,12 +1884,13 @@
         "instruments": [
             "electric piano"
         ],
-        "url": "https://www.discogs.com/de/artist/315688-Harold-Ivory-Williams",
-        "icon": "",
         "birthdate": "August 25, 1949",
         "deathdate": "June 9, 2010"
     },
-    "Cedric Lawson": {
+    {
+        "id": "Cedric Lawson",
+        "url": "https://www.discogs.com/de/artist/295398-Cedric-Lawson",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1774,12 +1898,13 @@
         "instruments": [
             "organ"
         ],
-        "url": "https://www.discogs.com/de/artist/295398-Cedric-Lawson",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Reggie Lucas": {
+    {
+        "id": "Reggie Lucas",
+        "url": "https://www.discogs.com/de/artist/62811-Reggie-Lucas",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1787,12 +1912,13 @@
         "instruments": [
             "guitar"
         ],
-        "url": "https://www.discogs.com/de/artist/62811-Reggie-Lucas",
-        "icon": "",
         "birthdate": "February 25, 1953",
         "deathdate": "May 19, 2018"
     },
-    "Collin Walcott": {
+    {
+        "id": "Collin Walcott",
+        "url": "https://www.discogs.com/de/artist/315689-Collin-Walcott",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1801,12 +1927,13 @@
             "electric sitar",
             "guitar"
         ],
-        "url": "https://www.discogs.com/de/artist/315689-Collin-Walcott",
-        "icon": "",
         "birthdate": "February 24, 1945",
         "deathdate": "November 8, 1984"
     },
-    "Al Foster": {
+    {
+        "id": "Al Foster",
+        "url": "https://de.wikipedia.org/wiki/Al_Foster",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Al_Foster_Quartet_08.jpg/440px-Al_Foster_Quartet_08.jpg",
         "albums": [
             "Amandla",
             "You're Under Arrest",
@@ -1819,36 +1946,41 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://de.wikipedia.org/wiki/Al_Foster",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Al_Foster_Quartet_08.jpg/440px-Al_Foster_Quartet_08.jpg",
         "birthdate": "January 18, 1943",
         "deathdate": ""
     },
-    "Billy Hart": {
+    {
+        "id": "Billy Hart",
+        "url": "https://de.wikipedia.org/wiki/Billy_Hart",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Billy_Hart_1.jpg/440px-Billy_Hart_1.jpg",
         "albums": [
-            "Live-Evil", "Tutu", "On the Corner"
+            "Live-Evil",
+            "Tutu",
+            "On the Corner"
         ],
         "instruments": [
             "drums"
         ],
-        "url": "https://de.wikipedia.org/wiki/Billy_Hart",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Billy_Hart_1.jpg/440px-Billy_Hart_1.jpg",
         "birthdate": "November 29, 1940",
         "deathdate": ""
     },
-    "David Creamer": {
+    {
+        "id": "David Creamer",
+        "url": "https://www.discogs.com/de/artist/315690-David-Creamer",
+        "icon": "",
         "albums": [
             "On the Corner"
         ],
         "instruments": [
             "guitar"
         ],
-        "url": "https://www.discogs.com/de/artist/315690-David-Creamer",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "James Mtume": {
+    {
+        "id": "James Mtume",
+        "url": "https://www.discogs.com/de/artist/38236-James-Mtume",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1857,12 +1989,13 @@
             "percussion",
             "drums"
         ],
-        "url": "https://www.discogs.com/de/artist/38236-James-Mtume",
-        "icon": "",
         "birthdate": "1947",
         "deathdate": ""
     },
-    "Paul Buckmaster": {
+    {
+        "id": "Paul Buckmaster",
+        "url": "https://www.discogs.com/de/artist/289733-Paul-Buckmaster",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1870,12 +2003,13 @@
         "instruments": [
             "cello"
         ],
-        "url": "https://www.discogs.com/de/artist/289733-Paul-Buckmaster",
-        "icon": "",
         "birthdate": "June 13, 1946",
         "deathdate": "November 7, 2017"
     },
-    "Badal Roy": {
+    {
+        "id": "Badal Roy",
+        "url": "https://www.discogs.com/de/artist/272930-Badal-Roy",
+        "icon": "",
         "albums": [
             "Live-Evil",
             "On the Corner"
@@ -1883,12 +2017,13 @@
         "instruments": [
             "tabla"
         ],
-        "url": "https://www.discogs.com/de/artist/272930-Badal-Roy",
-        "icon": "",
         "birthdate": "1945",
         "deathdate": ""
     },
-    "Bill Evans": {
+    {
+        "id": "Bill Evans",
+        "url": "https://www.discogs.com/artist/252310-Bill-Evans",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bill_Evans.jpg/440px-Bill_Evans.jpg",
         "albums": [
             "Decoy",
             "The Man with the Horn",
@@ -1901,24 +2036,26 @@
             "saxophone",
             "piano"
         ],
-        "url": "https://www.discogs.com/artist/252310-Bill-Evans",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bill_Evans.jpg/440px-Bill_Evans.jpg",
         "birthdate": "August 16,  1929",
         "deathdate": "September, 15 1980"
     },
-    "Barry Finnerty": {
+    {
+        "id": "Barry Finnerty",
+        "url": "https://de.wikipedia.org/wiki/Barry_Finnerty",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barry_Finnerty_in_April_2018.jpg/220px-Barry_Finnerty_in_April_2018.jpg",
         "albums": [
             "The Man with the Horn"
         ],
         "instruments": [
             "guitar"
         ],
-        "url": "https://de.wikipedia.org/wiki/Barry_Finnerty",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barry_Finnerty_in_April_2018.jpg/220px-Barry_Finnerty_in_April_2018.jpg",
         "birthdate": "Dezember 3, 1951",
         "deathdate": ""
     },
-    "Mike Stern": {
+    {
+        "id": "Mike Stern",
+        "url": "https://de.wikipedia.org/wiki/Mike_Stern",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mike-Stern.jpg/440px-Mike-Stern.jpg",
         "albums": [
             "Star People",
             "The Man with the Horn"
@@ -1927,12 +2064,13 @@
             "electric guitar",
             "guitar"
         ],
-        "url": "https://de.wikipedia.org/wiki/Mike_Stern",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mike-Stern.jpg/440px-Mike-Stern.jpg",
         "birthdate": "January 10, 1953",
         "deathdate": ""
     },
-    "Marcus Miller": {
+    {
+        "id": "Marcus Miller",
+        "url": "https://de.wikipedia.org/wiki/Marcus_Miller",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Marcus_Miller_at_Stockholm_Jazz_Fest_2009.jpg/580px-Marcus_Miller_at_Stockholm_Jazz_Fest_2009.jpg",
         "albums": [
             "Amandla",
             "Tutu",
@@ -1947,36 +2085,39 @@
             "guitar",
             "electric bass"
         ],
-        "url": "https://de.wikipedia.org/wiki/Marcus_Miller",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Marcus_Miller_at_Stockholm_Jazz_Fest_2009.jpg/580px-Marcus_Miller_at_Stockholm_Jazz_Fest_2009.jpg",
         "birthdate": "Juni 14, 1959",
         "deathdate": ""
     },
-    "Sammy Figueroa": {
+    {
+        "id": "Sammy Figueroa",
+        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
+        "icon": "",
         "albums": [
             "The Man with the Horn"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
-        "icon": "",
         "birthdate": "November 16, 1948",
         "deathdate": ""
     },
-    "Conrad Roberts": {
+    {
+        "id": "Conrad Roberts",
+        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
+        "icon": "",
         "albums": [
             "Live-Evil"
         ],
         "instruments": [
             "narration"
         ],
-        "url": "https://www.discogs.com/de/artist/253339-Sammy-Figueroa",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Robert Irving III": {
+    {
+        "id": "Robert Irving III",
+        "url": "https://de.wikipedia.org/wiki/Robert_Irving_III",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/BobbyIrving.jpg/440px-BobbyIrving.jpg",
         "albums": [
             "You're Under Arrest",
             "Decoy",
@@ -1986,36 +2127,39 @@
             "synthesizer",
             "piano"
         ],
-        "url": "https://de.wikipedia.org/wiki/Robert_Irving_III",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/BobbyIrving.jpg/440px-BobbyIrving.jpg",
         "birthdate": "October 27, 1953",
         "deathdate": ""
     },
-    "Randy Hall": {
+    {
+        "id": "Randy Hall",
+        "url": "https://www.discogs.com/de/artist/279709-Randy-Hall",
+        "icon": "",
         "albums": [
             "The Man with the Horn"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://www.discogs.com/de/artist/279709-Randy-Hall",
-        "icon": "",
         "birthdate": "April 19, 1958",
         "deathdate": ""
     },
-    "Felton Crews": {
+    {
+        "id": "Felton Crews",
+        "url": "https://www.discogs.com/de/artist/271066-Felton-Crews",
+        "icon": "",
         "albums": [
             "The Man with the Horn"
         ],
         "instruments": [
             "bass"
         ],
-        "url": "https://www.discogs.com/de/artist/271066-Felton-Crews",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Vincent Wilburn": {
+    {
+        "id": "Vincent Wilburn",
+        "url": "https://www.discogs.com/de/artist/279708-Vincent-Wilburn",
+        "icon": "",
         "albums": [
             "You're Under Arrest",
             "The Man with the Horn",
@@ -2024,12 +2168,13 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://www.discogs.com/de/artist/279708-Vincent-Wilburn",
-        "icon": "",
         "birthdate": "1958",
         "deathdate": ""
     },
-    "John Scofield": {
+    {
+        "id": "John Scofield",
+        "url": "https://de.wikipedia.org/wiki/John_Scofield",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/John-scofield_HG.jpg/500px-John-scofield_HG.jpg",
         "albums": [
             "You're Under Arrest",
             "Decoy",
@@ -2039,24 +2184,26 @@
             "guitar",
             "electric guitar"
         ],
-        "url": "https://de.wikipedia.org/wiki/John_Scofield",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/John-scofield_HG.jpg/500px-John-scofield_HG.jpg",
         "birthdate": "26 December, 1951",
         "deathdate": ""
     },
-    "Tom Barney": {
+    {
+        "id": "Tom Barney",
+        "url": "https://www.discogs.com/de/artist/276063-Tom-Barney",
+        "icon": "",
         "albums": [
             "Star People"
         ],
         "instruments": [
             "electric bass"
         ],
-        "url": "https://www.discogs.com/de/artist/276063-Tom-Barney",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Mino Cinelu": {
+    {
+        "id": "Mino Cinelu",
+        "url": "https://de.wikipedia.org/wiki/Mino_Cinelu",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mino_Cinelu.jpg/440px-Mino_Cinelu.jpg",
         "albums": [
             "Amandla",
             "Decoy",
@@ -2065,24 +2212,26 @@
         "instruments": [
             "percussion"
         ],
-        "url": "https://de.wikipedia.org/wiki/Mino_Cinelu",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mino_Cinelu.jpg/440px-Mino_Cinelu.jpg",
         "birthdate": "March 10, 1957",
         "deathdate": ""
     },
-    "Branford Marsalis": {
+    {
+        "id": "Branford Marsalis",
+        "url": "https://de.wikipedia.org/wiki/Branford_Marsalis",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Branford_Marsalis.jpg/440px-Branford_Marsalis.jpg",
         "albums": [
             "Decoy"
         ],
         "instruments": [
             "soprano saxophone"
         ],
-        "url": "https://de.wikipedia.org/wiki/Branford_Marsalis",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Branford_Marsalis.jpg/440px-Branford_Marsalis.jpg",
         "birthdate": "August 26, 1960",
         "deathdate": ""
     },
-    "Darryl \"The Munch\" Jones": {
+    {
+        "id": "Darryl \"The Munch\" Jones",
+        "url": "https://de.wikipedia.org/wiki/Darryl_Jones",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Darryljones.jpg/340px-Darryljones.jpg",
         "albums": [
             "You're Under Arrest",
             "Decoy"
@@ -2090,12 +2239,13 @@
         "instruments": [
             "bass"
         ],
-        "url": "https://de.wikipedia.org/wiki/Darryl_Jones",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Darryljones.jpg/340px-Darryljones.jpg",
         "birthdate": "December 11, 1961",
         "deathdate": ""
     },
-    "Bob Berg": {
+    {
+        "id": "Bob Berg",
+        "url": "https://en.wikipedia.org/wiki/Bob_Berg",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bob_Berg.jpg/440px-Bob_Berg.jpg",
         "albums": [
             "You're Under Arrest"
         ],
@@ -2103,12 +2253,13 @@
             "soprano saxophone",
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bob_Berg",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bob_Berg.jpg/440px-Bob_Berg.jpg",
         "birthdate": "April 7, 1951",
         "deathdate": "December 5, 2002"
     },
-    "Steve Thornton": {
+    {
+        "id": "Steve Thornton",
+        "url": "https://www.discogs.com/de/artist/90492-Steve-Thornton",
+        "icon": "",
         "albums": [
             "You're Under Arrest"
         ],
@@ -2116,48 +2267,52 @@
             "percussion",
             "vocals"
         ],
-        "url": "https://www.discogs.com/de/artist/90492-Steve-Thornton",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Gordon Sumner": {
+    {
+        "id": "Gordon Sumner",
+        "url": "https://fr.wikipedia.org/wiki/Sting",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sting_at_the_2009_Tribeca_Film_Festival.jpg/440px-Sting_at_the_2009_Tribeca_Film_Festival.jpg",
         "albums": [
             "You're Under Arrest"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://fr.wikipedia.org/wiki/Sting",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sting_at_the_2009_Tribeca_Film_Festival.jpg/440px-Sting_at_the_2009_Tribeca_Film_Festival.jpg",
         "birthdate": "October 2, 1951",
         "deathdate": ""
     },
-    "Marek Olko": {
+    {
+        "id": "Marek Olko",
+        "url": "https://www.discogs.com/de/artist/314149-Marek-Olko",
+        "icon": "",
         "albums": [
             "You're Under Arrest"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://www.discogs.com/de/artist/314149-Marek-Olko",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "James Prindiville": {
+    {
+        "id": "James Prindiville",
+        "url": "https://www.discogs.com/de/artist/4236678-Jim-Rose-2",
+        "icon": "",
         "albums": [
             "You're Under Arrest"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://www.discogs.com/de/artist/4236678-Jim-Rose-2",
-        "icon": "",
         "birthdate": "",
         "deathdate": "Oct 1, 2014"
     },
-    "Kenny Garrett": {
+    {
+        "id": "Kenny Garrett",
+        "url": "https://fr.wikipedia.org/wiki/Kenny_Garrett",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kenny_Garrett_%282013%29.jpg/440px-Kenny_Garrett_%282013%29.jpg",
         "albums": [
             "Amandla",
             "You're Under Arrest"
@@ -2165,24 +2320,26 @@
         "instruments": [
             "alto saxophone"
         ],
-        "url": "https://fr.wikipedia.org/wiki/Kenny_Garrett",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kenny_Garrett_%282013%29.jpg/440px-Kenny_Garrett_%282013%29.jpg",
         "birthdate": "October 9, 1960",
         "deathdate": ""
     },
-    "Jason Miles": {
+    {
+        "id": "Jason Miles",
+        "url": "https://www.discogs.com/de/artist/204170-Jason-Miles",
+        "icon": "",
         "albums": [
             "Tutu"
         ],
         "instruments": [
             "synthesizer"
         ],
-        "url": "https://www.discogs.com/de/artist/204170-Jason-Miles",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Paulinho da Costa": {
+    {
+        "id": "Paulinho da Costa",
+        "url": "https://en.wikipedia.org/wiki/Paulinho_da_Costa",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Prdc2.jpg/400px-Prdc2.jpg",
         "albums": [
             "Amandla",
             "Tutu"
@@ -2190,36 +2347,39 @@
         "instruments": [
             "percussion"
         ],
-        "url": "https://en.wikipedia.org/wiki/Paulinho_da_Costa",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Prdc2.jpg/400px-Prdc2.jpg",
         "birthdate": "May 31, 1948",
         "deathdate": ""
     },
-    "Adam Holzman": {
+    {
+        "id": "Adam Holzman",
+        "url": "https://www.discogs.com/de/artist/295061-Adam-Holzman",
+        "icon": "",
         "albums": [
             "Tutu"
         ],
         "instruments": [
             "synthesizer"
         ],
-        "url": "https://www.discogs.com/de/artist/295061-Adam-Holzman",
-        "icon": "",
         "birthdate": "February 15, 1958",
         "deathdate": ""
     },
-    "Steve Reid": {
+    {
+        "id": "Steve Reid",
+        "url": "https://de.wikipedia.org/wiki/Steve_Reid",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Steve_Reid_Circulo_de_Bellas_Artes_2.JPG/220px-Steve_Reid_Circulo_de_Bellas_Artes_2.JPG",
         "albums": [
             "Tutu"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://de.wikipedia.org/wiki/Steve_Reid",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Steve_Reid_Circulo_de_Bellas_Artes_2.JPG/220px-Steve_Reid_Circulo_de_Bellas_Artes_2.JPG",
         "birthdate": "Januar 29, 1944",
         "deathdate": "April 13, 2010"
     },
-    "George Duke": {
+    {
+        "id": "George Duke",
+        "url": "https://en.wikipedia.org/wiki/George_Duke",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/George_Duke_Singing_in_2010.jpg/440px-George_Duke_Singing_in_2010.jpg",
         "albums": [
             "Amandla",
             "Tutu"
@@ -2228,12 +2388,13 @@
             "keyboard",
             "electric piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/George_Duke",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/George_Duke_Singing_in_2010.jpg/440px-George_Duke_Singing_in_2010.jpg",
         "birthdate": "Jan 12, 1946",
         "deathdate": "August 5, 2013"
     },
-    "Omar Hakim": {
+    {
+        "id": "Omar Hakim",
+        "url": "https://en.wikipedia.org/wiki/Omar_Hakim",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/OH_2012.jpg/440px-OH_2012.jpg",
         "albums": [
             "Tutu",
             "Amandla"
@@ -2241,132 +2402,143 @@
         "instruments": [
             "drums"
         ],
-        "url": "https://en.wikipedia.org/wiki/Omar_Hakim",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/OH_2012.jpg/440px-OH_2012.jpg",
         "birthdate": "February 12, 1959",
         "deathdate": ""
     },
-    "Bernard Wright": {
+    {
+        "id": "Bernard Wright",
+        "url": "https://www.discogs.com/de/artist/64796-Bernard-Wright",
+        "icon": "",
         "albums": [
             "Tutu"
         ],
         "instruments": [
             "synthesizer"
         ],
-        "url": "https://www.discogs.com/de/artist/64796-Bernard-Wright",
-        "icon": "",
         "birthdate": "November 16, 1963",
         "deathdate": ""
     },
-    "Michał Urbaniak": {
+    {
+        "id": "Michał Urbaniak",
+        "url": "https://en.wikipedia.org/wiki/Michał_Urbaniak",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Michał_Urbaniak.jpg/440px-Michał_Urbaniak.jpg",
         "albums": [
             "Tutu"
         ],
         "instruments": [
             "electric violin"
         ],
-        "url": "https://en.wikipedia.org/wiki/Michał_Urbaniak",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Michał_Urbaniak.jpg/440px-Michał_Urbaniak.jpg",
         "birthdate": "January 22, 1943",
         "deathdate": ""
     },
-    "Michael Landau": {
+    {
+        "id": "Michael Landau",
+        "url": "https://en.wikipedia.org/wiki/Michael_Landau",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Michael_Landau_9948.jpg/440px-Michael_Landau_9948.jpg",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "guitar"
         ],
-        "url": "https://en.wikipedia.org/wiki/Michael_Landau",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Michael_Landau_9948.jpg/440px-Michael_Landau_9948.jpg",
         "birthdate": "June 1, 1958",
         "deathdate": ""
     },
-    "Joey DeFrancesco": {
+    {
+        "id": "Joey DeFrancesco",
+        "url": "https://en.wikipedia.org/wiki/Joey_DeFrancesco",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Joey_DeFrancesco_on_Oran.jpg/440px-Joey_DeFrancesco_on_Oran.jpg",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "keyboard"
         ],
-        "url": "https://en.wikipedia.org/wiki/Joey_DeFrancesco",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Joey_DeFrancesco_on_Oran.jpg/440px-Joey_DeFrancesco_on_Oran.jpg",
         "birthdate": "April 10, 1971",
         "deathdate": ""
     },
-    "Ricky Wellman": {
+    {
+        "id": "Ricky Wellman",
+        "url": "https://www.discogs.com/de/artist/327536-Ricky-Wellman",
+        "icon": "",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "drums"
         ],
-        "url": "https://www.discogs.com/de/artist/327536-Ricky-Wellman",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Joe Foley McCreary": {
-        "albums": [
-            "Amandla"
-        ],
-        "instruments": [
-            "guitar"
-        ],
+    {
+        "id": "Joe Foley McCreary",
         "url": "https://www.discogs.com/de/artist/5375743-Joe-Foley-McCreary",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
-    },
-    "Jean-Paul Bourelly": {
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "guitar"
         ],
+        "birthdate": "",
+        "deathdate": ""
+    },
+    {
+        "id": "Jean-Paul Bourelly",
         "url": "https://en.wikipedia.org/wiki/Jean-Paul_Bourelly",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bourelly.JPG/440px-Bourelly.JPG",
+        "albums": [
+            "Amandla"
+        ],
+        "instruments": [
+            "guitar"
+        ],
         "birthdate": "1960",
         "deathdate": ""
     },
-    "Rick Margitza": {
+    {
+        "id": "Rick Margitza",
+        "url": "https://en.wikipedia.org/wiki/Rick_Margitza",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rick_Margitza_Pori_Jazz_2012.JPG/440px-Rick_Margitza_Pori_Jazz_2012.JPG",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "tenor saxophone"
         ],
-        "url": "https://en.wikipedia.org/wiki/Rick_Margitza",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rick_Margitza_Pori_Jazz_2012.JPG/440px-Rick_Margitza_Pori_Jazz_2012.JPG",
         "birthdate": "October 24, 1961",
         "deathdate": ""
     },
-    "Bashiri Johnson": {
+    {
+        "id": "Bashiri Johnson",
+        "url": "https://en.wikipedia.org/wiki/Bashiri_Johnson",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/A_portrait_of_Bashiri_Johnson.jpg/440px-A_portrait_of_Bashiri_Johnson.jpg",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bashiri_Johnson",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/A_portrait_of_Bashiri_Johnson.jpg/440px-A_portrait_of_Bashiri_Johnson.jpg",
         "birthdate": "",
         "deathdate": ""
     },
-    "Joe Sample": {
+    {
+        "id": "Joe Sample",
+        "url": "https://en.wikipedia.org/wiki/Joe_Sample",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Joe_Sample.jpg/440px-Joe_Sample.jpg",
         "albums": [
             "Amandla"
         ],
         "instruments": [
             "piano"
         ],
-        "url": "https://en.wikipedia.org/wiki/Joe_Sample",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Joe_Sample.jpg/440px-Joe_Sample.jpg",
         "birthdate": "February 1, 1939",
         "deathdate": "September 12, 2014"
     },
-    "John Bigham": {
+    {
+        "id": "John Bigham",
+        "url": "https://www.discogs.com/de/artist/327544-John-Bigham",
+        "icon": "",
         "albums": [
             "Amandla"
         ],
@@ -2374,12 +2546,13 @@
             "guitar",
             "keyboard"
         ],
-        "url": "https://www.discogs.com/de/artist/327544-John-Bigham",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Billy \"Spaceman\" Patterson": {
+    {
+        "id": "Billy \"Spaceman\" Patterson",
+        "url": "https://en.wikipedia.org/wiki/Spaceman_Patterson",
+        "icon": "",
         "albums": [
             "Amandla"
         ],
@@ -2387,381 +2560,410 @@
             "wah-wah pedal",
             "keyboard"
         ],
-        "url": "https://en.wikipedia.org/wiki/Spaceman_Patterson",
-        "icon": "",
         "birthdate": "August 18, 1954",
         "deathdate": ""
     },
-    "Benny Rosenfeld": {
+    {
+        "id": "Benny Rosenfeld",
+        "url": "https://www.discogs.com/de/artist/315694-Benny-Rosenfeld",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://www.discogs.com/de/artist/315694-Benny-Rosenfeld",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Idrees Sulieman": {
+    {
+        "id": "Idrees Sulieman",
+        "url": "https://en.wikipedia.org/wiki/Idrees_Sulieman",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/a/af/Idrees_Sulieman.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Idrees_Sulieman",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/a/af/Idrees_Sulieman.jpg",
         "birthdate": "August 7, 1923",
         "deathdate": "July 28, 2002"
     },
-    "Jens Winther": {
+    {
+        "id": "Jens Winther",
+        "url": "https://en.wikipedia.org/wiki/Jens_Winther",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/d/db/Jens-winter01.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://en.wikipedia.org/wiki/Jens_Winther",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/d/db/Jens-winter01.jpg",
         "birthdate": "Oct 28, 1960",
         "deathdate": "Feb 24, 2011"
     },
-    "Palle Bolvig": {
+    {
+        "id": "Palle Bolvig",
+        "url": "https://www.discogs.com/de/artist/315713-Palle-Bolvig",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://www.discogs.com/de/artist/315713-Palle-Bolvig",
-        "icon": "",
         "birthdate": "November 25, 1932",
         "deathdate": ""
     },
-    "Perry Knudsen": {
+    {
+        "id": "Perry Knudsen",
+        "url": "https://www.discogs.com/de/artist/315714-Perry-Knudsen",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trumpet"
         ],
-        "url": "https://www.discogs.com/de/artist/315714-Perry-Knudsen",
-        "icon": "",
         "birthdate": "Februar 19, 1931",
         "deathdate": "April 4, 2009"
     },
-    "Jens Engel": {
+    {
+        "id": "Jens Engel",
+        "url": "https://www.discogs.com/de/artist/315700-Jens-Engel",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trombone"
         ],
-        "url": "https://www.discogs.com/de/artist/315700-Jens-Engel",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Ture Larsen": {
+    {
+        "id": "Ture Larsen",
+        "url": "https://www.discogs.com/de/artist/315691-Ture-Larsen",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trombone"
         ],
-        "url": "https://www.discogs.com/de/artist/315691-Ture-Larsen",
-        "icon": "",
         "birthdate": "1958",
         "deathdate": ""
     },
-    "Vincent Nilsson": {
+    {
+        "id": "Vincent Nilsson",
+        "url": "https://www.discogs.com/de/artist/315702-Vincent-Nilsson",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "trombone"
         ],
-        "url": "https://www.discogs.com/de/artist/315702-Vincent-Nilsson",
-        "icon": "",
         "birthdate": "1951",
         "deathdate": ""
     },
-    "Ole Kurt Jensen": {
-        "albums": [
-            "Aura"
-        ],
-        "instruments": [
-            "bass trombones"
-        ],
+    {
+        "id": "Ole Kurt Jensen",
         "url": "https://www.discogs.com/artist/315710-Ole-Kurt-Jensen",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
-    },
-    "Axel Windfeld": {
         "albums": [
             "Aura"
         ],
         "instruments": [
             "bass trombones"
         ],
-        "url": "https://www.discogs.com/artist/1066935-Axel-Windfeld",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Jesper Thilo": {
+    {
+        "id": "Axel Windfeld",
+        "url": "https://www.discogs.com/artist/1066935-Axel-Windfeld",
+        "icon": "",
+        "albums": [
+            "Aura"
+        ],
+        "instruments": [
+            "bass trombones"
+        ],
+        "birthdate": "",
+        "deathdate": ""
+    },
+    {
+        "id": "Jesper Thilo",
+        "url": "https://en.wikipedia.org/wiki/Jesper_Thilo",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Jesper-thilo_DSC08895.jpg/520px-Jesper-thilo_DSC08895.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://en.wikipedia.org/wiki/Jesper_Thilo",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Jesper-thilo_DSC08895.jpg/520px-Jesper-thilo_DSC08895.jpg",
         "birthdate": "November 28, 1941",
         "deathdate": ""
     },
-    "Per Carsten": {
+    {
+        "id": "Per Carsten",
+        "url": "https://www.discogs.com/de/artist/4090295-Per-Carsten-Petersen",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://www.discogs.com/de/artist/4090295-Per-Carsten-Petersen",
-        "icon": "",
         "birthdate": "August 14, 1945",
         "deathdate": "May 26, 2014"
     },
-    "Uffe Karskov": {
+    {
+        "id": "Uffe Karskov",
+        "url": "https://www.discogs.com/de/artist/315708-Uffe-Karskov",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://www.discogs.com/de/artist/315708-Uffe-Karskov",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Bent Jædig": {
+    {
+        "id": "Bent Jædig",
+        "url": "https://en.wikipedia.org/wiki/Bent_Jædig",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bent_Jædig_Photo.jpg/440px-Bent_Jædig_Photo.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bent_Jædig",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bent_Jædig_Photo.jpg/440px-Bent_Jædig_Photo.jpg",
         "birthdate": "October 18, 1935",
         "deathdate": "June 9, 2004"
     },
-    "Flemming Madsen": {
+    {
+        "id": "Flemming Madsen",
+        "url": "https://www.discogs.com/artist/315704-Flemming-Madsen",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flute"
         ],
-        "url": "https://www.discogs.com/artist/315704-Flemming-Madsen",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Kenneth Knudsen": {
-        "albums": [
-            "Aura"
-        ],
-        "instruments": [
-            "keyboard"
-        ],
+    {
+        "id": "Kenneth Knudsen",
         "url": "https://www.discogs.com/artist/315703-Kenneth-Knudsen",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
-    },
-    "Ole Kock Hansen": {
         "albums": [
             "Aura"
         ],
         "instruments": [
             "keyboard"
         ],
+        "birthdate": "",
+        "deathdate": ""
+    },
+    {
+        "id": "Ole Kock Hansen",
         "url": "https://www.discogs.com/artist/1046400-Ole-Kock-Hansen",
         "icon": "",
+        "albums": [
+            "Aura"
+        ],
+        "instruments": [
+            "keyboard"
+        ],
         "birthdate": "April 19, 1945 ",
         "deathdate": ""
     },
-    "Thomas Clausen": {
+    {
+        "id": "Thomas Clausen",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Clausen_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/42/Thomas-clausen.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "keyboard"
         ],
-        "url": "https://en.wikipedia.org/wiki/Thomas_Clausen_(musician)",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/42/Thomas-clausen.jpg",
         "birthdate": "October 5, 1949",
         "deathdate": ""
     },
-    "Bjarne Roupé": {
+    {
+        "id": "Bjarne Roupé",
+        "url": "https://www.discogs.com/artist/843502-Bjarne-Roupé",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "guitar"
         ],
-        "url": "https://www.discogs.com/artist/843502-Bjarne-Roupé",
-        "icon": "",
         "birthdate": "1952",
         "deathdate": ""
     },
-    "Niels-Henning Ørsted Pedersen": {
+    {
+        "id": "Niels-Henning Ørsted Pedersen",
+        "url": "https://en.wikipedia.org/wiki/Niels-Henning_Ørsted_Pedersen",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/NHØP.jpg/600px-NHØP.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Niels-Henning_Ørsted_Pedersen",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/NHØP.jpg/600px-NHØP.jpg",
         "birthdate": "May 27, 1946",
         "deathdate": "April 19, 2005"
     },
-    "Bo Stief": {
+    {
+        "id": "Bo Stief",
+        "url": "https://en.wikipedia.org/wiki/Bo_Stief",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bo-stief_HG.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "bass"
         ],
-        "url": "https://en.wikipedia.org/wiki/Bo_Stief",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bo-stief_HG.jpg",
         "birthdate": "15 October 1946",
         "deathdate": ""
     },
-    "Lennart Gruvstedt": {
+    {
+        "id": "Lennart Gruvstedt",
+        "url": "https://www.discogs.com/de/artist/315697-Lennart-Gruvstedt",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "drums"
         ],
-        "url": "https://www.discogs.com/de/artist/315697-Lennart-Gruvstedt",
-        "icon": "",
         "birthdate": "1955",
         "deathdate": ""
     },
-    "Ethan Weisgaard": {
+    {
+        "id": "Ethan Weisgaard",
+        "url": "https://www.discogs.com/artist/1057821-Ethan-Weisgard",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://www.discogs.com/artist/1057821-Ethan-Weisgard",
-        "icon": "",
         "birthdate": "1957",
         "deathdate": ""
     },
-    "Marilyn Mazur": {
+    {
+        "id": "Marilyn Mazur",
+        "url": "https://en.wikipedia.org/wiki/Marilyn_Mazur",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/2/29/Marilyn-mazur.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "percussion"
         ],
-        "url": "https://en.wikipedia.org/wiki/Marilyn_Mazur",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/2/29/Marilyn-mazur.jpg",
         "birthdate": "January 8, 1955",
         "deathdate": ""
     },
-    "Lillian Thornquist": {
+    {
+        "id": "Lillian Thornquist",
+        "url": "https://www.discogs.com/artist/960833-Lillian-Törnqvist",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "harp"
         ],
-        "url": "https://www.discogs.com/artist/960833-Lillian-Törnqvist",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Niels Eje": {
+    {
+        "id": "Niels Eje",
+        "url": "https://en.wikipedia.org/wiki/Niels_Eje",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Niels_Eje_oboe.jpg/600px-Niels_Eje_oboe.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "english horn"
         ],
-        "url": "https://en.wikipedia.org/wiki/Niels_Eje",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Niels_Eje_oboe.jpg/600px-Niels_Eje_oboe.jpg",
         "birthdate": "1954",
         "deathdate": ""
     },
-    "Eva Hess-Thaysen": {
+    {
+        "id": "Eva Hess-Thaysen",
+        "url": "https://www.discogs.com/artist/2542969-Eva-Hess-Thaysen",
+        "icon": "",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "vocals"
         ],
-        "url": "https://www.discogs.com/artist/2542969-Eva-Hess-Thaysen",
-        "icon": "",
         "birthdate": "",
         "deathdate": ""
     },
-    "Palle Mikkelborg": {
+    {
+        "id": "Palle Mikkelborg",
+        "url": "https://www.discogs.com/artist/237981-Palle-Mikkelborg",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Palle_Mikkelborg_05N1162.jpg/440px-Palle_Mikkelborg_05N1162.jpg",
         "albums": [
             "Aura"
         ],
         "instruments": [
             "flugelhorn"
         ],
-        "url": "https://www.discogs.com/artist/237981-Palle-Mikkelborg",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Palle_Mikkelborg_05N1162.jpg/440px-Palle_Mikkelborg_05N1162.jpg",
         "birthdate": "March 6, 1941",
         "deathdate": ""
     },
-    "Deron Johnson": {
+    {
+        "id": "Deron Johnson",
+        "url": "https://en.wikipedia.org/wiki/Deron_Johnson_(musician)",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Deronpic1.jpg/440px-Deronpic1.jpg",
         "albums": [
             "Doo-Bop"
         ],
         "instruments": [
             "keyboard"
         ],
-        "url": "https://en.wikipedia.org/wiki/Deron_Johnson_(musician)",
-        "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Deronpic1.jpg/440px-Deronpic1.jpg", 
         "birthdate": "",
         "deathdate": ""
     },
-    "J.R": {
-        "albums": [
-            "Doo-Bop"
-        ],
-        "instruments": [
-            "performer"
-        ],
+    {
+        "id": "J.R",
         "url": "https://www.discogs.com/artist/255023-JR-2",
         "icon": "",
-        "birthdate": "",
-        "deathdate": ""
-    },
-    "A.B. Money": {
         "albums": [
             "Doo-Bop"
         ],
         "instruments": [
             "performer"
         ],
+        "birthdate": "",
+        "deathdate": ""
+    },
+    {
+        "id": "A.B. Money",
         "url": "https://www.discogs.com/artist/216840-AB-Money",
         "icon": "",
+        "albums": [
+            "Doo-Bop"
+        ],
+        "instruments": [
+            "performer"
+        ],
         "birthdate": "",
         "deathdate": ""
     }
-}
+]

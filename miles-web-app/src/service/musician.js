@@ -6,14 +6,26 @@ import { albumService } from '../service';
  */
 class MusicianService {
   getMusicinaByName = (name) => {
-    return musicianDAO.getAll().filter(musician => musician[0] === name)[0];
+    console.log(musicianDAO.getAll());
+
+    try{
+      return musicianDAO.getAll().filter(musician => musician[0] === name)[0];
+    }catch(err){
+      console.error(err);
+      return {};
+    }
   }
   /**
    * getting all instruments played by musician
    * @param {name} name - musicians name
    */
   getInstrumentsOfMusician = (name) => {
-    return musicianDAO.getAll().filter(musician => musician[0] === name)[0][1].instruments;
+    try{
+      return musicianDAO.getAll().filter(musician => musician[0] === name)[0][1].instruments;
+    }catch(err){
+      console.error(err);
+      return [];
+    }
   }
   /**
    * getting all albums on which played musician

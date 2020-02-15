@@ -6,7 +6,15 @@ var instruments = require('../assets/instruments.json');
 class InstrumentDAO {
     // getting all musicians
     getAll = () => {
-      return Object.entries(instruments);
+      return instruments.map(elem => {
+        var obj = {};
+        obj[0] = elem.id;
+        obj[1] = {
+          musicians: elem.musicians,
+          url: elem.url
+        };
+        return obj;
+      });
     }
 }
 
