@@ -22,7 +22,7 @@ class AlbumRoute extends Component {
     super(props);
     this.state = {
       name: '',
-      collapseNavbar: true,
+      collapseNavbar: false,
       album: '',
       musicians: [],
       tracks: [],

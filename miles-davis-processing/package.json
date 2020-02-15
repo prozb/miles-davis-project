@@ -12,6 +12,7 @@
     "url": "git+https://github.com/prozb/miles-davis-project.git"
   },
   "author": "",
+  "type": "module", 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/prozb/miles-davis-project/issues"
