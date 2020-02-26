@@ -156,7 +156,8 @@ export default class Graph extends React.Component {
         shape: 'square',
         content: 'data(label)',
         'border-color': '#469B30',
-        'border-width': '5px'
+        'border-width': '5px',
+        'text-margin-y': -10
       }
     };
 
