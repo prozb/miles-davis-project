@@ -152,7 +152,7 @@ export const getReleasedYearFromDate = (date) => {
 
     try{
       var instrument = instrumentService.getByName(name);
-      var musicians  = instrumentService.getMusiciansOfInstrument(name);
+      var musicians  = instrumentService.getMusiciansNamesOfInstrument(name);
       // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
       var convInstr = { data: {id: index, type: 'instrument', label: instrument[0], icon: instrument[1].url === '' ? 'none' : instrument[1].url} };
       var convMusic = musicians.flatMap(mus => {
@@ -167,7 +167,7 @@ export const getReleasedYearFromDate = (date) => {
       return [convInstr, ...convMusic]; 
     }catch(err){
       console.error(instrumentService.getByName(name));
-      console.error(instrumentService.getMusiciansOfInstrument(name));
+      console.error(instrumentService.getMusiciansNamesOfInstrument(name));
       return [];
     }
   } 
@@ -186,7 +186,7 @@ export const getReleasedYearFromDate = (date) => {
       var musicianElems = [];
       var elems = elements.reduce((compound, elem, index) => {
         // getting all albums of musician node
-        var albums = musicianService.getAlbumObjectsOfMusician(elem.data().label);
+        var albums = musicianService.getAlbumsOfMusician(elem.data().label);
         musicianElems.push({ 
           data: {
           id: index0++, 
@@ -245,13 +245,13 @@ export const getReleasedYearFromDate = (date) => {
     var index = 0;
 
     try{
-      var musician    = musicianService.getMusicinaByName(musicianName);
+      var musician    = musicianService.getByName(musicianName);
       // instruments and albums names
-      var instruments = musicianService.getInstrumentsOfMusician(musicianName);
-      var albums      = musicianService.getAlbumsOfMusician(musicianName);
+      var instruments = musicianService.getInstrumentsNamesOfMusician(musicianName);
+      var albums      = musicianService.getAlbumsNamesOfMusician(musicianName);
       // instruments and albums objects
       var instObjects = instruments.map(instr => instrumentService.getByName(instr));
-      var albObjects  = albums.map(alb => albumService.getAlbumByName(alb));
+      var albObjects  = albums.map(alb => albumService.getByName(alb));
       // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
       var convMus   = { data: {id: index++, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon} };
       var convInstr = instObjects.flatMap(instr => {
@@ -270,9 +270,7 @@ export const getReleasedYearFromDate = (date) => {
       // // returning array containing all elements of album
       return [convMus, ...convInstr, ...convAlb]; 
     }catch(err){
-      console.error(musicianService.getMusicinaByName(musicianName));
-      console.error(musicianService.getInstrumentsOfMusician(musicianName));
-      console.error(musicianService.getAlbumsOfMusician(musicianName));
+      console.error(musicianService.getByName(musicianName));
       return [];
     }
   } 
@@ -333,7 +331,7 @@ export const getReleasedYearFromDate = (date) => {
     try{
       var converted = relations.map(rel => {
         var newRel = {};
-        newRel[0] = musicianService.getMusicinaByName(Object.entries(rel)[0][0]);
+        newRel[0] = musicianService.getByName(Object.entries(rel)[0][0]);
         newRel[1] = instrumentService.getByName(Object.entries(rel)[0][1]);
         return newRel;
       });

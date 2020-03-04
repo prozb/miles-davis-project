@@ -2,9 +2,9 @@ var config = require('../assets/config.json');
 var instruments = require(`../assets/${config["dataset_directory"]}/instruments.json`);
 /**
  * @author Pavlo Rozbytskyi
- * instruments Data Access Object layer provides basic read functionality  
+ * instruments repository layer provides basic read functionality  
  */
-class InstrumentDAO {
+class InstrumentRepository {
     // getting all musicians
     getAll = () => {
       return instruments.map(elem => {
@@ -19,4 +19,4 @@ class InstrumentDAO {
     }
 }
 
-export const instrumentDAO = new InstrumentDAO();
+export const instrumentRepository = new InstrumentRepository();

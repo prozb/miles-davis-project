@@ -207,7 +207,7 @@ export default class Graph extends React.Component {
           `
         );
       case "album":
-        var album = albumService.getAlbumByName(data.label);
+        var album = albumService.getByName(data.label);
         // var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
         return (
           `

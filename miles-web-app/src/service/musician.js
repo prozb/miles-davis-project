@@ -1,15 +1,15 @@
-import { musicianDAO } from '../controller';
+import { musicianRepository } from '../repository';
 import { albumService } from '../service';
 /**
  * @author Pavlo Rozbytskyi
  * musician service layer extends basic functionality from musician dao
  */
 class MusicianService {
-  getMusicinaByName = (name) => {
-    console.log(musicianDAO.getAll());
+  getByName = (name) => {
+    console.log(musicianRepository.getAll());
 
     try{
-      return musicianDAO.getAll().filter(musician => musician[0] === name)[0];
+      return musicianRepository.getAll().filter(musician => musician[0] === name)[0];
     }catch(err){
       console.error(err);
       return {};
@@ -19,9 +19,9 @@ class MusicianService {
    * getting all instruments played by musician
    * @param {name} name - musicians name
    */
-  getInstrumentsOfMusician = (name) => {
+  getInstrumentsNamesOfMusician = (name) => {
     try{
-      return musicianDAO.getAll().filter(musician => musician[0] === name)[0][1].instruments;
+      return musicianRepository.getAll().filter(musician => musician[0] === name)[0][1].instruments;
     }catch(err){
       console.error(err);
       return [];
@@ -31,10 +31,10 @@ class MusicianService {
    * getting all albums on which played musician
    * @param {name} name - musicians name
    */
-  getAlbumsOfMusician = (name) => {
+  getAlbumsNamesOfMusician = (name) => {
     var albums = [];
     try{
-      albums = musicianDAO.getAll().filter(musician => musician[0] === name)[0][1].albums;
+      albums = musicianRepository.getAll().filter(musician => musician[0] === name)[0][1].albums;
     }catch(err){
       console.log(err);
     }
@@ -44,11 +44,11 @@ class MusicianService {
    * getting all album objects of musician
    * @param {string} name - musician name
    */
-  getAlbumObjectsOfMusician = (name) => {
+  getAlbumsOfMusician = (name) => {
     var albObjects = [];
     try{
-      var albums = this.getAlbumsOfMusician(name);
-      albObjects = albums.map(alb => albumService.getAlbumByName(alb));
+      var albums = this.getAlbumsNamesOfMusician(name);
+      albObjects = albums.map(alb => albumService.getByName(alb));
     }catch(err){
       console.log(err);
     }
@@ -56,7 +56,7 @@ class MusicianService {
   }
 
   getAllContainingSubstring = (query) => {
-    return musicianDAO.getAll().filter(musician => musician[0].includes(query));
+    return musicianRepository.getAll().filter(musician => musician[0].includes(query));
   }
 }
 

@@ -64,7 +64,7 @@ class AlbumRoute extends Component {
   getMusiciansOfAlbum = (album) => {
     var musicians = [];
     album[1].musicians.forEach(mus => {
-      var musicianObject = musicianService.getMusicinaByName(mus);
+      var musicianObject = musicianService.getByName(mus);
       musicians.push(musicianObject);
     });
     return musicians;
@@ -99,7 +99,7 @@ class AlbumRoute extends Component {
    * @param {string} albumName - name of the album
    */
   setCurrentAlbum = (albumName) => {
-    var album = albumService.getAlbumByName(albumName);
+    var album = albumService.getByName(albumName);
     var musicians = this.getMusiciansOfAlbum(album);
     var tracks = this.getTracksOfAlbum(album);
 
@@ -244,13 +244,13 @@ class AlbumRoute extends Component {
     if(album){
       if(musicianDisplay){
         elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
-        data1 = musicianService.getAlbumsOfMusician(musicianName);
-        data2 = musicianService.getInstrumentsOfMusician(musicianName);
+        data1 = musicianService.getAlbumsNamesOfMusician(musicianName);
+        data2 = musicianService.getInstrumentsNamesOfMusician(musicianName);
         type1 = "album";
         type2 = "instrument";
       }else if(instrumentDisplay) {
         elements = getCytoElementsInstrumentMusician(instrumentName);
-        data1 = instrumentService.getMusiciansOfInstrument(instrumentName).map(elem => elem[0]);
+        data1 = instrumentService.getMusiciansNamesOfInstrument(instrumentName).map(elem => elem[0]);
         data2 = [];
         type1 = "musician";
         type2 = "";

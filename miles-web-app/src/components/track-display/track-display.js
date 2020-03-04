@@ -17,7 +17,7 @@ export default class TrackDisplay extends Component {
   
   render() {
     const { name, album } = this.props;
-    const relations = trackService.getMusicianInstrumentRelationOnTrack(name, album[0]);
+    const relations = trackService.getMusicianInstrumentRelations(name, album[0]);
     const converted = getObjectsToMusicianInstrumentRelation(relations);
     return(
       <div className="track-display-container">

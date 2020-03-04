@@ -1,4 +1,4 @@
-import { albumDAO } from '../controller';
+import { albumRepository } from '../repository';
 /**
  * @author Pavlo Rozbytskyi
  * album service layer extends basic functionality from album dao
@@ -8,19 +8,19 @@ class AlbumService {
    * getting first album
    */
   getFirstAlbum = () => {
-    return albumDAO.getAll()[0];
+    return albumRepository.getAll()[0];
   }
 
-  getAlbumByName = (name) => {
-    return albumDAO.getAll().filter(album => album[0] === name)[0];
+  getByName = (name) => {
+    return albumRepository.getAll().filter(album => album[0] === name)[0];
   }
 
   getAllContainingSubstring = (query) => {
-    return albumDAO.getAll().filter(album => album[0].includes(query));
+    return albumRepository.getAll().filter(album => album[0].includes(query));
   }
 
   getAll = () => {
-    return albumDAO.getAll();
+    return albumRepository.getAll();
   }
 }
 

@@ -4,7 +4,7 @@ var musicians = require(`../assets/${config["dataset_directory"]}/musicians.json
  * @author Pavlo Rozbytskyi
  * musicians Data Access Object layer provides basic read functionality  
  */
-class MusicianDAO {
+class MusicianRepository {
   // getting all musicians
   constructor() {
     this.allMusicians = musicians.map(element => {
@@ -26,4 +26,4 @@ class MusicianDAO {
   }
 }
 
-export const musicianDAO = new MusicianDAO()
+export const musicianRepository = new MusicianRepository()

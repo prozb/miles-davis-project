@@ -4,7 +4,7 @@ var albums = require(`../assets/${config["dataset_directory"]}/albums.json`);
  * @author Pavlo Rozbytskyi
  * album Data Access Object layer provides basic read functionality  
  */
-class AlbumDAO {
+class AlbumRepository {
   constructor() {
     this.allAlbums = albums.map(elem => {
       var obj = {};
@@ -28,4 +28,4 @@ class AlbumDAO {
   }
 }
 
-export const albumDAO = new AlbumDAO()
+export const albumRepository = new AlbumRepository()

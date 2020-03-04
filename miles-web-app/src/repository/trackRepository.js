@@ -6,7 +6,7 @@ var tracks = require(`../assets/${config["dataset_directory"]}/tracks.json`);
  * @author Pavlo Rozbytskyi
  * tracks Data Access Object layer provides basic read functionality  
  */
-class TrackDAO {
+class TrackRepository {
   constructor () { 
     this.allTracks = tracks.map(element => { 
       var obj = {};
@@ -22,4 +22,4 @@ class TrackDAO {
   }
 }
 
-export const trackDAO = new TrackDAO();
+export const trackRepository = new TrackRepository();

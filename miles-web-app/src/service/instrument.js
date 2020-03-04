@@ -1,26 +1,26 @@
-import { instrumentDAO } from '../controller';
+import { instrumentRepository } from '../repository';
 import { musicianService } from '../service'; 
 /**
  * @author Pavlo Rozbytskyi
  * instrument service layer extends basic functionality from instrument dao
  */
-class InstrumentService {
+class InstrumentService{
   getAllContainingSubstring = (query) => {
-    return instrumentDAO.getAll().filter(instrument => instrument[0].includes(query));
+    return instrumentRepository.getAll().filter(instrument => instrument[0].includes(query));
   }
   getByName = (name) => {
-    return instrumentDAO.getAll().filter(instrument => instrument[0] === name)[0];
+    return instrumentRepository.getAll().filter(instrument => instrument[0] === name)[0];
   }
   /**
    * getting all musicians played on the instrument
    * @param {string} name - name of the instrument
    */
-  getMusiciansOfInstrument = (name) => {
+  getMusiciansNamesOfInstrument = (name) => {
     try{
       return this.getByName(name)[1].musicians
         .map(mus => { 
           try{
-            return musicianService.getMusicinaByName(mus);
+            return musicianService.getByName(mus);
           }catch(err){
             console.log(err);
             console.log(mus);
