@@ -19,6 +19,7 @@ class App extends React.Component{
     super(props);
 
     this.state = {
+      //state variables needed to figure out active route
       showHome: true,
       showAlbums: false,
       showSearch: false,
@@ -30,6 +31,7 @@ class App extends React.Component{
       // react router with three main routes
       <Router>
         <Route path='/' render={() => <HomeRoute
+           //if component is not active, it won't be rendered
            active={this.state.showHome} 
            showHome={this.showHome}
            showAlbums={this.showAlbums}/>

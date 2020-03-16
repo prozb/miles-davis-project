@@ -1,23 +1,41 @@
 import React, { Component } from 'react';
 import './home-route.css';
-import { StartButton } from '../../components';
 import { withRouter } from 'react-router-dom';
-import { albumService } from '../../service';
 import image from '../../assets/start-screen.png';
-
+/**
+ * @author Pavlo Rozbytskyi
+ * Home component is just html website representing 
+ * whole project 
+ */
 class HomeRoute extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-			albumScreen: false,
-			albumName: '',
-			hideComponent: false,
-    };
 	}
 	componentDidMount () {
 		//just be sure that all components except home are hidden
 		this.props.showHome();
 	}
+
+	render() {
+		// don't render this component if it shoudn't be active
+		if(!this.props.active)
+			return null;
+    return (
+			<div>
+				{this.getNavigationBar()}
+				{this.getJumbotron()}
+				{this.getContent()}
+				{/* <!-- root application container --> */}
+    		<div className="container">
+					{this.getApplicationContainer()}
+    		</div>
+				{this.getCredits()}
+				{this.getFooter()}
+			</div>
+    );
+	}
+	// container with image of the application and green button 
+	// to step into the application 
 	getApplicationContainer = () => {
 		return <div className="vertical-container">				
 				{/* start application container */}
@@ -29,13 +47,14 @@ class HomeRoute extends Component {
 
 				{/* button container start */}
 				<div className="horizontal-container start-button-container">
-					<StartButton started={this.state.simulationStarted} 
-						startSimulation={this.switchToAlbum}/>
+					<button className="btn btn-success" onClick={() => this.props.history.push(`/album`)}>
+						show albums
+					</button>
 				</div>
 				{/* button container end */}
 			</div>
 	}
-
+	// jumbotron
 	getJumbotron = () => {
 		return <div className="jumbotron">
 			<h1 className="display-4">Miles Davis Discography</h1>
@@ -48,11 +67,15 @@ class HomeRoute extends Component {
 			</p>
 		</div>
 	}
-
+	// navbar of the website
 	getNavigationBar = () => {
 		return <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="/#"><img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/></a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a className="navbar-brand" href="/#">
+				<img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/>
+			</a>
+      <button className="navbar-toggler" type="button" 
+				data-toggle="collapse" data-target="#navbarNav" 
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
@@ -73,7 +96,7 @@ class HomeRoute extends Component {
       </div>
     </nav>
 	}
-
+	// content of the project description
 	getContent = () => {
 		return <div>
 			<a alt="about section" name="about"/>
@@ -136,7 +159,7 @@ class HomeRoute extends Component {
 			<hr className="col-xs-12"></hr>
 		</div>
 	}
-
+	// credits of the webpage
 	getCredits = () => {
 		return <div>
 			<div className="container credits">
@@ -147,7 +170,7 @@ class HomeRoute extends Component {
 			<hr className="col-xs-12"></hr>
 		</div>
 	}
-
+	// footer of the webpage
 	getFooter = () => {
 		return <footer className="page-footer font-small my-footer">
 			<a name="contact"> </a>
@@ -162,30 +185,6 @@ class HomeRoute extends Component {
       </div>
     </footer>
 	}
-
-	switchToAlbum = () => {
-		var albumName = albumService.getFirstAlbum()[0];
-		this.setState({hideComponent: true, albumName: albumName});
-		this.props.history.push(`/album?name=${albumName}`);
-	}
-
-  render() {
-		if(!this.props.active)
-			return null;
-    return (
-			<div>
-				{this.getNavigationBar()}
-				{this.getJumbotron()}
-				{this.getContent()}
-				{/* <!-- root application container --> */}
-    		<div className="container">
-					{this.getApplicationContainer()}
-    		</div>
-				{this.getCredits()}
-				{this.getFooter()}
-			</div>
-    );
-  }
 }
 
 export default withRouter(HomeRoute);
