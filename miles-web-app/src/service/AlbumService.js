@@ -16,6 +16,8 @@ class AlbumService {
   }
 
   getAllContainingSubstring = (query) => {
+    if(query === '')
+      return [];
     return albumRepository.getAll().filter(album => album[0].includes(query));
   }
 

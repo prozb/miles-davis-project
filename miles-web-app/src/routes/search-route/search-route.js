@@ -1,20 +1,29 @@
-import React, { Component } from 'react';
 import '../album-route/album-route.css';
-import { withRouter } from 'react-router-dom';
-import queryString from 'query-string';
-import { SearchBar } from '../../components';
-import CustomizedMenus from './menu/menu';
-import { instrumentService, albumService, musicianService, trackService } from '../../service';
-import Graph from '../../components/album-graph/graph';
-import { getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument } from '../../scripts/converter';
 
+import React, { Component } from 'react';
+import Graph from '../../components/album-graph/graph';
+import CustomizedMenus from './menu/menu';
+import queryString from 'query-string';
+import { withRouter } from 'react-router-dom';
+import { SearchBar } from '../../components';
+import { 
+  getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument 
+} from '../../scripts/converter';
+
+import { 
+  instrumentService, albumService, musicianService, trackService
+ } from '../../service';
+/**
+ * @author Pavlo Rozbytskyi
+ * Search component to handle searching data in the 
+ * discographie.
+ */
 class SearchRoute extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-      query: '', 
-      type: ''
+      type: '', // type allows user to filter results 
     }
   }
 
@@ -23,50 +32,31 @@ class SearchRoute extends Component {
     // search screen must be showed
     this.props.showSearchScreen();
   }
-  /**
-   * switching from album screen to next search screen
-   * @param {string} query - query
-   */
-  switchToSearch = (query) => {
-    this.props.history.push(`/search?q=${query}`);
-    const values = queryString.parse(this.props.location.search);
-    this.setState({query: values.q});
-  }
-
-  changeMenuItem = (type) => {
-    this.setState({
-      type: type
-    });
-  } 
-  /**
-   * switching to album
-   */
-  switchToAlbum = (albumName) => {
-    this.props.history.push(`/album?name=${albumName}`);
-  }
-
-  /**
-   * switching to musician
-   */
-  switchToMusician = (musicianName) => {
-    var albumName = albumService.getFirstAlbum()[0];
-    var query = queryString.stringify({name: albumName, m: musicianName});
-    this.props.history.push(`/album?${query}`);
-  }
 
   render() {
+    // don't show this component if not active
+    if(!this.props.active)
+      return null;
+
+    //parsing browser search-bar query
     const values = queryString.parse(this.props.location.search);
-
-    var instruments = instrumentService.getAllContainingSubstring(values.q);
-    var albums = albumService.getAllContainingSubstring(values.q);
-    var tracks = trackService.getAllContainingSubstring(values.q);
-    var musicians = musicianService.getAllContainingSubstring(values.q);
+    // check q parameter is defined in search-bar
+    const query = values.q ? values.q : '';
+    // finding all data user is searching for
+    var instruments = instrumentService.getAllContainingSubstring(query);
+    var albums = albumService.getAllContainingSubstring(query);
+    var tracks = trackService.getAllContainingSubstring(query);
+    var musicians = musicianService.getAllContainingSubstring(query);
+    // counting results to print it out for the user
     var count = instruments.length + albums.length + musicians.length + tracks.length;
-
+    // data array where are all finded elements stored 
     var data = [];
-
+    // user has ability to filter data by type 
+    // and then data of some type will be shown on the screen
     switch(this.state.type){
+      // display data only certain type 
       case "Albums": 
+        // converting array with albums to array with cytoscape albums
         data = [...albums.map(elem => getCytoAlbum(elem))];
         break;
       case "Instruments": 
@@ -78,7 +68,7 @@ class SearchRoute extends Component {
       case "Tracks": 
         data = [...tracks.map(elem => getCytoTrack(elem))];
         break;
-
+      // by default show all results
       default: 
         data = [
           ...albums.map(elem => getCytoAlbum(elem)), 
@@ -88,31 +78,30 @@ class SearchRoute extends Component {
         ];
         break;
     }
+
     return (
       <div className="full-height">
-        <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
-          {/* search bar container */}
-          <div>
-            <SearchBar
-              back={true}
-              name={"Search results"} 
-              onNavbarButtonPress={() => {
-                this.props.history.goBack();
-              }}
-              switchToSearch={this.switchToSearch}/>
-          </div>
-        </div>
+        <SearchBar
+          back={true}
+          name={"Search results"} 
+          onNavbarButtonPress={() => {
+            this.props.history.goBack();
+          }}
+          switchToSearch={this.processSearch}/>
 
         <div className="container horizontal full-height">
+          {/* Menu container */}
           <div>
             <CustomizedMenus 
-              changeMenuItem={this.changeMenuItem}
+              changeMenuItem={this.chooseFilterType}
               data={[
-                {name: 'Albums', count: albums.length}, {name: 'Musicians', count: musicians.length},
-                {name: 'Instruments', count: instruments.length}, {name: 'Tracks', count: tracks.length}
+                {name: 'Albums', count: albums.length}, 
+                {name: 'Musicians', count: musicians.length},
+                {name: 'Instruments', count: instruments.length}, 
+                {name: 'Tracks', count: tracks.length}
               ]}/>
           </div>
-
+          {/* container with results */}
           <div className="full-width results-container">
             <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
             <hr/>
@@ -132,6 +121,35 @@ class SearchRoute extends Component {
         {/* starting navigation and content container */}
       </div>
     );
+  }
+
+  /**
+   * after users press to filter results this function
+   * gives you wanted data type should be displayed 
+   */
+  chooseFilterType = (type) => {
+    this.setState({type: type});
+  } 
+  /**
+   * switching to album
+   */
+  switchToAlbum = (albumName) => {
+    this.props.history.push(`/album?name=${albumName}`);
+  }
+  /**
+   * processing new search
+   * @param {String} query - search query
+   */
+  processSearch = (query) => {
+    this.props.history.push(`/search?q=${query}`)
+  }
+  /**
+   * switching to musician
+   */
+  switchToMusician = (musicianName) => {
+    var albumName = albumService.getFirstAlbum()[0];
+    var query = queryString.stringify({name: albumName, m: musicianName});
+    this.props.history.push(`/album?${query}`);
   }
 }
 

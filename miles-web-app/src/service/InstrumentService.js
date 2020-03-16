@@ -6,6 +6,8 @@ import { musicianService } from '../service';
  */
 class InstrumentService{
   getAllContainingSubstring = (query) => {
+    if(query === '')
+      return [];
     return instrumentRepository.getAll().filter(instrument => instrument[0].includes(query));
   }
   getByName = (name) => {

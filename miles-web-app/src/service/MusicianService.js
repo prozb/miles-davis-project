@@ -56,6 +56,8 @@ class MusicianService {
   }
 
   getAllContainingSubstring = (query) => {
+    if(query === '')
+      return [];
     return musicianRepository.getAll().filter(musician => musician[0].includes(query));
   }
 }

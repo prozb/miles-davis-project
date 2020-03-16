@@ -40,6 +40,8 @@ class TrackService {
   }
 
   getAllContainingSubstring = (query) => {
+    if(query === '')
+      return [];
     return trackRepository.getAll().filter(track => track[0].includes(query));
   }
 }
