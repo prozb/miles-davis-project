@@ -1,7 +1,7 @@
 import './graph.css';
 import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
-import { getCytoElementsMusicianInstrument } from '../../scripts/helpers';
+import { getTrackPerspective } from '../../scripts/converter';
 
 // Cytoscape.use(coseBilkent);
 /**
@@ -21,7 +21,7 @@ export default class TrackGraph extends React.Component {
     // dont render component if album not set 
     if(this.props.album === '')
       return null;
-    const elements = getCytoElementsMusicianInstrument(this.props.data);
+    const elements = getTrackPerspective(this.props.data);
 
     if(elements.length === 0)
       return null;

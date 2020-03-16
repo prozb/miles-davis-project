@@ -189,7 +189,7 @@ export default class Graph extends React.Component {
 
     switch(data.type){
       case "musician":
-        var musician = musicianService.getMusicinaByName(data.label);
+        var musician = musicianService.getByName(data.label);
         var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
         return (
           `<div class="container">

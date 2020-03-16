@@ -1,7 +1,7 @@
-import { albumRepository } from './albumRepository';
-import { instrumentRepository } from './instrumentRepository';
-import { musicianRepository } from './musicianRepository';
-import { trackRepository } from './trackRepository';
+import { albumRepository } from './AlbumRepository';
+import { instrumentRepository } from './InstrumentRepository';
+import { musicianRepository } from './MusicianRepository';
+import { trackRepository } from './TrackRepository';
 
 export { 
   albumRepository, 

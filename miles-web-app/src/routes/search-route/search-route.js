@@ -6,7 +6,7 @@ import { SearchBar } from '../../components';
 import CustomizedMenus from './menu/menu';
 import { instrumentService, albumService, musicianService, trackService } from '../../service';
 import Graph from '../../components/album-graph/graph';
-import { getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument } from '../../scripts/helpers';
+import { getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument } from '../../scripts/converter';
 
 class SearchRoute extends Component {
   constructor(props){
@@ -16,6 +16,12 @@ class SearchRoute extends Component {
       query: '', 
       type: ''
     }
+  }
+
+  componentDidMount () {
+    // be sure that all another screens are disabled when 
+    // search screen must be showed
+    this.props.showSearchScreen();
   }
   /**
    * switching from album screen to next search screen

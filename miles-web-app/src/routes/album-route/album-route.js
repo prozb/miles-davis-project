@@ -6,11 +6,11 @@ import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '..
 import { albumService, musicianService, trackService, instrumentService } from '../../service';
 import { 
     getCytoAlbum,
-    getCytoElementsMusicianTrackAlbum, 
-    getCytoElementsMusicianInstrumentAlbum,
-    getCytoElementsInstrumentMusician,
-    getSpecialCaseElements
-  } from '../../scripts/helpers';
+    getAlbumPerspective, 
+    getMusicianPerspective,
+    getInstrumentPerspective,
+    getCompoundForMusicians
+  } from '../../scripts/converter';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -35,10 +35,12 @@ class AlbumRoute extends Component {
       specialCase: false,
     };
     this.data = [];
-    this.specialCaseFunction = getSpecialCaseElements;
+    this.specialCaseFunction = getCompoundForMusicians;
   }
 
   componentDidMount() {
+    // just be sure that just albums component will be showed
+    this.props.showAlbums()
     // getting values from the query string
     const values = queryString.parse(this.props.location.search);
     if(values.name){
@@ -174,7 +176,7 @@ class AlbumRoute extends Component {
 
     switch(type){
       case 'album': 
-        this.specialCaseFunction = getSpecialCaseElements;
+        this.specialCaseFunction = getCompoundForMusicians;
         this.data = elements;
         this.setState({
           specialCase: true,
@@ -243,13 +245,13 @@ class AlbumRoute extends Component {
     var elements = [];
     if(album){
       if(musicianDisplay){
-        elements = getCytoElementsMusicianInstrumentAlbum(musicianName);
+        elements = getMusicianPerspective(musicianName);
         data1 = musicianService.getAlbumsNamesOfMusician(musicianName);
         data2 = musicianService.getInstrumentsNamesOfMusician(musicianName);
         type1 = "album";
         type2 = "instrument";
       }else if(instrumentDisplay) {
-        elements = getCytoElementsInstrumentMusician(instrumentName);
+        elements = getInstrumentPerspective(instrumentName);
         data1 = instrumentService.getMusiciansNamesOfInstrument(instrumentName).map(elem => elem[0]);
         data2 = [];
         type1 = "musician";
@@ -257,7 +259,7 @@ class AlbumRoute extends Component {
       }else if(specialCase) {
         elements = this.specialCaseFunction(this.data);
       }else {
-        elements = getCytoElementsMusicianTrackAlbum(tracks, musicians, album);
+        elements = getAlbumPerspective(tracks, musicians, album);
         data1 = this.state.musicians.map(elem => elem[0]);
         data2 = this.state.tracks.map(elem => elem[0]);
         type1 = "musician";

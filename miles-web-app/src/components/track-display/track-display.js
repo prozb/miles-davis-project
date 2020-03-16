@@ -4,7 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import {trackService} from '../../service';
 import { TrackGraph } from '../../components';
-import { getObjectsToMusicianInstrumentRelation } from '../../scripts/helpers';
+import { getObjectsToMusicianInstrumentRelation } from '../../scripts/converter';
 /**
  * @author Pavlo Rozbytskyi
  * component for representation of all musicians played on current traсk

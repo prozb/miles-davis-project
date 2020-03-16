@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './home-route.css';
-import { StartScreen } from '../../screens';
 import { StartButton } from '../../components';
 import { withRouter } from 'react-router-dom';
 import { albumService } from '../../service';
+import image from '../../assets/start-screen.png';
 
 class HomeRoute extends Component {
   constructor(props) {
@@ -14,13 +14,16 @@ class HomeRoute extends Component {
 			hideComponent: false,
     };
 	}
-
+	componentDidMount () {
+		//just be sure that all components except home are hidden
+		this.props.showHome();
+	}
 	getApplicationContainer = () => {
 		return <div className="vertical-container">				
 				{/* start application container */}
 				<div className="app-container">
 					{/* application screens */}
-					<StartScreen/>
+					<img className="img-fluid rounded mg-fluid img-thumbnail" src={image} alt="start screen foto" />
 				</div>
 				{/* end application container */}
 

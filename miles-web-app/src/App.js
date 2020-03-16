@@ -8,8 +8,11 @@ import {
 
 /**
  * @author Pavlo Rozbytskyi
- * This is first screen of the application. Default page is homepage
- * and from the homepage you can visit albums page.   
+ * This is main component of the application. 
+ *   
+ * There are three main routes in this application: 
+ * 1. HomeRoute, 2. AlbumsRoute, 3. SearchRoute
+ * Switching between routes is possible with React Router
  */
 class App extends React.Component{
   constructor(props){
@@ -22,28 +25,13 @@ class App extends React.Component{
     }
   } 
 
-  showAlbums = () => {
-    this.setState({
-      showHome: false,
-      showAlbums: true,
-      showSearch: false,
-    });
-  }
-
-  showSearchScreen = () => {
-    this.setState({
-      showHome: false,
-      showAlbums: false,
-      showSearch: true,
-    });
-  }
-
   render () {
     return (
-      // router to switch between main pages
+      // react router with three main routes
       <Router>
         <Route path='/' render={() => <HomeRoute
            active={this.state.showHome} 
+           showHome={this.showHome}
            showAlbums={this.showAlbums}/>
         }/>
         <Route path='/album' render={() => <AlbumRoute 
@@ -53,10 +41,34 @@ class App extends React.Component{
         }/>
         <Route path='/search' render={() => <SearchRoute 
           active={this.state.showSearch} 
-        />
+          showSearchScreen={this.showSearchScreen}/>
         }/>
       </Router>
     );
+  }
+  // hiding all screens except albums screen
+  showAlbums = () => {
+    this.setState({
+      showHome: false,
+      showAlbums: true,
+      showSearch: false,
+    });
+  }
+  // hiding all screens except home screen
+  showHome = () => {
+    this.setState({
+      showHome: true,
+      showAlbums: false,
+      showSearch: false,
+    });
+  }
+  // hiding all screens except search screen
+  showSearchScreen = () => {
+    this.setState({
+      showHome: false,
+      showAlbums: false,
+      showSearch: true,
+    });
   }
 }
 

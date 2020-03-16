@@ -1,5 +1,5 @@
 import { musicianRepository } from '../repository';
-import { albumService } from '../service';
+import { albumService } from '.';
 /**
  * @author Pavlo Rozbytskyi
  * musician service layer extends basic functionality from musician dao

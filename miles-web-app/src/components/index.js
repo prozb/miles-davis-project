@@ -4,7 +4,7 @@ import NavigationBar from './navigation-bar/navigation';
 import StartButton from './start-button/start-button';
 import Timeline from './timeline/timeline';
 import Graph from './album-graph/graph';
-import TrackGraph from './track-graph/graph';
+import TrackGraph from './visualizing/graph';
 import TrackDisplay from './track-display/track-display';
 
 export { 
