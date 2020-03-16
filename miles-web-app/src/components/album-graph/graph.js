@@ -176,6 +176,12 @@ export default class Graph extends React.Component {
         musicianStyle.style['border-width'] = '5px';
         musicianStyle.style['text-margin-y'] = '-5';
         break;
+      case "special": 
+        musicianStyle.style.width = 100;
+        musicianStyle.style.height = 100;
+        musicianStyle.style['border-width'] = '5px';
+        musicianStyle.style['text-margin-y'] = '-5';
+        break;
       default: 
         break;
     }
@@ -272,6 +278,12 @@ export default class Graph extends React.Component {
         albumStyle.style['font-size'] = '20';
         break;
       case "musician": 
+        albumStyle.style.width = 100;
+        albumStyle.style.height = 100;
+        albumStyle.style['border-width'] = '5px';
+        albumStyle.style['text-margin-y'] = '-5';
+        break;
+      case "special": 
         albumStyle.style.width = 100;
         albumStyle.style.height = 100;
         albumStyle.style['border-width'] = '5px';

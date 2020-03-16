@@ -33,10 +33,15 @@ class TrackService {
    * @param {string} albumName - album name  
    */
   getMusicianInstrumentRelations = (trackName, albumName) => {
-    var relations = trackRepository.getAll()
-      .filter(track => track[0] === trackName)[0][1].albums
-      .filter(album => Object.keys(album)[0] === albumName)[0];
-    return Object.entries(relations)[0][1];
+    try{
+      var relations = trackRepository.getAll()
+        .filter(track => track[0] === trackName)[0][1].albums
+        .filter(album => Object.keys(album)[0] === albumName)[0];
+      return Object.entries(relations)[0][1];
+    }catch(err){
+      console.error(err);
+      return [];
+    }
   }
 
   getAllContainingSubstring = (query) => {
