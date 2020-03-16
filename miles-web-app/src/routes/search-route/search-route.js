@@ -134,7 +134,7 @@ class SearchRoute extends Component {
    * switching to album
    */
   switchToAlbum = (albumName) => {
-    this.props.history.push(`/album?name=${albumName}`);
+    this.props.history.push(`/album?n=${albumName}`);
   }
   /**
    * processing new search
@@ -148,7 +148,7 @@ class SearchRoute extends Component {
    */
   switchToMusician = (musicianName) => {
     var albumName = albumService.getFirstAlbum()[0];
-    var query = queryString.stringify({name: albumName, m: musicianName});
+    var query = queryString.stringify({n: albumName, m: musicianName});
     this.props.history.push(`/album?${query}`);
   }
 }

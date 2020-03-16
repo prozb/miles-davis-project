@@ -5,7 +5,6 @@ import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService, instrumentService } from '../../service';
 import { 
-    getCytoAlbum,
     getAlbumPerspective, 
     getMusicianPerspective,
     getInstrumentPerspective,
@@ -14,18 +13,15 @@ import {
 
 /**
  * @author Pavlo Rozbytskyi
- * 
- * component representing showing menu to the user 
+ * in this component is main user interaction where 
+ * are showed different perspectives for the user.
  */
 class AlbumRoute extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
       collapseNavbar: false,
       album: '',
-      musicians: [],
-      tracks: [],
       trackDisplay: false,
       trackName: '',
       musicianDisplay: false,
@@ -34,20 +30,23 @@ class AlbumRoute extends Component {
       instrumentName: '',
       specialCase: false,
     };
-    this.data = [];
     this.specialCaseFunction = getCompoundForMusicians;
   }
 
   componentDidMount() {
     // just be sure that just albums component will be showed
-    this.props.showAlbums()
+    this.props.showAlbums();
     // getting values from the query string
     const values = queryString.parse(this.props.location.search);
-    if(values.name){
-      // if values from query string exist, get album name
-      this.props.showAlbums(values.name);
-      this.setCurrentAlbum(values.name);
+    // there are two values of the query string: n stands for 
+    // name of the album and m stands for musicians name
 
+    // if name of the album defined, show this album on the display
+    if(values.n){
+      // if values from query string exist, get album name
+      this.props.showAlbums(values.n);
+      this.setCurrentAlbum(values.n);
+      // show musician if exists in the url
       if(values.m){
         this.showMusicianDisplay(values.m);
       }
@@ -55,10 +54,129 @@ class AlbumRoute extends Component {
       // if values from query string does not exist, get first album
       // and set this album as current album
       var albumName = albumService.getFirstAlbum()[0];
-      this.props.showAlbums(albumName);
       this.setCurrentAlbum(albumName);
     }
   }
+
+  render() {
+    const {
+        album, musicianDisplay, 
+        musicianName, instrumentDisplay, instrumentName,
+        specialCase 
+      } = this.state;
+    // style to toggle navigation bar 
+    const collapseStyle = this.state.collapseNavbar ? 
+      {display: 'flex', flex: 1} : {display: 'none'};
+
+    // cytoscape graph instance stays the same 
+    // for all perspectives (musician, album, track, instrument) and we have 
+    // to let the graph instance know which perspective to display
+    // e.g to adjust styles and event handlers etc. 
+    // That's why we need to keep the type of perspective in state of  
+    // current component and past it into the graph instance.
+    const graphType = this.getCurrentGraphType();
+
+    // data1 and data2 will be past into navigation bar
+    var data1 = [];
+    var data2 = [];
+    //type1 and type2 will be past into navigation bar
+    var type1 = "";
+    var type2 = "";
+    
+    // this elements array will be rendered on the graph instance
+    var elements = [];
+    // try to show some elements if the album exists
+    if(album){
+      if(musicianDisplay){
+        elements = getMusicianPerspective(musicianName);
+        data1 = musicianService.getAlbumsNamesOfMusician(musicianName);
+        data2 = musicianService.getInstrumentsNamesOfMusician(musicianName);
+        type1 = "album";
+        type2 = "instrument";
+      }else if(instrumentDisplay) {
+        elements = getInstrumentPerspective(instrumentName);
+        data1 = instrumentService.getMusiciansNamesOfInstrument(instrumentName).map(elem => elem[0]);
+        data2 = [];
+        type1 = "musician";
+        type2 = "";
+      }else if(specialCase) {
+        elements = this.specialCaseFunction(this.data);
+      }else {
+        var musicians = this.getMusiciansOfAlbum(album);
+        var tracks = this.getTracksOfAlbum(album);
+
+        elements = getAlbumPerspective(tracks, musicians, album);
+        data1 = musicians.map(elem => elem[0]);
+        data2 = tracks.map(elem => elem[0]);
+        type1 = "musician";
+        type2 = "track";
+      }
+    }
+ 
+    if(!this.props.active)
+			return null;
+    return (
+      <div className="full-height">
+        <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
+          {/* search bar container */}
+          <div>
+            <SearchBar 
+              button={false}
+              name={album[0]} 
+              onNavbarButtonPress={this.onNavbarButtonPress}
+              switchToSearch={this.switchToSearch}/>
+          </div>
+        </div>
+        {/* starting navigation and content container */}
+        <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
+          {/* navigation container */}
+          <div style={collapseStyle}>
+            <NavigationBar 
+              showMusicianDisplay={this.showMusicianDisplay}
+              showTrackDisplay={this.showTrackDisplay}
+              showAlbumsDisplay={this.switchToAlbum}
+              showInstrumentDisplay={this.showInstrumentDisplay}
+              data1={data1} 
+              data2={data2}
+              type1={type1}
+              type2={type2}
+            />
+          </div>
+          {/* end navigation container */}
+          
+          {/* starting content container */}
+          <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+            <Timeline 
+              highlighted={album[0]} 
+              switchToAlbum={this.switchToAlbum} 
+              style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
+
+            <div className="data-box-size">
+              {!this.state.trackDisplay ? 
+                <AlbumGraph 
+                  type={graphType}
+                  switchToAlbum={this.switchToAlbum}
+                  hideMusicianDisplay={this.hideMusicianDisplay}
+                  showMusicianDisplay={this.showMusicianDisplay}
+                  showTrackDisplay={this.showTrackDisplay}
+                  showInstrumentDisplay={this.showInstrumentDisplay}
+                  hideInstrumentDisplay={this.hideInstrumentDisplay}
+                  handleCollection={this.handleCollection}
+                  data={elements}/> : 
+                <TrackDisplay 
+                  album={this.state.album}
+                  name={this.state.trackName}
+                  hideTrackDisplay={this.hideTrackDisplay}/>
+              }
+            </div>
+          </div>
+          {/* ending content container */}
+        </div>
+        {/* starting navigation and content container */}
+      </div>
+    );
+  }
+
   /**
    * getting all musicians of current album to component state
    * @param album - current album
@@ -85,7 +203,7 @@ class AlbumRoute extends Component {
    * @param {string} albumName  - name of the next album chosen by user
    */
   switchToAlbum = (albumName) => {
-    this.props.history.push(`/album?name=${albumName}`);
+    this.props.history.push(`/album?n=${albumName}`);
     this.setCurrentAlbum(albumName);
   }
 
@@ -102,14 +220,9 @@ class AlbumRoute extends Component {
    */
   setCurrentAlbum = (albumName) => {
     var album = albumService.getByName(albumName);
-    var musicians = this.getMusiciansOfAlbum(album);
-    var tracks = this.getTracksOfAlbum(album);
 
     this.setState({
       album: album,
-      name: albumName,
-      musicians: musicians,
-      tracks: tracks,
       trackDisplay: false,
       trackName: '',
       musicianDisplay: false,
@@ -227,105 +340,6 @@ class AlbumRoute extends Component {
       trackDisplay: false,
       trackName: '',
     });
-  }
-
-  render() {
-    const {
-        album, musicians, tracks, musicianDisplay, 
-        musicianName, instrumentDisplay, instrumentName,
-        specialCase 
-      } = this.state;
-    const collapseStyle = this.state.collapseNavbar ? {display: 'flex', flex: 1} : {display: 'none'};
-    const graphType = this.getCurrentGraphType();
-    var data1 = [];
-    var data2 = [];
-    var type1 = "";
-    var type2 = "";
-
-    var elements = [];
-    if(album){
-      if(musicianDisplay){
-        elements = getMusicianPerspective(musicianName);
-        data1 = musicianService.getAlbumsNamesOfMusician(musicianName);
-        data2 = musicianService.getInstrumentsNamesOfMusician(musicianName);
-        type1 = "album";
-        type2 = "instrument";
-      }else if(instrumentDisplay) {
-        elements = getInstrumentPerspective(instrumentName);
-        data1 = instrumentService.getMusiciansNamesOfInstrument(instrumentName).map(elem => elem[0]);
-        data2 = [];
-        type1 = "musician";
-        type2 = "";
-      }else if(specialCase) {
-        elements = this.specialCaseFunction(this.data);
-      }else {
-        elements = getAlbumPerspective(tracks, musicians, album);
-        data1 = this.state.musicians.map(elem => elem[0]);
-        data2 = this.state.tracks.map(elem => elem[0]);
-        type1 = "musician";
-        type2 = "track";
-      }
-    }
- 
-    if(!this.props.active)
-			return null;
-    return (
-      <div className="full-height">
-        <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
-          {/* search bar container */}
-          <div>
-            <SearchBar 
-              button={false}
-              name={this.state.name} 
-              onNavbarButtonPress={this.onNavbarButtonPress}
-              switchToSearch={this.switchToSearch}/>
-          </div>
-        </div>
-        {/* starting navigation and content container */}
-        <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
-          {/* navigation container */}
-          <div style={collapseStyle}>
-            <NavigationBar 
-              showMusicianDisplay={this.showMusicianDisplay}
-              showTrackDisplay={this.showTrackDisplay}
-              showAlbumsDisplay={this.switchToAlbum}
-              showInstrumentDisplay={this.showInstrumentDisplay}
-              data1={data1} 
-              data2={data2}
-              type1={type1}
-              type2={type2}
-            />
-          </div>
-          {/* end navigation container */}
-          
-          {/* starting content container */}
-          <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
-            <Timeline highlighted={this.state.name} switchToAlbum={this.switchToAlbum} style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
-
-            <div className="data-box-size">
-              {!this.state.trackDisplay ? 
-                <AlbumGraph 
-                  type={graphType}
-                  switchToAlbum={this.switchToAlbum}
-                  hideMusicianDisplay={this.hideMusicianDisplay}
-                  showMusicianDisplay={this.showMusicianDisplay}
-                  showTrackDisplay={this.showTrackDisplay}
-                  showInstrumentDisplay={this.showInstrumentDisplay}
-                  hideInstrumentDisplay={this.hideInstrumentDisplay}
-                  handleCollection={this.handleCollection}
-                  data={elements}/> : 
-                <TrackDisplay 
-                  album={this.state.album}
-                  name={this.state.trackName}
-                  hideTrackDisplay={this.hideTrackDisplay}/>
-              }
-            </div>
-          </div>
-          {/* ending content container */}
-        </div>
-        {/* starting navigation and content container */}
-      </div>
-    );
   }
 }
 

@@ -9,10 +9,6 @@ import { getTrackPerspective } from '../../scripts/converter';
  * component renders all musicians of each album
  */
 export default class TrackGraph extends React.Component {
-  constructor(props){
-    super(props);
-  }
-
   /**
    * node click handler
    * @param {Object} node - node data

@@ -11,10 +11,6 @@ import { getObjectsToMusicianInstrumentRelation } from '../../scripts/converter'
  * and which instrument played this musician on this track
  */
 export default class TrackDisplay extends Component {
-  constructor(props){
-    super(props);
-  }
-  
   render() {
     const { name, album } = this.props;
     const relations = trackService.getMusicianInstrumentRelations(name, album[0]);

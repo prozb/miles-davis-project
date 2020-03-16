@@ -8,9 +8,6 @@ import image from '../../assets/start-screen.png';
  * whole project 
  */
 class HomeRoute extends Component {
-  constructor(props) {
-    super(props);
-	}
 	componentDidMount () {
 		//just be sure that all components except home are hidden
 		this.props.showHome();

@@ -3,7 +3,7 @@ import TimelineItem from './timeline-item/timeline-item';
 import './timeline.css';
 import { getDistanceBetweenAlbums } from '../../scripts/helpers';
 import { albumService } from '../../service';
-import { Triangle } from '..';
+import Triangle from './triangle/triangle';
 
 /**
  * component for displaying all albums

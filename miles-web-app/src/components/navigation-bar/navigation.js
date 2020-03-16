@@ -3,9 +3,6 @@ import './navigation.css';
 import NavigationSection from './nav-section/nav-section';
 
 export default class NavigationBar extends Component {
-  constructor(props) {
-    super(props);
-  }
   /**
    * handle click on menu item of different types
    */
@@ -22,6 +19,7 @@ export default class NavigationBar extends Component {
         break;
       case "instrument": 
         this.props.showInstrumentDisplay(name);
+        break;
       default: 
         break;
     }

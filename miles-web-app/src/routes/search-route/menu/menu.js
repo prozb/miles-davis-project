@@ -6,26 +6,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Badge from 'react-bootstrap/Badge';
 import './menu.css';
 
-const StyledMenu = withStyles({
-  paper: {
-    border: '1px solid #d3d4d5',
-  },
-})(props => (
-  <Menu
-    elevation={0}
-    getContentAnchorEl={null}
-    anchorOrigin={{
-      vertical: 'bottom',
-      horizontal: 'center',
-    }}
-    transformOrigin={{
-      vertical: 'top',
-      horizontal: 'center',
-    }}
-    {...props}
-  />
-));
-
 const StyledMenuItem = withStyles(theme => ({
   root: {
     '&:focus': {
