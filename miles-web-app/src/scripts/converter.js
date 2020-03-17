@@ -14,9 +14,9 @@ export const getCytoAlbum = (album) =>{
 export const getCytoMusician = (musician) =>{
   var convAlbum = { data: {
     type: "musician", 
-    label: musician[0], 
-    icon: musician[1].icon === '' ? 'none' : 
-    musician[1].icon} 
+    label: musician.id, 
+    icon: musician.icon === '' ? 'none' : 
+    musician.icon} 
   };
 
   return convAlbum;
@@ -77,7 +77,7 @@ export const getAlbumPerspective = (tracks, musicians, album) => {
         return [node, edge];
     });
     var convMus = musicians.flatMap(musician => {
-        var node = { data: {id: index, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon}}
+        var node = { data: {id: index, type: 'musician', label: musician.id, icon: musician.icon === '' ? 'none' : musician.icon}}
         var edge = { data: { source: index++, type: 'musician', target: 0, label: 'plays on' } };
         // returning musician node and edge from this node to album node
         return [node, edge];
@@ -108,7 +108,7 @@ export const getInstrumentPerspective = (name) => {
     var convInstr = { data: {id: index, type: 'instrument', label: instrument[0], icon: instrument[1].url === '' ? 'none' : instrument[1].url} };
     var convMusic = musicians.flatMap(mus => {
       var indexCp = index + 1;
-      var node = { data: {id: indexCp, type: 'musician', label: mus[0], icon: mus[1].icon === '' ? 'none' : mus[1].icon} };
+      var node = { data: {id: indexCp, type: 'musician', label: mus.id, icon: mus.icon === '' ? 'none' : mus.icon} };
       var edge = { data: { source: 0, type: 'musician', target: indexCp} };
       index++;
       // returning track node and edge from this node to album node
@@ -204,7 +204,7 @@ export const getMusicianPerspective = (musicianName) => {
     var instObjects = instruments.map(instr => instrumentService.getByName(instr));
     var albObjects  = albums.map(alb => albumService.getByName(alb));
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convMus   = { data: {id: index++, type: 'musician', label: musician[0], icon: musician[1].icon === '' ? 'none' : musician[1].icon} };
+    var convMus   = { data: {id: index++, type: 'musician', label: musician.id, icon: musician.icon === '' ? 'none' : musician.icon} };
     var convInstr = instObjects.flatMap(instr => {
         var node = { data: {id: index, type: 'instrument', label: instr[0], icon: instr[1].url === '' ? 'none' : instr[1].url} };
         var edge = { data: { source: 0, type: 'instrument', target: index++} };
@@ -241,8 +241,8 @@ export const getTrackPerspective = (relations) => {
         var node1 = { data: {
             id: index, 
             type: 'musician', 
-            label: rel[0][0], 
-            icon: rel[0][1].icon === '' ? 'none' : rel[0][1].icon,
+            label: rel[0].id, 
+            icon: rel[0].icon === '' ? 'none' : rel[0].icon,
             row: row,
             col: 0,
           }

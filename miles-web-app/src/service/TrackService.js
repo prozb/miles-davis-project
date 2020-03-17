@@ -28,7 +28,7 @@ class TrackService {
     return tracks.map(track => this.getByName(track));
   }
   /**
-   * getting all instrument - musician relations by track and album name
+   * getting all instrument - musician relations on track of certain album
    * @param {string} trackName - track name 
    * @param {string} albumName - album name  
    */

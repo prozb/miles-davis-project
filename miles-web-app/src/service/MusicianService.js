@@ -5,40 +5,54 @@ import { albumService } from '.';
  * musician service layer extends basic functionality from musician dao
  */
 class MusicianService {
+  /**
+   * getting musicians object by name
+   * returning null if object not found or error happened 
+   * @param {String} name - musicians name
+   */
   getByName = (name) => {
-    console.log(musicianRepository.getAll());
-
+    var musician = {};
     try{
-      return musicianRepository.getAll().filter(musician => musician[0] === name)[0];
+      // filtering all musicians by name and getting 
+      // first of filtered
+      var found = musicianRepository
+        .getAll()
+        .filter(musician => musician.id === name);
+      // if not found return null
+      if(found.length > 0){
+        musician = found[0];
+      }else{
+        musician = null;
+      }
     }catch(err){
       console.error(err);
-      return {};
+      musician = null;
     }
+    return musician;
   }
   /**
    * getting all instruments played by musician
    * @param {name} name - musicians name
    */
   getInstrumentsNamesOfMusician = (name) => {
-    try{
-      return musicianRepository.getAll().filter(musician => musician[0] === name)[0][1].instruments;
-    }catch(err){
-      console.error(err);
+    var musician = this.getByName(name);
+
+    if(musician === null){
       return [];
     }
+    return musician.instruments;
   }
   /**
    * getting all albums on which played musician
    * @param {name} name - musicians name
    */
   getAlbumsNamesOfMusician = (name) => {
-    var albums = [];
-    try{
-      albums = musicianRepository.getAll().filter(musician => musician[0] === name)[0][1].albums;
-    }catch(err){
-      console.log(err);
+    var musician = this.getByName(name);
+
+    if(musician === null){
+      return [];
     }
-    return albums;
+    return musician.albums;
   }
   /**
    * getting all album objects of musician
@@ -54,11 +68,19 @@ class MusicianService {
     }
     return albObjects;
   }
-
+  /**
+   * getting all musicians containing in theirs names 
+   * search query
+   * @param {String} query - search query
+   */
   getAllContainingSubstring = (query) => {
     if(query === '')
       return [];
-    return musicianRepository.getAll().filter(musician => musician[0].includes(query));
+    var found = musicianRepository
+      .getAll()
+      .filter(musician => musician.id.includes(query));
+      
+    return found;
   }
 }
 

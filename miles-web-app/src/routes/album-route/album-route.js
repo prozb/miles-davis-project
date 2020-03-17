@@ -115,11 +115,11 @@ class AlbumRoute extends Component {
           break;
         // data for albums perspective is showed by defaul 
         default: 
-          var musicians = this.getMusiciansOfAlbum(album);
+          var musicians = albumService.getMusiciansOfAlbum(album);
           var tracks = this.getTracksOfAlbum(album);
 
           elements = getAlbumPerspective(tracks, musicians, album);
-          data1 = musicians.map(elem => elem[0]);
+          data1 = musicians.map(elem => elem.id);
           data2 = tracks.map(elem => elem[0]);
           type1 = "musician";
           type2 = "track";
@@ -188,19 +188,6 @@ class AlbumRoute extends Component {
         {/* starting navigation and content container */}
       </div>
     );
-  }
-
-  /**
-   * getting all musicians of current album to component state
-   * @param album - current album
-   */
-  getMusiciansOfAlbum = (album) => {
-    var musicians = [];
-    album[1].musicians.forEach(mus => {
-      var musicianObject = musicianService.getByName(mus);
-      musicians.push(musicianObject);
-    });
-    return musicians;
   }
 
   /**
@@ -316,11 +303,11 @@ class AlbumRoute extends Component {
 
   /**
    * showing musician perspective
-   * @param {string} albumName - album name
+   * @param {string} musicianName - album name
    */
-  showMusicianDisplay = (albumName) => {
+  showMusicianDisplay = (musicianName) => {
     this.setState({
-      musicianName: albumName,
+      musicianName: musicianName,
       instrumentName: '',
       perspective: 'musician'
     });
