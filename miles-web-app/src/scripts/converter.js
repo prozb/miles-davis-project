@@ -103,7 +103,7 @@ export const getInstrumentPerspective = (name) => {
 
   try{
     var instrument = instrumentService.getByName(name);
-    var musicians  = instrumentService.getMusiciansNamesOfInstrument(name);
+    var musicians  = instrumentService.getMusiciansOfInstrument(name);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
     var convInstr = { data: {id: index, type: 'instrument', label: instrument[0], icon: instrument[1].url === '' ? 'none' : instrument[1].url} };
     var convMusic = musicians.flatMap(mus => {
@@ -118,7 +118,6 @@ export const getInstrumentPerspective = (name) => {
     return [convInstr, ...convMusic]; 
   }catch(err){
     console.error(instrumentService.getByName(name));
-    console.error(instrumentService.getMusiciansNamesOfInstrument(name));
     return [];
   }
 } 

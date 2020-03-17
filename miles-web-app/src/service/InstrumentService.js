@@ -17,18 +17,22 @@ class InstrumentService{
    * getting all musicians played on the instrument
    * @param {string} name - name of the instrument
    */
-  getMusiciansNamesOfInstrument = (name) => {
+  getMusiciansOfInstrument = (name) => {
+    // var instrument = this.getByName(name);
+    // return instrument[1].musicians;
     try{
-      return this.getByName(name)[1].musicians
-        .map(mus => { 
-          try{
+      var musicians = this.getByName(name)[1].musicians
+      .map(mus => { 
+        try{
             return musicianService.getByName(mus);
           }catch(err){
             console.log(err);
             console.log(mus);
+            return null;
           }
         }
       );
+      return musicians.filter(e => e !== null);
     }catch(err){
       console.error(`instrument name: ${name}`)
       console.error(this.getByName(name));
