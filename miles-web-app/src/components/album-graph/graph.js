@@ -137,6 +137,7 @@ export default class Graph extends React.Component {
         break;
       case "track": 
         this.props.showTrackDisplay(label);
+        break;
       default: 
         break;
     }
@@ -241,7 +242,9 @@ export default class Graph extends React.Component {
             <div class="container text-center">
               <p>${data.label}</p>
             </div>`
-        )
+        );
+      default: 
+        break;
     }
 
     // switch(data.type){

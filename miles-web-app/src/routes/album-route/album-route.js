@@ -100,9 +100,9 @@ class AlbumRoute extends Component {
         // data for instrument's perspective
         case 'instrument':
           elements = getInstrumentPerspective(instrumentName);
-
-          var musicians = instrumentService.getMusiciansOfInstrument(instrumentName);
-          data1 = musicians.map(elem => elem.id);
+          data1 = instrumentService
+            .getMusiciansOfInstrument(instrumentName)
+            .map(elem => elem.id);
           data2 = [];
           type1 = "musician";
           type2 = "";

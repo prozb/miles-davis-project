@@ -1,5 +1,5 @@
 import { albumRepository } from '../repository';
-import { musicianService, trackService } from '.';
+import { musicianService } from '.';
 /**
  * @author Pavlo Rozbytskyi
  * album service layer extends basic functionality from album repository
