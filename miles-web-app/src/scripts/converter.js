@@ -26,9 +26,9 @@ export const getCytoInstrument = (instrument) =>{
   var convAlbum = {
      data: {
       type: "instrument", 
-      label: instrument[0], 
-      icon: instrument[1].url === '' ? 'none' : 
-      instrument[1].url
+      label: instrument.id, 
+      icon: instrument.url === '' ? 'none' : 
+      instrument.url
     } 
   };
 
@@ -105,7 +105,7 @@ export const getInstrumentPerspective = (name) => {
     var instrument = instrumentService.getByName(name);
     var musicians  = instrumentService.getMusiciansOfInstrument(name);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convInstr = { data: {id: index, type: 'instrument', label: instrument[0], icon: instrument[1].url === '' ? 'none' : instrument[1].url} };
+    var convInstr = { data: {id: index, type: 'instrument', label: instrument.id, icon: instrument.url === '' ? 'none' : instrument.url} };
     var convMusic = musicians.flatMap(mus => {
       var indexCp = index + 1;
       var node = { data: {id: indexCp, type: 'musician', label: mus.id, icon: mus.icon === '' ? 'none' : mus.icon} };
@@ -134,7 +134,9 @@ export const getCompoundForMusicians = (musNodes) => {
   try{
     var compound = [];
     var musicianElems = [];
-    var elems = musNodes.reduce((compound, elem, index) => {
+    
+    var filteredNum = musNodes.filter(elem => elem.data().type === "musician");
+    var elems = filteredNum.reduce((compound, elem, index) => {
       // getting all albums of musician node
       var albums = musicianService.getAlbumsOfMusician(elem.data().label);
       musicianElems.push({ 
@@ -205,7 +207,7 @@ export const getMusicianPerspective = (musicianName) => {
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
     var convMus   = { data: {id: index++, type: 'musician', label: musician.id, icon: musician.icon === '' ? 'none' : musician.icon} };
     var convInstr = instObjects.flatMap(instr => {
-        var node = { data: {id: index, type: 'instrument', label: instr[0], icon: instr[1].url === '' ? 'none' : instr[1].url} };
+        var node = { data: {id: index, type: 'instrument', label: instr.id, icon: instr.url === '' ? 'none' : instr.url} };
         var edge = { data: { source: 0, type: 'instrument', target: index++} };
         // returning instrument node and edge from this node to musician node
         return [node, edge];
@@ -251,8 +253,8 @@ export const getTrackPerspective = (relations) => {
         var node2 = { data: {
             id: index, 
             type: 'instrument', 
-            label: rel[1][0], 
-            icon: rel[1][1].url === '' ? 'none' : rel[1][1].url,
+            label: rel[1].id, 
+            icon: rel[1].url === '' ? 'none' : rel[1].url,
             row: row++,
             col: 1,
           } 

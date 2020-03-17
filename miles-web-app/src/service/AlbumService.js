@@ -14,7 +14,7 @@ class AlbumService {
   }
 
   /**
-   * getting album by name or null of it doesn't exist
+   * getting album by name or null of it don't exist
    * @param {String} name - album name
    */
   getByName = (name) => {

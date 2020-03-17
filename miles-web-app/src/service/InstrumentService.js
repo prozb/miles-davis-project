@@ -2,16 +2,29 @@ import { instrumentRepository } from '../repository';
 import { musicianService } from '../service'; 
 /**
  * @author Pavlo Rozbytskyi
+ * @version 2.0.0 
  * instrument service layer extends basic functionality from instrument dao
  */
 class InstrumentService{
+  /**
+   * getting all instruments containing in their's names 
+   * the search query
+   * @param {String} query - search query
+   */
   getAllContainingSubstring = (query) => {
     if(query === '')
       return [];
-    return instrumentRepository.getAll().filter(instrument => instrument[0].includes(query));
+    return instrumentRepository
+      .getAll()
+      .filter(instrument => instrument.id.includes(query));
   }
+/**
+ * getting instrument by name or null of it don't exist
+ * @param {String} name - instrument name
+ */
   getByName = (name) => {
-    return instrumentRepository.getAll().filter(instrument => instrument[0] === name)[0];
+    var filtered = instrumentRepository.getAll().filter(instrument => instrument.id === name);
+    return filtered.length > 0 ? filtered[0] : null;
   }
   /**
    * getting all musicians played on the instrument
@@ -20,25 +33,14 @@ class InstrumentService{
   getMusiciansOfInstrument = (name) => {
     // var instrument = this.getByName(name);
     // return instrument[1].musicians;
-    try{
-      var musicians = this.getByName(name)[1].musicians
-      .map(mus => { 
-        try{
-            return musicianService.getByName(mus);
-          }catch(err){
-            console.log(err);
-            console.log(mus);
-            return null;
-          }
-        }
-      );
-      return musicians.filter(e => e !== null);
-    }catch(err){
-      console.error(`instrument name: ${name}`)
-      console.error(this.getByName(name));
-
+    var instrument = this.getByName(name);
+    if(!instrument){
       return [];
     }
+    var musicians = instrument.musicians
+      .map(mus => musicianService.getByName(mus))
+      .filter(e => e !== null);
+    return musicians;
   } 
 }
 

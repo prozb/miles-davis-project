@@ -47,13 +47,13 @@ class MusicianRepository {
       if(element.albums === null){
         musician.albums = [];
       }else{
-        musician.albums = element.albums.filter(e => e !== null);;
+        musician.albums = element.albums.filter(e => e !== null && e !== "");;
       }
       // checking instruments
       if(element.instruments === null){
         musician.instruments = [];
       }else{
-        musician.instruments = element.instruments.filter(e => e !== null);;
+        musician.instruments = element.instruments.filter(e => e !== null && e !== "");;
       }
       // checking birthdate
       if(element.birthdate === null){
@@ -71,7 +71,7 @@ class MusicianRepository {
       return musician;
     });
     // filter out all inconsistent musicians
-    this.allMusicians.filter(musician => musician !== null);
+    this.allMusicians.filter(e => e !== null && e !== "");
   }
   getAll = () => {
     return this.allMusicians;
