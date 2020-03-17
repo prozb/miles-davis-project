@@ -69,7 +69,7 @@ class MusicianService {
     return albObjects;
   }
   /**
-   * getting all musicians containing in theirs names 
+   * getting all musicians containing in their's names 
    * search query
    * @param {String} query - search query
    */

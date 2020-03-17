@@ -57,7 +57,7 @@ class AlbumRoute extends Component {
     }else{
       // if values from query string does not exist, get first album
       // and set this album as current album
-      var albumName = albumService.getFirstAlbum()[0];
+      var albumName = albumService.getFirstAlbum().id;
       this.setCurrentAlbum(albumName);
     }
   }
@@ -116,7 +116,7 @@ class AlbumRoute extends Component {
         // data for albums perspective is showed by defaul 
         default: 
           var musicians = albumService.getMusiciansOfAlbum(album);
-          var tracks = this.getTracksOfAlbum(album);
+          var tracks = trackService.getAllTracksOfAlbum(album.id);
 
           elements = getAlbumPerspective(tracks, musicians, album);
           data1 = musicians.map(elem => elem.id);
@@ -160,7 +160,7 @@ class AlbumRoute extends Component {
           {/* starting content container */}
           <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
             <Timeline 
-              highlighted={album[0]} 
+              highlighted={album.id} 
               switchToAlbum={this.switchToAlbum} 
               style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
 
@@ -195,7 +195,7 @@ class AlbumRoute extends Component {
    * @param album - current album
    */
   getTracksOfAlbum = (album) => {
-    return trackService.getAllTracksOfAlbum(album[0]);
+    return trackService.getAllTracksOfAlbum(album.id);
   }
   /**
    * switching from current album to next album

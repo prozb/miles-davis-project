@@ -1,23 +1,29 @@
 import { albumRepository } from '../repository';
-import { musicianService } from '.';
+import { musicianService, trackService } from '.';
 /**
  * @author Pavlo Rozbytskyi
- * album service layer extends basic functionality from album dao
+ * album service layer extends basic functionality from album repository
  */
 class AlbumService {
   /**
-   * getting first album
+   * getting first album or null if there aren't any albums in the file
    */
   getFirstAlbum = () => {
-    return albumRepository.getAll()[0];
-  }
-
-  getByName = (name) => {
-    return albumRepository.getAll().filter(album => album[0] === name)[0];
+    var albums = albumRepository.getAll();
+    return albums.length > 0 ? albums[0] : null;
   }
 
   /**
-   * getting all musicians of current album to component state
+   * getting album by name or null of it doesn't exist
+   * @param {String} name - album name
+   */
+  getByName = (name) => {
+    var albums = albumRepository.getAll().filter(album => album.id === name);
+    return albums.length > 0 ? albums[0] : null;
+  }
+
+  /**
+   * getting all musicians of current album
    * @param album - current album
    */
   getMusiciansOfAlbum = (album) => {
@@ -26,24 +32,33 @@ class AlbumService {
     if(!album){
       return musicians;
     }
-    album[1].musicians.forEach(mus => {
-      var musicianObject = musicianService.getByName(mus);
-      musicians.push(musicianObject);
+    album.musicians.forEach(mus => {
+      // var musicianObject = musicianService.getByName(mus);
+      musicians.push(
+        musicianService.getByName(mus)
+      );
     });
     // filter null musicians out
     musicians.filter(elem => elem !== null);
     return musicians;
   }
 
+  /**
+   * getting all albums containing in their's names 
+   * the search query
+   * @param {String} query - search query
+   */
   getAllContainingSubstring = (query) => {
     if(query === '')
       return [];
-    return albumRepository.getAll().filter(album => album[0].includes(query));
+    return albumRepository
+      .getAll()
+      .filter(album => album.id.includes(query));
   }
-
-  getAll = () => {
-    return albumRepository.getAll();
-  }
+  /**
+   * getting all albums from the repository
+   */
+  getAll = () => albumRepository.getAll();
 }
 
 export const albumService = new AlbumService();

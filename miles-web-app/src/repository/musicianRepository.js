@@ -4,12 +4,14 @@ var config = require('../assets/config.json');
 var musicians = require(`../assets/${config["dataset_directory"]}/musicians.json`);
 /**
  * @author Pavlo Rozbytskyi
+ * @version 2.0.0
  * musicians Data Access Object layer provides basic read functionality  
  */
 class MusicianRepository {
-  // getting all musicians
   /**
-   * Musicians objects have following properties
+   * gettig all musician objects from the file
+   * 
+   * musician objects have following properties
    * {String} id - Musicians name 
    * {String} url - url to e.g. wikipedia or another website
    * {String} icon - url to musicians picture, which should be displayed
@@ -20,10 +22,10 @@ class MusicianRepository {
    */
   constructor() {
     this.allMusicians = musicians.map(element => {
-      // checking correct musician name, if not the object is broken
       var musician = {};
 
-      if(element.id === ""){
+      // checking correct musician name, if not the object is broken
+      if(!element || element.id === ""){
         return null; 
       }
       musician.id = element.id;
@@ -45,13 +47,13 @@ class MusicianRepository {
       if(element.albums === null){
         musician.albums = [];
       }else{
-        musician.albums = element.albums;
+        musician.albums = element.albums.filter(e => e !== null);;
       }
       // checking instruments
       if(element.instruments === null){
         musician.instruments = [];
       }else{
-        musician.instruments = element.instruments;
+        musician.instruments = element.instruments.filter(e => e !== null);;
       }
       // checking birthdate
       if(element.birthdate === null){

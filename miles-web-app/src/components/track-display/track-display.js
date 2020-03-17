@@ -13,7 +13,7 @@ import { getObjectsToMusicianInstrumentRelation } from '../../scripts/converter'
 export default class TrackDisplay extends Component {
   render() {
     const { name, album } = this.props;
-    const relations = trackService.getMusicianInstrumentRelations(name, album[0]);
+    const relations = trackService.getMusicianInstrumentRelations(name, album.id);
     const converted = getObjectsToMusicianInstrumentRelation(relations);
     return(
       <div className="track-display-container">
@@ -26,7 +26,7 @@ export default class TrackDisplay extends Component {
             contentArrowStyle={{borderRight: '15px solid #ECD6A8'}}
             iconOnClick={this.props.hideTrackDisplay}
             className="vertical-timeline-element--education"
-            date={this.props.album[1].released}
+            date={this.props.album.released}
             iconStyle={{backgroundColor: '#E1AC3C'}}
             >
             <h3 className="vertical-timeline-element-title">{this.props.name}</h3>

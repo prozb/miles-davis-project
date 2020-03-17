@@ -3,9 +3,9 @@ import {instrumentService, musicianService, albumService} from '../service'
 export const getCytoAlbum = (album) =>{
   var convAlbum = { data: {
     type: "album", 
-    label: album[0], 
-    icon: album[1].icon === '' ? 'none' : 
-    album[1].icon} 
+    label: album.id, 
+    icon: album.icon === '' ? 'none' : 
+    album.icon} 
   };
 
   return convAlbum;
@@ -60,8 +60,8 @@ export const getAlbumPerspective = (tracks, musicians, album) => {
       data: {
         id: index++, 
         type: 'album', 
-        label: album[0], 
-        icon: album[1].icon === '' ? 'none' : album[1].icon
+        label: album.id, 
+        icon: album.icon === '' ? 'none' : album.icon
       } 
     };
     var convTracks = tracks.flatMap(track => {
@@ -141,7 +141,7 @@ export const getCompoundForMusicians = (musNodes) => {
       musicianElems.push({ 
         data: {
         id: index0++, 
-        type: "album", 
+        type: "musician", 
         label: elem.data().label, 
         icon: elem.data().icon === '' ? 'none' : elem.data().icon
       }});
@@ -149,9 +149,9 @@ export const getCompoundForMusicians = (musNodes) => {
       return albums;
       }else{
         // getting all names of albums
-        var mapped = albums.map(elem => elem[0]);
+        var mapped = albums.map(elem => elem.id);
         // getting compound elements of previous node and current
-        var compoundNew = compound.filter(elem => mapped.includes(elem[0]));
+        var compoundNew = compound.filter(elem => mapped.includes(elem.id));
         return compoundNew;
       }
     });
@@ -159,9 +159,9 @@ export const getCompoundForMusicians = (musNodes) => {
     var convElements = elems.map(elem => {
       var convElem = { data: {
         id: index0++, 
-        type: "musician", 
-        label: elem[0], 
-        icon: elem[1].icon === '' ? 'none' : elem[1].icon
+        type: "album", 
+        label: elem.id, 
+        icon: elem.icon === '' ? 'none' : elem.icon
       }};
       return convElem;
     });
@@ -213,7 +213,7 @@ export const getMusicianPerspective = (musicianName) => {
     });
     var convAlb = albObjects.flatMap(alb => {
       // console.log(alb);
-        var node = { data: {id: index, type: 'album', label: alb[0], icon: alb[1].icon === '' ? 'none' : alb[1].icon}}
+        var node = { data: {id: index, type: 'album', label: alb.id, icon: alb.icon === '' ? 'none' : alb.icon}}
         var edge = { data: { source: index++, type: 'album', target: 0 }};
         // returning musician node and edge from this node to album node
         return [node, edge];

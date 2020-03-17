@@ -3,7 +3,7 @@ import {pixelsPerYear} from './constants';
 // extracting release date from album
 export const getReleaseDateFromAlbum = (album) => {
     if(album){
-			return album[1].released;
+			return album.released;
     }
     return '';
 }

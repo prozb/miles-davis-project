@@ -26,6 +26,7 @@ export default class Timeline extends Component {
   getAllAlbumComponents = () => {
     var timeline = [];
     var albums = albumService.getAll();
+    var keyCounter = 0;
     for(var i = 0; i < albums.length; i++){
       if(i + 1 <  albums.length){
         // getting actual album data
@@ -39,13 +40,13 @@ export default class Timeline extends Component {
             switchToAlbum={this.props.switchToAlbum}
             style={i === 0 ? {paddingLeft: 50,} : {}}
             itemId={i}
-            key={i}
-            name={album1[0]} 
-            icon={album1[1].icon} 
-            date={album1[1].released}/>
+            key={keyCounter++}
+            name={album1.id} 
+            icon={album1.icon} 
+            date={album1.released}/>
         );
         timeline.push(
-          <div key={`line_${i}`} className="line-container">
+          <div key={keyCounter++} className="line-container">
             <svg width={getDistanceBetweenAlbums(album1, album2)} height='15px'>
               <line x1="0" y1="0" x2={getDistanceBetweenAlbums(album1, album2)} y2="0" style={{stroke: '#3B6295', strokeWidth: '20'}}/>  
             </svg>
@@ -62,10 +63,10 @@ export default class Timeline extends Component {
             switchToAlbum={this.props.switchToAlbum}
             style={{paddingRight: 50,}}
             itemId={i}
-            key={i}
-            name={album3[0]} 
-            icon={album3[1].icon} 
-            date={album3[1].released}/>
+            key={keyCounter++}
+            name={album3.id} 
+            icon={album3.icon} 
+            date={album3.released}/>
         );
       }
     }

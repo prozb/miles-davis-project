@@ -162,19 +162,19 @@ export default class Graph extends React.Component {
     };
 
     switch(type){
-      case "musician":
+      case "album":
+        musicianStyle.style.width = 100;
+        musicianStyle.style.height = 100;
+        musicianStyle.style['border-width'] = '5px';
+        musicianStyle.style['text-margin-y'] = '-5';
+        break;
+      case "musician": 
         musicianStyle.style.width = 130;
         musicianStyle.style.height = 130;
         musicianStyle.style['border-width'] = '7px';
         musicianStyle.style['text-margin-y'] = '-10';
         musicianStyle.style['font-weight'] = 'bold';
         musicianStyle.style['font-size'] = '20';
-        break;
-      case "album": 
-        musicianStyle.style.width = 100;
-        musicianStyle.style.height = 100;
-        musicianStyle.style['border-width'] = '5px';
-        musicianStyle.style['text-margin-y'] = '-5';
         break;
       case "special": 
         musicianStyle.style.width = 100;
@@ -196,7 +196,7 @@ export default class Graph extends React.Component {
     switch(data.type){
       case "musician":
         var musician = musicianService.getByName(data.label);
-        var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
+        var deathdate = musician.deathdate !== "" ? `<p>death: ${musician.deathdate}</p>` : "";
         return (
           `<div class="container">
             <div class="container text-center">
@@ -205,9 +205,9 @@ export default class Graph extends React.Component {
 
             <div class="container text-center">
               <p>${data.label}</p>
-              <p>birth: ${musician[1].birthdate}</p>
+              <p>birth: ${musician.birthdate}</p>
               ${deathdate}
-              <a target="_blank" href="${musician[1].url}">link to a biography</a>
+              <a target="_blank" href="${musician.url}">link to a biography</a>
             </div>
           </div>
           `
@@ -224,10 +224,10 @@ export default class Graph extends React.Component {
 
             <div class="container text-center">
               <p>${data.label}</p>
-              <p>release date: ${album[1].released}</p>
-              <p>label: ${album[1].label}</p>
-              <p>producers: ${album[1].producers}</p>
-              <a target="_blank" href="${album[1].url}">link to a album info</a>
+              <p>release date: ${album.released}</p>
+              <p>label: ${album.label}</p>
+              <p>producers: ${album.producers}</p>
+              <a target="_blank" href="${album.url}">link to a album info</a>
             </div>
           </div>`
         );
@@ -269,19 +269,19 @@ export default class Graph extends React.Component {
     };
 
     switch(type){
-      case "album":
+      case "musician":
+        albumStyle.style.width = 100;
+        albumStyle.style.height = 100;
+        albumStyle.style['border-width'] = '5px';
+        albumStyle.style['text-margin-y'] = '-5';
+        break;
+      case "album": 
         albumStyle.style.width = 130;
         albumStyle.style.height = 130;
         albumStyle.style['border-width'] = '8px';
         albumStyle.style['text-margin-y'] = '-10';
         albumStyle.style['font-weight'] = 'bold';
         albumStyle.style['font-size'] = '20';
-        break;
-      case "musician": 
-        albumStyle.style.width = 100;
-        albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '5px';
-        albumStyle.style['text-margin-y'] = '-5';
         break;
       case "special": 
         albumStyle.style.width = 100;
