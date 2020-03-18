@@ -7,6 +7,9 @@ import popper from 'cytoscape-popper';
 import tippy, {sticky} from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
+import { renderToString } from 'react-dom/server'
+
+import {MusicianTooltip} from './tooltip';
 
 Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
@@ -17,7 +20,7 @@ Cytoscape.use(coseBilkent);
 export default class Graph extends React.Component {
   constructor(props){
     super(props);
-
+    // needed to fix event handlers of collections
     this.callCount = 0;
     this.selectedSize = 0;
   }
@@ -197,21 +200,21 @@ export default class Graph extends React.Component {
     switch(data.type){
       case "musician":
         var musician = musicianService.getByName(data.label);
-        var deathdate = musician.deathdate !== "" ? `<p>death: ${musician.deathdate}</p>` : "";
-        return (`
-          <div class="container">
-            <div class="container text-center">
-              <img src="${data.icon}" alt="${data.label}"/>
-            </div>
+        return renderToString(<MusicianTooltip musician={musician}/>)
+        // return (`
+        //   <div class="container">
+        //     <div class="container text-center">
+        //       <img src="${data.icon}" alt="${data.label}"/>
+        //     </div>
 
-            <div class="container text-center">
-              <p>${data.label}</p>
-              <p>birth: ${musician.birthdate}</p>
-              ${deathdate}
-              <a target="_blank" href="${musician.url}">link to a biography</a>
-            </div>
-          </div>`
-        );
+        //     <div class="container text-center">
+        //       <p>${data.label}</p>
+        //       <p>birth: ${musician.birthdate}</p>
+        //       ${deathdate}
+        //       <a target="_blank" href="${musician.url}">link to a biography</a>
+        //     </div>
+        //   </div>`
+        // );
       case "album":
         var album = albumService.getByName(data.label);
         // var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
