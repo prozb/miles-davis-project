@@ -333,10 +333,11 @@ export default class Graph extends React.Component {
               }
               // create svg if not exist
               const initial = getInitials(elem.data().label);
-              const svgImage = `<svg xmlns="http://www.w3.org/2000/svg" pointer-events="none" width="46" height="46" style="width: 46px; border-radius: 0px; -moz-border-radius: 0px; background-color: #34495e; height: 46px"> 
+              const svgImage = `<svg xmlns="http://www.w3.org/2000/svg" pointer-events="none" width="46" height="46" style="width: 46px; border-radius: 0px; -moz-border-radius: 0px; background-color: #34495e; height: 46px">
                   <text text-anchor="middle" y="50%" x="50%" dy="0.35em" pointer-events="auto" fill="#ffffff" font-family="HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif" style="font-size: 20px; font-weight: 400">${initial}</text> 
                 </svg>`
-              const svgUrl = encodeURI("data:image/svg+xml;utf-8," + svgImage);
+
+              const svgUrl = encodeURI("data:image/svg+xml;utf8," + svgImage);
               //returning svg url
               return svgUrl;
             },

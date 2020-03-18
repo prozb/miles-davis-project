@@ -8,6 +8,11 @@
     z-index: 1;
 }
 
+.items-line {
+    stroke: '#3B6295';
+    stroke-width: '20';
+}
+
 .line-container { 
     position: relative;
     bottom: 90px;

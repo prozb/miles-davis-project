@@ -33,6 +33,7 @@ class AlbumRoute extends Component {
     // current component in perspective variable and past it into 
     // the graph instance.
       perspective: '', // current perspective
+      moveTimeline: true, 
     };
     this.specialCaseFunction = getCompoundForMusicians;
   }
@@ -70,11 +71,15 @@ class AlbumRoute extends Component {
     const {
         album, perspective,
         musicianName, instrumentName,
-        trackName
+        trackName, moveTimeline
       } = this.state;
+    // getting data for the timeline
+    const timelineData = albumService
+      .getAll()
+      .sort((a, b) => new Date(a.released) - new Date(b.released));
     // style to toggle navigation bar 
     const collapseStyle = this.state.collapseNavbar ? 
-      {display: 'flex', flex: 1} : {display: 'none'};
+      {display: 'flex', flex: 1} : null;
 
     // data1 and data2 will be past into navigation bar
     var data1 = [];
@@ -150,7 +155,8 @@ class AlbumRoute extends Component {
         {/* starting navigation and content container */}
         <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
           {/* navigation container */}
-          <div style={collapseStyle}>
+          {collapseStyle ? 
+          (<div style={collapseStyle}>
             <NavigationBar 
               showMusicianDisplay={this.showMusicianDisplay}
               showTrackDisplay={this.showTrackDisplay}
@@ -161,13 +167,16 @@ class AlbumRoute extends Component {
               type1={type1}
               type2={type2}
             />
-          </div>
+          </div>) : null}
           {/* end navigation container */}
           
           {/* starting content container */}
           <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
             <Timeline 
+              data={timelineData}
               highlighted={album.id} 
+              move={moveTimeline}
+              moveEnd={this.moveEnd}
               switchToAlbum={this.switchToAlbum} 
               style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
 
@@ -197,6 +206,12 @@ class AlbumRoute extends Component {
     );
   }
 
+  /**
+   * callback to stop timeline moving
+   */
+  moveEnd = () => {
+    this.setState({moveTimeline: false});
+  }
   /**
    * setting all tracks of current album to component state
    * @param album - current album
@@ -234,6 +249,7 @@ class AlbumRoute extends Component {
       musicianName: '',
       instrumentName: '',
       perspective: 'album',
+      moveTimeline: true,
     });
   }
   /**
