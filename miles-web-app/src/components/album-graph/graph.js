@@ -9,7 +9,7 @@ import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
 
-import {MusicianTooltip, AlbumTooltip} from './tooltip';
+import {MusicianTooltip, AlbumTooltip, InstrumentTooltip} from './tooltip';
 
 Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
@@ -208,33 +208,11 @@ export default class Graph extends React.Component {
         var album = albumService.getByName(data.label);
         // displaying album tooltip
         return renderToString(<AlbumTooltip album={album}/>)
-        // return (
-        //   `
-        //   <div class="container">
-        //     <div class="container text-center">
-        //       <img src="${data.icon}" alt="${data.label}"/>
-        //     </div>
-
-        //     <div class="container text-center">
-        //       <p>${data.label}</p>
-        //       <p>release date: ${album.released}</p>
-        //       <p>label: ${album.label}</p>
-        //       <p>producers: ${album.producers}</p>
-        //       <a target="_blank" href="${album.url}">link to a album info</a>
-        //     </div>
-        //   </div>`
-        // );
       case "instrument":
-        var album = instrumentService.getByName(data.label);
-        return (
-          `
-            <div class="container text-center">
-              <img src="${data.icon}" alt="${data.label}"/>
-            </div>
-            <div class="container text-center">
-              <p>${data.label}</p>
-            </div>`
-        );
+        //getting instrument object
+        var instrument = instrumentService.getByName(data.label);
+        //displaying instrument tooltip
+        return renderToString(<InstrumentTooltip instrument={instrument}/>)
       default: 
         break;
     }
