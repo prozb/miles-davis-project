@@ -19,6 +19,7 @@ export default class Timeline extends Component {
       highlithed: '',
     };
     this.timelineRef = React.createRef();
+    // storing positions of albums in pixels
     this.positions = {};
   }
   
