@@ -198,8 +198,8 @@ export default class Graph extends React.Component {
       case "musician":
         var musician = musicianService.getByName(data.label);
         var deathdate = musician.deathdate !== "" ? `<p>death: ${musician.deathdate}</p>` : "";
-        return (
-          `<div class="container">
+        return (`
+          <div class="container">
             <div class="container text-center">
               <img src="${data.icon}" alt="${data.label}"/>
             </div>
@@ -210,8 +210,7 @@ export default class Graph extends React.Component {
               ${deathdate}
               <a target="_blank" href="${musician.url}">link to a biography</a>
             </div>
-          </div>
-          `
+          </div>`
         );
       case "album":
         var album = albumService.getByName(data.label);
