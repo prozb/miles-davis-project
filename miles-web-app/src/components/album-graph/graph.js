@@ -9,7 +9,7 @@ import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
 
-import {MusicianTooltip} from './tooltip';
+import {MusicianTooltip, AlbumTooltip} from './tooltip';
 
 Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
@@ -199,9 +199,17 @@ export default class Graph extends React.Component {
 
     switch(data.type){
       case "musician":
+        //getting musician object
         var musician = musicianService.getByName(data.label);
+        // displaing tooltip for the musician
         return renderToString(<MusicianTooltip musician={musician}/>)
-        // return (`
+      case "album":
+        //getting album object
+        var album = albumService.getByName(data.label);
+        // displaying album tooltip
+        return renderToString(<AlbumTooltip album={album}/>)
+        // return (
+        //   `
         //   <div class="container">
         //     <div class="container text-center">
         //       <img src="${data.icon}" alt="${data.label}"/>
@@ -209,31 +217,13 @@ export default class Graph extends React.Component {
 
         //     <div class="container text-center">
         //       <p>${data.label}</p>
-        //       <p>birth: ${musician.birthdate}</p>
-        //       ${deathdate}
-        //       <a target="_blank" href="${musician.url}">link to a biography</a>
+        //       <p>release date: ${album.released}</p>
+        //       <p>label: ${album.label}</p>
+        //       <p>producers: ${album.producers}</p>
+        //       <a target="_blank" href="${album.url}">link to a album info</a>
         //     </div>
         //   </div>`
         // );
-      case "album":
-        var album = albumService.getByName(data.label);
-        // var deathdate = musician[1].deathdate !== "" ? `<p>death: ${musician[1].deathdate}</p>` : "";
-        return (
-          `
-          <div class="container">
-            <div class="container text-center">
-              <img src="${data.icon}" alt="${data.label}"/>
-            </div>
-
-            <div class="container text-center">
-              <p>${data.label}</p>
-              <p>release date: ${album.released}</p>
-              <p>label: ${album.label}</p>
-              <p>producers: ${album.producers}</p>
-              <a target="_blank" href="${album.url}">link to a album info</a>
-            </div>
-          </div>`
-        );
       case "instrument":
         var album = instrumentService.getByName(data.label);
         return (
