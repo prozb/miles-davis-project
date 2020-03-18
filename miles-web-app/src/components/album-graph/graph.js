@@ -8,7 +8,7 @@ import tippy, {sticky} from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
-
+import {getInitials} from '../../scripts/helpers';
 import {MusicianTooltip, AlbumTooltip, InstrumentTooltip} from './tooltip';
 
 Cytoscape.use( popper );
@@ -160,6 +160,7 @@ export default class Graph extends React.Component {
         shape: 'square',
         content: 'data(label)',
         'border-color': '#469B30',
+        'background-color': '#FFFFFF',
         'border-width': '5px',
         'text-margin-y': -10
       }
@@ -315,7 +316,7 @@ export default class Graph extends React.Component {
     const musiciansStyle = this.getMusicianStyle(type);
     const albumStyle = this.getAlbumStyle(type);
     const instrumentStyle = this.getInstrumentStyle(type);
-
+    {/* 'background-image': 'data(icon)', */}
     return <CytoscapeComponent 
       stylesheet={[
         musiciansStyle,
@@ -324,7 +325,21 @@ export default class Graph extends React.Component {
         {
           selector: 'node[icon]',
           style: {
-            'background-image': 'data(icon)',
+            'background-image': function(elem){
+              // return image if exists
+              var icon = elem.data().icon;
+              if(icon && icon !== "" && icon !== 'none'){
+                return icon;
+              }
+              // create svg if not exist
+              const initial = getInitials(elem.data().label);
+              const svgImage = `<svg xmlns="http://www.w3.org/2000/svg" pointer-events="none" width="46" height="46" style="width: 46px; border-radius: 0px; -moz-border-radius: 0px; background-color: #34495e; height: 46px"> 
+                  <text text-anchor="middle" y="50%" x="50%" dy="0.35em" pointer-events="auto" fill="#ffffff" font-family="HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif" style="font-size: 20px; font-weight: 400">${initial}</text> 
+                </svg>`
+              const svgUrl = encodeURI("data:image/svg+xml;utf-8," + svgImage);
+              //returning svg url
+              return svgUrl;
+            },
             'background-fit': 'contain'
           }
         },
