@@ -38,7 +38,7 @@ export const getCytoInstrument = (instrument) =>{
 export const getCytoTrack = (track) =>{
   var convAlbum = { data: {
       type: "track", 
-      label: track[0], 
+      label: track.id, 
     } 
   };
 
@@ -69,7 +69,7 @@ export const getAlbumPerspective = (tracks, musicians, album) => {
             data: {
             id: index, 
             type: 'track', 
-            label: track[0], icon: track[1].icon === '' ? 'none' : track[1].icon
+            label: track.id,
           } 
         };
         var edge = { data: { source: 0, type: 'track', target: index++, label: 'plays on' } };

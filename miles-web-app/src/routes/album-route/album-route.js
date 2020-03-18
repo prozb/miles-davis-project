@@ -121,8 +121,13 @@ class AlbumRoute extends Component {
           var tracks = trackService.getAllTracksOfAlbum(album.id);
 
           elements = getAlbumPerspective(tracks, musicians, album);
-          data1 = musicians.map(elem => elem.id);
-          data2 = tracks.map(elem => elem[0]);
+          data1 = musicians
+            .map(elem => elem ? elem.id : null)
+            .filter(e => e && e !==null);
+          data2 = tracks
+            .map(elem => elem ? elem.id : null)
+            .filter(e => e && e !==null);
+            
           type1 = "musician";
           type2 = "track";
 

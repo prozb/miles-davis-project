@@ -16,7 +16,8 @@ class InstrumentService{
       return [];
     return instrumentRepository
       .getAll()
-      .filter(instrument => instrument.id.includes(query));
+      .filter(instrument => instrument && instrument !== null && 
+        instrument.id.includes(query));
   }
 /**
  * getting instrument by name or null of it don't exist
@@ -39,7 +40,7 @@ class InstrumentService{
     }
     var musicians = instrument.musicians
       .map(mus => musicianService.getByName(mus))
-      .filter(e => e !== null);
+      .filter(e => e && e !== null);
     return musicians;
   } 
 }

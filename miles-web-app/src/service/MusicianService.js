@@ -40,7 +40,7 @@ class MusicianService {
     if(musician === null){
       return [];
     }
-    return musician.instruments;
+    return musician.instruments.filter(e => e && e !== null);
   }
   /**
    * getting all albums on which played musician
@@ -52,7 +52,7 @@ class MusicianService {
     if(musician === null){
       return [];
     }
-    return musician.albums;
+    return musician.albums.filter(e => e && e !== null);
   }
   /**
    * getting all album objects of musician
@@ -62,7 +62,9 @@ class MusicianService {
     var albObjects = [];
     try{
       var albums = this.getAlbumsNamesOfMusician(name);
-      albObjects = albums.map(alb => albumService.getByName(alb));
+      albObjects = albums
+        .map(alb => albumService.getByName(alb))
+        .filter(alb => alb && alb !== null);
     }catch(err){
       console.log(err);
     }
@@ -78,7 +80,8 @@ class MusicianService {
       return [];
     var found = musicianRepository
       .getAll()
-      .filter(musician => musician.id.includes(query));
+      .filter(musician => musician && musician !== null &&
+        musician.id.includes(query));
       
     return found;
   }

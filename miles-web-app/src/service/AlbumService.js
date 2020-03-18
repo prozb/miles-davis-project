@@ -39,7 +39,7 @@ class AlbumService {
       );
     });
     // filter null musicians out
-    musicians.filter(elem => elem !== null);
+    musicians = musicians.filter(elem => elem && elem !== null);
     return musicians;
   }
 
@@ -53,7 +53,7 @@ class AlbumService {
       return [];
     return albumRepository
       .getAll()
-      .filter(album => album.id.includes(query));
+      .filter(album => album && album !== null && album.id.includes(query));
   }
   /**
    * getting all albums from the repository

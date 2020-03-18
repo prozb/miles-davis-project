@@ -365,7 +365,8 @@ export default class Graph extends React.Component {
             height: 50,
             shape: 'round-triangle',
             content: 'data(label)',
-            'background-color': '#E1AC3C'
+            'background-color': '#E1AC3C',
+            'background-image': 'none',
           }
         },
         {
