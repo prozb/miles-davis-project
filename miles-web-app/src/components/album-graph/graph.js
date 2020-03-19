@@ -8,8 +8,10 @@ import tippy, {sticky} from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
-import {getInitials} from '../../scripts/helpers';
 import {MusicianTooltip, AlbumTooltip, InstrumentTooltip} from './tooltip';
+import {albumEdge, musicianEdge, 
+  instrumentEdge, trackEdge, nodeStyle, instrumentNode,
+  getMusicianStyle, getAlbumStyle} from './graph-styles/GraphStyles';
 
 Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
@@ -25,369 +27,28 @@ export default class Graph extends React.Component {
     this.selectedSize = 0;
   }
 
-  handleSpecialPerspective = (type, label) => {
-    switch(type){
-      case "musician": 
-        this.props.showMusicianDisplay(label);
-        break;
-      case "instrument": 
-        // this.props.showInstrumentDisplay(label);
-        break;
-      case "album": 
-        this.props.switchToAlbum(label);
-        break;
-      default: 
-        break;
-    }
-  }
-  /**
-   * node click handler
-   * @param {Object} node - node data
-   */
-  handleNodeClick = (node) => {
-    const {type, special} = this.props;
-
-    if(special){
-      this.handleSpecialPerspective(node.type, node.label);
-      return;
-    }
-    switch(type) {
-      // handling all clicks on track perspective
-      case "track":
-        // showing track display 
-        break;
-      case "instrument":
-        // showing track display 
-        this.handleInstrumentsPerspectiveClicks(node.type, node.label);
-        break;
-      // handling all clicks on album perspective
-      case "album":
-        this.handleAlbumPerspectiveClicks(node.type, node.label);
-        break;
-      // handling all clicks on album perspective
-      case "musician":
-        this.handleMusiciansPerspectiveClicks(node.type, node.label);
-        break;
-      case "special":
-        break;
-      default:
-        break;
-    }
-  }
-  /**
-   * handle pressing on nodes in special perspective
-   * @param {string} type - type of perspectives
-   * @param {string} label - label of instrument to be displayed
-   */
-  handleSpecialCase = (type, label) => {
-    switch(type){
-      case "album": 
-        break;
-      case "musician": 
-        break;
-      default: 
-        break;
-    }
-  }
-  /**
-   * handle pressing on nodes in instrument perspective
-   * @param {string} type - type of perspectives
-   * @param {string} label - label of instrument to be displayed
-   */
-  handleInstrumentsPerspectiveClicks = (type, label) => {
-    switch(type){
-      case "musician": 
-        this.props.showMusicianDisplay(label);
-        break;
-      case "instrument": 
-        this.props.hideInstrumentDisplay();
-        break;
-      default: 
-        break;
-    }
-  }
-  /**
-   * handle pressing on nodes in album perspective
-   * @param {string} type - type of perspectives
-   * @param {string} label - label of musician to be displayed
-   */
-  handleMusiciansPerspectiveClicks = (type, label) => {
-    switch(type){
-      case "album":
-        this.props.switchToAlbum(label);
-        break;
-      case "musician": 
-        this.props.hideMusicianDisplay();
-        break;
-      case "instrument": 
-        this.props.showInstrumentDisplay(label);
-        break;
-      default: 
-        break;
-    }
-  }
-  /**
-   * handle pressing on album depending on different types of perspectives
-   * @param {string} type - type of perspectives
-   * @param {string} label - label of album to be displayed
-   */
-  handleAlbumPerspectiveClicks = (type, label) => {
-    switch(type){
-      case "album":
-        break;
-      case "musician": 
-        this.props.showMusicianDisplay(label);
-        break;
-      case "track": 
-        this.props.showTrackDisplay(label);
-        break;
-      default: 
-        break;
-    }
-  }
-  /**
-   * getting style of musician nodes and edges for each perspective
-   * @param {string} type - type of perspective should be displayed
-   * possible types are: musician, track, album
-   */
-  getMusicianStyle = (type) => {
-    // default style
-    var musicianStyle = {
-      selector: 'node[type="musician"]',
-      style: {
-        width: 100,
-        height: 100,
-        shape: 'square',
-        content: 'data(label)',
-        'border-color': '#469B30',
-        'background-color': '#FFFFFF',
-        'border-width': '5px',
-        'text-margin-y': -10
-      }
-    };
-
-    switch(type){
-      case "album":
-        musicianStyle.style.width = 100;
-        musicianStyle.style.height = 100;
-        musicianStyle.style['border-width'] = '5px';
-        musicianStyle.style['text-margin-y'] = '-5';
-        break;
-      case "musician": 
-        musicianStyle.style.width = 130;
-        musicianStyle.style.height = 130;
-        musicianStyle.style['border-width'] = '7px';
-        musicianStyle.style['text-margin-y'] = '-10';
-        musicianStyle.style['font-weight'] = 'bold';
-        musicianStyle.style['font-size'] = '20';
-        break;
-      case "special": 
-        musicianStyle.style.width = 100;
-        musicianStyle.style.height = 100;
-        musicianStyle.style['border-width'] = '5px';
-        musicianStyle.style['text-margin-y'] = '-5';
-        break;
-      default: 
-        break;
-    }
-    return musicianStyle;
-  }
-  /**
-   * getting tooltip html of node
-   */
-  getTooltipByOfNode = (node) => {
-    var data = node.data();
-
-    switch(data.type){
-      case "musician":
-        //getting musician object
-        var musician = musicianService.getByName(data.label);
-        // displaing tooltip for the musician
-        return renderToString(<MusicianTooltip musician={musician}/>)
-      case "album":
-        //getting album object
-        var album = albumService.getByName(data.label);
-        // displaying album tooltip
-        return renderToString(<AlbumTooltip album={album}/>)
-      case "instrument":
-        //getting instrument object
-        var instrument = instrumentService.getByName(data.label);
-        //displaying instrument tooltip
-        return renderToString(<InstrumentTooltip instrument={instrument}/>)
-      default: 
-        break;
-    }
-
-    // switch(data.type){
-    //   : 
-    //     return "Nice track"
-    // }
-  }
-  /**
-   * getting style of album nodes and edges for each perspective
-   * @param {string} type - type of perspective should be displayed
-   * possible types are: musician, track, album
-   */
-  getAlbumStyle = (type) => {
-    // default style
-    var albumStyle = {
-      selector: 'node[type="album"]',
-      style: {
-        width: 100,
-        height: 100,
-        shape: 'ellipse',
-        content: 'data(label)',
-        'border-color': '#2E6299',
-        'font-size': '20'
-      }
-    };
-
-    switch(type){
-      case "musician":
-        albumStyle.style.width = 100;
-        albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '5px';
-        albumStyle.style['text-margin-y'] = '-5';
-        break;
-      case "album": 
-        albumStyle.style.width = 130;
-        albumStyle.style.height = 130;
-        albumStyle.style['border-width'] = '8px';
-        albumStyle.style['text-margin-y'] = '-10';
-        albumStyle.style['font-weight'] = 'bold';
-        albumStyle.style['font-size'] = '20';
-        break;
-      case "special": 
-        albumStyle.style.width = 100;
-        albumStyle.style.height = 100;
-        albumStyle.style['border-width'] = '5px';
-        albumStyle.style['text-margin-y'] = '-5';
-        break;
-      default: 
-        break;
-    }
-    return albumStyle;
-  }
-
-  /**
-   * getting style of instrument nodes and edges for each perspective
-   * @param {string} type - type of perspective should be displayed
-   * possible types are: musician, track, album
-   */
-  getInstrumentStyle = (type) => {
-    // default style
-    var instrumetStyle = {
-      selector: 'node[type="instrument"]',
-      style: {
-        width: 100,
-        height: 100,
-        shape: 'diamond',
-        content: 'data(label)',
-        'border-color': '#f18867',
-      }
-    };
-    
-    switch(type){
-      case "musician": 
-        instrumetStyle.style.width = 100;
-        instrumetStyle.style.height = 100;
-        instrumetStyle.style['border-width'] = '5px';
-        instrumetStyle.style['text-margin-y'] = '-5';
-        break;
-      case "instrument":
-        instrumetStyle.style.width = 130;
-        instrumetStyle.style.height = 130;
-        instrumetStyle.style['border-width'] = '5px';
-        instrumetStyle.style['text-margin-y'] = '-10';
-        instrumetStyle.style['font-weight'] = 'bold';
-        instrumetStyle.style['font-size'] = '20';
-        break;
-      default: 
-        break;
-    }
-    return instrumetStyle;
-  }
-
   render(){
     // dont render component if album not set 
     if(this.props.data.length === 0)
       return null;
     const {type, className} = this.props;
-    const musiciansStyle = this.getMusicianStyle(type);
-    const albumStyle = this.getAlbumStyle(type);
+    // getting styles of musician, album, instrument
+    const musiciansStyle = getMusicianStyle(type);
+    const albumStyle = getAlbumStyle(type);
     const instrumentStyle = this.getInstrumentStyle(type);
-    {/* 'background-image': 'data(icon)', */}
+
     return (<CytoscapeComponent 
       className={className}
       stylesheet={[
         musiciansStyle,
         albumStyle,
         instrumentStyle,
-        {
-          selector: 'node[icon]',
-          style: {
-            'background-image': function(elem){
-              // return image if exists
-              var icon = elem.data().icon;
-              if(icon && icon !== "" && icon !== 'none'){
-                return icon;
-              }
-              // create svg if not exist
-              const initial = getInitials(elem.data().label);
-              const svgImage = `<svg xmlns="http://www.w3.org/2000/svg"
-                width="46" height="46" style="background-color:rgb(52, 73, 94);-moz-border-radius: 0px;">
-                <text 
-                  style="font-size: 20px; font-weight: 400"
-                  font-family="HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif"  text-anchor="middle" y="50%" x="50%" dy="0.35em" fill="white">${initial}</text>
-                Sorry, your browser does not support inline SVG.
-              </svg>`
-
-                
-              const svgUrl = encodeURI("data:image/svg+xml;utf8," + svgImage);
-              //returning svg url
-              return svgUrl;
-            },
-            'background-fit': 'contain'
-          }
-        },
-        {
-          selector: 'node[type="track"]',
-          style: {
-            width: 50,
-            height: 50,
-            shape: 'round-triangle',
-            content: 'data(label)',
-            'background-color': '#E1AC3C',
-            'background-image': 'none',
-          }
-        },
-        {
-          selector: 'edge[type="track"]',
-          style: {
-            'line-color': '#E1AC3C',
-          }
-        },
-        {
-          selector: 'edge[type="instrument"]',
-          style: {
-            'line-color': '#f18867',
-            'width': 5,
-          }
-        },
-        {
-          selector: 'edge[type="musician"]',
-          style: {
-            'line-color': '#469B30',
-            'width': 5,
-          }
-        },
-        {
-          selector: 'edge[type="album"]',
-          style: {
-            'line-color': '#2E6299',
-            'width': 5,
-          }
-        },
+        trackEdge,
+        instrumentEdge,
+        musicianEdge,
+        albumEdge,
+        nodeStyle,
+        instrumentNode
       ]}
       cy={(cy) => { 
         this.cy = cy;
@@ -413,7 +74,8 @@ export default class Graph extends React.Component {
             plugins: [sticky],
             trigger: 'manual', // call show() and hide() yourself
             lazy: false, // needed for onCreate()
-            onCreate: instance => { instance.popperInstance.reference = ref; }, // needed for `ref` positioning
+            // needed for `ref` positioning
+            onCreate: instance => { instance.popperInstance.reference = ref; }, 
             // your custom options follow:
             content: () => {
               let content = document.createElement('div');
@@ -453,6 +115,202 @@ export default class Graph extends React.Component {
       elements={this.props.data} 
       layout={{name: 'cose-bilkent', spacingFactor: 2}}
       />)
+  }
 
+  /**
+   * special perspectives show compound elements e.g. 
+   * on which albums played musicians together.  
+   */
+  handleSpecialPerspective = (type, label) => {
+    switch(type){
+      case "musician": 
+        this.props.showMusicianDisplay(label);
+        break;
+      case "instrument": 
+        // this.props.showInstrumentDisplay(label);
+        break;
+      case "album": 
+        this.props.switchToAlbum(label);
+        break;
+      default: 
+        break;
+    }
+  }
+  /**
+   * Click handler for all nodes.
+   * 
+   * graph component shows different perspectives and each perspective
+   * shows his own nodes on the screen. Nodes of different types have 
+   * different event hanlers.
+   *
+   * e.g.: on the musician perspective are placed albums and instruments of 
+   * the musician. Press on instrument should navigate user to instruments 
+   * perspective, press on album node should navigate user to 
+   * album's perspective. 
+   * 
+   * @param {Object} node - node
+   */
+  handleNodeClick = (node) => {
+    // getting type of current perspective (musician, album, insturment)
+    switch(this.props.type) {
+      // handling all clicks on track perspective
+      case "special": 
+        // handle clicks on special perspective
+        this.handleSpecialPerspective(node.type, node.label);
+        break;
+      case "track":
+        // showing track display 
+        break;
+      case "instrument":
+        // showing track display 
+        this.handleInstrumentsPerspectiveClicks(node.type, node.label);
+        break;
+      // handling all clicks on album perspective
+      case "album":
+        this.handleAlbumPerspectiveClicks(node.type, node.label);
+        break;
+      // handling all clicks on album perspective
+      case "musician":
+        this.handleMusiciansPerspectiveClicks(node.type, node.label);
+        break;
+      default:
+        break;
+    }
+  }
+  /**
+   * handle pressing on nodes in instrument perspective
+   * @param {string} type - type current perspective
+   * @param {string} label - name of the node
+   */
+  handleInstrumentsPerspectiveClicks = (type, label) => {
+    switch(type){
+      // press on musician in the instrument perspective
+      // leads user to musician perspective
+      case "musician": 
+        this.props.showMusicianDisplay(label);
+        break;
+      // press on instrument in the instrument perspective
+      // leads user back to musicians perspective
+      case "instrument": 
+        this.props.hideInstrumentDisplay();
+        break;
+      default: 
+        break;
+    }
+  }
+  /**
+   * handle pressing on nodes in musician perspective
+   * @param {string} type - type of current perspective
+   * @param {string} label - name of pressed node
+   */
+  handleMusiciansPerspectiveClicks = (type, label) => {
+    switch(type){
+      // press on album in the musician perspective
+      // leads user to albums perspective
+      case "album":
+        this.props.switchToAlbum(label);
+        break;
+      // press on musician in the musician perspective
+      // leads user back to albums perspective
+      case "musician": 
+        this.props.hideMusicianDisplay();
+        break;
+      // press on instrument in the musician perspective
+      // leads user to instrument's perspective
+      case "instrument": 
+        this.props.showInstrumentDisplay(label);
+        break;
+      default: 
+        break;
+    }
+  }
+  /**
+   * handle pressing on nodes in album perspective
+   * @param {string} type - type of current perspective
+   * @param {string} label - name of the pressed node
+   */
+  handleAlbumPerspectiveClicks = (type, label) => {
+    switch(type){
+      case "album":
+        break;
+      // press on musician in the album perspective
+      // leads user to musician's perspective
+      case "musician": 
+        this.props.showMusicianDisplay(label);
+        break;
+      // press on track in the album perspective
+      // leads user to track's perspective
+      case "track": 
+        this.props.showTrackDisplay(label);
+        break;
+      default: 
+        break;
+    }
+  }
+  
+  /**
+   * getting tooltip html of node
+   */
+  getTooltipByOfNode = (node) => {
+    var data = node.data();
+
+    switch(data.type){
+      case "musician":
+        //getting musician object
+        var musician = musicianService.getByName(data.label);
+        // displaing tooltip for the musician
+        return renderToString(<MusicianTooltip musician={musician}/>)
+      case "album":
+        //getting album object
+        var album = albumService.getByName(data.label);
+        // displaying album tooltip
+        return renderToString(<AlbumTooltip album={album}/>)
+      case "instrument":
+        //getting instrument object
+        var instrument = instrumentService.getByName(data.label);
+        //displaying instrument tooltip
+        return renderToString(<InstrumentTooltip instrument={instrument}/>)
+      default: 
+        break;
+    }
+  }
+
+  /**
+   * getting style of instrument nodes and edges for each perspective
+   * @param {string} type - type of perspective should be displayed
+   * possible types are: musician, track, album
+   */
+  getInstrumentStyle = (type) => {
+    // default style
+    var instrumetStyle = {
+      selector: 'node[type="instrument"]',
+      style: {
+        width: 100,
+        height: 100,
+        shape: 'diamond',
+        content: 'data(label)',
+        'border-color': '#f18867',
+      }
+    };
+    
+    switch(type){
+      case "musician": 
+        instrumetStyle.style.width = 100;
+        instrumetStyle.style.height = 100;
+        instrumetStyle.style['border-width'] = '5px';
+        instrumetStyle.style['text-margin-y'] = '-5';
+        break;
+      case "instrument":
+        instrumetStyle.style.width = 130;
+        instrumetStyle.style.height = 130;
+        instrumetStyle.style['border-width'] = '5px';
+        instrumetStyle.style['text-margin-y'] = '-10';
+        instrumetStyle.style['font-weight'] = 'bold';
+        instrumetStyle.style['font-size'] = '20';
+        break;
+      default: 
+        break;
+    }
+    return instrumetStyle;
   }
 }

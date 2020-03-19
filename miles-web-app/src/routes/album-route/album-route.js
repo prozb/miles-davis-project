@@ -328,7 +328,7 @@ class AlbumRoute extends Component {
     this.setState({
       musicianName: musicianName,
       instrumentName: '',
-      perspective: 'musician'
+      perspective: 'musician',
     });
   }
   /**
