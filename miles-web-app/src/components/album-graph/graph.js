@@ -312,12 +312,13 @@ export default class Graph extends React.Component {
     // dont render component if album not set 
     if(this.props.data.length === 0)
       return null;
-    const {type} = this.props;
+    const {type, className} = this.props;
     const musiciansStyle = this.getMusicianStyle(type);
     const albumStyle = this.getAlbumStyle(type);
     const instrumentStyle = this.getInstrumentStyle(type);
     {/* 'background-image': 'data(icon)', */}
-    return <CytoscapeComponent 
+    return (<CytoscapeComponent 
+      className={className}
       stylesheet={[
         musiciansStyle,
         albumStyle,
@@ -442,8 +443,11 @@ export default class Graph extends React.Component {
           }
         });
       }}
+      minZoom={0.3}
+      maxZoom={5}
       elements={this.props.data} 
-      style={{ width: '100%', height: '100%'}}
-      layout={{name: 'cose-bilkent', spacingFactor: 2}}/>;
+      layout={{name: 'cose-bilkent', spacingFactor: 2}}
+      />)
+
   }
 }

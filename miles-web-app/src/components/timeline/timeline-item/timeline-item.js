@@ -27,7 +27,7 @@ export default class TimelineItem extends Component {
     const activeNormal = this._isActive(name) ? "item-container-active" : "";
     const activeHovered = this._isActive(name) ? "item-container-hovered-active" : "";
 
-    const itemClass = this.state.mouseEntered ? `item-container-hovered ${activeHovered}` : `item-container ${activeNormal}`
+    const itemClass = this.state.mouseEntered ? `item-container-hovered box-shadow ${activeHovered}` : `item-container box-shadow ${activeNormal}`
     const containerClass = this.state.mouseEntered ? "vertical-timeline-custom move-top" : "vertical-timeline-custom"
 
     return (

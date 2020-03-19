@@ -80,7 +80,7 @@ class SearchRoute extends Component {
     }
 
     return (
-      <div className="full-height">
+      <div className="fill">
         <SearchBar
           back={true}
           name={"Search results"} 
@@ -89,7 +89,7 @@ class SearchRoute extends Component {
           }}
           switchToSearch={this.processSearch}/>
 
-        <div className="container horizontal full-height">
+        <div className="container d-flex flex-col fill">
           {/* Menu container */}
           <div>
             <CustomizedMenus 
@@ -105,17 +105,19 @@ class SearchRoute extends Component {
           <div className="full-width results-container">
             <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
             <hr/>
-            <Graph 
-              switchToAlbum={this.switchToAlbum}
-              hideMusicianDisplay={() => {}}
-              showMusicianDisplay={this.switchToMusician}
-              showTrackDisplay={() => {}}
-              showInstrumentDisplay={() => {}}
-              hideInstrumentDisplay={() => {}}
-              handleCollection={() => {}}
-              type="musician"
-              special={true}
-              data={data}/>
+            <div className="box-shadow box-radius h-75">
+              <Graph 
+                switchToAlbum={this.switchToAlbum}
+                hideMusicianDisplay={() => {}}
+                showMusicianDisplay={this.switchToMusician}
+                showTrackDisplay={() => {}}
+                showInstrumentDisplay={() => {}}
+                hideInstrumentDisplay={() => {}}
+                handleCollection={() => {}}
+                type="musician"
+                special={true}
+                data={data}/>
+              </div>
           </div>
         </div>
         {/* starting navigation and content container */}

@@ -73,7 +73,7 @@ class AlbumRoute extends Component {
         musicianName, instrumentName,
         trackName, moveTimeline
       } = this.state;
-    // getting data for the timeline
+    // gettingflex-column data for the timeline
     const timelineData = albumService
       .getAll()
       .sort((a, b) => new Date(a.released) - new Date(b.released));
@@ -141,19 +141,17 @@ class AlbumRoute extends Component {
     }
  
     return (
-      <div className="full-height">
-        <div style={{display: 'flex', flex: 1, flexDirection: 'column'}}>
-          {/* search bar container */}
-          <div>
-            <SearchBar 
-              button={false}
-              name={album[0]} 
-              onNavbarButtonPress={this.collapseNavbar}
-              switchToSearch={this.switchToSearch}/>
-          </div>
-        </div>
+      // toot div
+      // {/* <div className="d-flex flex-column bg-success"> */}
+      <div className="fill">
+        {/* searchbar container */}
+        <SearchBar 
+          button={false}
+          name={album[0]} 
+          onNavbarButtonPress={this.collapseNavbar}
+          switchToSearch={this.switchToSearch}/>
         {/* starting navigation and content container */}
-        <div className="full-height" style={{flex: 2, display: 'flex', flexDirection: 'row'}}>
+        <div className="mh-100 h-100 d-flex">
           {/* navigation container */}
           {collapseStyle ? 
           (<div style={collapseStyle}>
@@ -171,37 +169,35 @@ class AlbumRoute extends Component {
           {/* end navigation container */}
           
           {/* starting content container */}
-          <div className="vertical hide-scrollbar" style={{flex: 7,  overflow: 'scroll'}}>
+          <div className="flex-column hide-scrollbar overflow-auto">
             <Timeline 
               data={timelineData}
               highlighted={album.id} 
               move={moveTimeline}
               moveEnd={this.moveEnd}
               switchToAlbum={this.switchToAlbum} 
-              style={{marginTop: -20, height: 200, top: 20, marginBottom: 100,}}/>
+              style={{marginTop: -20, height: 200, top: 20,}}
+              />
 
-            <div className="data-box-size">
-              {perspective !== 'track' ? 
-                <AlbumGraph 
-                  type={perspective}
-                  switchToAlbum={this.switchToAlbum}
-                  hideMusicianDisplay={this.hideMusicianDisplay}
-                  showMusicianDisplay={this.showMusicianDisplay}
-                  showTrackDisplay={this.showTrackDisplay}
-                  showInstrumentDisplay={this.showInstrumentDisplay}
-                  hideInstrumentDisplay={this.hideInstrumentDisplay}
-                  handleCollection={this.handleCollection}
-                  data={elements}/> : 
-                <TrackDisplay 
-                  album={album}
-                  name={trackName}
-                  hideTrackDisplay={this.hideTrackDisplay}/>
-              }
-            </div>
+            {perspective !== 'track' ? 
+              <AlbumGraph 
+                className="mx-auto mb-5 w-75 h-75 box-shadow box-radius"
+                type={perspective}
+                switchToAlbum={this.switchToAlbum}
+                hideMusicianDisplay={this.hideMusicianDisplay}
+                showMusicianDisplay={this.showMusicianDisplay}
+                showTrackDisplay={this.showTrackDisplay}
+                showInstrumentDisplay={this.showInstrumentDisplay}
+                hideInstrumentDisplay={this.hideInstrumentDisplay}
+                handleCollection={this.handleCollection}
+                data={elements}/> : 
+              <TrackDisplay 
+                album={album}
+                name={trackName}
+                hideTrackDisplay={this.hideTrackDisplay}/>
+            }
           </div>
-          {/* ending content container */}
         </div>
-        {/* starting navigation and content container */}
       </div>
     );
   }
