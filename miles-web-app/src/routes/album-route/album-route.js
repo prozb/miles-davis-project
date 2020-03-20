@@ -369,7 +369,7 @@ class AlbumRoute extends Component {
     this.data = elements;
     // saving current context
     this.saveContext();
-    this.setState({perspective: 'special'});
+    this.setState({perspective: 'special', collapseNavbar: false});
   }
   /**
    * calling this function when need back from special perspective
