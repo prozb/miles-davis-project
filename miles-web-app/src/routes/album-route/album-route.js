@@ -8,7 +8,8 @@ import {
     getAlbumPerspective, 
     getMusicianPerspective,
     getInstrumentPerspective,
-    getCompoundForMusicians
+    getCompoundForMusicians,
+    getCompoundForAlbums
   } from '../../presentation/converter';
 
 /**
@@ -266,15 +267,13 @@ class AlbumRoute extends Component {
   saveContext = () => {
     const {perspective, album, musicianName, instrumentName} = this.state;
 
-    if(perspective === 'album'){
-      this.pushToNavigationStack('album', album.id);
-    }else if(perspective === 'musician'){
+    this.pushToNavigationStack('album', album.id);
+    
+    if(perspective === 'musician'){
       this.pushToNavigationStack('musician', musicianName);
-      this.pushToNavigationStack('album', album.id);
     }else if(perspective === 'instrument'){
-      this.pushToNavigationStack('instrument', instrumentName);
       this.pushToNavigationStack('musician', musicianName);
-      this.pushToNavigationStack('album', album.id);
+      this.pushToNavigationStack('instrument', instrumentName);
     }
   } 
   /**
@@ -287,6 +286,9 @@ class AlbumRoute extends Component {
       // if the last state album, navigate to this album
       if(lastState.perspective === 'album'){
         this.setCurrentAlbum(lastState.name);
+      }else if(lastState.perspective === 'musician'){
+        let albumState = this.navigationStack.pop();
+        this.backToMusisian(lastState.name, albumState.name);
       }
     }
   }
@@ -339,7 +341,12 @@ class AlbumRoute extends Component {
   }
   /**
    * handle collection of selected nodes different for each 
-   * perspective
+   * perspective.
+   * 
+   * there are special cases for musicians, albums and instruments perspective.
+   * e.g.: if the user selects musicians on the album's perspective 
+   * the special function should return data with albums where this musicians 
+   * have played together. 
    * @param {Array} elements - array with selected cytoscape nodes
    */
   handleCollection = (elements) => {
@@ -348,23 +355,36 @@ class AlbumRoute extends Component {
     switch(perspective){
       // handling selected musicians of the albums perspective
       case 'album': 
-        // there are special cases for musicians, albums and instruments perspective
-        // and for each of them should be provided one function. 
         this.specialCaseFunction = getCompoundForMusicians;
-        // storing returned collection in class variable to 
-        // process it by rerender
-        this.data = elements;
-        // saving current context
-        this.saveContext();
-        this.setState({perspective: 'special'});
         break;
       case 'musician':
+        // function shows 
+        this.specialCaseFunction = getCompoundForAlbums;
         break;
       default: 
         break;
     }
+    // storing returned collection in class variable to 
+    // process it by rerender later
+    this.data = elements;
+    // saving current context
+    this.saveContext();
+    this.setState({perspective: 'special'});
   }
-
+  /**
+   * calling this function when need back from special perspective
+   * to musicians perspective
+   * @param {String} musicianName - name of the musician
+   * @param {String} albumName - name of the album
+   */
+  backToMusisian = (musicianName, albumName) => {
+    this.setState({
+      musicianName: musicianName,
+      albumName: albumName,
+      instrumentName: '',
+      perspective: 'musician',
+    });
+  }
   /**
    * showing musician perspective
    * @param {string} musicianName - album name

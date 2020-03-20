@@ -33,7 +33,6 @@ class AlbumService {
       return musicians;
     }
     album.musicians.forEach(mus => {
-      // var musicianObject = musicianService.getByName(mus);
       musicians.push(
         musicianService.getByName(mus)
       );

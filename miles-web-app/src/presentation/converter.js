@@ -134,11 +134,53 @@ export const getInstrumentPerspective = (name) => {
     return getCytoInstrument(instrument);
   }
 } 
-
 /**
- * converting elements to data format readable by 
- * cytoscape
- * @param {Array} elements name of instrument to be displayed
+ * preparing data for the perspective where is displayed 
+ * on which albums some musicians have played together. 
+ * 
+ * @param {Array} nodes selected nodes
+ */
+export const getCompoundForAlbums = (nodes) => {
+  // getting collection with selected albums
+  let albums = nodes
+    .filter(album => album.data().type === "album")
+    .map(album => { return {data: album.data()}} );
+  
+  try{
+    // following lines find common albums of musicians
+    let commonMusicians = albums
+      .reduce((accumulator, album, index, array) => {
+        // getting all albums names of the given musician
+        let musicians = albumService.getByName(album.data.label).musicians;
+        // return all albums on the first iteration 
+        if(index === 0){
+          return musicians;
+        }
+        // getting compound elements of previous musician and current
+        return accumulator.filter(elem => musicians.includes(elem));
+      }, [])
+      // converting albums to cytoscape albums  
+      .map(musicianName => {
+        let musician = musicianService.getByName(musicianName);
+        return getCytoMusician(musician);
+      });
+    // creating edges from all musicians to all albums
+    let edges = commonMusicians.flatMap(musician => {
+      let albumMusicianEdges = albums.map(album => getEdge(album, musician));
+      return [...albumMusicianEdges];
+    });
+
+    return [...albums, ...commonMusicians, ...edges];
+  }catch(err){
+    console.error('error occured in creating common musicians for albums');
+  }
+  return albums;
+}
+/**
+ * preparing data for the perspective where is displayed 
+ * on which albums some musicians have played together. 
+ * 
+ * @param {Array} nodes selected nodes 
  */
 export const getCompoundForMusicians = (nodes) => {
   // getting collection with selected musicians
