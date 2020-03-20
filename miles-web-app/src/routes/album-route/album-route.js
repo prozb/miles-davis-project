@@ -9,7 +9,7 @@ import {
     getMusicianPerspective,
     getInstrumentPerspective,
     getCompoundForMusicians
-  } from '../../scripts/converter';
+  } from '../../presentation/converter';
 
 /**
  * @author Pavlo Rozbytskyi

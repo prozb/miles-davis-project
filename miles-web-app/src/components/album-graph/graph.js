@@ -11,7 +11,7 @@ import { renderToString } from 'react-dom/server'
 import {MusicianTooltip, AlbumTooltip, InstrumentTooltip} from './tooltip';
 import {albumEdge, musicianEdge, 
   instrumentEdge, trackEdge, nodeStyle, instrumentNode,
-  getMusicianStyle, getAlbumStyle} from './graph-styles/GraphStyles';
+  getMusicianStyle, getAlbumStyle, getInstrumentStyle} from './graph-styles/GraphStyles';
 
 Cytoscape.use( popper );
 Cytoscape.use(coseBilkent);
@@ -35,7 +35,7 @@ export default class Graph extends React.Component {
     // getting styles of musician, album, instrument
     const musiciansStyle = getMusicianStyle(type);
     const albumStyle = getAlbumStyle(type);
-    const instrumentStyle = this.getInstrumentStyle(type);
+    const instrumentStyle = getInstrumentStyle(type);
 
     return (<CytoscapeComponent 
       className={className}
@@ -273,44 +273,5 @@ export default class Graph extends React.Component {
       default: 
         break;
     }
-  }
-
-  /**
-   * getting style of instrument nodes and edges for each perspective
-   * @param {string} type - type of perspective should be displayed
-   * possible types are: musician, track, album
-   */
-  getInstrumentStyle = (type) => {
-    // default style
-    var instrumetStyle = {
-      selector: 'node[type="instrument"]',
-      style: {
-        width: 100,
-        height: 100,
-        shape: 'diamond',
-        content: 'data(label)',
-        'border-color': '#f18867',
-      }
-    };
-    
-    switch(type){
-      case "musician": 
-        instrumetStyle.style.width = 100;
-        instrumetStyle.style.height = 100;
-        instrumetStyle.style['border-width'] = '5px';
-        instrumetStyle.style['text-margin-y'] = '-5';
-        break;
-      case "instrument":
-        instrumetStyle.style.width = 130;
-        instrumetStyle.style.height = 130;
-        instrumetStyle.style['border-width'] = '5px';
-        instrumetStyle.style['text-margin-y'] = '-10';
-        instrumetStyle.style['font-weight'] = 'bold';
-        instrumetStyle.style['font-size'] = '20';
-        break;
-      default: 
-        break;
-    }
-    return instrumetStyle;
   }
 }

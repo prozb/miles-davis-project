@@ -1,9 +1,8 @@
 import './graph.css';
 import React from 'react';
 import CytoscapeComponent from 'react-cytoscapejs';
-import { getTrackPerspective } from '../../scripts/converter';
+import { getTrackPerspective } from '../../presentation/converter';
 
-// Cytoscape.use(coseBilkent);
 /**
  * @author Pavlo Rozbytskyi
  * component renders all musicians of each album

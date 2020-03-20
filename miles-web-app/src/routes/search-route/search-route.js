@@ -8,7 +8,7 @@ import { withRouter } from 'react-router-dom';
 import { SearchBar } from '../../components';
 import { 
   getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument 
-} from '../../scripts/converter';
+} from '../../presentation/converter';
 
 import { 
   instrumentService, albumService, musicianService, trackService
@@ -105,8 +105,9 @@ class SearchRoute extends Component {
           <div className="full-width results-container">
             <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
             <hr/>
-            <div className="box-shadow box-radius h-75">
+            <div className="box-shadow box-radius h-75 w-100">
               <Graph 
+                className="h-100 w-100"
                 switchToAlbum={this.switchToAlbum}
                 hideMusicianDisplay={() => {}}
                 showMusicianDisplay={this.switchToMusician}
@@ -114,8 +115,7 @@ class SearchRoute extends Component {
                 showInstrumentDisplay={() => {}}
                 hideInstrumentDisplay={() => {}}
                 handleCollection={() => {}}
-                type="musician"
-                special={true}
+                type="special"
                 data={data}/>
               </div>
           </div>
@@ -143,13 +143,14 @@ class SearchRoute extends Component {
    * @param {String} query - search query
    */
   processSearch = (query) => {
+    this.setState({type: ''});
     this.props.history.push(`/search?q=${query}`)
   }
   /**
    * switching to musician
    */
   switchToMusician = (musicianName) => {
-    var albumName = albumService.getFirstAlbum()[0];
+    var albumName = albumService.getFirstAlbum().id;
     var query = queryString.stringify({n: albumName, m: musicianName});
     this.props.history.push(`/album?${query}`);
   }
