@@ -27,8 +27,10 @@ export default class NavigationBar extends Component {
 
   render() {
     const { type1, type2, data1, data2 } = this.props;
+    {/* <div className="navigation-container"> */}
+
     return (
-      <div className="navigation-container">
+        <div className="navigation-container">
         <NavigationSection 
           data={data1} 
           type={type1}
@@ -41,7 +43,6 @@ export default class NavigationBar extends Component {
               type={type2}
               handleOnSectionClick={this.handleOnSectionClick}/>
           ) : null}
-      
       </div>
     );
   }

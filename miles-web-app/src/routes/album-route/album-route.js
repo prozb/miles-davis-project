@@ -81,8 +81,7 @@ class AlbumRoute extends Component {
       .getAll()
       .sort((a, b) => new Date(a.released) - new Date(b.released));
     // style to toggle navigation bar 
-    const collapseStyle = this.state.collapseNavbar ? 
-      {display: 'flex', flex: 1} : null;
+    const collapseClass = this.state.collapseNavbar ? "w-25 col" : null;
 
     // data1 and data2 will be past into navigation bar
     var data1 = [];
@@ -145,22 +144,22 @@ class AlbumRoute extends Component {
  
     return (
       // toot div
-      // {/* <div className="d-flex flex-column bg-success"> */}
-      <div className="fill">
+      <div className="col w-100 h-100">
         {/* searchbar container */}
+        <div className="row">
         <SearchBar
-          back={perspective === 'special' ? true : false} 
+          back={(perspective === 'special' || perspective === 'track') ? true : false} 
           button={false}
           name={album[0]} 
-          onNavbarButtonPress={this.state.perspective === 'special' ? 
+          onNavbarButtonPress={(perspective === 'special' || perspective === 'track') ? 
             this.navigateBack : this.collapseNavbar}
           switchToSearch={this.switchToSearch}/>
+        </div>
         {/* starting navigation and content container */}
-        <div className="mh-100 h-100 d-flex">
-          {/* navigation container */}
-          {collapseStyle ? 
-          (<div style={collapseStyle}>
-            <NavigationBar 
+        <div className="mh-100 h-100 row">
+          {
+            collapseClass ? (<NavigationBar 
+              className={collapseClass}
               showMusicianDisplay={this.showMusicianDisplay}
               showTrackDisplay={this.showTrackDisplay}
               showAlbumsDisplay={this.switchToAlbum}
@@ -169,12 +168,10 @@ class AlbumRoute extends Component {
               data2={data2}
               type1={type1}
               type2={type2}
-            />
-          </div>) : null}
-          {/* end navigation container */}
+            />) : null
+          }
           
-          {/* starting content container */}
-          <div className="flex-column hide-scrollbar overflow-auto">
+          <div className="hide-scrollbar overflow-auto col w-75">
             <Timeline 
               data={timelineData}
               highlighted={album.id} 
@@ -289,7 +286,11 @@ class AlbumRoute extends Component {
       }else if(lastState.perspective === 'musician'){
         let albumState = this.navigationStack.pop();
         this.backToMusisian(lastState.name, albumState.name);
+      }else{
+        this.hideTrackDisplay();
       }
+    }else{
+      this.hideTrackDisplay();
     }
   }
   /**
@@ -306,7 +307,8 @@ class AlbumRoute extends Component {
   showTrackDisplay = (trackName) => {
     this.setState({
       trackName: trackName, 
-      perspective: 'track'
+      perspective: 'track',
+      collapseNavbar: false,
     });
   }
   /**

@@ -1,13 +1,13 @@
 .navigation-container {
   background-color: white;
-  border: 1px solid rgb(224, 224, 224);
+  /* border: 1px solid rgb(224, 224, 224); */
   border-bottom-right-radius: 2px;
+  max-width: 15%;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: baseline;
   overflow-x: scroll;
-  display: flex;
   overflow-y: scroll;
 }
