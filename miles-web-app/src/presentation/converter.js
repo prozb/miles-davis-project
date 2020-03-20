@@ -4,7 +4,7 @@ import {uuid} from '../scripts/helpers';
  * @author Pavlo Rozbytskyi
  * @version 1.0.0
  * 
- * converting data from services to objects can be directly
+ * Presentation layer: converting data from services to objects can be directly
  * displayed by cytoscape instance.
  */
 
