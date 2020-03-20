@@ -36,6 +36,8 @@ class AlbumRoute extends Component {
       moveTimeline: true, 
     };
     this.specialCaseFunction = getCompoundForMusicians;
+    // store here previous perspectives to be able to navigate back
+    this.navigationStack     = []; 
   }
 
   componentDidMount() {
@@ -145,10 +147,12 @@ class AlbumRoute extends Component {
       // {/* <div className="d-flex flex-column bg-success"> */}
       <div className="fill">
         {/* searchbar container */}
-        <SearchBar 
+        <SearchBar
+          back={perspective === 'special' ? true : false} 
           button={false}
           name={album[0]} 
-          onNavbarButtonPress={this.collapseNavbar}
+          onNavbarButtonPress={this.state.perspective === 'special' ? 
+            this.navigateBack : this.collapseNavbar}
           switchToSearch={this.switchToSearch}/>
         {/* starting navigation and content container */}
         <div className="mh-100 h-100 d-flex">
@@ -249,11 +253,50 @@ class AlbumRoute extends Component {
     });
   }
   /**
+   * pushing perspective and name to data to navigation stack
+   * @param {String} perspective - perspective
+   * @param {String} name - name of element to show
+   */
+  pushToNavigationStack = (perspective, name) => {
+    this.navigationStack.push({perspective, name});
+  }
+  /**
+  * save current perspective
+  */
+  saveContext = () => {
+    const {perspective, album, musicianName, instrumentName} = this.state;
+
+    if(perspective === 'album'){
+      this.pushToNavigationStack('album', album.id);
+    }else if(perspective === 'musician'){
+      this.pushToNavigationStack('musician', musicianName);
+      this.pushToNavigationStack('album', album.id);
+    }else if(perspective === 'instrument'){
+      this.pushToNavigationStack('instrument', instrumentName);
+      this.pushToNavigationStack('musician', musicianName);
+      this.pushToNavigationStack('album', album.id);
+    }
+  } 
+  /**
+   * navigate back from special perspective
+   */
+  navigateBack = () => {
+    // todo: testing reasons
+    if(this.navigationStack.length > 0){
+      let lastState = this.navigationStack.pop();
+      // if the last state album, navigate to this album
+      if(lastState.perspective === 'album'){
+        this.setCurrentAlbum(lastState.name);
+      }
+    }
+  }
+  /**
    * hide navbar
    */
   collapseNavbar = () => {
     this.setState({collapseNavbar: !this.state.collapseNavbar});
   }
+
   /**
    * show track description
    * @param {string} trackName - track which description to show
@@ -311,6 +354,8 @@ class AlbumRoute extends Component {
         // storing returned collection in class variable to 
         // process it by rerender
         this.data = elements;
+        // saving current context
+        this.saveContext();
         this.setState({perspective: 'special'});
         break;
       case 'musician':
