@@ -1,4 +1,5 @@
 import {instrumentService, musicianService, albumService} from '../service';
+import {uuid} from '../scripts/helpers';
 /**
  * @author Pavlo Rozbytskyi
  * @version 1.0.0
@@ -10,24 +11,14 @@ import {instrumentService, musicianService, albumService} from '../service';
 /**
  * convert album to cytoscape element
  * @param {Object} album album object to convert
- * @param {Number} id id of the node
  */
-export const getCytoAlbum = (album, id) =>{
-  if(id !== undefined){
-    return { 
-      data: {
-        type: "album", 
-        label: album.id, 
-        icon: album.icon,
-        id: id
-      }
-    }
-  }
+export const getCytoAlbum = (album) =>{
   return { 
     data: {
       type: "album", 
       label: album.id, 
       icon: album.icon,
+      id: uuid()
     }
   }
 }
@@ -35,70 +26,41 @@ export const getCytoAlbum = (album, id) =>{
 /**
  * convert musician to cytoscape element
  * @param {Object} musician musician object to convert
- * @param {Number} id id of the node
  */
-export const getCytoMusician = (musician, id) =>{
-  if(id !== undefined){
-    return { 
-      data: {
-        type: "musician", 
-        label: musician.id, 
-        icon: musician.icon,
-        id: id
-      } 
-    };
-  }
+export const getCytoMusician = (musician) =>{
   return { 
     data: {
       type: "musician", 
       label: musician.id, 
       icon: musician.icon,
+      id: uuid()
     } 
   };
 }
 /**
  * convert instrument to cytoscape element
  * @param {Object} instrument instrument object to convert
- * @param {Number} id id of the node
  */
-export const getCytoInstrument = (instrument, id) =>{
-  if(id !== undefined){
-    return {
-      data: {
-        type: "instrument", 
-        label: instrument.id, 
-        icon: instrument.url,
-        id: id
-      } 
-    };
-  }
+export const getCytoInstrument = (instrument) =>{
   return {
     data: {
       type: "instrument", 
       label: instrument.id, 
       icon: instrument.url,
+      id: uuid()
     } 
   };
 }
 /**
  * convert track to cytoscape element
  * @param {Object} track track object to convert
- * @param {Number} id id of the node
  */
-export const getCytoTrack = (track, id) =>{
-  if(id !== undefined){
-    return { 
-      data: {
-        type: "track", 
-        label: track.id, 
-        id: id
-      }
-    };
-  }
+export const getCytoTrack = (track) =>{
   return { 
     data: {
       type: "track", 
       label: track.id, 
+      id: uuid()
     }
   };
 }
@@ -108,7 +70,13 @@ export const getCytoTrack = (track, id) =>{
  * @param {Object} destination destination node
  */
 export const getEdge = (source, destination) => {
-
+  return { 
+    data: { 
+      source: source.data.id, 
+      type: destination.data.type, 
+      target: destination.data.id
+    } 
+  }
 }
 /**
  * preparing data for the album perspective
@@ -119,27 +87,25 @@ export const getEdge = (source, destination) => {
  * @param {Object} album album to display on graph
  */
 export const getAlbumPerspective = (tracks, musicians, album) => {
-  var index = 0;
   try{
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convAlbum = getCytoAlbum(album, index++);
+    var convAlbum = getCytoAlbum(album);
     var convTracks = tracks.flatMap(track => {
-        var node = getCytoTrack(track, index);
-        var edge = { data: { source: 0, type: 'track', target: index++, label: 'plays on' } };
+        var convTrack = getCytoTrack(track);
+        var edge = getEdge(convAlbum, convTrack);
         // returning track node and edge from this node to album node
-        return [node, edge];
+        return [convTrack, edge];
     });
     var convMus = musicians.flatMap(musician => {
-        var node = getCytoMusician(musician, index);
-        var edge = { data: { source: index++, type: 'musician', target: 0, label: 'plays on' } };
+        var convMusician = getCytoMusician(musician);
+        var edge = getEdge(convAlbum, convMusician);
         // returning musician node and edge from this node to album node
-        return [node, edge];
+        return [convMusician, edge];
     });
     // returning array containing all elements of album
     return [convAlbum, ...convTracks, ...convMus]; 
   }catch(err){
     console.error('error occured in getting album perspective')
-
     return getCytoAlbum(album);
   }
 } 
@@ -150,26 +116,22 @@ export const getAlbumPerspective = (tracks, musicians, album) => {
  * @param {string} instrumentName name of instrument to be displayed
  */
 export const getInstrumentPerspective = (name) => {
-  var index = 0;  
-
   try{
     var instrument = instrumentService.getByName(name);
     var musicians  = instrumentService.getMusiciansOfInstrument(name);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convInstr = getCytoInstrument(instrument, index);
+    var convInstr = getCytoInstrument(instrument);
     var convMusic = musicians.flatMap(mus => {
-      var indexCp = index + 1;
-      var node = getCytoMusician(mus, indexCp);
-      var edge = { data: { source: 0, type: 'musician', target: indexCp} };
-      index++;
+      var node = getCytoMusician(mus);
+      var edge = getEdge(convInstr, node);
       // returning track node and edge from this node to album node
       return [node, edge];
     });
     // returning array containing all elements of album
     return [convInstr, ...convMusic]; 
   }catch(err){
-    console.error(instrumentService.getByName(name));
-    return [];
+    console.error('error occured by creation instruments perspective');
+    return getCytoInstrument(instrument);
   }
 } 
 
@@ -178,63 +140,41 @@ export const getInstrumentPerspective = (name) => {
  * cytoscape
  * @param {Array} elements name of instrument to be displayed
  */
-export const getCompoundForMusicians = (musNodes) => {
-  var index0 = 0;  
-  var index1 = 0;
-
+export const getCompoundForMusicians = (nodes) => {
+  // getting collection with selected musicians
+  let musicians = nodes
+  .filter(mus => mus.data().type === "musician")
+  .map(mus => { return {data: mus.data()}} );
   try{
-    var compound = [];
-    var musicianElems = [];
-    
-    var filteredNum = musNodes.filter(elem => elem.data().type === "musician");
-    var elems = filteredNum.reduce((compound, elem, index) => {
-      // getting all albums of musician node
-      var albums = musicianService.getAlbumsOfMusician(elem.data().label);
-      musicianElems.push({ 
-        data: {
-        id: index0++, 
-        type: "musician", 
-        label: elem.data().label, 
-        icon: elem.data().icon === '' ? 'none' : elem.data().icon
-      }});
-      if(index === 0){
-      return albums;
-      }else{
-        // getting all names of albums
-        var mapped = albums.map(elem => elem.id);
-        // getting compound elements of previous node and current
-        var compoundNew = compound.filter(elem => mapped.includes(elem.id));
-        return compoundNew;
-      }
-    });
-    index1 = index0;
-    var convElements = elems.map(elem => {
-      var convElem = { data: {
-        id: index0++, 
-        type: "album", 
-        label: elem.id, 
-        icon: elem.icon === '' ? 'none' : elem.icon
-      }};
-      return convElem;
+    // following lines find common albums of musicians
+    let commonAlbums = musicians
+      .reduce((accumulator, musician, index, array) => {
+        // getting all albums names of the given musician
+        let albums = musicianService.getAlbumsNamesOfMusician(musician.data.label);
+        // return all albums on the first iteration 
+        if(index === 0){
+          return albums;
+        }
+        // getting compound elements of previous musician and current
+        let elems = accumulator.filter(elem => albums.includes(elem));
+        return elems;
+      }, [])
+      // converting albums to cytoscape albums  
+      .map(albumName => {
+        let album = albumService.getByName(albumName);
+        return getCytoAlbum(album);
+      });
+    // creating edges from all musicians to all albums
+    let edges = commonAlbums.flatMap(album => {
+      let albumMusicianEdges = musicians.map(musician => getEdge(musician, album));
+      return [...albumMusicianEdges];
     });
 
-  var convEdges = [];
-    var storedIndex = index1; 
-    elems.forEach(elem => {
-      for(var i = 0; i < index1; i++){
-        convEdges.push({ data: { 
-          source: storedIndex, 
-          type: 'musician', 
-          target: i
-        }});
-      }
-      storedIndex++;
-    });
-    return [...convElements, ...musicianElems, ...convEdges];
+    return [...musicians, ...commonAlbums, ...edges];
 
   }catch(err){
-    console.error(err);
-    return [];
+    console.error('error occured in creating compound albums for musicians');
+    return musicians;
   }
 } 
 
@@ -245,8 +185,6 @@ export const getCompoundForMusicians = (musNodes) => {
  * @param {string} tracks tracks to display on graph
  */
 export const getMusicianPerspective = (musicianName) => {
-  var index = 0;
-
   try{
     var musician    = musicianService.getByName(musicianName);
     // instruments and albums names
@@ -256,25 +194,24 @@ export const getMusicianPerspective = (musicianName) => {
     var instObjects = instruments.map(instr => instrumentService.getByName(instr));
     var albObjects  = albums.map(alb => albumService.getByName(alb));
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convMus   = { data: {id: index++, type: 'musician', label: musician.id, icon: musician.icon === '' ? 'none' : musician.icon} };
+    var convMus   = getCytoMusician(musician);
     var convInstr = instObjects.flatMap(instr => {
-        var node = { data: {id: index, type: 'instrument', label: instr.id, icon: instr.url === '' ? 'none' : instr.url} };
-        var edge = { data: { source: 0, type: 'instrument', target: index++} };
+        var node = getCytoInstrument(instr);
+        var edge = getEdge(convMus, node);
         // returning instrument node and edge from this node to musician node
         return [node, edge];
     });
     var convAlb = albObjects.flatMap(alb => {
-      // console.log(alb);
-        var node = { data: {id: index, type: 'album', label: alb.id, icon: alb.icon === '' ? 'none' : alb.icon}}
-        var edge = { data: { source: index++, type: 'album', target: 0 }};
+        var node = getCytoAlbum(alb);
+        var edge = getEdge(convMus, node);
         // returning musician node and edge from this node to album node
         return [node, edge];
     });
     // // returning array containing all elements of album
     return [convMus, ...convInstr, ...convAlb]; 
   }catch(err){
-    console.error(musicianService.getByName(musicianName));
-    return [];
+    console.error("error occured in creation musicians perspective");
+    return getCytoMusician(musician);
   }
 } 
 
@@ -284,42 +221,21 @@ export const getMusicianPerspective = (musicianName) => {
  * @param {Object} relations musician - instrument relation
  */
 export const getTrackPerspective = (relations) => {
-  var index = 0;
-  var row = 0; 
-
   try{
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var converted = relations.flatMap(rel => {
-        var node1 = { data: {
-            id: index, 
-            type: 'musician', 
-            label: rel[0].id, 
-            icon: rel[0].icon === '' ? 'none' : rel[0].icon,
-            row: row,
-            col: 0,
-          }
-        };
-
-        index++;
-        var node2 = { data: {
-            id: index, 
-            type: 'instrument', 
-            label: rel[1].id, 
-            icon: rel[1].url === '' ? 'none' : rel[1].url,
-            row: row++,
-            col: 1,
-          } 
-        };
-        index--;
-        var edge = { data: { type: 'musician', source: index++, target: index} };
-        index++;
-        // returning track node and edge from this node to album node
-        return [node1, node2, edge];
+    var converted = relations.flatMap(relation => {
+      let musician   = relation[0];
+      let instrument = relation[1];
+      // converting data in cytoscape objects
+      let musConvert  = getCytoMusician(musician);
+      let instConvert = getCytoInstrument(instrument);
+      let edge        = getEdge(instConvert, musConvert);
+      // returning track node and edge from this node to album node
+      return [musConvert, instConvert, edge];
     });
     return converted;
   }catch(err){
-    console.error(relations);
-
+    console.error('error occured in creation track perspective');
     return [];
   }
 } 
