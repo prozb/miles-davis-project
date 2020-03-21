@@ -2,8 +2,7 @@ import SearchAppBar from './search-bar/search-bar';
 import NavigationBar from './navigation-bar/navigation';
 import Timeline from './timeline/timeline';
 import Graph from './album-graph/graph';
-import TrackGraph from './visualizing/graph';
-import TrackDisplay from './track-display/track-display';
+import TrackDisplay from './album-graph/track-display';
 
 export { 
   SearchAppBar as SearchBar, 
@@ -11,5 +10,4 @@ export {
   Timeline, 
   Graph as AlbumGraph, 
   TrackDisplay,
-  TrackGraph,
 };

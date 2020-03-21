@@ -5,6 +5,7 @@ import Cytoscape from 'cytoscape';
 import coseBilkent from 'cytoscape-cose-bilkent';
 import popper from 'cytoscape-popper';
 import tippy, {sticky} from 'tippy.js';
+import ReactTooltip from 'react-tooltip'
 import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
