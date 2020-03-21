@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 import { AlbumRoute, HomeRoute, SearchRoute } from './routes';
 import {
   BrowserRouter as Router,

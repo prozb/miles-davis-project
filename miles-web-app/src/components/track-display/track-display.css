@@ -5,3 +5,12 @@
 .timeline-element-color {
   background-color: #E7EBF6;
 }
+
+.avatar-items {
+  max-width:100%;
+  height:auto;
+}
+
+.box-avatar {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.08), 0 10px 15px rgba(0,0,0,0.005);
+}

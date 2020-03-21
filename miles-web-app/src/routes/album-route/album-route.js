@@ -4,12 +4,14 @@ import queryString from 'query-string';
 import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService, instrumentService } from '../../service';
+
 import { 
     getAlbumPerspective, 
     getMusicianPerspective,
     getInstrumentPerspective,
     getCompoundForMusicians,
-    getCompoundForAlbums
+    getCompoundForAlbums,
+    getTrackPerspective
   } from '../../presentation/converter';
 
 /**
@@ -116,6 +118,7 @@ class AlbumRoute extends Component {
           break;
         // data for track's perspective
         case 'track':
+          elements = trackService.getMusicianInstrumentRelations(trackName, album.id);
           break;
         // data for special case perspective where are dependencies 
         // e.g. between two musicians
@@ -194,8 +197,10 @@ class AlbumRoute extends Component {
                 handleCollection={this.handleCollection}
                 data={elements}/> : 
               <TrackDisplay 
+                className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
                 album={album}
                 name={trackName}
+                data={elements}
                 hideTrackDisplay={this.hideTrackDisplay}/>
             }
           </div>
