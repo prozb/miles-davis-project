@@ -186,7 +186,7 @@ class AlbumRoute extends Component {
 
             {perspective !== 'track' ? 
               <AlbumGraph 
-                className="mx-auto mb-5 w-75 h-75 box-shadow box-radius"
+                className="mx-auto mb-5 w-75 h-75 box-shadow box-radius overflow-auto"
                 type={perspective}
                 switchToAlbum={this.switchToAlbum}
                 hideMusicianDisplay={this.hideMusicianDisplay}

@@ -12,17 +12,17 @@ export default class MusicianTooltip extends Component {
     var deathdate = musician.deathdate !== "" ? (<p>deathdate: {musician.deathdate}</p>) : "";
     // block with image
     const imgBlock = musician.icon ? 
-      (<div class="container text-center w-100">
+      (<div className="container text-center w-100">
         <img className="mx-auto" src={musician.icon} alt={musician.label}/>
       </div>) : null; // add react avatar
     
     return (
-      <div class="container tooltip-container pt-5">
+      <div className="container tooltip-container pt-5">
         {imgBlock}
-        <div class="container text-center text-wrap pb-3">
+        <div className="container text-center text-wrap pb-3">
           <h4>{musician.id}</h4>
           <p>involved in {musician.albums.length} albums</p>
-          <div class="text-wrap instruments-div">
+          <div className="text-wrap instruments-div">
             <p>played on {musician.instruments.toString()}</p>
           </div>
           <p>birthdate: {musician.birthdate}</p>
