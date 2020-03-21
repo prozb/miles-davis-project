@@ -201,6 +201,7 @@ class AlbumRoute extends Component {
                 album={album}
                 name={trackName}
                 data={elements}
+                switchToMusician={this.switchToMusician}
                 hideTrackDisplay={this.hideTrackDisplay}/>
             }
           </div>
@@ -208,7 +209,16 @@ class AlbumRoute extends Component {
       </div>
     );
   }
+  /**
+   * switching to musician
+   * @param {String} musicianName - name of the musician
+   */
+  switchToMusician = (musicianName) => {
+    var albumName = albumService
+      .getAlbumWithMusician(musicianName).id;
 
+    this.backToMusisian(musicianName, albumName)
+  }
   /**
    * callback to stop timeline moving
    */

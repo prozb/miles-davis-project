@@ -12,7 +12,17 @@ class AlbumService {
     var albums = albumRepository.getAll();
     return albums.length > 0 ? albums[0] : null;
   }
+  /**
+   * getting first album where is given musician present or null of nowhere
+   * @param {String} musicianName - musician's name
+   */
+  getAlbumWithMusician = (musicianName) => {
+    var albums = albumRepository
+      .getAll()
+      .filter(album => album.musicians.includes(musicianName));
 
+    return albums.length > 0 ? albums[0] : null;
+  }
   /**
    * getting album by name or null of it don't exist
    * @param {String} name - album name
