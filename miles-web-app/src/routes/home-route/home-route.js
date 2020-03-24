@@ -60,7 +60,9 @@ class HomeRoute extends Component {
 			</p>
 
 			<p className="lead jumbo-button">
-				<a className="btn btn-primary btn-lg" href="album" target="_blank" role="button">Explore dataset &raquo;</a>
+				<button className="btn btn-primary btn-lg" onClick={() => this.props.history.push(`/album`)}>
+					Explore dataset &raquo;
+				</button>
 			</p>
 		</div>
 	}
