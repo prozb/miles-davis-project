@@ -12,7 +12,7 @@ import {
     getCompoundForMusicians,
     getCompoundForAlbums,
     getTrackPerspective
-  } from '../../presentation/converter';
+  } from '../../presentation/presenter';
 
 /**
  * @author Pavlo Rozbytskyi
@@ -86,14 +86,16 @@ class AlbumRoute extends Component {
     const collapseClass = this.state.collapseNavbar ? "w-25 col" : null;
 
     // data1 and data2 will be past into navigation bar
-    var data1 = [];
-    var data2 = [];
+    let data1 = [];
+    let data2 = [];
     //type1 and type2 will be past into navigation bar
-    var type1 = "";
-    var type2 = "";
+    let type1 = "";
+    let type2 = "";
     
     // this elements array will be rendered on the graph instance
-    var elements = [];
+    let elements = [];
+    // variable to store different information
+    let info     = {};
     // try to show some elements if the album exists
     if(album){
       // preparing data for corresponding perspectives
@@ -118,7 +120,8 @@ class AlbumRoute extends Component {
           break;
         // data for track's perspective
         case 'track':
-          elements = trackService.getMusicianInstrumentRelations(trackName, album.id);
+          elements = getTrackPerspective(trackName, album.id, this.switchToMusician);
+          info     = trackService.getRelationsInfo(trackName, album.id);
           break;
         // data for special case perspective where are dependencies 
         // e.g. between two musicians
@@ -127,19 +130,11 @@ class AlbumRoute extends Component {
           break;
         // data for albums perspective is showed by defaul 
         default: 
-          var musicians = albumService.getMusiciansOfAlbum(album);
-          var tracks = trackService.getAllTracksOfAlbum(album.id);
-
-          elements = getAlbumPerspective(tracks, musicians, album);
-          data1 = musicians
-            .map(elem => elem ? elem.id : null)
-            .filter(e => e && e !==null);
-          data2 = tracks
-            .map(elem => elem ? elem.id : null)
-            .filter(e => e && e !==null);
-            
+          data1 = album.musicians;
+          data2 = trackService.getAllTracksNamesOfAlbum(album.id)  
           type1 = "musician";
           type2 = "track";
+          elements = getAlbumPerspective(album.id);
 
           break;
       }
@@ -201,6 +196,8 @@ class AlbumRoute extends Component {
                 album={album}
                 name={trackName}
                 data={elements}
+                musicians={info.musicians}
+                instruments={info.instruments}
                 switchToMusician={this.switchToMusician}
                 hideTrackDisplay={this.hideTrackDisplay}/>
             }
@@ -214,7 +211,7 @@ class AlbumRoute extends Component {
    * @param {String} musicianName - name of the musician
    */
   switchToMusician = (musicianName) => {
-    var albumName = albumService
+    let albumName = albumService
       .getAlbumWithMusician(musicianName).id;
 
     this.backToMusisian(musicianName, albumName)

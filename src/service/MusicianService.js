@@ -75,7 +75,7 @@ class MusicianService {
    * search query
    * @param {String} query - search query
    */
-  getAllContainingSubstring = (query) => {
+  getContaining = (query) => {
     if(query === '')
       return [];
     var found = musicianRepository

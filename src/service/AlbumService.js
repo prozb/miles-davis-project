@@ -57,7 +57,7 @@ class AlbumService {
    * the search query
    * @param {String} query - search query
    */
-  getAllContainingSubstring = (query) => {
+  getContaining = (query) => {
     if(query === '')
       return [];
     return albumRepository

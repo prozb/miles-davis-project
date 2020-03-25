@@ -8,7 +8,7 @@ import { withRouter } from 'react-router-dom';
 import { SearchBar } from '../../components';
 import { 
   getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument 
-} from '../../presentation/converter';
+} from '../../presentation/presenter';
 
 import { 
   instrumentService, albumService, musicianService, trackService
@@ -43,10 +43,10 @@ class SearchRoute extends Component {
     // check q parameter is defined in search-bar
     const query = values.q ? values.q : '';
     // finding all data user is searching for
-    var instruments = instrumentService.getAllContainingSubstring(query);
-    var albums = albumService.getAllContainingSubstring(query);
-    var tracks = trackService.getAllContainingSubstring(query);
-    var musicians = musicianService.getAllContainingSubstring(query);
+    var instruments = instrumentService.getContaining(query);
+    var albums = albumService.getContaining(query);
+    var tracks = trackService.getContaining(query);
+    var musicians = musicianService.getContaining(query);
     // counting results to print it out for the user
     var count = instruments.length + albums.length + musicians.length + tracks.length;
     // data array where are all finded elements stored 

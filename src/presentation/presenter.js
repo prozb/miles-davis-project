@@ -1,5 +1,11 @@
-import {instrumentService, musicianService, albumService} from '../service';
+import {instrumentService, musicianService, albumService, trackService} from '../service';
 import {uuid} from '../scripts/helpers';
+import React from 'react';
+import Avatar from 'react-avatar';
+import {MusicianTooltip, InstrumentTooltip} from '../components/album-graph/tooltip';
+import {
+  Tooltip,
+} from 'react-tippy';
 /**
  * @author Pavlo Rozbytskyi
  * @version 1.0.0
@@ -82,25 +88,27 @@ export const getEdge = (source, destination) => {
  * preparing data for the album perspective
  * 
  * connecting musicians and tracks with album
- * @param {Array} tracks tracks to display on graph
- * @param {Array} musicians musicians to display on graph
  * @param {Object} album album to display on graph
  */
-export const getAlbumPerspective = (tracks, musicians, album) => {
+export const getAlbumPerspective = (albumName) => {
+  let album = albumService.getByName(albumName);
+  let musicians = albumService.getMusiciansOfAlbum(album);
+  let tracks = trackService.getAllTracksOfAlbum(album.id);
+
   try{
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convAlbum = getCytoAlbum(album);
-    var convTracks = tracks.flatMap(track => {
-        var convTrack = getCytoTrack(track);
-        var edge = getEdge(convAlbum, convTrack);
-        // returning track node and edge from this node to album node
-        return [convTrack, edge];
+    let convAlbum = getCytoAlbum(album);
+    let convTracks = tracks.flatMap(track => {
+      let convTrack = getCytoTrack(track);
+      let edge = getEdge(convAlbum, convTrack);
+      // returning track node and edge from this node to album node
+      return [convTrack, edge];
     });
-    var convMus = musicians.flatMap(musician => {
-        var convMusician = getCytoMusician(musician);
-        var edge = getEdge(convAlbum, convMusician);
-        // returning musician node and edge from this node to album node
-        return [convMusician, edge];
+    let convMus = musicians.flatMap(musician => {
+      let convMusician = getCytoMusician(musician);
+      let edge = getEdge(convAlbum, convMusician);
+      // returning musician node and edge from this node to album node
+      return [convMusician, edge];
     });
     // returning array containing all elements of album
     return [convAlbum, ...convTracks, ...convMus]; 
@@ -109,6 +117,53 @@ export const getAlbumPerspective = (tracks, musicians, album) => {
     return getCytoAlbum(album);
   }
 } 
+
+/**
+ * getting content of tracks perspective
+ */
+export const getTrackPerspective = (trackName, albumName, handler) => {
+  const data = trackService.getMusicianInstrumentRel(trackName, albumName);
+  const content = data.map((relation, index) => {
+    // getting musician's name 
+    let musicianName   = Object.keys(relation)[0];
+    // getting instrument's name
+    let instrumentName = relation[musicianName];
+    // getting musician and instrument by name
+    let musician   = musicianService.getByName(musicianName);
+    let instrument = instrumentService.getByName(instrumentName); 
+    // creating avatar of musician
+    let musicianAvatar = (
+      <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
+        duration={50} hideOnClick={false}
+        trigger="mouseenter" html={<MusicianTooltip musician={musician}/>}>
+        <Avatar 
+          onClick={() => handler(musicianName)}
+          className="box-shadow my-auto" 
+          round={true} src={musician.icon} size={100} name={musician.id}/>
+      </Tooltip>);
+    // creating avatar of the instrument    
+    let instrumentAvatar = (
+      <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
+        sticky={false} duration={50} hideOnClick={false}  
+        trigger="mouseenter" html={<InstrumentTooltip instrument={instrument}/>}>
+        <Avatar className="box-avatar my-auto" 
+          round={true} src={instrument.url} size={70} name={instrument.id}/>
+      </Tooltip>);
+
+    return (
+      <div className="row my-3" key={index}>
+        <div className="row w-75">
+          {musicianAvatar}
+          <h6 className="my-auto ml-4">{musician.id}</h6>
+        </div>
+        <div className="row w-25 justify-content-end">
+          {instrumentAvatar}
+        </div>
+      </div>
+    )
+  });
+  return content; 
+}
 
 /**
  * converting instruments and musicians to data format readable by 
@@ -257,30 +312,6 @@ export const getMusicianPerspective = (musicianName) => {
   }
 } 
 
-/**
- * converting musicians - instrument relations to data format readable by 
- * cytoscape
- * @param {Object} relations musician - instrument relation
- */
-export const getTrackPerspective = (relations) => {
-  try{
-    // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var converted = relations.flatMap(relation => {
-      let musician   = relation[0];
-      let instrument = relation[1];
-      // converting data in cytoscape objects
-      let musConvert  = getCytoMusician(musician);
-      let instConvert = getCytoInstrument(instrument);
-      let edge        = getEdge(instConvert, musConvert);
-      // returning track node and edge from this node to album node
-      return [musConvert, instConvert, edge];
-    });
-    return converted;
-  }catch(err){
-    console.error('error occured in creation track perspective');
-    return [];
-  }
-} 
 /**
  * making array of relations type {string} musician - {string} instrument 
  * to {object} musician - {object} instrument

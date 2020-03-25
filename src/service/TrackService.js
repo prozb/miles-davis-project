@@ -20,6 +20,18 @@ class TrackService {
    * @param {string} name - album name
    */
   getAllTracksOfAlbum = (name) => {
+    var tracks = this.getAllTracksNamesOfAlbum(name);
+
+    return tracks
+      .map(track => this.getByName(track))
+      .filter(track => track && track !== null);
+  }
+
+    /**
+   * getting all tracks names of the album
+   * @param {string} name - album name
+   */
+  getAllTracksNamesOfAlbum = (name) => {
     var tracks = [];
 
     try{
@@ -38,16 +50,29 @@ class TrackService {
       console.error(err);
     }
 
-    return tracks
-      .map(track => this.getByName(track))
-      .filter(track => track && track !== null);
+    return tracks.filter(track => track && track !== null);
+  }
+  /**
+   * getting information about - musician relations on track of certain album
+   * @param {string} trackName - track name 
+   * @param {string} albumName - album name  
+   */
+  getRelationsInfo = (trackName, albumName) => {
+    let data          = this.getMusicianInstrumentRel(trackName, albumName);
+    let musNotFilter  = data.map(relation => Object.keys(relation)[0]);
+    let instNotFilter = data.map(relation => Object.values(relation)[0]);
+    // storing musician and instruments
+    let musicians = [...new Set(musNotFilter)];
+    let instruments = [...new Set(instNotFilter)];
+
+    return {musicians: musicians.length, instruments: instruments.length};
   }
   /**
    * getting all instrument - musician relations on track of certain album
    * @param {string} trackName - track name 
    * @param {string} albumName - album name  
    */
-  getMusicianInstrumentRelations = (trackName, albumName) => {
+  getMusicianInstrumentRel = (trackName, albumName) => {
     // finding track with trackName
     var relations = trackRepository.getAll()
       .filter(track => track.id === trackName);
@@ -71,7 +96,7 @@ class TrackService {
    * the search query
    * @param {String} query - search query
    */
-  getAllContainingSubstring = (query) => {
+  getContaining = (query) => {
     if(query === '')
       return [];
     return trackRepository

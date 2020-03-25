@@ -27,7 +27,7 @@ export default class MusicianTooltip extends Component {
           </div>
           <p>birthdate: {musician.birthdate}</p>
           {deathdate}
-          <a target="_blank" href={musician.url}>link to the biography</a>
+          <a rel="noopener noreferrer" target="_blank" href={musician.url}>link to the biography</a>
         </div>
       </div>
     );
