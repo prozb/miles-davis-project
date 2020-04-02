@@ -2,14 +2,14 @@ import {instrumentService, musicianService, albumService, trackService} from '..
 import {uuid} from '../scripts/helpers';
 import React from 'react';
 import Avatar from 'react-avatar';
-import {MusicianTooltip, InstrumentTooltip} from '../components/album-graph/tooltip';
+import {MusicianTooltip, InstrumentTooltip} from '../components/visualizing/tooltip';
 import {
   Tooltip,
 } from 'react-tippy';
 /**
  * @author Pavlo Rozbytskyi
  * @version 1.0.0
- * 
+ *
  * Presentation layer: converting data from services to objects can be directly
  * displayed by cytoscape instance.
  */
@@ -19,10 +19,10 @@ import {
  * @param {Object} album album object to convert
  */
 export const getCytoAlbum = (album) =>{
-  return { 
+  return {
     data: {
-      type: "album", 
-      label: album.id, 
+      type: "album",
+      label: album.id,
       icon: album.icon,
       id: uuid()
     }
@@ -34,13 +34,13 @@ export const getCytoAlbum = (album) =>{
  * @param {Object} musician musician object to convert
  */
 export const getCytoMusician = (musician) =>{
-  return { 
+  return {
     data: {
-      type: "musician", 
-      label: musician.id, 
+      type: "musician",
+      label: musician.id,
       icon: musician.icon,
       id: uuid()
-    } 
+    }
   };
 }
 /**
@@ -50,11 +50,11 @@ export const getCytoMusician = (musician) =>{
 export const getCytoInstrument = (instrument) =>{
   return {
     data: {
-      type: "instrument", 
-      label: instrument.id, 
+      type: "instrument",
+      label: instrument.id,
       icon: instrument.url,
       id: uuid()
-    } 
+    }
   };
 }
 /**
@@ -62,10 +62,10 @@ export const getCytoInstrument = (instrument) =>{
  * @param {Object} track track object to convert
  */
 export const getCytoTrack = (track) =>{
-  return { 
+  return {
     data: {
-      type: "track", 
-      label: track.id, 
+      type: "track",
+      label: track.id,
       id: uuid()
     }
   };
@@ -76,17 +76,17 @@ export const getCytoTrack = (track) =>{
  * @param {Object} destination destination node
  */
 export const getEdge = (source, destination) => {
-  return { 
-    data: { 
-      source: source.data.id, 
-      type: destination.data.type, 
+  return {
+    data: {
+      source: source.data.id,
+      type: destination.data.type,
       target: destination.data.id
-    } 
+    }
   }
 }
 /**
  * preparing data for the album perspective
- * 
+ *
  * connecting musicians and tracks with album
  * @param {Object} album album to display on graph
  */
@@ -111,12 +111,12 @@ export const getAlbumPerspective = (albumName) => {
       return [convMusician, edge];
     });
     // returning array containing all elements of album
-    return [convAlbum, ...convTracks, ...convMus]; 
+    return [convAlbum, ...convTracks, ...convMus];
   }catch(err){
     console.error('error occured in getting album perspective')
     return getCytoAlbum(album);
   }
-} 
+}
 
 /**
  * getting content of tracks perspective
@@ -124,29 +124,29 @@ export const getAlbumPerspective = (albumName) => {
 export const getTrackPerspective = (trackName, albumName, handler) => {
   const data = trackService.getMusicianInstrumentRel(trackName, albumName);
   const content = data.map((relation, index) => {
-    // getting musician's name 
+    // getting musician's name
     let musicianName   = Object.keys(relation)[0];
     // getting instrument's name
     let instrumentName = relation[musicianName];
     // getting musician and instrument by name
     let musician   = musicianService.getByName(musicianName);
-    let instrument = instrumentService.getByName(instrumentName); 
+    let instrument = instrumentService.getByName(instrumentName);
     // creating avatar of musician
     let musicianAvatar = (
       <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
         duration={50} hideOnClick={false}
         trigger="mouseenter" html={<MusicianTooltip musician={musician}/>}>
-        <Avatar 
+        <Avatar
           onClick={() => handler(musicianName)}
-          className="box-shadow my-auto" 
+          className="box-shadow my-auto"
           round={true} src={musician.icon} size={100} name={musician.id}/>
       </Tooltip>);
-    // creating avatar of the instrument    
+    // creating avatar of the instrument
     let instrumentAvatar = (
       <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
-        sticky={false} duration={50} hideOnClick={false}  
+        sticky={false} duration={50} hideOnClick={false}
         trigger="mouseenter" html={<InstrumentTooltip instrument={instrument}/>}>
-        <Avatar className="box-avatar my-auto" 
+        <Avatar className="box-avatar my-auto"
           round={true} src={instrument.url} size={70} name={instrument.id}/>
       </Tooltip>);
 
@@ -162,37 +162,38 @@ export const getTrackPerspective = (trackName, albumName, handler) => {
       </div>
     )
   });
-  return content; 
+  return content;
 }
 
 /**
- * converting instruments and musicians to data format readable by 
+ * converting instruments and musicians to data format readable by
  * cytoscape
  * @param {string} instrumentName name of instrument to be displayed
  */
 export const getInstrumentPerspective = (name) => {
+  let instrument = instrumentService.getByName(name);
+
   try{
-    var instrument = instrumentService.getByName(name);
-    var musicians  = instrumentService.getMusiciansOfInstrument(name);
+    let musicians  = instrumentService.getMusiciansOfInstrument(name);
     // converting albums, tracks and musicians to format: {data: {id: \d, label: .+, icon}}
-    var convInstr = getCytoInstrument(instrument);
-    var convMusic = musicians.flatMap(mus => {
-      var node = getCytoMusician(mus);
-      var edge = getEdge(convInstr, node);
+    let convInstr = getCytoInstrument(instrument);
+    let convMusic = musicians.flatMap(mus => {
+      let node = getCytoMusician(mus);
+      let edge = getEdge(convInstr, node);
       // returning track node and edge from this node to album node
       return [node, edge];
     });
     // returning array containing all elements of album
-    return [convInstr, ...convMusic]; 
+    return [convInstr, ...convMusic];
   }catch(err){
     console.error('error occured by creation instruments perspective');
     return getCytoInstrument(instrument);
   }
-} 
+}
 /**
- * preparing data for the perspective where is displayed 
- * on which albums some musicians have played together. 
- * 
+ * preparing data for the perspective where is displayed
+ * on which albums some musicians have played together.
+ *
  * @param {Array} nodes selected nodes
  */
 export const getCompoundForAlbums = (nodes) => {
@@ -200,21 +201,21 @@ export const getCompoundForAlbums = (nodes) => {
   let albums = nodes
     .filter(album => album.data().type === "album")
     .map(album => { return {data: album.data()}} );
-  
+
   try{
     // following lines find common albums of musicians
     let commonMusicians = albums
       .reduce((accumulator, album, index, array) => {
         // getting all albums names of the given musician
         let musicians = albumService.getByName(album.data.label).musicians;
-        // return all albums on the first iteration 
+        // return all albums on the first iteration
         if(index === 0){
           return musicians;
         }
         // getting compound elements of previous musician and current
         return accumulator.filter(elem => musicians.includes(elem));
       }, [])
-      // converting albums to cytoscape albums  
+      // converting albums to cytoscape albums
       .map(musicianName => {
         let musician = musicianService.getByName(musicianName);
         return getCytoMusician(musician);
@@ -232,10 +233,10 @@ export const getCompoundForAlbums = (nodes) => {
   return albums;
 }
 /**
- * preparing data for the perspective where is displayed 
- * on which albums some musicians have played together. 
- * 
- * @param {Array} nodes selected nodes 
+ * preparing data for the perspective where is displayed
+ * on which albums some musicians have played together.
+ *
+ * @param {Array} nodes selected nodes
  */
 export const getCompoundForMusicians = (nodes) => {
   // getting collection with selected musicians
@@ -248,7 +249,7 @@ export const getCompoundForMusicians = (nodes) => {
       .reduce((accumulator, musician, index, array) => {
         // getting all albums names of the given musician
         let albums = musicianService.getAlbumsNamesOfMusician(musician.data.label);
-        // return all albums on the first iteration 
+        // return all albums on the first iteration
         if(index === 0){
           return albums;
         }
@@ -256,7 +257,7 @@ export const getCompoundForMusicians = (nodes) => {
         let elems = accumulator.filter(elem => albums.includes(elem));
         return elems;
       }, [])
-      // converting albums to cytoscape albums  
+      // converting albums to cytoscape albums
       .map(albumName => {
         let album = albumService.getByName(albumName);
         return getCytoAlbum(album);
@@ -273,11 +274,11 @@ export const getCompoundForMusicians = (nodes) => {
     console.error('error occured in creating compound albums for musicians');
     return musicians;
   }
-} 
+}
 
 
 /**
- * convertive data for musician perspective to data format readable by 
+ * convertive data for musician perspective to data format readable by
  * cytoscape
  * @param {string} tracks tracks to display on graph
  */
@@ -305,15 +306,15 @@ export const getMusicianPerspective = (musicianName) => {
         return [node, edge];
     });
     // // returning array containing all elements of album
-    return [convMus, ...convInstr, ...convAlb]; 
+    return [convMus, ...convInstr, ...convAlb];
   }catch(err){
     console.error("error occured in creation musicians perspective");
     return getCytoMusician(musician);
   }
-} 
+}
 
 /**
- * making array of relations type {string} musician - {string} instrument 
+ * making array of relations type {string} musician - {string} instrument
  * to {object} musician - {object} instrument
  * @param {Array} relations - musician - instrument relations
  */

@@ -10,7 +10,7 @@ import 'tippy.js/dist/tippy.css';
 import { musicianService, albumService, instrumentService } from '../../service';
 import { renderToString } from 'react-dom/server'
 import {MusicianTooltip, AlbumTooltip, InstrumentTooltip} from './tooltip';
-import {albumEdge, musicianEdge, 
+import {albumEdge, musicianEdge,
   instrumentEdge, trackEdge, nodeStyle, instrumentNode,
   getMusicianStyle, getAlbumStyle, getInstrumentStyle} from './graph-styles/GraphStyles';
 
@@ -29,7 +29,7 @@ export default class Graph extends React.Component {
   }
 
   render(){
-    // dont render component if album not set 
+    // dont render component if album not set
     if(this.props.data.length === 0)
       return null;
     const {type, className} = this.props;
@@ -38,7 +38,7 @@ export default class Graph extends React.Component {
     const albumStyle = getAlbumStyle(type);
     const instrumentStyle = getInstrumentStyle(type);
 
-    return (<CytoscapeComponent 
+    return (<CytoscapeComponent
       className={className}
       stylesheet={[
         musiciansStyle,
@@ -51,16 +51,16 @@ export default class Graph extends React.Component {
         nodeStyle,
         instrumentNode
       ]}
-      cy={(cy) => { 
+      cy={(cy) => {
         this.cy = cy;
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
         this.cy.unbind("tap");
-        this.cy.bind('tap', 'node', evt => { 
+        this.cy.bind('tap', 'node', evt => {
           this.handleNodeClick(evt.target.data())
         });
 
         this.cy.unbind("cxttap");
-        this.cy.bind('cxttap', 'node', evt => { 
+        this.cy.bind('cxttap', 'node', evt => {
           let node = evt.target;
           let dummyDomEle = document.createElement('div');
           let ref = node.popperRef();
@@ -76,7 +76,7 @@ export default class Graph extends React.Component {
             trigger: 'manual', // call show() and hide() yourself
             lazy: false, // needed for onCreate()
             // needed for `ref` positioning
-            onCreate: instance => { instance.popperInstance.reference = ref; }, 
+            onCreate: instance => { instance.popperInstance.reference = ref; },
             // your custom options follow:
             content: () => {
               let content = document.createElement('div');
@@ -93,7 +93,7 @@ export default class Graph extends React.Component {
         });
 
         this.cy.unbind("boxselect");
-        this.cy.bind('boxselect', 'node', evt => { 
+        this.cy.bind('boxselect', 'node', evt => {
           if(this.callCount === 0){
             var selected = this.cy.$(':selected');
             this.props.handleCollection(selected);
@@ -113,57 +113,57 @@ export default class Graph extends React.Component {
       }}
       minZoom={0.3}
       maxZoom={5}
-      elements={this.props.data} 
+      elements={this.props.data}
       layout={{name: 'cose-bilkent', spacingFactor: 2}}
       />)
   }
 
   /**
-   * special perspectives show compound elements e.g. 
-   * on which albums played musicians together.  
+   * special perspectives show compound elements e.g.
+   * on which albums played musicians together.
    */
   handleSpecialPerspective = (type, label) => {
     switch(type){
-      case "musician": 
+      case "musician":
         this.props.showMusicianDisplay(label);
         break;
-      case "instrument": 
+      case "instrument":
         // this.props.showInstrumentDisplay(label);
         break;
-      case "album": 
+      case "album":
         this.props.switchToAlbum(label);
         break;
-      default: 
+      default:
         break;
     }
   }
   /**
    * Click handler for all nodes.
-   * 
+   *
    * graph component shows different perspectives and each perspective
-   * shows his own nodes on the screen. Nodes of different types have 
+   * shows his own nodes on the screen. Nodes of different types have
    * different event hanlers.
    *
-   * e.g.: on the musician perspective are placed albums and instruments of 
-   * the musician. Press on instrument should navigate user to instruments 
-   * perspective, press on album node should navigate user to 
-   * album's perspective. 
-   * 
+   * e.g.: on the musician perspective are placed albums and instruments of
+   * the musician. Press on instrument should navigate user to instruments
+   * perspective, press on album node should navigate user to
+   * album's perspective.
+   *
    * @param {Object} node - node
    */
   handleNodeClick = (node) => {
     // getting type of current perspective (musician, album, insturment)
     switch(this.props.type) {
       // handling all clicks on track perspective
-      case "special": 
+      case "special":
         // handle clicks on special perspective
         this.handleSpecialPerspective(node.type, node.label);
         break;
       case "track":
-        // showing track display 
+        // showing track display
         break;
       case "instrument":
-        // showing track display 
+        // showing track display
         this.handleInstrumentsPerspectiveClicks(node.type, node.label);
         break;
       // handling all clicks on album perspective
@@ -187,15 +187,15 @@ export default class Graph extends React.Component {
     switch(type){
       // press on musician in the instrument perspective
       // leads user to musician perspective
-      case "musician": 
+      case "musician":
         this.props.showMusicianDisplay(label);
         break;
       // press on instrument in the instrument perspective
       // leads user back to musicians perspective
-      case "instrument": 
+      case "instrument":
         this.props.hideInstrumentDisplay();
         break;
-      default: 
+      default:
         break;
     }
   }
@@ -213,15 +213,15 @@ export default class Graph extends React.Component {
         break;
       // press on musician in the musician perspective
       // leads user back to albums perspective
-      case "musician": 
+      case "musician":
         this.props.hideMusicianDisplay();
         break;
       // press on instrument in the musician perspective
       // leads user to instrument's perspective
-      case "instrument": 
+      case "instrument":
         this.props.showInstrumentDisplay(label);
         break;
-      default: 
+      default:
         break;
     }
   }
@@ -236,19 +236,19 @@ export default class Graph extends React.Component {
         break;
       // press on musician in the album perspective
       // leads user to musician's perspective
-      case "musician": 
+      case "musician":
         this.props.showMusicianDisplay(label);
         break;
       // press on track in the album perspective
       // leads user to track's perspective
-      case "track": 
+      case "track":
         this.props.showTrackDisplay(label);
         break;
-      default: 
+      default:
         break;
     }
   }
-  
+
   /**
    * getting tooltip html of node
    */
@@ -271,7 +271,7 @@ export default class Graph extends React.Component {
         var instrument = instrumentService.getByName(data.label);
         //displaying instrument tooltip
         return renderToString(<InstrumentTooltip instrument={instrument}/>)
-      default: 
+      default:
         break;
     }
   }

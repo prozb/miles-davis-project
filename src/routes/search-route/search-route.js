@@ -1,21 +1,21 @@
 import '../album-route/album-route.css';
 
 import React, { Component } from 'react';
-import Graph from '../../components/album-graph/graph';
+import Graph from '../../components/visualizing/graph';
 import CustomizedMenus from './menu/menu';
 import queryString from 'query-string';
 import { withRouter } from 'react-router-dom';
 import { SearchBar } from '../../components';
-import { 
-  getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument 
+import {
+  getCytoAlbum, getCytoMusician, getCytoTrack, getCytoInstrument
 } from '../../presentation/presenter';
 
-import { 
+import {
   instrumentService, albumService, musicianService, trackService
  } from '../../service';
 /**
  * @author Pavlo Rozbytskyi
- * Search component to handle searching data in the 
+ * Search component to handle searching data in the
  * discographie.
  */
 class SearchRoute extends Component {
@@ -23,12 +23,12 @@ class SearchRoute extends Component {
     super(props);
 
     this.state = {
-      type: '', // type allows user to filter results 
+      type: '', // type allows user to filter results
     }
   }
 
   componentDidMount () {
-    // be sure that all another screens are disabled when 
+    // be sure that all another screens are disabled when
     // search screen must be showed
     this.props.showSearchScreen();
   }
@@ -49,29 +49,29 @@ class SearchRoute extends Component {
     var musicians = musicianService.getContaining(query);
     // counting results to print it out for the user
     var count = instruments.length + albums.length + musicians.length + tracks.length;
-    // data array where are all finded elements stored 
+    // data array where are all finded elements stored
     var data = [];
-    // user has ability to filter data by type 
+    // user has ability to filter data by type
     // and then data of some type will be shown on the screen
     switch(this.state.type){
-      // display data only certain type 
-      case "Albums": 
+      // display data only certain type
+      case "Albums":
         // converting array with albums to array with cytoscape albums
         data = [...albums.map(elem => getCytoAlbum(elem))];
         break;
-      case "Instruments": 
+      case "Instruments":
         data = [...instruments.map(elem => getCytoInstrument(elem))];
         break;
-      case "Musicians": 
+      case "Musicians":
         data = [...musicians.map(elem => getCytoMusician(elem))];
         break;
-      case "Tracks": 
+      case "Tracks":
         data = [...tracks.map(elem => getCytoTrack(elem))];
         break;
       // by default show all results
-      default: 
+      default:
         data = [
-          ...albums.map(elem => getCytoAlbum(elem)), 
+          ...albums.map(elem => getCytoAlbum(elem)),
           ...musicians.map(elem => getCytoMusician(elem)),
           ...tracks.map(elem => getCytoTrack(elem)),
           ...instruments.map(elem => getCytoInstrument(elem))
@@ -83,7 +83,7 @@ class SearchRoute extends Component {
       <div className="fill">
         <SearchBar
           back={true}
-          name={"Search results"} 
+          name={"Search results"}
           onNavbarButtonPress={() => {
             this.props.history.goBack();
           }}
@@ -92,12 +92,12 @@ class SearchRoute extends Component {
         <div className="container d-flex flex-col fill">
           {/* Menu container */}
           <div>
-            <CustomizedMenus 
+            <CustomizedMenus
               changeMenuItem={this.chooseFilterType}
               data={[
-                {name: 'Albums', count: albums.length}, 
+                {name: 'Albums', count: albums.length},
                 {name: 'Musicians', count: musicians.length},
-                {name: 'Instruments', count: instruments.length}, 
+                {name: 'Instruments', count: instruments.length},
                 {name: 'Tracks', count: tracks.length}
               ]}/>
           </div>
@@ -106,7 +106,7 @@ class SearchRoute extends Component {
             <h3 className="display-7">Showing  {count} available result{count !== 1 ? 's' : ''}</h3>
             <hr/>
             <div className="box-shadow box-radius h-75 w-100">
-              <Graph 
+              <Graph
                 className="h-100 w-100"
                 switchToAlbum={this.switchToAlbum}
                 hideMusicianDisplay={() => {}}
@@ -127,11 +127,11 @@ class SearchRoute extends Component {
 
   /**
    * after users press to filter results this function
-   * gives you wanted data type should be displayed 
+   * gives you wanted data type should be displayed
    */
   chooseFilterType = (type) => {
     this.setState({type: type});
-  } 
+  }
   /**
    * switching to album
    */

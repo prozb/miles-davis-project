@@ -11,11 +11,11 @@ export default class MusicianTooltip extends Component {
     // getting deathdate of the musician
     var deathdate = musician.deathdate !== "" ? (<p>deathdate: {musician.deathdate}</p>) : "";
     // block with image
-    const imgBlock = musician.icon ? 
+    const imgBlock = musician.icon ?
       (<div className="container text-center w-100">
         <img className="mx-auto" src={musician.icon} alt={musician.label}/>
       </div>) : null; // add react avatar
-    
+
     return (
       <div className="container tooltip-container pt-5">
         {imgBlock}
