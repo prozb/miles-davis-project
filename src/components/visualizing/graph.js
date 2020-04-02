@@ -55,9 +55,25 @@ export default class Graph extends React.Component {
         this.cy = cy;
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
         this.cy.unbind("tap");
-        this.cy.bind('tap', 'node', evt => {
-          this.handleNodeClick(evt.target.data())
+
+        this.cy.bind('tap', 'node[type="album"]', evt => {
+          this.handlePressOnAlbum(evt.target);
         });
+
+        this.cy.bind('tap', 'node[type="musician"]', evt => {
+          this.handlePressOnMusician(evt.target);
+        });
+
+        this.cy.bind('tap', 'node[type="instrument"]', evt => {
+          this.handlePressOnInstrument(evt.target);
+        });
+
+        this.cy.bind('tap', 'node[type="track"]', evt => {
+          this.handlePressOnTrack(evt.target);
+        });
+        // this.cy.bind('tap', 'node', evt => {
+        //   this.handleNodeClick(evt.target.data())
+        // });
 
         this.cy.unbind("cxttap");
         this.cy.bind('cxttap', 'node', evt => {
@@ -119,130 +135,80 @@ export default class Graph extends React.Component {
   }
 
   /**
-   * special perspectives show compound elements e.g.
-   * on which albums played musicians together.
-   */
-  handleSpecialPerspective = (type, label) => {
-    switch(type){
+  * handle pressing on album nodes
+  * @param {Object} node - album node
+  */
+  handlePressOnAlbum = (node) => {
+    let data = node.data();
+
+    switch(this.props.type){
+      // press on album in the musicians perspective
+      // leads user to album's perspective
       case "musician":
-        this.props.showMusicianDisplay(label);
+        this.props.switchToAlbum(data.label);
         break;
-      case "instrument":
-        // this.props.showInstrumentDisplay(label);
-        break;
-      case "album":
-        this.props.switchToAlbum(label);
-        break;
-      default:
-        break;
-    }
-  }
-  /**
-   * Click handler for all nodes.
-   *
-   * graph component shows different perspectives and each perspective
-   * shows his own nodes on the screen. Nodes of different types have
-   * different event hanlers.
-   *
-   * e.g.: on the musician perspective are placed albums and instruments of
-   * the musician. Press on instrument should navigate user to instruments
-   * perspective, press on album node should navigate user to
-   * album's perspective.
-   *
-   * @param {Object} node - node
-   */
-  handleNodeClick = (node) => {
-    // getting type of current perspective (musician, album, insturment)
-    switch(this.props.type) {
-      // handling all clicks on track perspective
       case "special":
-        // handle clicks on special perspective
-        this.handleSpecialPerspective(node.type, node.label);
-        break;
-      case "track":
-        // showing track display
-        break;
-      case "instrument":
-        // showing track display
-        this.handleInstrumentsPerspectiveClicks(node.type, node.label);
-        break;
-      // handling all clicks on album perspective
-      case "album":
-        this.handleAlbumPerspectiveClicks(node.type, node.label);
-        break;
-      // handling all clicks on album perspective
-      case "musician":
-        this.handleMusiciansPerspectiveClicks(node.type, node.label);
+        this.props.switchToAlbum(data.label);
         break;
       default:
         break;
     }
   }
+
   /**
-   * handle pressing on nodes in instrument perspective
-   * @param {string} type - type current perspective
-   * @param {string} label - name of the node
-   */
-  handleInstrumentsPerspectiveClicks = (type, label) => {
-    switch(type){
-      // press on musician in the instrument perspective
-      // leads user to musician perspective
-      case "musician":
-        this.props.showMusicianDisplay(label);
-        break;
-      // press on instrument in the instrument perspective
-      // leads user back to musicians perspective
+  * handle pressing on musician nodes
+  * @param {Object} node - musician node
+  */
+  handlePressOnMusician = (node) => {
+    let data = node.data();
+
+    switch(this.props.type){
       case "instrument":
-        this.props.hideInstrumentDisplay();
+        this.props.showMusicianDisplay(data.label);
         break;
-      default:
-        break;
-    }
-  }
-  /**
-   * handle pressing on nodes in musician perspective
-   * @param {string} type - type of current perspective
-   * @param {string} label - name of pressed node
-   */
-  handleMusiciansPerspectiveClicks = (type, label) => {
-    switch(type){
-      // press on album in the musician perspective
-      // leads user to albums perspective
       case "album":
-        this.props.switchToAlbum(label);
+        this.props.showMusicianDisplay(data.label);
         break;
-      // press on musician in the musician perspective
-      // leads user back to albums perspective
       case "musician":
         this.props.hideMusicianDisplay();
         break;
-      // press on instrument in the musician perspective
-      // leads user to instrument's perspective
-      case "instrument":
-        this.props.showInstrumentDisplay(label);
+      case "special":
+        this.props.showMusicianDisplay(data.label);
         break;
       default:
         break;
     }
   }
+
   /**
-   * handle pressing on nodes in album perspective
-   * @param {string} type - type of current perspective
-   * @param {string} label - name of the pressed node
-   */
-  handleAlbumPerspectiveClicks = (type, label) => {
-    switch(type){
+  * handle pressing on track nodes
+  * @param {Object} node - track node
+  */
+  handlePressOnTrack = (node) => {
+    let data = node.data();
+
+    switch(this.props.type){
       case "album":
+        this.props.showTrackDisplay(data.label);
         break;
-      // press on musician in the album perspective
-      // leads user to musician's perspective
+      default:
+        break;
+    }
+  }
+
+  /**
+  * handle pressing on instrument nodes
+  * @param {Object} node - instrument node
+  */
+  handlePressOnInstrument = (node) => {
+    let data = node.data();
+
+    switch(this.props.type){
+      case "instrument":
+        this.props.hideInstrumentDisplay();
+        break;
       case "musician":
-        this.props.showMusicianDisplay(label);
-        break;
-      // press on track in the album perspective
-      // leads user to track's perspective
-      case "track":
-        this.props.showTrackDisplay(label);
+        this.props.showInstrumentDisplay(data.label);
         break;
       default:
         break;
