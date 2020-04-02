@@ -32,7 +32,13 @@ export default class Graph extends React.Component {
     // dont render component if album not set
     if(this.props.data.length === 0)
       return null;
-    const {type, className} = this.props;
+    const {
+      type, className,
+      handlePressOnAlbum,
+      handlePressOnMusician,
+      handlePressOnTrack,
+      handlePressOnInstrument
+    } = this.props;
     // getting styles of musician, album, instrument
     const musiciansStyle = getMusicianStyle(type);
     const albumStyle = getAlbumStyle(type);
@@ -56,24 +62,21 @@ export default class Graph extends React.Component {
         this.cy.layout({name:'cose-bilkent', spacingFactor: 2}).run();
         this.cy.unbind("tap");
 
-        this.cy.bind('tap', 'node[type="album"]', evt => {
-          this.handlePressOnAlbum(evt.target);
+        this.cy.bind('tap', 'node[type="album"]', function(evt) {
+          handlePressOnAlbum(evt.target);
         });
 
-        this.cy.bind('tap', 'node[type="musician"]', evt => {
-          this.handlePressOnMusician(evt.target);
+        this.cy.bind('tap', 'node[type="musician"]', function(evt) {
+          handlePressOnMusician(evt.target);
         });
 
-        this.cy.bind('tap', 'node[type="instrument"]', evt => {
-          this.handlePressOnInstrument(evt.target);
+        this.cy.bind('tap', 'node[type="instrument"]', function(evt) {
+          handlePressOnInstrument(evt.target);
         });
 
-        this.cy.bind('tap', 'node[type="track"]', evt => {
-          this.handlePressOnTrack(evt.target);
+        this.cy.bind('tap', 'node[type="track"]', function(evt) {
+          handlePressOnTrack(evt.target);
         });
-        // this.cy.bind('tap', 'node', evt => {
-        //   this.handleNodeClick(evt.target.data())
-        // });
 
         this.cy.unbind("cxttap");
         this.cy.bind('cxttap', 'node', evt => {
@@ -132,87 +135,6 @@ export default class Graph extends React.Component {
       elements={this.props.data}
       layout={{name: 'cose-bilkent', spacingFactor: 2}}
       />)
-  }
-
-  /**
-  * handle pressing on album nodes
-  * @param {Object} node - album node
-  */
-  handlePressOnAlbum = (node) => {
-    let data = node.data();
-
-    switch(this.props.type){
-      // press on album in the musicians perspective
-      // leads user to album's perspective
-      case "musician":
-        this.props.switchToAlbum(data.label);
-        break;
-      case "special":
-        this.props.switchToAlbum(data.label);
-        break;
-      default:
-        break;
-    }
-  }
-
-  /**
-  * handle pressing on musician nodes
-  * @param {Object} node - musician node
-  */
-  handlePressOnMusician = (node) => {
-    let data = node.data();
-
-    switch(this.props.type){
-      case "instrument":
-        this.props.showMusicianDisplay(data.label);
-        break;
-      case "album":
-        this.props.showMusicianDisplay(data.label);
-        break;
-      case "musician":
-        this.props.hideMusicianDisplay();
-        break;
-      case "special":
-        this.props.showMusicianDisplay(data.label);
-        break;
-      default:
-        break;
-    }
-  }
-
-  /**
-  * handle pressing on track nodes
-  * @param {Object} node - track node
-  */
-  handlePressOnTrack = (node) => {
-    let data = node.data();
-
-    switch(this.props.type){
-      case "album":
-        this.props.showTrackDisplay(data.label);
-        break;
-      default:
-        break;
-    }
-  }
-
-  /**
-  * handle pressing on instrument nodes
-  * @param {Object} node - instrument node
-  */
-  handlePressOnInstrument = (node) => {
-    let data = node.data();
-
-    switch(this.props.type){
-      case "instrument":
-        this.props.hideInstrumentDisplay();
-        break;
-      case "musician":
-        this.props.showInstrumentDisplay(data.label);
-        break;
-      default:
-        break;
-    }
   }
 
   /**

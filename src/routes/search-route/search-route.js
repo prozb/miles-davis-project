@@ -108,13 +108,10 @@ class SearchRoute extends Component {
             <div className="box-shadow box-radius h-75 w-100">
               <Graph
                 className="h-100 w-100"
-                switchToAlbum={this.switchToAlbum}
-                hideMusicianDisplay={() => {}}
-                showMusicianDisplay={this.switchToMusician}
-                showTrackDisplay={() => {}}
-                showInstrumentDisplay={() => {}}
-                hideInstrumentDisplay={() => {}}
-                handleCollection={() => {}}
+                handlePressOnAlbum={node => this.switchToAlbum(node.data().label)}
+                handlePressOnMusician={node => this.switchToMusician(node.data().label)}
+                handlePressOnTrack={() => {}}
+                handlePressOnInstrument={() => {}}
                 type="special"
                 data={data}/>
               </div>

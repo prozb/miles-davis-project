@@ -5,8 +5,8 @@ import './album-route.css';
 import { SearchBar, NavigationBar, Timeline, AlbumGraph, TrackDisplay } from '../../components';
 import { albumService, musicianService, trackService, instrumentService } from '../../service';
 
-import { 
-    getAlbumPerspective, 
+import {
+    getAlbumPerspective,
     getMusicianPerspective,
     getInstrumentPerspective,
     getCompoundForMusicians,
@@ -16,7 +16,7 @@ import {
 
 /**
  * @author Pavlo Rozbytskyi
- * in this component is main user interaction where 
+ * in this component is main user interaction where
  * are showed different perspectives for the user.
  */
 class AlbumRoute extends Component {
@@ -28,19 +28,19 @@ class AlbumRoute extends Component {
       trackName: '',
       musicianName: '',
       instrumentName: '',
-    // cytoscape graph instance stays the same 
-    // for all perspectives (musician, album, track, instrument) and we have 
+    // cytoscape graph instance stays the same
+    // for all perspectives (musician, album, track, instrument) and we have
     // to let the graph instance know which perspective to display
-    // e.g to adjust styles and event handlers etc. 
-    // That's why we need to keep the type of perspective in state of  
-    // current component in perspective variable and past it into 
+    // e.g to adjust styles and event handlers etc.
+    // That's why we need to keep the type of perspective in state of
+    // current component in perspective variable and past it into
     // the graph instance.
       perspective: '', // current perspective
-      moveTimeline: true, 
+      moveTimeline: true,
     };
     this.specialCaseFunction = getCompoundForMusicians;
     // store here previous perspectives to be able to navigate back
-    this.navigationStack     = []; 
+    this.navigationStack     = [];
   }
 
   componentDidMount() {
@@ -48,7 +48,7 @@ class AlbumRoute extends Component {
     this.props.showAlbums();
     // getting values from the query string
     const values = queryString.parse(this.props.location.search);
-    // there are two values of the query string: n stands for 
+    // there are two values of the query string: n stands for
     // name of the album and m stands for musicians name
 
     // if name of the album defined, show this album on the display
@@ -82,7 +82,7 @@ class AlbumRoute extends Component {
     const timelineData = albumService
       .getAll()
       .sort((a, b) => new Date(a.released) - new Date(b.released));
-    // style to toggle navigation bar 
+    // style to toggle navigation bar
     const collapseClass = this.state.collapseNavbar ? "w-25 col" : null;
 
     // data1 and data2 will be past into navigation bar
@@ -91,7 +91,7 @@ class AlbumRoute extends Component {
     //type1 and type2 will be past into navigation bar
     let type1 = "";
     let type2 = "";
-    
+
     // this elements array will be rendered on the graph instance
     let elements = [];
     // variable to store different information
@@ -101,7 +101,7 @@ class AlbumRoute extends Component {
       // preparing data for corresponding perspectives
       switch(perspective){
         // data for musician's perspective
-        case 'musician': 
+        case 'musician':
           elements = getMusicianPerspective(musicianName);
           data1 = musicianService.getAlbumsNamesOfMusician(musicianName);
           data2 = musicianService.getInstrumentsNamesOfMusician(musicianName);
@@ -123,15 +123,15 @@ class AlbumRoute extends Component {
           elements = getTrackPerspective(trackName, album.id, this.switchToMusician);
           info     = trackService.getRelationsInfo(trackName, album.id);
           break;
-        // data for special case perspective where are dependencies 
+        // data for special case perspective where are dependencies
         // e.g. between two musicians
-        case 'special': 
+        case 'special':
           elements = this.specialCaseFunction(this.data);
           break;
-        // data for albums perspective is showed by defaul 
-        default: 
+        // data for albums perspective is showed by defaul
+        default:
           data1 = album.musicians;
-          data2 = trackService.getAllTracksNamesOfAlbum(album.id)  
+          data2 = trackService.getAllTracksNamesOfAlbum(album.id)
           type1 = "musician";
           type2 = "track";
           elements = getAlbumPerspective(album.id);
@@ -139,59 +139,57 @@ class AlbumRoute extends Component {
           break;
       }
     }
- 
+
     return (
       // toot div
       <div className="col w-100 h-100">
         {/* searchbar container */}
         <div className="row">
         <SearchBar
-          back={(perspective === 'special' || perspective === 'track') ? true : false} 
+          back={(perspective === 'special' || perspective === 'track') ? true : false}
           button={false}
-          name={album[0]} 
-          onNavbarButtonPress={(perspective === 'special' || perspective === 'track') ? 
+          name={album[0]}
+          onNavbarButtonPress={(perspective === 'special' || perspective === 'track') ?
             this.navigateBack : this.collapseNavbar}
           switchToSearch={this.switchToSearch}/>
         </div>
         {/* starting navigation and content container */}
         <div className="mh-100 h-100 row">
           {
-            collapseClass ? (<NavigationBar 
+            collapseClass ? (<NavigationBar
               className={collapseClass}
               showMusicianDisplay={this.showMusicianDisplay}
               showTrackDisplay={this.showTrackDisplay}
               showAlbumsDisplay={this.switchToAlbum}
               showInstrumentDisplay={this.showInstrumentDisplay}
-              data1={data1} 
+              data1={data1}
               data2={data2}
               type1={type1}
               type2={type2}
             />) : null
           }
-          
+
           <div className="hide-scrollbar overflow-auto col w-75">
-            <Timeline 
+            <Timeline
               data={timelineData}
-              highlighted={album.id} 
+              highlighted={album.id}
               move={moveTimeline}
               moveEnd={this.moveEnd}
-              switchToAlbum={this.switchToAlbum} 
+              switchToAlbum={this.switchToAlbum}
               style={{marginTop: -20, height: 200, top: 20,}}
               />
 
-            {perspective !== 'track' ? 
-              <AlbumGraph 
+            {perspective !== 'track' ?
+              <AlbumGraph
                 className="mx-auto mb-5 w-75 h-75 box-shadow box-radius overflow-auto"
                 type={perspective}
-                switchToAlbum={this.switchToAlbum}
-                hideMusicianDisplay={this.hideMusicianDisplay}
-                showMusicianDisplay={this.showMusicianDisplay}
-                showTrackDisplay={this.showTrackDisplay}
-                showInstrumentDisplay={this.showInstrumentDisplay}
-                hideInstrumentDisplay={this.hideInstrumentDisplay}
+                handlePressOnAlbum={this.handlePressOnAlbum}
+                handlePressOnMusician={this.handlePressOnMusician}
+                handlePressOnTrack={this.handlePressOnTrack}
+                handlePressOnInstrument={this.handlePressOnInstrument}
                 handleCollection={this.handleCollection}
-                data={elements}/> : 
-              <TrackDisplay 
+                data={elements}/> :
+              <TrackDisplay
                 className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
                 album={album}
                 name={trackName}
@@ -231,7 +229,7 @@ class AlbumRoute extends Component {
   }
   /**
    * switching from current album to next album
-   * choosen by user  
+   * choosen by user
    * @param {string} albumName  - name of the next album chosen by user
    */
   switchToAlbum = (albumName) => {
@@ -277,14 +275,14 @@ class AlbumRoute extends Component {
     const {perspective, album, musicianName, instrumentName} = this.state;
 
     this.pushToNavigationStack('album', album.id);
-    
+
     if(perspective === 'musician'){
       this.pushToNavigationStack('musician', musicianName);
     }else if(perspective === 'instrument'){
       this.pushToNavigationStack('musician', musicianName);
       this.pushToNavigationStack('instrument', instrumentName);
     }
-  } 
+  }
   /**
    * navigate back from special perspective
    */
@@ -318,7 +316,7 @@ class AlbumRoute extends Component {
    */
   showTrackDisplay = (trackName) => {
     this.setState({
-      trackName: trackName, 
+      trackName: trackName,
       perspective: 'track',
       collapseNavbar: false,
     });
@@ -354,13 +352,13 @@ class AlbumRoute extends Component {
     });
   }
   /**
-   * handle collection of selected nodes different for each 
+   * handle collection of selected nodes different for each
    * perspective.
-   * 
+   *
    * there are special cases for musicians, albums and instruments perspective.
-   * e.g.: if the user selects musicians on the album's perspective 
-   * the special function should return data with albums where this musicians 
-   * have played together. 
+   * e.g.: if the user selects musicians on the album's perspective
+   * the special function should return data with albums where this musicians
+   * have played together.
    * @param {Array} elements - array with selected cytoscape nodes
    */
   handleCollection = (elements) => {
@@ -368,17 +366,17 @@ class AlbumRoute extends Component {
 
     switch(perspective){
       // handling selected musicians of the albums perspective
-      case 'album': 
+      case 'album':
         this.specialCaseFunction = getCompoundForMusicians;
         break;
       case 'musician':
-        // function shows 
+        // function shows
         this.specialCaseFunction = getCompoundForAlbums;
         break;
-      default: 
+      default:
         break;
     }
-    // storing returned collection in class variable to 
+    // storing returned collection in class variable to
     // process it by rerender later
     this.data = elements;
     // saving current context
@@ -419,6 +417,87 @@ class AlbumRoute extends Component {
       trackName: '',
       perspective: 'album',
     });
+  }
+
+  /**
+  * handle pressing on album nodes
+  * @param {Object} node - album node
+  */
+  handlePressOnAlbum = (node) => {
+    let data = node.data();
+
+    switch(this.state.perspective){
+      // press on album in the musicians perspective
+      // leads user to album's perspective
+      case "musician":
+        this.switchToAlbum(data.label);
+        break;
+      case "special":
+        this.switchToAlbum(data.label);
+        break;
+      default:
+        break;
+    }
+  }
+
+  /**
+  * handle pressing on musician nodes
+  * @param {Object} node - musician node
+  */
+  handlePressOnMusician = (node) => {
+    let data = node.data();
+
+    switch(this.state.perspective){
+      case "instrument":
+        this.showMusicianDisplay(data.label);
+        break;
+      case "album":
+        this.showMusicianDisplay(data.label);
+        break;
+      case "musician":
+        this.hideMusicianDisplay();
+        break;
+      case "special":
+        this.showMusicianDisplay(data.label);
+        break;
+      default:
+        break;
+    }
+  }
+
+  /**
+  * handle pressing on track nodes
+  * @param {Object} node - track node
+  */
+  handlePressOnTrack = (node) => {
+    let data = node.data();
+
+    switch(this.state.perspective){
+      case "album":
+        this.showTrackDisplay(data.label);
+        break;
+      default:
+        break;
+    }
+  }
+
+  /**
+  * handle pressing on instrument nodes
+  * @param {Object} node - instrument node
+  */
+  handlePressOnInstrument = (node) => {
+    let data = node.data();
+
+    switch(this.state.perspective){
+      case "instrument":
+        this.hideInstrumentDisplay();
+        break;
+      case "musician":
+        this.showInstrumentDisplay(data.label);
+        break;
+      default:
+        break;
+    }
   }
 }
 
