@@ -99,7 +99,7 @@ export default class Graph extends React.Component {
             // your custom options follow:
             content: () => {
               let content = document.createElement('div');
-              content.innerHTML = this.getTooltipByOfNode(node);
+              content.innerHTML = this.getTooltipOfNode(node);
               return content;
             },
             popperOptions: {
@@ -140,7 +140,7 @@ export default class Graph extends React.Component {
   /**
    * getting tooltip html of node
    */
-  getTooltipByOfNode = (node) => {
+  getTooltipOfNode = (node) => {
     var data = node.data();
 
     switch(data.type){
