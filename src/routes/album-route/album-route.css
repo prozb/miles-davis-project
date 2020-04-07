@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.container-width {
+  min-width: 600px;
+}
+
 .vertical {
   flex-direction: column;
 }
@@ -37,4 +41,13 @@
 
 .full-width {
   width: 100%;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
 }

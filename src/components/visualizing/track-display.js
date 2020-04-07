@@ -25,10 +25,10 @@ export default class TrackDisplay extends Component {
   }
   render() {
     const { name, album, className, data, hideTrackDisplay, instruments,
-    musicians } = this.props;
+    musicians, style } = this.props;
 
     return(
-      <div className={className}>
+      <div className={className} style={style}>
         <div className="w-100 row justify-content-end pt-3 br-5">
           <FontAwesomeIcon icon={faTimes} onClick={hideTrackDisplay}/>
         </div>

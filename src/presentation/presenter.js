@@ -6,6 +6,7 @@ import {MusicianTooltip, InstrumentTooltip} from '../components/visualizing/tool
 import {
   Tooltip,
 } from 'react-tippy';
+import { renderToString } from 'react-dom/server';
 /**
  * @author Pavlo Rozbytskyi
  * @version 1.0.0
@@ -133,7 +134,9 @@ export const getTrackPerspective = (trackName, albumName, handler) => {
     let instrument = instrumentService.getByName(instrumentName);
     // creating avatar of musician
     let musicianAvatar = (
-      <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
+      <Tooltip 
+        unmountHTMLWhenHide={true}
+        position="right" hideDelay={0} animation="none"
         duration={50} hideOnClick={false}
         trigger="mouseenter" html={<MusicianTooltip musician={musician}/>}>
         <Avatar
@@ -143,9 +146,11 @@ export const getTrackPerspective = (trackName, albumName, handler) => {
       </Tooltip>);
     // creating avatar of the instrument
     let instrumentAvatar = (
-      <Tooltip position="right" hideDelay={0} interactive={true} animation="none"
+      <Tooltip position="right" hideDelay={0} 
+        animation="none"
         sticky={false} duration={50} hideOnClick={false}
-        trigger="mouseenter" html={<InstrumentTooltip instrument={instrument}/>}>
+        trigger="mouseenter" html={<InstrumentTooltip instrument={instrument}/>}
+        >
         <Avatar className="box-avatar my-auto"
           round={true} src={instrument.url} size={70} name={instrument.id}/>
       </Tooltip>);
@@ -202,6 +207,7 @@ export const getCompoundForAlbums = (nodes) => {
     .filter(album => album.data().type === "album")
     .map(album => { return {data: album.data()}} );
 
+  console.log(albums);
   try{
     // following lines find common albums of musicians
     let commonMusicians = albums

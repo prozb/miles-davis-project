@@ -142,7 +142,7 @@ class AlbumRoute extends Component {
 
     return (
       // toot div
-      <div className="col w-100 h-100">
+      <div className="col w-100 h-100 container-width">
         {/* searchbar container */}
         <div className="row">
         <SearchBar
@@ -169,19 +169,20 @@ class AlbumRoute extends Component {
             />) : null
           }
 
-          <div className="hide-scrollbar overflow-auto col w-75">
+          <div className="hide-scrollbar overflow-auto col">
             <Timeline
               data={timelineData}
               highlighted={album.id}
               move={moveTimeline}
               moveEnd={this.moveEnd}
               switchToAlbum={this.switchToAlbum}
-              style={{marginTop: -20, height: 200, top: 20,}}
+              style={{marginTop: -20, height: 200, top: 20}}
               />
 
             {perspective !== 'track' ?
               <AlbumGraph
-                className="mx-auto mb-5 w-75 h-75 box-shadow box-radius overflow-auto"
+                style={{height: '70%'}}
+                className="mx-auto mb-5 w-75 box-shadow box-radius overflow-auto no-scrollbar"
                 type={perspective}
                 handlePressOnAlbum={this.handlePressOnAlbum}
                 handlePressOnMusician={this.handlePressOnMusician}
@@ -190,6 +191,7 @@ class AlbumRoute extends Component {
                 handleCollection={this.handleCollection}
                 data={elements}/> :
               <TrackDisplay
+                style={{minWidth: '600px', maxHeight: '60%'}}
                 className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
                 album={album}
                 name={trackName}
@@ -250,6 +252,7 @@ class AlbumRoute extends Component {
    */
   setCurrentAlbum = (albumName) => {
     var album = albumService.getByName(albumName);
+    this.specialCaseFunction = getCompoundForMusicians;
 
     this.setState({
       album: album,
@@ -374,7 +377,7 @@ class AlbumRoute extends Component {
         this.specialCaseFunction = getCompoundForAlbums;
         break;
       default:
-        break;
+        return;
     }
     // storing returned collection in class variable to
     // process it by rerender later
@@ -390,6 +393,8 @@ class AlbumRoute extends Component {
    * @param {String} albumName - name of the album
    */
   backToMusisian = (musicianName, albumName) => {
+    this.specialCaseFunction = getCompoundForAlbums;
+
     this.setState({
       musicianName: musicianName,
       albumName: albumName,
@@ -402,6 +407,7 @@ class AlbumRoute extends Component {
    * @param {string} musicianName - album name
    */
   showMusicianDisplay = (musicianName) => {
+    this.specialCaseFunction = getCompoundForAlbums;
     this.setState({
       musicianName: musicianName,
       instrumentName: '',
@@ -412,6 +418,7 @@ class AlbumRoute extends Component {
    * hiding musicians display
    */
   hideMusicianDisplay = () => {
+    this.specialCaseFunction = getCompoundForMusicians;
     this.setState({
       musicianName: '',
       trackName: '',

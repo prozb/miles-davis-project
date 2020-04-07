@@ -33,7 +33,7 @@ export default class Graph extends React.Component {
     if(this.props.data.length === 0)
       return null;
     const {
-      type, className,
+      type, style, className,
       handlePressOnAlbum,
       handlePressOnMusician,
       handlePressOnTrack,
@@ -45,6 +45,7 @@ export default class Graph extends React.Component {
     const instrumentStyle = getInstrumentStyle(type);
 
     return (<CytoscapeComponent
+      style={style}
       className={className}
       stylesheet={[
         musiciansStyle,
@@ -114,7 +115,7 @@ export default class Graph extends React.Component {
         this.cy.unbind("boxselect");
         this.cy.bind('boxselect', 'node', evt => {
           if(this.callCount === 0){
-            var selected = this.cy.$(':selected');
+            var selected = this.cy.$('node:selected');
             this.props.handleCollection(selected);
             // call function to trigger
             this.selectedSize = selected.length;
