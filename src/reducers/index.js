@@ -6,7 +6,7 @@ import { combineReducers } from 'redux';
 const reducers = combineReducers({
   counter: counterReducer, 
   loggedIn: loginReducer,
-  files: fileReducer
+  fileState: fileReducer
 });
 
 export default reducers;

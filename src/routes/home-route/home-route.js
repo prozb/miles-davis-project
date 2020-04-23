@@ -14,11 +14,13 @@ class HomeRoute extends Component {
 		super(props);
 
 		store.subscribe(() => {
-      this.setState({
-        counter: store.getState().counter,
-				loggedIn: store.getState().loggedIn,
-				files: store.getState().files,
-      });
+			let loading = store.getState().fileState.loading;
+			let files = store.getState().fileState.files;
+
+			if(!loading && files.albums !== 0){
+				console.log(files);
+				this.props.history.push(`/album`)
+			}
     });
 	}
 	componentDidMount () {
@@ -139,7 +141,7 @@ class HomeRoute extends Component {
 							<div className="card-body">
 								<h5 className="card-title">Discography of Miles Davis</h5>
 								<p className="card-text">Miles Davis was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music.</p>
-								<a target="blank" href="https://en.wikipedia.org/wiki/Miles_Davis" className="btn btn-outline-primary">More info&raquo;</a>
+								<button onClick={() => this.handlePress('miles-dataset')} href="https://en.wikipedia.org/wiki/Miles_Davis" className="btn btn-outline-primary">More info&raquo;</button>
 							</div>
 						</div>
 					</div>
@@ -151,7 +153,7 @@ class HomeRoute extends Component {
 								<h5 className="card-title">Cream ist eine britische Rockband</h5>
 								<p className="card-text">Cream war eine britische Rockband, die von 1966 bis 1968 bestand. Bandmitglieder waren Eric Clapton, Jack Bruce und Ginger Baker. Ihr Sound war eine Mischung aus Blues, Hard- und Psychedelic-Rock. Cream gilt als die erste Supergroup in der Geschichte der Rockmusik.
 									</p>
-								<button onClick={this.handlePress} href="https://de.wikipedia.org/wiki/Cream" className="btn btn-outline-primary">More info&raquo;</button>
+								<button onClick={() => this.handlePress('cream-dataset')} href="https://de.wikipedia.org/wiki/Cream" className="btn btn-outline-primary">More info&raquo;</button>
 							</div>
 						</div>
 					</div>
@@ -172,8 +174,8 @@ class HomeRoute extends Component {
 		</div>
 	}
 
-	handlePress = () => {
-		fetchFiles('cream-dataset');
+	handlePress = path => {
+		fetchFiles(path);
 	}
 	// credits of the webpage
 	getCredits = () => {

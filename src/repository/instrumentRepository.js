@@ -1,10 +1,9 @@
 import {validURL} from '../scripts/helpers';
+import store from '../store';
 
-var config = require('../assets/config.json');
-var instruments = require(`../assets/${config["dataset_directory"]}/instruments.json`);
 /**
  * @author Pavlo Rozbytskyi
- * @version 2.0.0 - added data validation 
+ * @version 2.1.0 - added data validation 
  * instruments repository layer provides basic read functionality  
  */
 class InstrumentRepository {
@@ -17,7 +16,22 @@ class InstrumentRepository {
      * {Array} musicians - musicians played on the instrument
      */
     constructor () {
-      this.allInstruments = instruments
+      this.allInstruments = [];
+
+      store.subscribe(() => {
+        let instruments = store.getState().fileState.files.instruments;
+        this.allInstruments = this.getValidated(instruments ? instruments : []);
+      });
+    }
+    /**
+    * getting all musicians
+    **/ 
+    getAll = () => {
+      return this.allInstruments;
+    }
+
+    getValidated = (instruments) => {
+      return instruments
       // validation all instruments data
         .map(instrument => {
           var validated = {};
@@ -45,22 +59,6 @@ class InstrumentRepository {
         })
         // filtering invalid instruments out
         .filter(instrument => instrument !== null); 
-    }
-    /**
-    * getting all musicians
-    **/ 
-    getAll = () => {
-      return this.allInstruments;
-
-      // return instruments.map(elem => {
-      //   var obj = {};
-      //   obj[0] = elem.id;
-      //   obj[1] = {
-      //     musicians: elem.musicians,
-      //     url: elem.url
-      //   };
-      //   return obj;
-      // });
     }
 }
 

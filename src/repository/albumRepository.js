@@ -1,10 +1,9 @@
 import {validURL} from '../scripts/helpers';
+import store from '../store';
 
-var config = require('../assets/config.json');
-var albums = require(`../assets/${config["dataset_directory"]}/albums.json`);
 /**
  * @author Pavlo Rozbytskyi
- * @version 2.0.0
+ * @version 2.1.0 - added getting data from redux 
  * album Data Access Object layer provides basic read functionality  
  */
 class AlbumRepository {
@@ -23,23 +22,39 @@ class AlbumRepository {
    * {Array} musicians - musicians played on the album
    */
   constructor() {
-    this.allAlbums = albums
-      .map(album => {
+    this.allAlbums = [];
+    store.subscribe(() => {
+      let albums = store.getState().fileState.files.albums;
+      this.allAlbums = this.getValidated(albums ? albums : []);
+    });
+  }
+  /**
+   * getting all albums
+   */
+  getAll = () => {
+    return this.allAlbums;
+  }
+  /**
+   * validating all albums
+   * @param {Array} albums - albums
+   */
+  getValidated = (albums) => {
+    let converted = albums.map(album => {
         // validating data from the file
         var validated = {};
         // skip the album if name inconsistent
-        if(!album || album.id === "" || !album.id){
+        if(!album || album.id === ""){
           return null;
         }
         validated.id = album.id;
         // checking valid url
-        if(album.url && validURL(album.url)){
+        if(validURL(album.url)){
           validated.url = album.url;
         }else{
           validated.url = "";
         }
         // checking valid icon url
-        if(album.icon && validURL(album.icon)){
+        if(validURL(album.icon)){
           validated.icon = album.icon;
         }else{
           validated.icon = "";
@@ -50,31 +65,31 @@ class AlbumRepository {
         }
         validated.label = album.label;
         // checking release date
-        if(!album.released || album.released === null){
+        if(album.released === null){
           validated.released = "";
         }else{
           validated.released = album.released;
         }
         // checking record dates array
-        if(!album.recorded || album.recorded === null){
+        if(album.recorded === null){
           validated.recorded = [];
         }else{
           validated.recorded = album.recorded.filter(e => e !== null); 
         }
         // checking studios array
-        if(!album.studios || album.studios === null){
+        if(album.studios === null){
           validated.studios = [];
         }else{
           validated.studios = album.studios.filter(e => e !== null); 
         }
         // checking producers array
-        if(!album.producers || album.producers === null){
+        if(album.producers === null){
           validated.producers = [];
         }else{
           validated.producers = album.producers.filter(e => e !== null); 
         }
         // checking musicians array
-        if(!album.musicians || album.musicians === null){
+        if(album.musicians === null){
           validated.musicians = [];
         }else{
           validated.musicians = album.musicians.filter(e => e !== null); 
@@ -83,27 +98,8 @@ class AlbumRepository {
         return validated;
       })
       .filter(album => album !== null); //filtering inconsistent objects out
-    // this.allAlbums = albums.map(elem => {
-    //   var obj = {};
-    //   obj[0] = elem.id;
-    //   obj[1] = {
-    //     url: elem.url,
-    //     icon: elem.icon,
-    //     label: elem.label,
-    //     released: elem.released,
-    //     recorded: elem.recorded,
-    //     studios: elem.studios,
-    //     producers: elem.producers,
-    //     musicians: elem.musicians,
-    //   };
-    //   return obj;
-    // });
-  }
-  /**
-   * getting all albums
-   */
-  getAll = () => {
-    return this.allAlbums.filter(album => album && album !== null);
+
+      return converted;
   }
 }
 

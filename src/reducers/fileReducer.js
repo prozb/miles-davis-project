@@ -5,7 +5,7 @@ import {
 } from '../actions/fileActions';
 
 const initialState = {
-  files: [],
+  files: {},
   loading: false,
   error: null
 }
@@ -29,7 +29,7 @@ export default function productReducer(state = initialState, action) {
         ...state,
         loading: false,
         error: action.payload.error,
-        files: []
+        files: {}
       }
     default: 
       return initialState;

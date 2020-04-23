@@ -1,10 +1,9 @@
 import {validURL} from '../scripts/helpers';
+import store from '../store';
 
-var config = require('../assets/config.json');
-var musicians = require(`../assets/${config["dataset_directory"]}/musicians.json`);
 /**
  * @author Pavlo Rozbytskyi
- * @version 2.0.0
+ * @version 2.1.0 - added getting data from redux 
  * musicians Data Access Object layer provides basic read functionality  
  */
 class MusicianRepository {
@@ -21,7 +20,18 @@ class MusicianRepository {
    * {String} deathdate - deathdate of the musician
    */
   constructor() {
-    this.allMusicians = musicians.map(element => {
+    this.allMusicians = [];
+    store.subscribe(() => {
+      let musicians = store.getState().fileState.files.musicians;
+      this.allMusicians = this.getValidated(musicians ? musicians : []);
+    });
+  }
+  getAll = () => {
+    return this.allMusicians;
+  }
+
+  getValidated = musicians => {
+    return musicians.map(element => {
       var musician = {};
 
       // checking correct musician name, if not the object is broken
@@ -72,9 +82,6 @@ class MusicianRepository {
     });
     // filter out all inconsistent musicians
     this.allMusicians.filter(e => e !== null && e !== "");
-  }
-  getAll = () => {
-    return this.allMusicians;
   }
 }
 

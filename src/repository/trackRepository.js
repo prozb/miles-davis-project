@@ -1,10 +1,8 @@
-// var tracks = require('../assets/cream-dataset/tracks.json');
-var config = require('../assets/config.json');
-var tracks = require(`../assets/${config["dataset_directory"]}/tracks.json`);
+import store from '../store';
 
 /**
  * @author Pavlo Rozbytskyi
- * @version 2.0.0 added data validation
+ * @version 2.1.0 - added getting data from redux 
  * tracks Data Access Object layer provides basic read functionality  
  */
 class TrackRepository {
@@ -16,7 +14,18 @@ class TrackRepository {
    * {String} albums - albums where the track is in
    */
   constructor () { 
-    this.allTracks = tracks
+    this.allTracks = [];
+    store.subscribe(() => {
+      let tracks = store.getState().fileState.files.tracks;
+      this.allTracks = this.getValidated(tracks ? tracks : []);
+    });
+  }
+  getAll = () => {
+    return this.allTracks;
+  }
+
+  getValidated = tracks => {
+    return tracks
       // validate all tracks
       .map(track => { 
         var validated = {};
@@ -64,17 +73,6 @@ class TrackRepository {
       })
       // filter invalid tracks out
       .filter(track => track && track !== null);
-    // this.allTracks = tracks.map(element => { 
-    //   var obj = {};
-    //   obj[0] = element.id;
-    //   obj[1] = {
-    //     albums: element.albums
-    //   }
-    //   return obj;
-    // });
-  }
-  getAll = () => {
-    return this.allTracks;
   }
 }
 
