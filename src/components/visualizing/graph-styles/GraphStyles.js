@@ -21,8 +21,8 @@ import {getInitials} from '../../../scripts/helpers';
  // colors and shapes
  const musicianColor   = '#469B30';
  const whiteColor      = '#FFFFFF';
- const musicianShape   = 'square';
- const albumShape      = 'ellipse';
+ const musicianShape   = 'ellipse';
+ const albumShape      = 'square';
  const albumColor      = '#2E6299';
  const instrumentShape = 'diamond';
  const instrumentColor = '#f18867';
@@ -214,6 +214,7 @@ import {getInitials} from '../../../scripts/helpers';
       height: defaultHeight,
       shape: instrumentShape,
       content: 'data(label)',
+      'background-color': whiteColor,
       'border-color': instrumentColor,
       'border-width': defaultBorder,
       'text-margin-y': -10

@@ -291,6 +291,7 @@ export const getCompoundForMusicians = (nodes) => {
 export const getMusicianPerspective = (musicianName) => {
   try{
     var musician    = musicianService.getByName(musicianName);
+
     // instruments and albums names
     var instruments = musicianService.getInstrumentsNamesOfMusician(musicianName);
     var albums      = musicianService.getAlbumsNamesOfMusician(musicianName);
@@ -315,6 +316,7 @@ export const getMusicianPerspective = (musicianName) => {
     return [convMus, ...convInstr, ...convAlb];
   }catch(err){
     console.error("error occured in creation musicians perspective");
+    if(!musician) return [];
     return getCytoMusician(musician);
   }
 }

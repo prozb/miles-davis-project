@@ -21,7 +21,7 @@ class TrackRepository {
       .map(track => { 
         var validated = {};
         // returning null if track not exist or the name is invalid
-        if(!track || track.id === ""){
+        if(!track.id || !track || track.id === ""){
           return null; 
         }
         validated.id = track.id;

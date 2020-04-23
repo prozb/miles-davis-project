@@ -252,6 +252,8 @@ class AlbumRoute extends Component {
    */
   setCurrentAlbum = (albumName) => {
     var album = albumService.getByName(albumName);
+    album = album ? album : albumService.getFirstAlbum();
+    
     this.specialCaseFunction = getCompoundForMusicians;
 
     this.setState({

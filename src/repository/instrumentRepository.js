@@ -22,12 +22,12 @@ class InstrumentRepository {
         .map(instrument => {
           var validated = {};
           // returning null if instrument not exist or name is invalid
-          if(!instrument || instrument.id === ""){
+          if(!instrument.id || !instrument || instrument.id === ""){
             return null; 
           }
           validated.id = instrument.id;
           // validating url of the image
-          if(!validURL(instrument.url)){
+          if(!instrument.url || !validURL(instrument.url)){
             validated.url = "";
           }else{
             validated.url = instrument.url;

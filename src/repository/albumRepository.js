@@ -28,18 +28,18 @@ class AlbumRepository {
         // validating data from the file
         var validated = {};
         // skip the album if name inconsistent
-        if(!album || album.id === ""){
+        if(!album || album.id === "" || !album.id){
           return null;
         }
         validated.id = album.id;
         // checking valid url
-        if(validURL(album.url)){
+        if(album.url && validURL(album.url)){
           validated.url = album.url;
         }else{
           validated.url = "";
         }
         // checking valid icon url
-        if(validURL(album.icon)){
+        if(album.icon && validURL(album.icon)){
           validated.icon = album.icon;
         }else{
           validated.icon = "";
@@ -50,31 +50,31 @@ class AlbumRepository {
         }
         validated.label = album.label;
         // checking release date
-        if(album.released === null){
+        if(!album.released || album.released === null){
           validated.released = "";
         }else{
           validated.released = album.released;
         }
         // checking record dates array
-        if(album.recorded === null){
+        if(!album.recorded || album.recorded === null){
           validated.recorded = [];
         }else{
           validated.recorded = album.recorded.filter(e => e !== null); 
         }
         // checking studios array
-        if(album.studios === null){
+        if(!album.studios || album.studios === null){
           validated.studios = [];
         }else{
           validated.studios = album.studios.filter(e => e !== null); 
         }
         // checking producers array
-        if(album.producers === null){
+        if(!album.producers || album.producers === null){
           validated.producers = [];
         }else{
           validated.producers = album.producers.filter(e => e !== null); 
         }
         // checking musicians array
-        if(album.musicians === null){
+        if(!album.musicians || album.musicians === null){
           validated.musicians = [];
         }else{
           validated.musicians = album.musicians.filter(e => e !== null); 
@@ -103,7 +103,7 @@ class AlbumRepository {
    * getting all albums
    */
   getAll = () => {
-    return this.allAlbums;
+    return this.allAlbums.filter(album => album && album !== null);
   }
 }
 

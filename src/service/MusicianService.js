@@ -11,8 +11,9 @@ class MusicianService {
    * @param {String} name - musicians name
    */
   getByName = (name) => {
-    var musician = {};
     try{
+      var musician = {};
+
       // filtering all musicians by name and getting 
       // first of filtered
       var found = musicianRepository
@@ -20,15 +21,14 @@ class MusicianService {
         .filter(musician => musician.id === name);
       // if not found return null
       if(found.length > 0){
-        musician = found[0];
+        return found[0];
       }else{
-        musician = null;
+        return null;
       }
     }catch(err){
       console.error(err);
-      musician = null;
+      return null;
     }
-    return musician;
   }
   /**
    * getting all instruments played by musician

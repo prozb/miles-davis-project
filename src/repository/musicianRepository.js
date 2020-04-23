@@ -25,44 +25,44 @@ class MusicianRepository {
       var musician = {};
 
       // checking correct musician name, if not the object is broken
-      if(!element || element.id === ""){
+      if(!element || element.id === "" || !element.id){
         return null; 
       }
       musician.id = element.id;
 
       // checking valid url
-      if(validURL(element.url)){
+      if(element.url && validURL(element.url)){
         musician.url = element.url;
       }else{
         musician.url = "";
       }
       
       // checking valid icon url
-      if(validURL(element.icon)){
+      if(element.icon && validURL(element.icon)){
         musician.icon = element.icon;
       }else{
         musician.icon = "";
       }
       // checking albums 
-      if(element.albums === null){
+      if(!element.albums || element.albums === null){
         musician.albums = [];
       }else{
         musician.albums = element.albums.filter(e => e !== null && e !== "");;
       }
       // checking instruments
-      if(element.instruments === null){
+      if(!element.instruments || element.instruments === null){
         musician.instruments = [];
       }else{
         musician.instruments = element.instruments.filter(e => e !== null && e !== "");;
       }
       // checking birthdate
-      if(element.birthdate === null){
+      if(!element.birthdate || element.birthdate === null){
         musician.birthdate = "";
       }else{
         musician.birthdate = element.birthdate;
       }
       // checking deathdate
-      if(element.deathdate === null){
+      if(!element.deathdate || element.deathdate === null){
         musician.deathdate = "";
       }else{
         musician.deathdate = element.deathdate;
