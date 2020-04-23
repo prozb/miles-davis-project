@@ -7,7 +7,7 @@ import store from '../store';
 
 function fetchFiles(path) {
   store.dispatch(fetchFilesBegin());
-  fetch('https://jsonplaceholder.typicode.com/s')
+  fetch(`discogs/${path}/albums.json`)
     .then(res => res.json())
     .then(res => {
       if(res.error){
@@ -15,7 +15,6 @@ function fetchFiles(path) {
       }
       console.log(res);
       store.dispatch(fetchFilesSuccess(res));
-      return res.products;
     })
     .catch(error => {
       store.dispatch(fetchFilesFailture(error));

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './home-route.css';
 import { withRouter } from 'react-router-dom';
 import image from '../../assets/start-screen.png';
-import fetchFiles from '../../network/fetchProducts';
+import fetchFiles from '../../network/fetchFiles';
 import store from '../../store';
 /**
  * @author Pavlo Rozbytskyi
@@ -173,7 +173,7 @@ class HomeRoute extends Component {
 	}
 
 	handlePress = () => {
-		fetchFiles('gelle');
+		fetchFiles('cream-dataset');
 	}
 	// credits of the webpage
 	getCredits = () => {
