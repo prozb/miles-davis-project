@@ -2,12 +2,25 @@ import React, { Component } from 'react';
 import './home-route.css';
 import { withRouter } from 'react-router-dom';
 import image from '../../assets/start-screen.png';
+import fetchFiles from '../../network/fetchProducts';
+import store from '../../store';
 /**
  * @author Pavlo Rozbytskyi
  * Home component is just html website representing 
  * whole project 
  */
 class HomeRoute extends Component {
+	constructor(props){
+		super(props);
+
+		store.subscribe(() => {
+      this.setState({
+        counter: store.getState().counter,
+				loggedIn: store.getState().loggedIn,
+				files: store.getState().files,
+      });
+    });
+	}
 	componentDidMount () {
 		//just be sure that all components except home are hidden
 		this.props.showHome();
@@ -133,12 +146,12 @@ class HomeRoute extends Component {
 					{/* <!-- neo4j container --> */}
 					<div className="col-md-4 custom-card d-flex align-items-stretch">
 						<div className="card text-center">
-							<img src="assets/neo4j.png" className="card-img-top" alt="vis js logo"></img>
+							<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Cream_on_Fanclub_1968.png" className="card-img-top" alt="cream discography"></img>
 							<div className="card-body">
-								<h5 className="card-title">Neo4j - the graph database</h5>
-								<p className="card-text">Neo4j is a highly scalable native graph database, purpose-built to leverage not only data but also data relationships.
+								<h5 className="card-title">Cream ist eine britische Rockband</h5>
+								<p className="card-text">Cream war eine britische Rockband, die von 1966 bis 1968 bestand. Bandmitglieder waren Eric Clapton, Jack Bruce und Ginger Baker. Ihr Sound war eine Mischung aus Blues, Hard- und Psychedelic-Rock. Cream gilt als die erste Supergroup in der Geschichte der Rockmusik.
 									</p>
-								<a target="blank" href="https://neo4j.com/" className="btn btn-outline-primary">More info&raquo;</a>
+								<button onClick={this.handlePress} href="https://de.wikipedia.org/wiki/Cream" className="btn btn-outline-primary">More info&raquo;</button>
 							</div>
 						</div>
 					</div>
@@ -157,6 +170,10 @@ class HomeRoute extends Component {
     	</div>
 			<hr className="col-xs-12"></hr>
 		</div>
+	}
+
+	handlePress = () => {
+		fetchFiles('gelle');
 	}
 	// credits of the webpage
 	getCredits = () => {

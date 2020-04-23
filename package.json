@@ -21,12 +21,14 @@
     "react-cytoscapejs": "^1.2.1",
     "react-dom": "^16.12.0",
     "react-initial": "^1.0.11",
+    "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "react-tippy": "^1.3.4",
     "react-tooltip": "^4.1.2",
     "react-vertical-timeline-component": "^2.5.0",
     "reactstrap": "^8.1.1",
+    "redux": "^4.0.5",
     "tippy.js": "^5.1.4"
   },
   "scripts": {
