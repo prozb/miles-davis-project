@@ -25,13 +25,13 @@ class HomeRoute extends Component {
 	}
 	componentDidMount () {
 		//just be sure that all components except home are hidden
-		this.props.showHome();
+		// this.props.showHome();
 	}
 
 	render() {
 		// don't render this component if it shoudn't be active
-		if(!this.props.active)
-			return null;
+		// if(!this.props.active)
+		// 	return null;
     return (
 			<div>
 				{this.getNavigationBar()}

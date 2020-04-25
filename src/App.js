@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { AlbumRoute, HomeRoute, SearchRoute } from './routes';
 import {
   BrowserRouter as Router,
-  Route,
+  Route, Switch
 } from "react-router-dom";
 
 /**
@@ -32,21 +32,20 @@ class App extends React.Component{
     return (
       // react router with three main routes
       <Router>
-        <Route path='/' render={() => <HomeRoute
-           //if component is not active, it won't be rendered
-           active={this.state.showHome} 
-           showHome={this.showHome}
-           showAlbums={this.showAlbums}/>
-        }/>
-        <Route path='/album' render={() => <AlbumRoute 
-          active={this.state.showAlbums} 
-          showAlbums={this.showAlbums}
-          showSearchScreen={this.showSearchScreen}/>
-        }/>
-        <Route path='/search' render={() => <SearchRoute 
-          active={this.state.showSearch} 
-          showSearchScreen={this.showSearchScreen}/>
-        }/>
+        <Switch>
+          <Route path='/album' render={() => <AlbumRoute 
+            showAlbums={this.showAlbums}
+            showSearchScreen={this.showSearchScreen}/>
+          }/>
+          <Route path='/search' render={() => <SearchRoute 
+            showSearchScreen={this.showSearchScreen}/>
+          }/>
+          <Route path='/' render={() => <HomeRoute
+            //if component is not active, it won't be rendered
+            showHome={this.showHome}
+            showAlbums={this.showAlbums}/>
+          }/>
+        </Switch>
       </Router>
     );
   }

@@ -45,7 +45,7 @@ class AlbumRoute extends Component {
 
   componentDidMount() {
     // just be sure that just albums component will be showed
-    this.props.showAlbums();
+    // this.props.showAlbums();
     // getting values from the query string
     const values = queryString.parse(this.props.location.search);
     // there are two values of the query string: n stands for
@@ -54,7 +54,7 @@ class AlbumRoute extends Component {
     // if name of the album defined, show this album on the display
     if(values.n){
       // if values from query string exist, get album name
-      this.props.showAlbums(values.n);
+      // this.props.showAlbums(values.n);
       this.setCurrentAlbum(values.n);
       // show musician if exists in the url
       if(values.m){
@@ -63,15 +63,21 @@ class AlbumRoute extends Component {
     }else{
       // if values from query string does not exist, get first album
       // and set this album as current album
-      var albumName = albumService.getFirstAlbum().id;
-      this.setCurrentAlbum(albumName);
+      let album = albumService.getFirstAlbum();
+
+      if(!album){
+        this.props.history.push(`/`);
+      }else{
+        let name  = album.id;
+        this.setCurrentAlbum(name);
+      }
     }
   }
 
   render() {
     // don't show the component if not active
-    if(!this.props.active)
-      return null;
+    // if(!this.props.active)
+    //   return null;
     // getting data from state
     const {
         album, perspective,

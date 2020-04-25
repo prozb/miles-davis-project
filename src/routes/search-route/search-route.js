@@ -30,13 +30,13 @@ class SearchRoute extends Component {
   componentDidMount () {
     // be sure that all another screens are disabled when
     // search screen must be showed
-    this.props.showSearchScreen();
+    // this.props.showSearchScreen();
   }
 
   render() {
     // don't show this component if not active
-    if(!this.props.active)
-      return null;
+    // if(!this.props.active)
+    //   return null;
 
     //parsing browser search-bar query
     const values = queryString.parse(this.props.location.search);
