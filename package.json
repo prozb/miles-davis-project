@@ -1,5 +1,6 @@
 {
   "name": "miles-web-app",
+  "homepage" : "https://esb-music.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
