@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './home-route.css';
 import { withRouter } from 'react-router-dom';
-import image from '../../assets/start-screen.png';
 import fetchFiles from '../../network/fetchFiles';
 import store from '../../store';
+import config from '../../assets/config.json';
+
 /**
  * @author Pavlo Rozbytskyi
  * Home component is just html website representing 
@@ -18,29 +19,19 @@ class HomeRoute extends Component {
 			let files = store.getState().fileState.files;
 
 			if(!loading && files.albums !== 0){
-				console.log(files);
 				this.props.history.push(`/album`)
 			}
     });
 	}
-	componentDidMount () {
-		//just be sure that all components except home are hidden
-		// this.props.showHome();
-	}
 
 	render() {
-		// don't render this component if it shoudn't be active
-		// if(!this.props.active)
-		// 	return null;
     return (
 			<div>
 				{this.getNavigationBar()}
 				{this.getJumbotron()}
 				{this.getContent()}
 				{/* <!-- root application container --> */}
-    		<div className="container">
-					{this.getApplicationContainer()}
-    		</div>
+				{this.getApplicationContainer()}
 				{this.getCredits()}
 				{this.getFooter()}
 			</div>
@@ -49,42 +40,60 @@ class HomeRoute extends Component {
 	// container with image of the application and green button 
 	// to step into the application 
 	getApplicationContainer = () => {
-		return <div className="vertical-container">				
-				{/* start application container */}
-				<div className="app-container">
-					{/* application screens */}
-					<img className="img-fluid rounded mg-fluid img-thumbnail" src={image} alt="start screen foto" />
-				</div>
-				{/* end application container */}
+		return <div className="container">
+			<a alt="screenshots section" name="screenshots"/>
+				<h3 className="mb-3">{config.homepage_config.screenshots_title}</h3>		
 
-				{/* button container start */}
-				<div className="horizontal-container start-button-container">
-					<button className="btn btn-success" onClick={() => this.props.history.push(`/album`)}>
-						show albums
-					</button>
+				<div className="row my-5">
+					<div className="col-lg-7">
+						<img src={require('../../assets/musician-screen.png')} alt="musician screen of the application"/>
+					</div>
+					<div className="col-lg-5">
+						<h4>{config.homepage_config.screenshots_musician}</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat illoe, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+					</div>
 				</div>
-				{/* button container end */}
+				
+				<div className="row my-5">
+					<div className="col-lg-4">
+						<h4>{config.homepage_config.screenshots_special}</h4>
+						<p>Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+					</div>
+					<div className="col-lg-8">
+						<img src={require('../../assets/special-end-screen.png')} alt="spezialansicht screen of the application"/>
+					</div>
+				</div>
+
+				<div className="row my-5">
+					<div className="col-lg-8">
+						<img src={require('../../assets/search-end-screen.png')} alt="search screen of the application"/>
+					</div>
+					<div className="col-lg-4">
+						<h4>{config.homepage_config.screenshots_search}</h4>
+						<p>Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+					</div>
+				</div>
 			</div>
 	}
 	// jumbotron
 	getJumbotron = () => {
 		return <div className="jumbotron">
-			<h1 className="display-4">Miles Davis Discography</h1>
-			<p className="lead">Hey, try to explore complex Miles Davis discography dataset 
-				with Neo4j.
-			</p>
+			<div className="container"> 
+				<h1 className="display-4">{config.homepage_config.jumbo_title}</h1>
+				<p className="lead w-90">{config.homepage_config.jumbo_subtitle}</p>
 
-			<p className="lead jumbo-button">
-				<button className="btn btn-primary btn-lg" onClick={() => this.props.history.push(`/album`)}>
-					Explore dataset &raquo;
-				</button>
-			</p>
+				<p className="lead jumbo-button">
+					<button className="btn btn-primary btn-lg" onClick={() => this.handlePress('miles-dataset')}>
+						{config.homepage_config.jubmo_button} &raquo;
+					</button>
+				</p>
+			</div>
 		</div>
 	}
 	// navbar of the website
 	getNavigationBar = () => {
 		return <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="/#">
+      <a className="navbar-brand" href="/">
 				<img src="./assets/alto-saxophone.gif" alt="alto saxophone" width="40"/>
 			</a>
       <button className="navbar-toggler" type="button" 
@@ -95,13 +104,16 @@ class HomeRoute extends Component {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item"  data-toggle="collapse" >
               <a className="nav-link" href="#about" data-target=".navbar-collapse.show">About</a>
           </li>
           <li className="nav-item" data-toggle="collapse">
-            <a className="nav-link" href="#exploration" data-target=".navbar-collapse.show">Explore</a>
+            <a className="nav-link" href="#discographies_section" data-target=".navbar-collapse.show">Discographies</a>
+          </li>
+          <li className="nav-item" data-toggle="collapse">
+            <a className="nav-link" href="#screenshots" data-target=".navbar-collapse.show">Screenshots</a>
           </li>
           <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
@@ -117,61 +129,69 @@ class HomeRoute extends Component {
 
 			<div className="container">
 				<div className="row padding">
-					<div className="col-lg-6">
-						<h2>Project description</h2>
-						
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus consectetur sed quibusdam veritatis et iusto quae hic sequi </p>
-						<p>ratione corporis perspiciatis quas, ad cupiditate impedit iure odit reiciendis ducimus.ratione corporis perspiciatis quas, ad cupiditate impedit iure odit reiciendis ducimus.</p>
-						<br/>
+					<div className="col-lg-8">
+						<h2>{config.homepage_config.project_title}</h2>
+						<p >{config.homepage_config.project_description}</p>
+
+						<h3>{config.homepage_config.goal_title}</h3>
+						<p>{config.homepage_config.project_goal}</p>
+						<p>Jeder ist herzlich eingeladen bei diesem Projekt mitzumachen. Den 
+							Code finden Sie auf GitHub unter
+							<a href="https://github.com/prozb/miles-davis-project" alt="this project on github"> prozb/miles-davis-project</a>.
+						</p>
 					</div>
-					<div className="col-lg-6">
-							<img alt="graph representation" src="assets/davis.png" className="img-fluid "/>
+					<div className="col-lg-4">
+							<img alt="graph representation" src="assets/davis.png" className="img-fluid"/>
 					</div>
 				</div>
     	</div>
 
 			<hr className="col-xs-12"></hr>
 
+			<a alt="discographies section" name="discographies_section"></a>
 			<div className="card-holder container">
+				<h3>{config.homepage_config.discographies_title}</h3>
+				<p>{config.homepage_config.discographies_description}</p>
+
+				<p>Außerdem wird neben diesem Projekt zur Visualisierung der 
+					Diskografien an einem <a href="https://github.com/prozb/discography-scraper">prozb/discography-scraper</a> zur
+					automatisierten Erstellung 
+					der Diskografien gearbeitet. Die Idee ist die Daten für diese 
+					Applikation automatisch aus Wikipedia zu extrahieren, diese 
+					können danach sofort in dieser Applikation visualisieren. Nach der 
+					Entwicklung dieses Programmes lassen sich Diskografien von 
+					anderen Bands in wenigen Minuten erstellen.
+				</p>
         <div className="row">
-					{/* <!-- neo4j container --> */}
-					<div className="col-md-4 custom-card d-flex align-items-stretch">
-						<div className="card text-center">
-							<img src="assets/miles-davis.png" className="card-img-top" alt="vis js logo"></img>
-							<div className="card-body">
-								<h5 className="card-title">Discography of Miles Davis</h5>
-								<p className="card-text">Miles Davis was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music.</p>
-								<button onClick={() => this.handlePress('miles-dataset')} href="https://en.wikipedia.org/wiki/Miles_Davis" className="btn btn-outline-primary">More info&raquo;</button>
-							</div>
-						</div>
-					</div>
-					{/* <!-- neo4j container --> */}
-					<div className="col-md-4 custom-card d-flex align-items-stretch">
-						<div className="card text-center">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Cream_on_Fanclub_1968.png" className="card-img-top" alt="cream discography"></img>
-							<div className="card-body">
-								<h5 className="card-title">Cream ist eine britische Rockband</h5>
-								<p className="card-text">Cream war eine britische Rockband, die von 1966 bis 1968 bestand. Bandmitglieder waren Eric Clapton, Jack Bruce und Ginger Baker. Ihr Sound war eine Mischung aus Blues, Hard- und Psychedelic-Rock. Cream gilt als die erste Supergroup in der Geschichte der Rockmusik.
-									</p>
-								<button onClick={() => this.handlePress('cream-dataset')} href="https://de.wikipedia.org/wiki/Cream" className="btn btn-outline-primary">More info&raquo;</button>
-							</div>
-						</div>
-					</div>
-					{/* <!-- neovis container --> */}
-					<div className="col-md-4  custom-card d-flex align-items-stretch">
-							<div className="card text-center">
-								<img src="assets/vis-js.png" className="card-img-top" alt="vis js logo"></img>
-								<div className="card-body">
-									<h5 className="card-title">Vis.js visualization</h5>
-									<p className="card-text">The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data.</p>
-									<a target="blank" href="https://visjs.org/" className="btn btn-outline-primary">More info&raquo;</a>
-								</div>
-							</div>
-						</div>
-				</div>
+					{this.getAllBands()}
+				</div>	
     	</div>
 			<hr className="col-xs-12"></hr>
 		</div>
+	}
+
+	/**
+	 * getting card of the band
+	 */
+	getBandCard = (band) => {
+		return (
+			<div key={band.name} className="col-md-4 custom-card d-flex align-items-stretch">
+				<div className="card text-center">
+					<img src={band.src} className="card-img-top" alt={band.alt}></img>
+					<div className="card-body">
+						<h5 className="card-title">{band.name}</h5>
+						<p className="card-text">{band.info}</p>
+						<button onClick={() => this.handlePress(band.discography)} href={band.url} className="btn btn-outline-primary">{config.homepage_config.erkunden} &raquo;</button>
+					</div>
+				</div>
+			</div>
+		)
+	}
+	/**
+	 * getting all bands cards 
+	 */
+	getAllBands = () => {
+		return config.homepage_discografies.map(band => this.getBandCard(band));
 	}
 
 	handlePress = path => {
@@ -181,27 +201,31 @@ class HomeRoute extends Component {
 	getCredits = () => {
 		return <div>
 			<div className="container credits">
-				<p>
-					Photo by Alex Paganelli on Unsplash
-				</p>
 			</div>
 			<hr className="col-xs-12"></hr>
 		</div>
 	}
 	// footer of the webpage
 	getFooter = () => {
-		return <footer className="page-footer font-small my-footer">
+		return ( 
+		<footer className="page-footer font-small my-footer">
+			<div className="container text-center">
+				<p>Jumbotron foto is made by Alex Paganelli on Unsplash</p>
+			</div>
+
 			<a name="contact"> </a>
 
-      <div className="container text-center text-md-left">
-      <p className="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, est qui distinctio recusandae veritatis soluta aliquid dolorem laboriosam eligendi aspernatur alias libero vel quibusdam quo facilis cumque iusto repudiandae dolor.</p>
+      <div className="container text-center">
+      <p >If you have any questions or want to cooperate
+				just write me short email: 
+				<a href="mailto:pavlo@rozbitski.de"> Pavlo Rozbytskyi, pavlo@rozbitski.de</a>
+			</p>
       </div>
-      
-      {/* <!-- Copyright --> */}
-      <div className="footer-copyright text-center py-3">© 2019 Copyright:
-        <a target="blank" href="https://rozbitski.de"> rozbitski.de</a>
+			<hr className="col-xs-12"></hr>
+      <div className="footer-copyright text-center pb-3">© {new Date().getFullYear()} Copyright: Pavlo Rozbytskyi
       </div>
     </footer>
+		)
 	}
 }
 
