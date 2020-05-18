@@ -188,7 +188,7 @@ class AlbumRoute extends Component {
             {perspective !== 'track' ?
               <AlbumGraph
                 style={{
-                  height: '60%',}}
+                  height: '75%',}}
                 className="mx-auto mb-5 w-75 box-shadow box-radius overflow-auto no-scrollbar"
                 type={perspective}
                 handlePressOnAlbum={this.handlePressOnAlbum}

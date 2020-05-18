@@ -60,7 +60,6 @@
     "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
-    "babel-loader": "^8.0.6",
     "jest": "^24.9.0"
   }
 }
