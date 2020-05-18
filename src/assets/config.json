@@ -1,3 +1,47 @@
 {
-  "dataset_directory": "miles-dataset"
+  "dataset_directory": "miles-dataset",
+
+  "homepage_config": {
+    "jumbo_title": "Visualisierung der Diskografien",
+    "jumbo_subtitle": "Hallo, erkunden Sie Diskografien von berühmten Musiker! Benutzen Sie dafür simple Oberfläche mit einfachen geometrischen Figuren, simplen Übergängen, verständlichen Buttons und trivialen Beziehungen zwischen den Objekten. ",
+    "jubmo_button": "Diskografie erkunden",
+    "project_title": "Speicherung und Visualisierung von Graphdaten am Beispiel einer Diskografie",
+    "description_title": "Projektbeschreibung",
+    "project_description": "Eine Diskografie umfasst alle von einem Musiker veröffentlichen Tonträger und erschafft einen Überblick über all seine Kunstwerke. In den meisten Fällen werden Diskografien als einfacher Text oder eine Tabelle auf verschiedenen Webseiten aufgelistet. Um den Datenumfang einer Diskografie zu demonstrieren wurde im Rahmen dieses Projektes die Diskografie des bekannten Jazz-Musikers Miles Davis analysiert. Sie besteht aus 307 Liedern, 51 Alben, 198 Musikern und 48 Musikinstrumenten (insgesamt 604 Objekte). Alle diese Informationen sind auf verschiedenen Webseiten wie Discogs und Wikipedia zu finden. Der Datenumfang ist bemerkenswert, alles ist in Textform verfasst und die Erkundung einer Diskografie bereitet kein Vergnügen. ",
+    "goal_title": "Ziel des Projektes",
+    "erkunden": "erkunden",
+    "project_goal": "Das Ziel dieses Projektes ist die Entwicklung einer Web-Applikation, die die komplexen Diskografien mit wenig Text und vielen Bildern darstellt, sodass die Erkundung einer Diskografie möglichst einfach und benutzerfreundlich ist, außerdem sollte die Applikation mit verschiedenen Datensätzen funktionieren.",
+    "discographies_title": "Existierende Diskografien",
+    "discographies_description": "Es stehen bereits zwei Diskografien zur Verfügung. Zu diesen Diskografien gehören: Diskografie von Miles Davis und Cream. Diese können bereits erkunden werden. Die anderen Diskografien werden in der Zukunft bereitgestellt. ",
+    "screenshots_title": "Screenshots der Applikation",
+    "screenshots_musician": "Albumseite",
+    "screenshots_special": "Spezialansicht",
+    "screenshots_search": "Suchseite"
+  },
+  "homepage_discografies": [
+    {
+      "info": "Miles Dewey Davis war ein amerikanischer Jazz-Trompeter, -Flügelhornist, Komponist und Bandleader und einer der bedeutendsten, einflussreichsten und innovativsten Jazzmusiker des zwanzigsten Jahrhunderts.",
+      "name": "Miles Davis discography",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Miles_Davis_by_Palumbo.jpg/220px-Miles_Davis_by_Palumbo.jpg",
+      "alt": "Miles Davis - 1986.jpg",
+      "discography": "miles-dataset",
+      "url": "https://en.wikipedia.org/wiki/Miles_Davis"
+    },
+    {
+      "info": "Cream war eine britische Rockband, die von 1966 bis 1968 bestand. Bandmitglieder waren Eric Clapton, Jack Bruce und Ginger Baker. Ihr Sound war eine Mischung aus Blues, Hard- und Psychedelic-Rock. Cream gilt als die erste Supergroup in der Geschichte der Rockmusik.",
+      "name": "Cream discography",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cream_on_Fanclub_1968.png/250px-Cream_on_Fanclub_1968.png",
+      "alt": "Cream logo",
+      "discography": "cream-dataset",
+      "url": "https://en.wikipedia.org/wiki/Cream_(band)"
+    },
+    {
+      "info": "Rammstein ist eine deutsche Metal-Band, die 1994 in Berlin gegründet wurde und musikalisch zur Neuen Deutschen Härte gezählt wird. Ihr Kennzeichen ist ein als \"brachial\" beschriebener Musikstil, den die Bandmitglieder zu Beginn ihrer Karriere selbst als \"Tanzmetall\" bezeichneten.",
+      "name": "Rammstein discography",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rammstein_-_01.jpg/220px-Rammstein_-_01.jpg",
+      "alt": "Rammstein logo",
+      "discography": "miles-dataset",
+      "url": "https://en.wikipedia.org/wiki/Rammstein"
+    }
+  ]
 }

@@ -148,7 +148,7 @@ class AlbumRoute extends Component {
 
     return (
       // toot div
-      <div className="col w-100 h-100 container-width">
+      <div className="col w-100 h-80 container-width">
         {/* searchbar container */}
         <div className="row">
         <SearchBar
@@ -187,7 +187,8 @@ class AlbumRoute extends Component {
 
             {perspective !== 'track' ?
               <AlbumGraph
-                style={{height: '70%'}}
+                style={{
+                  height: '60%',}}
                 className="mx-auto mb-5 w-75 box-shadow box-radius overflow-auto no-scrollbar"
                 type={perspective}
                 handlePressOnAlbum={this.handlePressOnAlbum}
