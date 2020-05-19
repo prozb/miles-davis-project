@@ -38,8 +38,8 @@ export default class Timeline extends Component {
     }
 
     return (
-      <div className={className} style={{display: 'flex', flexDirection: 'row',  width: '100%',  height: 200}}>
-        <div className="triangle-container" style={{alignSelf: 'center',}}> 
+      <div className={`${className} w-100 row mr-0`}>
+        <div className="h-100 ml-3 pt-4 mr-2"> 
           <Triangle onClick={this._handleLeftClick} left={true}/> 
         </div>
 
@@ -48,7 +48,7 @@ export default class Timeline extends Component {
             {this.getAllAlbumComponents()}
           </div>
         
-          <div className="triangle-container" style={{alignSelf: 'center', paddingRight: 5}}>
+          <div className="h-100 pt-4 ml-2 mr-0">
             <Triangle onClick={this._handleRightClick} right={true}/>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default class Timeline extends Component {
             highlighted={highlighted}
             showTooltip={showTooltip}
             switchToAlbum={switchToAlbum}
-            style={i === 0 ? {paddingLeft: 50,} : {}}
+            style={i === 0 ? {paddingLeft: 20,} : {}}
             itemId={i}
             key={keyCounter++}
             name={album1.id} 
@@ -139,15 +139,6 @@ export default class Timeline extends Component {
         var distance = getDistanceBetweenAlbums(album1, album2);
         position += (distance + albumWidthTimeline); // so we get position of the next album
         this.positions[album2.id] = position; 
-        //line between two components
-        timeline.push(
-          <div key={keyCounter++} className="line-container">
-            <svg width={distance} height='15px'>
-              <line stroke="#3B6295" strokeWidth="20" 
-              x1="0" y1="0" x2={distance} y2="0"/>  
-            </svg>
-          </div>
-        );
       }else{
         var album3 = data[i];
         //add position of the last element to the positions object
@@ -158,7 +149,7 @@ export default class Timeline extends Component {
             highlighted={highlighted}
             showTooltip={showTooltip}
             switchToAlbum={switchToAlbum}
-            style={{paddingRight: 50,}}
+            style={{paddingRight: 20,}}
             itemId={i}
             key={keyCounter++}
             name={album3.id} 

@@ -171,7 +171,7 @@ class AlbumRoute extends Component {
               type2={type2}
             />
           <div className={collapsedMain}>          
-            <div style={{width: '100%', height: '25%'}} 
+            <div style={{width: '100%'}} 
               className="row overflow-auto mx-auto hide-scrollbar">
               <Timeline
                 data={timelineData}
@@ -179,7 +179,6 @@ class AlbumRoute extends Component {
                 move={moveTimeline}
                 moveEnd={this.moveEnd}
                 switchToAlbum={this.switchToAlbum}
-                style={{marginTop: -20, height: 200, top: 20}}
                 />
             </div>
 

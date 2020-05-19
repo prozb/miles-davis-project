@@ -1,31 +1,81 @@
-.item-container{
-    width: 110px;
-    height: 110px;
+
+@media screen and (max-width: 767px) {
+    .item-container{
+        width: 60px;
+        height: 60px;
+        border-width: 4px;
+    }
+    .item-container-active{
+        border-color: #EEC748;
+        border-width: 4px;
+        border-style: solid;
+        z-index: 5;
+    }
+
+    .timeline-item-text{
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .item-container{
+        width: 70px;
+        height: 70px;
+    }
+
+    .item-container-active{
+        border-color: #EEC748;
+        border-width: 7px;
+        border-style: solid;
+        z-index: 5;
+    }
+
+    .timeline-item-text{
+        font-size: 1.0em;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    .item-container{
+        width: 110px;
+        height: 110px;
+        border-width: 8px;
+    }
+
+    .item-container-active{
+        border-color: #EEC748;
+        border-width: 10px;
+        border-style: solid;
+        z-index: 5;
+    }
+    .timeline-item-text{
+        font-size: 1.26em;
+    }
+}
+@media screen and (min-width: 1200) {
+    .item-container{
+        width: 140px;
+        height: 140px;
+        border-width: 8px;
+    }
+
+    .item-container-active{
+        border-color: #EEC748;
+        border-width: 10px;
+        border-style: solid;
+        z-index: 5;
+    }
+
+    .timeline-item-text{
+        font-size: 1.4em;
+    }
+}
+
+.item-style {
     background-color: white;
-    border-width: 8px;
-    border-radius: 50%;
-    border-color: #3B6295;
-    border-style: solid;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 10px 15px rgba(0,0,0,0.005);
 }
 
-
-.item-container-hovered {
-    width: 150px;
-    height: 150px;
-    background-color: white;
-    border-width: 10px;
-    border-radius: 50%;
-    border-color: #3B6295;
-    border-style: solid;
-}
-
 .item-container-hovered-active { 
-    border-color: #5b8c85;
-    z-index: 1;
-}
-
-.item-container-active{
     border-color: #5b8c85;
     z-index: 1;
 }
@@ -48,6 +98,3 @@
     flex-wrap: wrap;
 }
 
-.move-top {
-	top: 20px;
-}

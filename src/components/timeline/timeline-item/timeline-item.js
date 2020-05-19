@@ -25,9 +25,9 @@ export default class TimelineItem extends Component {
   render() {
     const { icon, name, date, style, itemId} = this.props;
     const activeNormal = this._isActive(name) ? "item-container-active" : "";
-    const activeHovered = this._isActive(name) ? "item-container-hovered-active" : "";
+    const activeHovered = this._isActive(name) ? "" : "";
 
-    const itemClass = this.state.mouseEntered ? `item-container-hovered box-shadow ${activeHovered}` : `item-container box-shadow ${activeNormal}`
+    const itemClass = this.state.mouseEntered ? `box-shadow item-style ${activeHovered}` : `item-container item-style  box-shadow ${activeNormal}`
     const containerClass = this.state.mouseEntered ? "vertical-timeline-custom move-top" : "vertical-timeline-custom"
 
     return (
@@ -35,8 +35,6 @@ export default class TimelineItem extends Component {
         {/* album container start */}
         <div 
           onClick={this.digIntoAlbum}
-          onMouseEnter={() => this.setState({mouseEntered: !this.state.mouseEntered})} 
-          onMouseLeave={() => this.setState({mouseEntered: !this.state.mouseEntered})}
           className={itemClass}
           style={{backgroundImage: `url(${icon})`, backgroundSize: 'contain'}}>
           {/* start information about each album */}
@@ -56,7 +54,7 @@ export default class TimelineItem extends Component {
 
         {/* date start */}
         <div>
-          <p className="lead">{getReleasedYearFromDate(date)}</p>
+          <p className="timeline-item-text">{getReleasedYearFromDate(date)}</p>
         </div>
         {/* date end */}
     </div>

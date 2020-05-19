@@ -23,7 +23,7 @@ import {getInitials} from '../../../scripts/helpers';
  const whiteColor      = '#FFFFFF';
  const musicianShape   = 'ellipse';
  const albumShape      = 'square';
- const albumColor      = '#2E6299';
+ const albumColor      = '#EEC748';
  const instrumentShape = 'diamond';
  const instrumentColor = '#f18867';
  const trackShape      = 'round-triangle';
