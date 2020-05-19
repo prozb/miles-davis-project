@@ -50,14 +50,14 @@ class HomeRoute extends Component {
 					</div>
 					<div className="col-lg-5">
 						<h4>{config.homepage_config.screenshots_musician}</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat illoe, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+						<p className="card-text info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, fugiat illoe, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
 					</div>
 				</div>
 				
 				<div className="row my-5">
 					<div className="col-lg-4">
 						<h4>{config.homepage_config.screenshots_special}</h4>
-						<p>Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+						<p className="card-text info-text">Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
 					</div>
 					<div className="col-lg-8">
 						<img src={require('../../assets/special-end-screen.png')} alt="spezialansicht screen of the application"/>
@@ -70,7 +70,7 @@ class HomeRoute extends Component {
 					</div>
 					<div className="col-lg-4">
 						<h4>{config.homepage_config.screenshots_search}</h4>
-						<p>Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
+						<p className="card-text info-text">Lorem ipsum dolor si Illum, fugiat illo. Vel recusandae odio ipsam aspernatur totam cumque, tenetur nesciunt beatae sunt fuga iure, at dolorum, sed dolore vitae laborum doloremque consequatur. Suscipit ex, quis magni fugit id nobis excepturi tempora sunt omnis eaque corporis numquam velit dicta aperiam at.</p>
 					</div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@ class HomeRoute extends Component {
 		return <div className="jumbotron">
 			<div className="container"> 
 				<h1 className="display-4">{config.homepage_config.jumbo_title}</h1>
-				<p className="lead w-90">{config.homepage_config.jumbo_subtitle}</p>
+				<p className="display-5 lead w-90">{config.homepage_config.jumbo_subtitle}</p>
 
 				<p className="lead jumbo-button">
 					<button className="btn btn-primary btn-lg" onClick={() => this.handlePress('miles-dataset')}>
@@ -131,11 +131,11 @@ class HomeRoute extends Component {
 				<div className="row padding">
 					<div className="col-lg-8">
 						<h2>{config.homepage_config.project_title}</h2>
-						<p >{config.homepage_config.project_description}</p>
+						<p className="info-text">{config.homepage_config.project_description}</p>
 
 						<h3>{config.homepage_config.goal_title}</h3>
-						<p>{config.homepage_config.project_goal}</p>
-						<p>Jeder ist herzlich eingeladen bei diesem Projekt mitzumachen. Den 
+						<p className="card-text info-text">{config.homepage_config.project_goal}</p>
+						<p className="card-text info-text">Jeder ist herzlich eingeladen bei diesem Projekt mitzumachen. Den 
 							Code finden Sie auf GitHub unter
 							<a href="https://github.com/prozb/miles-davis-project" alt="this project on github"> prozb/miles-davis-project</a>.
 						</p>
@@ -151,9 +151,9 @@ class HomeRoute extends Component {
 			<a alt="discographies section" name="discographies_section"></a>
 			<div className="card-holder container">
 				<h3>{config.homepage_config.discographies_title}</h3>
-				<p>{config.homepage_config.discographies_description}</p>
+				<p className="card-text info-text">{config.homepage_config.discographies_description}</p>
 
-				<p>Außerdem wird neben diesem Projekt zur Visualisierung der 
+				<p className="card-text info-text">Außerdem wird neben diesem Projekt zur Visualisierung der 
 					Diskografien an einem <a href="https://github.com/prozb/discography-scraper">prozb/discography-scraper</a> zur
 					automatisierten Erstellung 
 					der Diskografien gearbeitet. Die Idee ist die Daten für diese 
@@ -179,8 +179,8 @@ class HomeRoute extends Component {
 				<div className="card text-center">
 					<img src={band.src} className="card-img-top" alt={band.alt}></img>
 					<div className="card-body">
-						<h5 className="card-title">{band.name}</h5>
-						<p className="card-text">{band.info}</p>
+						<h5 className="card-title h4">{band.name}</h5>
+						<p className="card-text info-text">{band.info}</p>
 						<button onClick={() => this.handlePress(band.discography)} href={band.url} className="btn btn-outline-primary">{config.homepage_config.erkunden} &raquo;</button>
 					</div>
 				</div>

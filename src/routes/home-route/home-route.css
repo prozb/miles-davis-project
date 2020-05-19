@@ -3,6 +3,39 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .info-text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+  .info-text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .info-text {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1200) {
+  html {
+    font-size: 14px;
+  }
+  .info-text {
+    font-size: 15px;
+  }
+}
+
 .app-container {
   padding-top: 20px;
   display: flex;
