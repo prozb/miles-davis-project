@@ -12,7 +12,7 @@ export default class NavigationSection extends Component {
    */
   getElementToRender = (name, key) => {
     return (
-      <div key={key} className="list-element">
+      <div key={key}>
         <MenuItem onClick={() => this.props.handleOnSectionClick(name, this.props.type)}>
           <Box fontSize={18}>
             {name}
@@ -44,18 +44,18 @@ export default class NavigationSection extends Component {
     return "Titles";
   }
   render() {
-    const {style, type} = this.props;
+    const {style, type, className} = this.props;
     const title = this.convertTitle(type);
 
     return (
-      <div className="navigation-element" style={style}>
-        <Box fontSize={18} fontWeight="600" style={{padding: 10}}>
+      <div className={`mh-50 ${className}`} style={style}>
+        <Box fontSize={18} fontWeight="600">
           {title}
         </Box>
-        <React.Fragment key="getIdFromName">
+        {/* <React.Fragment key="getIdFromName"> */}
           {/* <div style={{overflowX: 'hide'}}> */}
           {this.getAllTitles()}
-        </React.Fragment>
+        {/* </React.Fragment> */}
       </div>
     );
   }

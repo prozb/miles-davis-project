@@ -26,15 +26,16 @@ export default class NavigationBar extends Component {
   }
 
   render() {
-    const { type1, type2, data1, data2 } = this.props;
+    const { collapseClass, type1, type2, data1, data2, className } = this.props;
     {/* <div className="navigation-container"> */}
-
+    if(!collapseClass) return null;
     return (
-        <div className="navigation-container">
-        <NavigationSection 
-          data={data1} 
-          type={type1}
-          handleOnSectionClick={this.handleOnSectionClick}/>
+        <div className={`${className} navigation-container mh-100 no-scrollbar`}>
+          <NavigationSection 
+            className="my-2"
+            data={data1} 
+            type={type1}
+            handleOnSectionClick={this.handleOnSectionClick}/>
         
         {type2 !== '' ? 
           (

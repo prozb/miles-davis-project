@@ -89,8 +89,8 @@ class AlbumRoute extends Component {
       .getAll()
       .sort((a, b) => new Date(a.released) - new Date(b.released));
     // style to toggle navigation bar
-    const collapseClass = this.state.collapseNavbar ? "w-25 col" : null;
-
+    const collapseClass = this.state.collapseNavbar ? "col-xl-2 col-lg-3 col-md-12" : null;
+    const collapsedMain = this.state.collapseNavbar ? "col-xl-10 col-lg-9 col-md-12" : "col-12"
     // data1 and data2 will be past into navigation bar
     let data1 = [];
     let data2 = [];
@@ -147,6 +147,71 @@ class AlbumRoute extends Component {
     }
 
     return (
+      <div className="w-100 h-100 album-route">
+        <SearchBar
+          style={{heigth: '10%'}}
+          back={(perspective === 'special' || perspective === 'track') ? true : false}
+          button={false}
+          name={album[0]}
+          onNavbarButtonPress={(perspective === 'special' || perspective === 'track') ?
+            this.navigateBack : this.collapseNavbar}
+          switchToSearch={this.switchToSearch}/>
+
+        <div className="w-100 h-100 mx-auto row">
+          <NavigationBar
+              collapseClass={this.state.collapseNavbar}
+              className={collapseClass}
+              showMusicianDisplay={this.showMusicianDisplay}
+              showTrackDisplay={this.showTrackDisplay}
+              showAlbumsDisplay={this.switchToAlbum}
+              showInstrumentDisplay={this.showInstrumentDisplay}
+              data1={data1}
+              data2={data2}
+              type1={type1}
+              type2={type2}
+            />
+          <div className={collapsedMain}>          
+            <div style={{width: '100%', height: '25%'}} 
+              className="row overflow-auto mx-auto hide-scrollbar">
+              <Timeline
+                data={timelineData}
+                highlighted={album.id}
+                move={moveTimeline}
+                moveEnd={this.moveEnd}
+                switchToAlbum={this.switchToAlbum}
+                style={{marginTop: -20, height: 200, top: 20}}
+                />
+            </div>
+
+            <div style={{height: '70%', width: '95%'}} className="mx-auto box-shadow box-radius">
+              <AlbumGraph
+                show={perspective !== 'track'}
+                className="overflow-auto no-scrollbar w-100 h-100"
+                type={perspective}
+                handlePressOnAlbum={this.handlePressOnAlbum}
+                handlePressOnMusician={this.handlePressOnMusician}
+                handlePressOnTrack={this.handlePressOnTrack}
+                handlePressOnInstrument={this.handlePressOnInstrument}
+                handleCollection={this.handleCollection}
+                data={elements}/>
+
+              <TrackDisplay
+                show={perspective === 'track'}
+                style={{minWidth: '600px', maxHeight: '60%'}}
+                className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
+                album={album}
+                name={trackName}
+                data={elements}
+                musicians={info.musicians}
+                instruments={info.instruments}
+                switchToMusician={this.switchToMusician}
+                hideTrackDisplay={this.hideTrackDisplay}/>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+    return (
       // toot div
       <div className="col w-100 h-80 container-width">
         {/* searchbar container */}
@@ -159,7 +224,7 @@ class AlbumRoute extends Component {
             this.navigateBack : this.collapseNavbar}
           switchToSearch={this.switchToSearch}/>
         </div>
-        {/* starting navigation and content container */}
+
         <div className="mh-100 h-100 row">
           {
             collapseClass ? (<NavigationBar
@@ -173,7 +238,7 @@ class AlbumRoute extends Component {
               type1={type1}
               type2={type2}
             />) : null
-          }
+          } 
 
           <div className="hide-scrollbar overflow-auto col">
             <Timeline
@@ -184,12 +249,13 @@ class AlbumRoute extends Component {
               switchToAlbum={this.switchToAlbum}
               style={{marginTop: -20, height: 200, top: 20}}
               />
-
+            
+            <div className="w-100 h-100 bg-primary">
             {perspective !== 'track' ?
               <AlbumGraph
                 style={{
-                  height: '75%',}}
-                className="mx-auto mb-5 w-75 box-shadow box-radius overflow-auto no-scrollbar"
+                  height: '100%',}}
+                className="mx-auto mb-5 box-shadow box-radius overflow-auto no-scrollbar"
                 type={perspective}
                 handlePressOnAlbum={this.handlePressOnAlbum}
                 handlePressOnMusician={this.handlePressOnMusician}
@@ -208,6 +274,7 @@ class AlbumRoute extends Component {
                 switchToMusician={this.switchToMusician}
                 hideTrackDisplay={this.hideTrackDisplay}/>
             }
+            </div>
           </div>
         </div>
       </div>

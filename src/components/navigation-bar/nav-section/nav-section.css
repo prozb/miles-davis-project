@@ -1,5 +1,6 @@
 .navigation-element {
-  border-bottom: 1px solid rgb(224, 224, 224);
+  /* border-bottom: 1px solid rgb(224, 224, 224); */
+  background-color: transparent;
   align-self: auto;
   overflow-x: scroll;
   flex: 1;

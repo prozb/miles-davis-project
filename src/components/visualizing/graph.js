@@ -37,8 +37,11 @@ export default class Graph extends React.Component {
       handlePressOnAlbum,
       handlePressOnMusician,
       handlePressOnTrack,
-      handlePressOnInstrument
+      handlePressOnInstrument,
+      show
     } = this.props;
+
+    if(!show) return null;
     // getting styles of musician, album, instrument
     const musiciansStyle = getMusicianStyle(type);
     const albumStyle = getAlbumStyle(type);

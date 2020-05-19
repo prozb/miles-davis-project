@@ -2,15 +2,9 @@ import './track-display.css';
 import React, { Component } from 'react';
 import 'react-vertical-timeline-component/style.min.css';
 import Avatar from 'react-avatar';
-import { musicianService, instrumentService } from '../../service';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import {MusicianTooltip, InstrumentTooltip} from './tooltip';
-
-import {
-  Tooltip,
-} from 'react-tippy';
-
 /**
  * @author Pavlo Rozbytskyi
  * component for representation of all musicians played on current traсk
@@ -25,7 +19,9 @@ export default class TrackDisplay extends Component {
   }
   render() {
     const { name, album, className, data, hideTrackDisplay, instruments,
-    musicians, style } = this.props;
+    musicians, style, show } = this.props;
+    
+    if(!show) return null;
 
     return(
       <div className={className} style={style}>
