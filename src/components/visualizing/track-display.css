@@ -35,3 +35,19 @@
 .box-avatar {
   box-shadow: 0 5px 5px rgba(0,0,0,0.08), 0 10px 15px rgba(0,0,0,0.005);
 }
+
+.box-avatar-deeper {
+  box-shadow: 0 8px 10px rgba(0,0,0,0.2), 0px 13px 18px rgba(0,0,0,0.001);
+}
+
+.avatar-custom {
+  border-radius: 50%;
+}
+
+img.box-avatar {
+  object-fit: scale-down;
+}
+
+img.box-avatar-deeper {
+  object-fit: cover;
+}

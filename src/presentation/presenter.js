@@ -3,9 +3,7 @@ import {uuid} from '../scripts/helpers';
 import React from 'react';
 import Avatar from 'react-avatar';
 import {MusicianTooltip, InstrumentTooltip} from '../components/visualizing/tooltip';
-import {
-  Tooltip,
-} from 'react-tippy';
+
 import { renderToString } from 'react-dom/server';
 /**
  * @author Pavlo Rozbytskyi
@@ -134,34 +132,30 @@ export const getTrackPerspective = (trackName, albumName, handler) => {
     let instrument = instrumentService.getByName(instrumentName);
     // creating avatar of musician
     let musicianAvatar = (
-      <Tooltip 
-        unmountHTMLWhenHide={true}
-        position="right" hideDelay={0} animation="none"
-        duration={50} hideOnClick={false}
-        trigger="mouseenter" html={<MusicianTooltip musician={musician}/>}>
         <Avatar
           onClick={() => handler(musicianName)}
-          className="box-shadow my-auto"
-          round={true} src={musician.icon} size={100} name={musician.id}/>
-      </Tooltip>);
+          className="my-auto box-avatar-deeper"
+          round
+          src={musician.icon} name={musician.id}/>
+    );
     // creating avatar of the instrument
     let instrumentAvatar = (
-      <Tooltip position="right" hideDelay={0} 
-        animation="none"
-        sticky={false} duration={50} hideOnClick={false}
-        trigger="mouseenter" html={<InstrumentTooltip instrument={instrument}/>}
-        >
         <Avatar className="box-avatar my-auto"
-          round={true} src={instrument.url} size={70} name={instrument.id}/>
-      </Tooltip>);
-
+          round={false} src={instrument.url}name={instrument.id}/>
+    );
     return (
-      <div className="row my-3" key={index}>
-        <div className="row w-75">
-          {musicianAvatar}
-          <h6 className="my-auto ml-4">{musician.id}</h6>
+      <div className="row" key={index}>
+        <div className="c-8 mb-2 mx-auto">
+          <div className="mb-2 ml-0">
+              <div className="avatar-custom p-1">
+                {musicianAvatar}
+              </div>
+          </div>
+          <div className="mx-auto">
+            <h5>{musician.id}</h5>
+          </div>
         </div>
-        <div className="row w-25 justify-content-end">
+        <div className="c-4 mx-auto">
           {instrumentAvatar}
         </div>
       </div>

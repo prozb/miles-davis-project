@@ -41,8 +41,8 @@ export default class TrackDisplay extends Component {
 
                 <h5 className="text-secondary info-text">On "{album.id}" album</h5>
               </div>
-              <div className="row w-100">
-                <p className="text-secondary pl-5">
+              <div className="row w-100 mx-auto">
+                <p className="ml-2 text-secondary">
                   {musicians} musicians
                 </p>
                 <p className="text-secondary ml-auto">
@@ -51,7 +51,7 @@ export default class TrackDisplay extends Component {
               </div>
             </div>
 
-            <div className="col pl-5">
+            <div className="col">
               {data}
             </div>
           </div>
