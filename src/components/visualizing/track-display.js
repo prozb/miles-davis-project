@@ -24,29 +24,36 @@ export default class TrackDisplay extends Component {
     if(!show) return null;
 
     return(
-      <div className={className} style={style}>
-        <div className="w-100 row justify-content-end pt-3 br-5">
-          <FontAwesomeIcon icon={faTimes} onClick={hideTrackDisplay}/>
-        </div>
-      
-        <div className="w-100 row px-5 overflow-auto">
-          <div className="w-100 row">
-            <div className="col">
-              <h2>{name}</h2>
-              <h5 className="text-secondary">On "{album.id}" album</h5>
-            </div>
-            <div className="row w-100">
-              <p className="text-secondary pl-5">
-                {musicians} musicians
-              </p>
-              <p className="text-secondary ml-auto">
-                {instruments} instruments
-              </p>
-            </div>
-          </div>
+      <div className="row mx-auto" style={{height: '70%', width: '95%'}}>
+        <div className="w-100 h-100 col-lg-8 mx-auto box-shadow box-radius overflow-auto hide-scrollbar">
+          <div className="w-100 row overflow-auto mx-auto">
 
-          <div className="col pl-5">
-            {data}
+            <div className="w-100 row mx-auto">
+              <div className="w-100">
+                <div className="row w-100 mt-4">
+                  <div className="col-11">
+                   <h2 className="custom-h2">{name}</h2>
+                  </div>  
+                  <div className="col-1 p-1 text-right">
+                    <FontAwesomeIcon className="float-right" icon={faTimes} onClick={hideTrackDisplay}/>
+                  </div>
+                </div>
+
+                <h5 className="text-secondary info-text">On "{album.id}" album</h5>
+              </div>
+              <div className="row w-100">
+                <p className="text-secondary pl-5">
+                  {musicians} musicians
+                </p>
+                <p className="text-secondary ml-auto">
+                  {instruments} instruments
+                </p>
+              </div>
+            </div>
+
+            <div className="col pl-5">
+              {data}
+            </div>
           </div>
         </div>
       </div>

@@ -38,17 +38,17 @@ export default class Timeline extends Component {
     }
 
     return (
-      <div className={`${className} w-100 row mr-0`}>
-        <div className="h-100 ml-3 pt-4 mr-2"> 
+      <div className={`w-100 row mx-auto`}>
+        <div className="c-1 h-100 pt-4 mr-2"> 
           <Triangle onClick={this._handleLeftClick} left={true}/> 
         </div>
 
           <div ref={this.timelineRef} 
-            className="timeline-container" style={style}>
+            className="timeline-container c-10" style={style}>
             {this.getAllAlbumComponents()}
           </div>
         
-          <div className="h-100 pt-4 ml-2 mr-0">
+          <div className="c-1 h-100 pt-4 ml-2">
             <Triangle onClick={this._handleRightClick} right={true}/>
           </div>
         </div>

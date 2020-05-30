@@ -171,8 +171,8 @@ class AlbumRoute extends Component {
               type2={type2}
             />
           <div className={collapsedMain}>          
-            <div style={{width: '100%'}} 
-              className="row overflow-auto mx-auto hide-scrollbar">
+            <div 
+              className="row overflow-auto mx-auto hide-scrollbar mt-2">
               <Timeline
                 data={timelineData}
                 highlighted={album.id}
@@ -182,9 +182,10 @@ class AlbumRoute extends Component {
                 />
             </div>
 
+            {perspective !== 'track' && (
             <div style={{height: '70%', width: '95%'}} className="mx-auto box-shadow box-radius">
               <AlbumGraph
-                show={perspective !== 'track'}
+                show
                 className="overflow-auto no-scrollbar w-100 h-100"
                 type={perspective}
                 handlePressOnAlbum={this.handlePressOnAlbum}
@@ -193,87 +194,17 @@ class AlbumRoute extends Component {
                 handlePressOnInstrument={this.handlePressOnInstrument}
                 handleCollection={this.handleCollection}
                 data={elements}/>
+            </div>)}
 
-              <TrackDisplay
-                show={perspective === 'track'}
-                style={{minWidth: '600px', maxHeight: '60%'}}
-                className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
-                album={album}
-                name={trackName}
-                data={elements}
-                musicians={info.musicians}
-                instruments={info.instruments}
-                switchToMusician={this.switchToMusician}
-                hideTrackDisplay={this.hideTrackDisplay}/>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
-    return (
-      // toot div
-      <div className="col w-100 h-80 container-width">
-        {/* searchbar container */}
-        <div className="row">
-        <SearchBar
-          back={(perspective === 'special' || perspective === 'track') ? true : false}
-          button={false}
-          name={album[0]}
-          onNavbarButtonPress={(perspective === 'special' || perspective === 'track') ?
-            this.navigateBack : this.collapseNavbar}
-          switchToSearch={this.switchToSearch}/>
-        </div>
-
-        <div className="mh-100 h-100 row">
-          {
-            collapseClass ? (<NavigationBar
-              className={collapseClass}
-              showMusicianDisplay={this.showMusicianDisplay}
-              showTrackDisplay={this.showTrackDisplay}
-              showAlbumsDisplay={this.switchToAlbum}
-              showInstrumentDisplay={this.showInstrumentDisplay}
-              data1={data1}
-              data2={data2}
-              type1={type1}
-              type2={type2}
-            />) : null
-          } 
-
-          <div className="hide-scrollbar overflow-auto col">
-            <Timeline
-              data={timelineData}
-              highlighted={album.id}
-              move={moveTimeline}
-              moveEnd={this.moveEnd}
-              switchToAlbum={this.switchToAlbum}
-              style={{marginTop: -20, height: 200, top: 20}}
-              />
-            
-            <div className="w-100 h-100 bg-primary">
-            {perspective !== 'track' ?
-              <AlbumGraph
-                style={{
-                  height: '100%',}}
-                className="mx-auto mb-5 box-shadow box-radius overflow-auto no-scrollbar"
-                type={perspective}
-                handlePressOnAlbum={this.handlePressOnAlbum}
-                handlePressOnMusician={this.handlePressOnMusician}
-                handlePressOnTrack={this.handlePressOnTrack}
-                handlePressOnInstrument={this.handlePressOnInstrument}
-                handleCollection={this.handleCollection}
-                data={elements}/> :
-              <TrackDisplay
-                style={{minWidth: '600px', maxHeight: '60%'}}
-                className="mx-auto w-50 h-75 box-shadow box-radius overflow-auto"
-                album={album}
-                name={trackName}
-                data={elements}
-                musicians={info.musicians}
-                instruments={info.instruments}
-                switchToMusician={this.switchToMusician}
-                hideTrackDisplay={this.hideTrackDisplay}/>
-            }
-            </div>
+            <TrackDisplay
+              show={perspective === 'track'}
+              album={album}
+              name={trackName}
+              data={elements}
+              musicians={info.musicians}
+              instruments={info.instruments}
+              switchToMusician={this.switchToMusician}
+              hideTrackDisplay={this.hideTrackDisplay}/>
           </div>
         </div>
       </div>
