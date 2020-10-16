@@ -1,5 +1,5 @@
-import { musicianRepository } from '../repository';
-import { albumService } from '.';
+import { musicianRepository } from "../repository";
+import { albumService } from ".";
 /**
  * @author Pavlo Rozbytskyi
  * musician service layer extends basic functionality from musician dao
@@ -7,29 +7,29 @@ import { albumService } from '.';
 class MusicianService {
   /**
    * getting musicians object by name
-   * returning null if object not found or error happened 
+   * returning null if object not found or error happened
    * @param {String} name - musicians name
    */
   getByName = (name) => {
-    try{
+    try {
       var musician = {};
 
-      // filtering all musicians by name and getting 
+      // filtering all musicians by name and getting
       // first of filtered
       var found = musicianRepository
         .getAll()
-        .filter(musician => musician.id === name);
+        .filter((musician) => musician.id === name);
       // if not found return null
-      if(found.length > 0){
+      if (found.length > 0) {
         return found[0];
-      }else{
+      } else {
         return null;
       }
-    }catch(err){
+    } catch (err) {
       console.error(err);
       return null;
     }
-  }
+  };
   /**
    * getting all instruments played by musician
    * @param {name} name - musicians name
@@ -37,11 +37,11 @@ class MusicianService {
   getInstrumentsNamesOfMusician = (name) => {
     var musician = this.getByName(name);
 
-    if(musician === null){
+    if (musician === null) {
       return [];
     }
-    return musician.instruments.filter(e => e && e !== null);
-  }
+    return musician.instruments.filter((e) => e && e !== null);
+  };
   /**
    * getting all albums on which played musician
    * @param {name} name - musicians name
@@ -49,42 +49,43 @@ class MusicianService {
   getAlbumsNamesOfMusician = (name) => {
     var musician = this.getByName(name);
 
-    if(musician === null){
+    if (musician === null) {
       return [];
     }
-    return musician.albums.filter(e => e && e !== null);
-  }
+    return musician.albums.filter((e) => e && e !== null);
+  };
   /**
    * getting all album objects of musician
    * @param {string} name - musician name
    */
   getAlbumsOfMusician = (name) => {
     var albObjects = [];
-    try{
+    try {
       var albums = this.getAlbumsNamesOfMusician(name);
       albObjects = albums
-        .map(alb => albumService.getByName(alb))
-        .filter(alb => alb && alb !== null);
-    }catch(err){
+        .map((alb) => albumService.getByName(alb))
+        .filter((alb) => alb && alb !== null);
+    } catch (err) {
       console.log(err);
     }
     return albObjects;
-  }
+  };
   /**
-   * getting all musicians containing in their's names 
+   * getting all musicians containing in their's names
    * search query
    * @param {String} query - search query
    */
   getContaining = (query) => {
-    if(query === '')
-      return [];
+    if (query === "") return [];
     var found = musicianRepository
       .getAll()
-      .filter(musician => musician && musician !== null &&
-        musician.id.includes(query));
-      
+      .filter(
+        (musician) =>
+          musician && musician !== null && musician.id.includes(query)
+      );
+
     return found;
-  }
+  };
 }
 
-export const musicianService = new MusicianService(); 
+export const musicianService = new MusicianService();
