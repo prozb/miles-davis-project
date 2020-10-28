@@ -6,6 +6,7 @@
     "jumbo_subtitle": "Hallo, erkunden Sie Diskografien von berühmten Musiker! Benutzen Sie dafür simple Oberfläche mit einfachen geometrischen Figuren, simplen Übergängen, verständlichen Buttons und trivialen Beziehungen zwischen den Objekten. ",
     "jubmo_button": "Diskografie erkunden",
     "project_title": "Speicherung und Visualisierung von Graphdaten am Beispiel einer Diskografie",
+    "features_title": "Features",
     "description_title": "Projektbeschreibung",
     "project_description": "Eine Diskografie umfasst alle von einem Musiker veröffentlichen Tonträger und erschafft einen Überblick über all seine Kunstwerke. In den meisten Fällen werden Diskografien als einfacher Text oder eine Tabelle auf verschiedenen Webseiten aufgelistet. Um den Datenumfang einer Diskografie zu demonstrieren wurde im Rahmen dieses Projektes die Diskografie des bekannten Jazz-Musikers Miles Davis analysiert. Sie besteht aus 307 Liedern, 51 Alben, 198 Musikern und 48 Musikinstrumenten (insgesamt 604 Objekte). Alle diese Informationen sind auf verschiedenen Webseiten wie Discogs und Wikipedia zu finden. Der Datenumfang ist bemerkenswert, alles ist in Textform verfasst und die Erkundung einer Diskografie bereitet kein Vergnügen. ",
     "goal_title": "Ziel des Projektes",
@@ -15,7 +16,7 @@
     "discographies_description": "Es stehen bereits zwei Diskografien zur Verfügung. Zu diesen Diskografien gehören: Diskografie von Miles Davis und Cream. Diese können bereits erkunden werden. Die anderen Diskografien werden in der Zukunft bereitgestellt. ",
     "screenshots_title": "Screenshots der Applikation",
     "screenshots_musician": "Albumseite",
-    "screenshots_special": "Spezialansicht",
+    "screenshots_special": "Spezialseite",
     "screenshots_search": "Suchseite"
   },
   "homepage_discografies": [
